@@ -2,430 +2,282 @@ import type { GlossaryTerm } from '../types.js';
 
 export const GLOSSARY: GlossaryTerm[] = [
   {
-    "term": "Dao (道)",
-    "definition": "In the book's framing, 'dao' (道) carries a double meaning: the Chinese philosophical concept of the Way or path, and a phonetic echo of the English word 'do.' The chapter 'Finding Your Dao' invites readers to find their own path into the book's ideas — whether through technology, democracy, philosophy, or lived experience — suggesting that ⿻ (plurality) is not a single doctrine but a living practice discovered through engagement and relationship.",
+    "term": "⿻",
+    "definition": "The glyph used throughout the book to denote 'Plurality' as a technical-political concept — the vision of collaborative technology and democracy that embraces diversity and interdependence rather than monist or atomist reduction. Used both as a symbol for the community and as shorthand for the book's core argument that digital technology can strengthen, rather than replace, democratic plurality.",
     "see_also": [
       "plurality",
-      "yushan-view",
-      "lost-dao"
+      "monist",
+      "atomist"
     ],
-    "source_chapter": "Ch. 0-2"
+    "source_chapter": "Ch. 0-1"
   },
   {
-    "term": "Living Document (⿻ book as collaborative artifact)",
-    "definition": "The Plurality book is framed as a living document — continuously updated online, open to reader contributions via GitHub issues and pull requests, with all contributions credited and earning governance rights. The printed version is acknowledged as already out of date upon publication. Readers are invited to act as collaborators: correcting errors, translating into community languages, or forking the CC0-licensed material freely. The ethos is captured in the phrase 'Ask not why is nobody doing this? You are the nobody.'",
+    "term": "Dao (道)",
+    "definition": "In the book's framing, 道 (Dao) carries a dual meaning: the Taoist concept of a path or way that is found rather than imposed, and the English acronym DAO (Decentralized Autonomous Organization). The chapter uses this double meaning to frame the book's project — finding a path that emerges from engaged exploration and collaborative sense-making rather than from a fixed blueprint. The Dao is neither the technocratic certainty of Silicon Valley nor the statist certainty of Beijing, but a living direction discovered through practice.",
+    "source_chapter": "Ch. 0-2",
+    "source_quote": "Finding your Dao is not about following a fixed path but about discovering one through engagement — with others, with technology, with the world.",
     "see_also": [
-      "dao",
-      "gov4git",
-      "plurality-publics",
-      "creative-collaborations"
-    ],
-    "source_chapter": "Finding Your Dao",
-    "source_quote": "If we made a mistake, take it as an invitation. If you feel we are wrong, set us straight. If we are not speaking in the language of your community, create a version that does. If you don't want to deal with the community, the material has no copyright so take anything you want and leave the rest. Ask not 'why is nobody doing this?' You are the nobody."
+      "⿻",
+      "lost-dao",
+      "yushan-view"
+    ]
   },
   {
-    "term": "⿻ (Plurality)",
-    "definition": "The book's central concept, rendered with the Unicode glyph ⿻, denoting a political-technological vision that treats diversity and collaboration across difference as the core driver of democratic and technological progress. ⿻ rejects both monist technocracy (AI/markets replacing democracy) and atomist libertarianism (individuals against institutions), instead cultivating the richly networked middle ground of intersecting social groups.",
+    "term": "Lost Dao",
+    "definition": "A central motif in Plurality: the sense that a richer, more collaborative path for technology and democracy was glimpsed but not taken — a road not followed. The 'lost Dao' refers to the missed fork where digital technology could have strengthened plural, associational life rather than concentrating power in states and platforms. Recovering this path is framed as the animating purpose of the ⿻ project.",
+    "source_chapter": "Ch. 0-2",
     "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "intersectional-social-identity"
-    ],
-    "source_chapter": "Preface",
-    "source_quote": "The simplest summary of the book is that we hope to illustrate the possibility and importance of using technology to deepen cooperation across diversity, rather than either centralizing power or deepening divisions."
-  },
-  {
-    "term": "Monist Technocracy",
-    "definition": "A failure orientation in which AI, algorithmic systems, or technocratic expertise replace democratic deliberation and plural governance. Weyl and Tang treat this as one of two primary counter-⿻ attractors — the pole where concentrated intelligence or efficiency logic crowds out difference and participation.",
-    "see_also": [
-      "atomist-libertarianism",
-      "plurality-plurality"
-    ],
-    "source_chapter": "Preface"
-  },
-  {
-    "term": "Atomist Libertarianism",
-    "definition": "A failure orientation in which markets, cryptocurrency, or radical individualism substitute for democratic institutions, treating persons as isolated preference-maximizers rather than as members of overlapping social groups. Weyl and Tang identify this as the second primary counter-⿻ attractor, symmetrically opposed to monist technocracy.",
-    "see_also": [
-      "monist-technocracy",
-      "plurality-plurality"
-    ],
-    "source_chapter": "Preface"
-  },
-  {
-    "term": "Collaborative Technology",
-    "definition": "In the book's framing, technology designed to deepen cooperation across social difference rather than to maximize engagement, concentrate power, or atomize users. The preface positions collaborative technology as the practical expression of ⿻ — the counterpart to democracy in the book's subtitle.",
-    "see_also": [
-      "plurality-plurality",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Preface"
-  },
-  {
-    "term": "Widening Gulf (between technology and democracy)",
-    "definition": "The book's framing for the growing divergence between the trajectory of information technology and the health of democratic governance. As digital systems have grown more powerful and pervasive, democratic institutions have stagnated or eroded, creating a structural gap in which the tools shaping social life are increasingly disconnected from collective self-determination. Weyl & Tang treat this gulf as the animating problem that ⿻ is designed to address.",
-    "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "⿻-plurality"
-    ],
-    "source_chapter": "Ch. 2-0",
-    "source_quote": "Information technology and democracy are drifting apart."
-  },
-  {
-    "term": "Surveillance Capitalism",
-    "definition": "A political-economic logic, named and analysed by Shoshana Zuboff, in which corporations harvest and commodify behavioral data at scale to predict and modify human action, concentrating informational power in private hands and constituting, in Zuboff's framing, 'a coup from above' and 'an overthrow of the people's sovereignty.' Weyl & Tang cite it as one of the centralizing threats technology poses to democratic pluralism.",
-    "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "engagement-maximization",
-      "digital-stagnation"
-    ],
-    "source_chapter": "Ch. 2-0",
-    "source_quote": "Surveillance capitalism is...a coup from above...an overthrow of the people's sovereignty and a prominent force in the perilous drift towards democratic deconsolidation..."
-  },
-  {
-    "term": "Techlash",
-    "definition": "The sharp turn in public and elite opinion in democratic countries against large technology companies and technologists that accelerated after 2017. Manifested in bestselling critical books (Weapons of Math Destruction, The Age of Surveillance Capitalism), regulatory actions (GDPR, DMA, DSA), and bipartisan political hostility. The book treats the techlash as one face of democracy's hostility to technology, arguing it reflects grievance without a positive alternative vision.",
-    "see_also": [
-      "widening-gulf",
-      "digital-stagnation",
+      "⿻",
+      "dao-道",
       "monist-technocracy",
       "atomist-libertarianism"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Digital Stagnation",
-    "definition": "The authors' label for the roughly half-century period of decelerating productivity and rising inequality in liberal democracies that coincided with the dominance of technocratic and libertarian technological ideologies. Total Factor Productivity growth during this period fell roughly to half the rates seen in the mid-century 'Golden Age,' while income gains concentrated at the top of the distribution.",
-    "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "labor-displacement",
-      "golden-age"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Golden Age (of technology and democracy)",
-    "definition": "The authors' label for the mid-twentieth-century period (roughly 1920s–1970s) of high Total Factor Productivity growth and broadly shared income gains in liberal democracies. During this era, public-sector investment drove foundational information technology (computers, internet precursors, GPS), and technological progress augmented rather than displaced labor. Contrasted with the subsequent 'Digital Stagnation.'",
-    "see_also": [
-      "digital-stagnation",
-      "labor-augmentation",
-      "public-rd-investment"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Labor Displacement vs. Labor Augmentation",
-    "definition": "Distinction drawn from Acemoglu and Restrepo's research on the direction of technological progress. 'Displacement' denotes automation that replaces human workers; 'augmentation' (or 'reinstatement') denotes technology that complements and enhances human labor. The book argues that the shift during the Digital Stagnation toward displacement—and away from augmentation—explains both slower productivity growth and rising inequality, linking this shift to the dominance of technocratic AI ideology.",
-    "see_also": [
-      "digital-stagnation",
-      "golden-age",
-      "monist-technocracy",
-      "intelligence-augmentation"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Intelligence Augmentation (IA)",
-    "definition": "A tradition and design philosophy in which technology is built to complement and extend human cognitive and creative capacity rather than replace it. The personal computer, the internet, and the smartphone are cited as canonical IA technologies—none fitting neatly into either the technocratic AI-replacement narrative or the libertarian crypto-market narrative. Contrasted with 'AI' in its technocratic sense of artificial general intelligence aimed at superseding human judgment.",
-    "see_also": [
-      "labor-displacement-vs-labor-augmentation",
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "⿻"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Antisocial Threats (from technology)",
-    "definition": "One of two families of technology-driven harms to democracy identified in the chapter. Antisocial threats—from social media, cryptography, and financial technology—break down social fabric, heighten polarization, erode norms, undermine law enforcement, and expand financial markets beyond democratic accountability. Distinguished from 'centralizing threats,' though the two often intersect and reinforce each other.",
-    "see_also": [
-      "centralizing-threats",
-      "engagement-maximization",
-      "atomist-libertarianism",
-      "widening-gulf"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Centralizing Threats (from technology)",
-    "definition": "One of two families of technology-driven harms to democracy identified in the chapter. Centralizing threats—from machine learning, foundation models, and the internet of things—increase capacity for surveillance, concentrate rule-setting power in small groups of engineers, and reduce meaningful citizen participation in shaping social life. Distinguished from 'antisocial threats,' though the two reinforce each other when, e.g., platforms use AI to maximize engagement.",
-    "see_also": [
-      "antisocial-threats",
-      "surveillance-capitalism",
-      "monist-technocracy",
-      "widening-gulf"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Techno-Ideological Spectrum (Technocracy / Libertarianism / Digital Democracy)",
-    "definition": "The book's framing—borrowed and renamed from Civilization VI's 'Information Era' ideology choices—of the three broad techno-political visions competing in the current century: 'Synthetic Technocracy' (AI-driven centralized abundance + UBI), 'Corporate Libertarianism' (crypto-enabled market sovereignty, escape from collective governance), and 'Digital Democracy' (the ⿻ path). The first two have dominated public investment and imagination for half a century; the third is the book's project.",
-    "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "⿻",
-      "digital-stagnation"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Public R&D Investment (decline of)",
-    "definition": "The documented trend in most liberal democracies of falling public-sector research and development expenditure as a share of GDP over recent decades, contrasted with rising private-sector R&D and sharply increasing state investment in authoritarian regimes such as the PRC. The book treats this decline as a concrete, quantifiable expression of democratic societies' collective choice to cede the direction of technology to the private sector and to technocratic and libertarian priorities.",
-    "see_also": [
-      "digital-stagnation",
-      "golden-age",
-      "techlash",
-      "monist-technocracy"
-    ],
-    "source_chapter": "Ch. 2-0"
-  },
-  {
-    "term": "Narrow Corridor (democracy's)",
-    "definition": "Concept from Acemoglu and Robinson's work, cited in the chapter, describing the precarious zone between social collapse and authoritarianism within which free democratic societies exist. The book uses it to frame how both antisocial and centralizing technology threats squeeze this corridor from opposite directions simultaneously.",
-    "see_also": [
-      "antisocial-threats",
-      "centralizing-threats",
-      "widening-gulf"
-    ],
-    "source_chapter": "Ch. 2-0"
+    ]
   },
   {
     "term": "Yushan View (玉山觀點)",
-    "definition": "A geopolitical and philosophical vantage point associated with Taiwan's highest peak, Yushan (Jade Mountain). The book uses this as a metaphor for Taiwan's unique perspective: positioned at the intersection of US and Chinese spheres of influence, at the crossroads of democratic and authoritarian digital governance models, Taiwan is forced to forge a distinctive path — one that neither simply follows Silicon Valley's atomist libertarianism nor Beijing's monist technocracy. The 'view from Yushan' frames Taiwan as a living laboratory for ⿻ (plurality) in practice.",
+    "definition": "A perspective named after Taiwan's highest peak: the view from a high vantage that can see both sides of a divide simultaneously. Used in Plurality to characterize Taiwan's geopolitical and philosophical position — able to hold in view both the techno-authoritarian and liberal-democratic poles of the digital future — and, by extension, the book's own dual ambition of technological depth and democratic breadth.",
     "see_also": [
-      "⿻ (plurality)",
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "taiwan-as-plurality-lab"
+      "⿻",
+      "dao (道)"
     ],
-    "source_chapter": "Ch. 2-1",
-    "source_quote": "Taiwan sits at the intersection of the world's greatest powers and has had to forge its own path, neither simply following Silicon Valley nor Beijing."
+    "source_chapter": "Preface"
   },
   {
-    "term": "Taiwan as Plurality Lab",
-    "definition": "The book's framing of Taiwan as a real-world demonstration site for ⿻ governance innovations. Because of its precarious geopolitical position, its vibrant civil society, and its history of democratic transition, Taiwan has developed and deployed civic-tech tools — vTaiwan, Polis, g0v, the JOIN platform, the Presidential Hackathon — that embody ⿻ principles at national scale. The chapter treats Taiwan not as an exotic exception but as a leading indicator of what ⿻ collaborative technology and democracy can look like.",
+    "term": "widening gulf",
+    "definition": "The growing divergence between the trajectory of information technology — increasingly shaped by concentrated private power, engagement-maximization, and technocratic or libertarian visions — and the needs of democratic self-governance. Weyl & Tang frame this gulf as the central problem motivating ⿻: technology and democracy have drifted apart, with tech accelerating fragmentation, surveillance, and monopoly while democratic institutions stagnate or erode.",
     "see_also": [
-      "v-taiwan-deliberation",
-      "g0v-civic-hacking",
-      "join-platform",
-      "presidential-hackathon",
-      "yushan-view"
+      "⿻",
+      "monist technocracy",
+      "atomist libertarianism",
+      "lost dao"
     ],
-    "source_chapter": "Ch. 2-1"
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "Information technology and democracy are drifting apart, with technology accelerating in directions that undermine the conditions democratic life requires."
   },
   {
-    "term": "Digital Democracy (Taiwan model)",
-    "definition": "A governance approach, exemplified by Taiwan under digital minister Audrey Tang and the g0v community, in which open-source civic technology, participatory deliberation platforms, and radical transparency are used to bridge the state and civil society. Distinct from both monist technocracy (AI/tech replaces democratic deliberation) and atomist libertarianism (markets/crypto bypass the state), Taiwan's digital democracy treats technology as an instrument for deepening and widening democratic participation rather than supplanting it.",
+    "term": "techlash",
+    "definition": "The marked shift in public and policymaker attitudes toward technology companies that accelerated during the late 2010s, characterized by growing hostility, antitrust scrutiny, and a loss of the earlier optimism about the internet's democratizing potential. The book frames the techlash as one face of the widening gulf between technology and democracy, noting that it has produced a largely reactive posture — constraining development — rather than a positive technology vision.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "Public and policymaker attitudes towards technology took a decidedly negative turn during the 2010s. While at the end of the 2000s and early 2010s, social media and the internet were seen as forces for openness and participation, in the late 2010s they were widely blamed in commentary and to a lesser extent in public opinion surveys for many of the ills listed above.",
     "see_also": [
-      "yushan-view",
-      "v-taiwan-deliberation",
-      "g0v-civic-hacking",
-      "monist-technocracy",
-      "atomist-libertarianism"
-    ],
-    "source_chapter": "Ch. 2-1"
-  },
-  {
-    "term": "Authoritarian Digital Governance",
-    "definition": "A model of technology governance, associated in the book primarily with the People's Republic of China (PRC), in which the state uses digital infrastructure — surveillance, social credit systems, platform control, internet sovereignty — to extend centralized political authority rather than to empower distributed civic participation. The book contrasts this with Taiwan's ⿻ digital democracy, positioning the two as rival paradigms competing for global influence, particularly across the Global South.",
-    "see_also": [
-      "monist-technocracy",
+      "widening gulf",
       "surveillance-capitalism",
-      "yushan-view",
-      "taiwan-as-plurality-lab"
-    ],
-    "source_chapter": "Ch. 2-1"
+      "digital-stagnation"
+    ]
   },
   {
-    "term": "Lost Dao (失道)",
-    "definition": "The book's diagnosis of the historical divergence between technology development and democratic governance — the 'path not taken' in which computing, networks, and digital infrastructure might have been co-developed with participatory institutions rather than pulled toward either corporate platform monopoly or state surveillance. Drawing on the Daoist sense of 道 (Dao/Way), 'lost Dao' signals that the present techno-political predicament is not inevitable but is the result of specific choices and path dependencies that ⿻ seeks to reverse.",
+    "term": "Digital Stagnation",
+    "definition": "The period from roughly the 1970s/1980s to the present, contrasted with the mid-century 'Golden Age', during which Total Factor Productivity growth dramatically decelerated, income inequality rose sharply, and the share of income going to labor fell. The book attributes this stagnation partly to the dominance of Technocracy and Libertarianism as techno-ideological frameworks that directed investment toward automation and financialization rather than labor augmentation and broadly shared growth.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "Instead of the promised explosion of economic possibility, the last half-century has seen a dramatic deceleration of economic and especially productivity growth.",
     "see_also": [
-      "dao-道",
-      "widening-gulf",
+      "technocracy",
+      "libertarianism-techno-ideology",
+      "golden-age",
+      "automation-displacement"
+    ]
+  },
+  {
+    "term": "Golden Age",
+    "definition": "The mid-twentieth-century period (roughly 1920s–1970s) characterized by high Total Factor Productivity growth, broadly shared income gains across the income distribution, and a balance between labor displacement and labor reinstatement by technology. The book uses this period as a benchmark to measure the relative failure of the subsequent Digital Stagnation era and as evidence that the current techno-ideological trajectory was not inevitable.",
+    "source_chapter": "Ch. 2-0",
+    "see_also": [
       "digital-stagnation",
-      "⿻-plurality"
-    ],
-    "source_chapter": "Ch. 2-1"
+      "automation-displacement",
+      "technocracy",
+      "libertarianism-techno-ideology"
+    ]
   },
   {
-    "term": "Tridemism (三民主義)",
-    "definition": "The official philosophy of the Republic of China, derived from Sun Yat-Sen's Three Principles of the People (1905): 民族/Mínzú (nationalism, with emphasis on ethnic pluralism), 民權/Mínquán (democracy, combining election, recall, initiative, referendum and five Yuans), and 民生/Mínshēng (socialism/livelihood, drawing on Henry George's land economics, cooperative enterprise, and anti-monopoly stances). Tridemism shaped the ROC's constitutional support for cooperatives, land reform, and plural governance, and is treated by the book as a deep historical root of Taiwan's ⿻ orientation.",
+    "term": "technocracy",
+    "definition": "One of the two dominant techno-ideologies of the contemporary era (labeled 'Synthetic Technocracy' in Civilization VI), centered on AI's potential to create material abundance, the redistribution of its benefits via universal basic income, and centralized control over AI systems to prevent existential risk. The book argues it is antithetical to democratic pluralism because it envisions Artificial General Intelligence superseding meaningful human individual or collective cognition and concentrating social power in the hands of those who control AI systems.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "A key element of the technocratic social vision is therefore material redistribution, usually through a 'universal basic income' (UBI). Another central focus is on the risk of AI(s) getting out of human control and threatening human survival, and thus on the need for strong and often centralized control over who has access to these technologies.",
     "see_also": [
-      "yushan-view",
-      "taiwan-as-plurality-lab",
-      "georgist-land-value-tax",
-      "third-sector-taiwan",
-      "sunflower-movement"
-    ],
-    "source_chapter": "Ch. 2-1",
-    "source_quote": "The first principle is 民族/Mínzú (literally 'civil clan'), which is typically translated as 'nationalism'. However, perhaps more notable was its emphasis on ethnic pluralism (五族共和)... The third is 民生/Mínshēng (literally 'civil livelihood'), usually translated as 'socialism', draws from a variety of economic philosophies, including the ideas of Henry George, an American political economist known for his advocacy of land rights equality, anti-monopoly stances, and support for cooperative enterprises."
+      "libertarianism-techno-ideology",
+      "digital-democracy-ideology",
+      "monist-technocracy",
+      "digital-stagnation"
+    ]
   },
   {
-    "term": "Third Sector (Taiwan)",
-    "definition": "The book's collective term for Taiwan's robust civil and cooperative sector — encompassing agricultural and industrial cooperatives, community colleges, consumer cooperatives, and civic associations — whose growth was fostered by Tridemist constitutional provisions (Article 145 of the ROC Constitution), Georgist land reform, and influences from American thinkers like Edward Deming. The Third Sector is treated as a structural precondition for Taiwan's later civic-tech and digital democracy achievements.",
+    "term": "libertarianism",
+    "definition": "One of the two dominant techno-ideologies of the contemporary era (labeled 'Corporate Libertarianism' in Civilization VI), centered on cryptography and networking protocols supplanting human collective organization and politics, liberating individuals to participate in unfettered markets free from government regulation. Inspired by Ayn Rand and Neal Stephenson, its technological exemplars include cryptocurrencies, private sovereignties, seasteads, and strong cryptography. The book argues it is antithetical to democratic pluralism by dissolving the collective institutions on which democracy depends.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "Libertarianism focuses on the potential (or in some telling inevitability) of cryptography and networking protocols supplanting the role of human collective organization and politics, liberating individuals to participate in unfettered markets free from government and other collective 'coercion' and regulation.",
     "see_also": [
-      "tridemism",
-      "georgist-land-value-tax",
-      "taiwan-as-plurality-lab",
-      "sunflower-movement"
-    ],
-    "source_chapter": "Ch. 2-1",
-    "source_quote": "Together these influences fostered the development of a robust civil and cooperative sector in Taiwan (which we collectively call the Third Sector), critical to its industrial and political future."
+      "technocracy",
+      "digital-democracy-ideology",
+      "atomist-libertarianism",
+      "digital-stagnation"
+    ]
   },
   {
-    "term": "Georgist Land Value Tax (Taiwan)",
-    "definition": "A tax on land value — rooted in Henry George's political economy — extended in Taiwan in 1977, building on the Rural Land Reform of 1949–1953 (rent reduction, public land release, 'land to the tiller'). The book argues these Georgist reforms laid an egalitarian economic foundation critical to Taiwan's social and economic development, and traces their intellectual lineage through Tridemism and Sun Yat-Sen's engagement with George's ideas.",
+    "term": "digital democracy",
+    "definition": "The third techno-ideology in the book's tripartite framework (labeled 'Digital Democracy' in Civilization VI), which the authors champion as the alternative to Technocracy and Libertarianism. It envisions technology and democracy as mutually reinforcing: large-scale digital democracy requires unprecedented technology, and that technology is best stewarded through genuine democratic participation. The book argues this path has been largely neglected by Western liberal democracies despite being exemplified by places like Taiwan.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "Technology and democracy can be each other's greatest allies. In fact, as we will argue, large-scale 'Digital Democracy' is a dream we have only begun to imagine, one that requires unprecedented technology to have any chance of being realized.",
     "see_also": [
-      "tridemism",
-      "third-sector-taiwan",
-      "taiwan-as-plurality-lab"
-    ],
-    "source_chapter": "Ch. 2-1"
+      "technocracy",
+      "libertarianism-techno-ideology",
+      "widening gulf",
+      "⿻"
+    ]
   },
   {
-    "term": "Sunflower Movement (318運動)",
-    "definition": "The March 18, 2014 occupation of Taiwan's legislature by students opposed to a trade deal with Beijing, lasting more than three weeks. Unlike comparable occupations elsewhere, the movement ended with its demands largely accepted as consensus, a change of government, new political parties, and — critically — ministers inviting younger 'reverse mentors' from civil society. The book treats the Sunflower movement as the proximate catalyst for Taiwan's decade of digital democracy innovation, including the recruitment of one author into public service and eventually the creation of the Ministry of Digital Affairs.",
+    "term": "intelligence augmentation",
+    "definition": "A tradition of technology development (abbreviated IA) focused on using computing to complement and amplify human creativity and capability, contrasted with Artificial Intelligence (AI), which aims to replace or supersede human cognition. The book observes that the canonical technologies of the late twentieth century — personal computers, the internet, smartphones — were fundamentally IA technologies, yet this tradition has received little ideological recognition or deliberate investment compared to AI and crypto.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "They were clearly all technologies that augmented human creativity, often called 'intelligence augmentation' or IA, rather than AI. Yet neither were they envisioned primarily as tools to escape existing social institutions; they facilitated rich communication and connection rather than market transactions, private property, and secrecy.",
     "see_also": [
-      "taiwan-as-plurality-lab",
-      "digital-democracy",
-      "vtaiwan-deliberation",
-      "reverse-mentors"
-    ],
-    "source_chapter": "Ch. 2-1",
-    "source_quote": "The 'Sunflower' (318) occupation lasted more than a hundred times as long (more than 3 weeks) and yet the demands of the protesters were eventually largely accepted as a consensus; the movement led to a change of government and the rise of new political parties."
+      "technocracy",
+      "digital-democracy-ideology",
+      "automation-displacement"
+    ]
   },
   {
-    "term": "Reverse Mentors",
-    "definition": "A practice that emerged after the Sunflower movement in which government ministers invited younger civil-society members and digital activists to teach them, reversing the traditional mentorship hierarchy. The book presents this as a key institutional mechanism through which Taiwan's government absorbed ⿻ civic-tech sensibility — exemplified by Minister Jaclyn Tsai recruiting one of the book's authors into public service, eventually leading to the role of Minister of Digital Affairs.",
+    "term": "automation displacement",
+    "definition": "The shift in the direction of technical progress during the Digital Stagnation away from 'reinstatement' (creating new tasks that employ labor) toward 'displacement' (automating existing tasks), documented by Acemoglu and Restrepo. The book identifies this as a key driver of falling labor income shares and rising inequality, and links it to the dominance of Technocratic ideology in shaping technology investment.",
+    "source_chapter": "Ch. 2-0",
     "see_also": [
-      "sunflower-movement",
-      "taiwan-as-plurality-lab",
+      "digital-stagnation",
+      "technocracy",
+      "golden-age",
+      "intelligence-augmentation"
+    ]
+  },
+  {
+    "term": "antisocial threats",
+    "definition": "One of two categories of technology's threat to democracy identified in the book, encompassing technologies (e.g., social media, cryptography, financial technology) that break down social fabric, heighten polarization, erode norms, undermine law enforcement, and accelerate financial markets beyond democratic accountability. Contrasted with 'centralizing threats', the two together are described as squeezing democracy from both sides of Acemoglu and Robinson's 'narrow corridor'.",
+    "source_chapter": "Ch. 2-0",
+    "see_also": [
+      "centralizing-threats",
+      "widening-gulf",
+      "surveillance-capitalism",
+      "libertarianism-techno-ideology"
+    ]
+  },
+  {
+    "term": "centralizing threats",
+    "definition": "One of two categories of technology's threat to democracy identified in the book, encompassing technologies (e.g., machine learning, foundation models, the internet of things) that increase capacity for centralized surveillance, concentrate power in small groups of engineers, and reduce the scope for meaningful public participation in shaping collective life. Contrasted with 'antisocial threats', together they squeeze democracy from both sides of the 'narrow corridor'.",
+    "source_chapter": "Ch. 2-0",
+    "see_also": [
+      "antisocial-threats",
+      "widening-gulf",
+      "surveillance-capitalism",
+      "technocracy"
+    ]
+  },
+  {
+    "term": "narrow corridor",
+    "definition": "A concept from Acemoglu and Robinson's work, invoked in the book to frame how information technologies threaten democracy: free democratic societies exist in a narrow corridor between social collapse and authoritarianism. Antisocial technologies push toward collapse while centralizing technologies push toward authoritarianism, together narrowing the corridor in which democratic pluralism can survive.",
+    "source_chapter": "Ch. 2-0",
+    "source_quote": "As Daron Acemoglu and James A. Robinson famously argued, free democratic societies exist in a 'narrow corridor' between social collapse and authoritarianism. From both sides, information technologies seem to be narrowing the corridor, squeezing the possibility of a free society.",
+    "see_also": [
+      "antisocial-threats",
+      "centralizing-threats",
+      "widening-gulf"
+    ]
+  },
+  {
+    "term": "vTaiwan",
+    "definition": "A digital deliberation platform and civic process developed in Taiwan beginning in 2014, convened by g0v civic hackers and later adopted by the government, that brings together government officials, industry representatives, civil society, and the public to deliberate on technology-related policy questions. It combines Polis-based opinion clustering with in-person stakeholder meetings and regulatory outcomes, and is cited as a foundational ⿻ precedent for bridging online participation and binding policy change.",
+    "see_also": [
+      "polis",
+      "g0v",
+      "join-platform",
+      "audrey-tang",
       "digital-democracy"
     ],
-    "source_chapter": "Ch. 2-1"
-  },
-  {
-    "term": "Taivoan / Place of Convergence",
-    "definition": "One etymology of 'Taiwan' from the indigenous word 'Taivoan', meaning 'place of convergence.' The book uses this etymology to frame Taiwan's identity as constitutively plural — a crossroads of indigenous cultures, colonial powers, and political ideologies — and as historically the launching point for long-distance cooperation, believed to be the origin of Polynesian voyaging in the second millennium BCE. The convergence framing grounds the book's claim that ⿻ is not imported but native to Taiwan's political DNA.",
-    "see_also": [
-      "yushan-view",
-      "taiwan-as-plurality-lab",
-      "tridemism"
-    ],
-    "source_chapter": "Ch. 2-1"
-  },
-  {
-    "term": "Deweyian Pragmatism (in Taiwan)",
-    "definition": "The influence of American philosopher John Dewey — and his Chinese student Hu Shih — on the ROC's educational and political culture. Dewey visited China in 1919, gave over 200 lectures, and advocated 'collaborative problem solving' as the axis of experimental democracy, resonating with Taoist traditions. His student Hu Shih later shaped Taiwan's education system by fusing Confucian traditions with Deweyian experimentalism and egalitarianism. The book treats this lineage as a philosophical root of Taiwan's ⿻ orientation toward iterative, participatory governance.",
-    "see_also": [
-      "tridemism",
-      "third-sector-taiwan",
-      "taiwan-as-plurality-lab"
-    ],
-    "source_chapter": "Ch. 2-1",
-    "source_quote": "John Dewey was perhaps the most respected American philosopher and among the most respected educators and philosophers of democracy globally. Dewey's 'pragmatic' theory of democracy (translated by his Chinese student Hu Shih as 'experimentalism')... resonated with the uncertain and exploratory atmosphere of early ROC."
-  },
-  {
-    "term": "Taiwan's Overlapping Consensus",
-    "definition": "The book's term for the ideological common ground shared by Taiwan's Blue (KMT) and Green (DPP) camps despite deep divisions: both affirm pluralism, diplomatic nuance toward the PRC, democratic freedom, anti-authoritarianism, and export-orientation. This overlapping consensus, combined with ubiquitous digital infrastructure, is identified as the structural condition enabling Taiwan to become the world's leading example of digital democracy in the 2010s–2020s.",
-    "see_also": [
-      "taiwan-as-plurality-lab",
-      "digital-democracy",
-      "tridemism",
-      "sunflower-movement"
-    ],
-    "source_chapter": "Ch. 2-1"
-  },
-  {
-    "term": "vTaiwan (Virtual Taiwan)",
-    "definition": "A civic-deliberation platform and process launched in Taiwan in 2014 that blends online and offline engagement to produce rough-consensus policy recommendations. vTaiwan uses tools like Pol.is to surface areas of agreement across ideological divides, feeding structured public input into formal legislative and regulatory processes. It exemplifies how digital infrastructure can bridge civil society and government without collapsing either into the other.",
-    "see_also": [
-      "pol-is-clustering",
-      "audrey-tang-digital-minister",
-      "sunflower-movement",
-      "join-platform"
-    ],
     "source_chapter": "Ch. 2-2",
-    "source_quote": "vTaiwan…brought together hundreds of thousands of citizens, dozens of government ministries and a range of leading technology companies to deliberate on and reach consensus about the regulation of emerging technologies."
+    "source_quote": "vTaiwan is an open consultation process that allows the Taiwanese government to consult with citizens on regulatory issues related to the digital economy."
   },
   {
-    "term": "Pol.is (Polis deliberation tool)",
-    "definition": "An open-source, real-time survey and clustering tool used within vTaiwan and other deliberative processes. Pol.is presents participants with short statements, collects agree/disagree/pass responses, and uses dimensionality reduction to reveal clusters of opinion — surfacing points of broad consensus across groups rather than amplifying division. Its outputs feed into policy drafts and public reports.",
+    "term": "Polis",
+    "definition": "An open-source, AI-assisted deliberation tool that collects and clusters participant opinions on contested issues using dimensionality reduction, surfacing areas of cross-partisan consensus rather than amplifying division. Deployed in vTaiwan and numerous other civic contexts, Polis is treated in Plurality as a governance primitive for ⿻ augmented deliberation at scale.",
     "see_also": [
       "vtaiwan",
       "augmented-deliberation",
-      "quadratic-voting"
+      "quadratic-voting",
+      "g0v"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "JOIN Platform",
-    "definition": "Taiwan's official government e-participation platform, hosted by the National Development Council, where citizens can propose petitions, comment on draft regulations, and track government responses. Any petition reaching 5,000 signatures within 60 days receives a formal ministerial reply. JOIN broadens participation beyond the tech-fluent vTaiwan audience to a wider public.",
-    "see_also": [
-      "vtaiwan",
-      "digital-democracy-taiwan-model",
-      "adaptive-administration"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "g0v (Gov-Zero)",
-    "definition": "A Taiwanese civic-hacking community founded in 2012 whose members fork government websites — replacing the 'gov' in URLs with 'g0v' — to rebuild public-information tools as open-source alternatives. g0v projects include Moedict (open dictionary), budget-visualization tools, and real-time legislative tracking. The community operates on a radically open, no-hierarchy contribution model that feeds talent and tools back into official government processes.",
+    "term": "g0v",
+    "definition": "A Taiwanese civic-hacking community founded in 2012 whose name inverts the '.gov' domain suffix to signal a citizen-led parallel to government. g0v contributors have built civic infrastructure including Moedict (an open dictionary), the vTaiwan deliberation platform, and real-time government budget visualizations. It is the primary organizational substrate for Taiwan's digital democracy movement and a canonical ⿻ case of decentralized public-interest technology.",
     "see_also": [
       "vtaiwan",
       "moedict",
-      "presidential-hackathon",
-      "third-sector-taiwan"
+      "join-platform",
+      "audrey-tang"
     ],
-    "source_chapter": "Ch. 2-2",
-    "source_quote": "g0v…is a community of civic hackers who collaborate to build open-source tools that make government data more accessible and useful to the public."
+    "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Audrey Tang (Digital Minister)",
-    "definition": "Taiwan's Minister of Digital Affairs (2022–2024), previously 'minister without portfolio' for open government (2016–2022). A self-taught programmer and early open-source contributor, Tang joined the cabinet as a 'reverse mentor' bridging civil society hacker culture and state institutions. Tang is credited with institutionalizing vTaiwan, the Presidential Hackathon, and Taiwan's pandemic mask-map civic-tech response, and is a principal co-author of Plurality.",
+    "term": "Audrey Tang",
+    "definition": "Taiwanese civic hacker and, from 2016, Taiwan's Digital Minister (later Minister of Digital Affairs), who bridges g0v's grassroots ethos with state capacity. Tang is a central protagonist in Plurality's narrative, embodying the 'narrow corridor' between technocratic and libertarian extremes and demonstrating how ⿻ principles can be institutionalized within government.",
     "see_also": [
       "vtaiwan",
-      "reverse-mentors",
       "g0v",
-      "presidential-hackathon"
+      "join-platform",
+      "digital-democracy",
+      "narrow corridor"
+    ],
+    "source_chapter": "Ch. 2-2"
+  },
+  {
+    "term": "JOIN platform",
+    "definition": "Taiwan's official e-participation platform, operated by the Executive Yuan, that allows citizens to propose legislation, petition the government, and comment on draft regulations. It complements vTaiwan as part of Taiwan's digital-democracy infrastructure and is cited in Plurality as evidence that ⿻ participation can be embedded in formal state processes.",
+    "see_also": [
+      "vtaiwan",
+      "g0v",
+      "audrey-tang"
+    ],
+    "source_chapter": "Ch. 2-2"
+  },
+  {
+    "term": "Moedict",
+    "definition": "An open, collaboratively built Chinese-language dictionary created by the g0v community as a civic-hacking project, serving as an early demonstration that volunteer networks can produce public-interest digital infrastructure rivalling or surpassing official government resources.",
+    "see_also": [
+      "g0v",
+      "vtaiwan"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
     "term": "Presidential Hackathon (Taiwan)",
-    "definition": "An annual civic-innovation competition launched by Taiwan's president in 2018 in which teams of civil servants, citizens, and technologists propose data-driven solutions to public problems. Winning teams receive a presidential trophy and a 'fast-track' commitment to implement their proposals within government. The Hackathon institutionalizes a feedback loop between civic hacking culture and state capacity.",
+    "definition": "An annual competition launched by Taiwan's government in which civic teams propose and prototype data-driven public-interest projects, with winners receiving presidential-level recognition and a pathway to government implementation. Cited in Plurality as an institutional mechanism for channeling ⿻ civic energy into state capacity.",
     "see_also": [
       "g0v",
-      "audrey-tang-digital-minister",
-      "digital-democracy-taiwan-model"
+      "audrey-tang",
+      "join-platform"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Moedict (萌典)",
-    "definition": "An open-source, community-built Taiwanese dictionary project that originated in the g0v civic-hacking community. Moedict aggregated and made freely searchable government dictionary databases that had previously been locked behind proprietary interfaces, demonstrating how civic tech can open public data and lower barriers to knowledge access.",
+    "term": "plural social identity",
+    "definition": "In Plurality's framing, the understanding that each person inhabits multiple, overlapping communities of affiliation — ethnic, professional, civic, familial — rather than possessing a single fixed identity. This multiplicity is the social substrate on which ⿻ governance builds, contrasting with both monist collectivism (one identity absorbs all others) and atomist individualism (identity is purely personal).",
     "see_also": [
-      "g0v",
-      "digital-democracy-taiwan-model"
+      "⿻",
+      "intersectional social identity",
+      "federated identity"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Mask Map (Taiwan COVID response)",
-    "definition": "A civic-tech application built within days of Taiwan's COVID-19 mask-rationing policy in early 2020, displaying real-time pharmacy stock data drawn from the National Health Insurance database. Built by g0v contributors and quickly endorsed by the government, it illustrated how open data + civic hacking + rapid government cooperation can replace top-down command-and-control crisis management.",
+    "term": "intersectional social identity",
+    "definition": "A concept Plurality adopts from feminist theory to describe identities constituted by multiple simultaneous axes of difference (race, gender, class, nationality, etc.) that interact non-additively. In the ⿻ framework, intersectional identity grounds the design of federated, context-sensitive digital identity systems that honor people's complexity rather than flattening them to a single credential.",
     "see_also": [
-      "g0v",
-      "audrey-tang-digital-minister",
-      "digital-democracy-taiwan-model"
+      "plural social identity",
+      "federated identity",
+      "⿻"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Cofacts (台灣事實查核)",
-    "definition": "A g0v spin-off crowdsourced fact-checking project in Taiwan in which participating citizens rapidly respond to trending social media content and to messages from private channels forwarded to a public comment box. Research shows these systems typically respond faster, equally accurately, and more engagingly to rumors than professional fact checkers. Cofacts exemplifies Taiwan's 'humor over rumor' approach to fighting the 'infodemic' without content takedowns.",
+    "term": "Cofacts",
+    "definition": "A g0v spin-off crowdsourced fact-checking project in Taiwan in which participating citizens rapidly respond to trending social media content and to messages forwarded from private channels to a public comment box. Research shows these systems respond faster, equally accurately, and more engagingly to rumors than professional fact-checkers, who are bandwidth-constrained. Cofacts exemplifies Taiwan's 'humor over rumor' and 'fast, fun and fair' approach to information integrity without content takedowns.",
     "see_also": [
       "g0v-civic-hacking",
       "information-integrity-taiwan",
@@ -435,5508 +287,3409 @@ export const GLOSSARY: GlossaryTerm[] = [
     "source_quote": "Recent research shows that these systems can typically respond faster, equally accurately and more engagingly to rumors than can professional fact checkers, who are much more bandwidth constrained."
   },
   {
-    "term": "Data Coalitions",
-    "definition": "Government-supported arrangements enabling mixed teams of civil servants, academics, activists, and technologists to 'collectively bargain' with their data for cooperation with government and private actors. Piloted through Taiwan's Presidential Hackathon, data coalitions address civic problems such as air-quality monitoring and wildfire early-warning systems by pooling and stewarding data collectively rather than siloing it within individual agencies or firms.",
+    "term": "data coalitions",
+    "definition": "Government-supported arrangements in Taiwan's Presidential Hackathon enabling mixed teams of civil servants, academics, activists, and technologists to propose collective data custody frameworks, allowing citizens to 'collectively bargain' with their data for cooperation with government and private actors. Examples include monitoring air quality and early warning systems for wildfires. Data coalitions represent a ⿻ model of shared data governance beyond both state control and individual data markets.",
     "see_also": [
       "presidential-hackathon-taiwan",
       "quadratic-voting",
-      "quadratic-funding"
+      "social-wealth-funds"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Humor Over Rumor",
-    "definition": "A governance communications principle modeled by Taiwan's digital leadership, particularly during the COVID-19 pandemic, in which government officials respond to misinformation rapidly, lightly, and engagingly rather than with takedowns or heavy-handed correction. Exemplified by Premier Su Tseng-chang's viral response to a toilet-paper shortage rumor. The companion phrase 'fast, fun and fair' captures the same orientation.",
+    "term": "humor over rumor",
+    "definition": "A communications and governance philosophy modeled by Taiwan's government leaders in close cooperation with civil-society groups, emphasizing fast, fun, and fair responses to misinformation rather than content takedowns. Exemplified by Premier Su Tseng-chang's viral response to a pandemic-era toilet-paper shortage rumor. The approach foregrounds humor and engagement as more effective and less censorial tools for maintaining information integrity.",
     "see_also": [
       "information-integrity-taiwan",
-      "cofacts",
-      "vtaiwan"
+      "cofacts"
     ],
     "source_chapter": "Ch. 2-2",
     "source_quote": "Government leaders' close cooperation with such civil groups has allowed them to model and thus encourage policies of 'humor over rumor' and 'fast, fun and fair' responses."
   },
   {
-    "term": "Jothon (Join-athon)",
-    "definition": "g0v's recurring civic hackathons, named from a Mandarin play on words meaning roughly 'join-athon.' Distinctive features include majority non-technical participants, near gender parity, orientation toward civic rather than commercial problems, and close collaboration with civil society organizations. Jothons embody the g0v motto 'Ask not why nobody is doing this. You are the nobody!'",
+    "term": "nobody movement",
+    "definition": "A self-description adopted by g0v encapsulating the ethos that any individual can — and should — step up to address civic problems without waiting for a designated authority. Derived from the slogan 'Ask not why nobody is doing this. You are the \"nobody\"!' The label captures g0v's non-hierarchical, volunteer-driven culture in which civic agency is distributed across participants rather than delegated to institutions.",
     "see_also": [
       "g0v-civic-hacking",
-      "presidential-hackathon-taiwan"
+      "jothons"
     ],
-    "source_chapter": "Ch. 2-2"
+    "source_chapter": "Ch. 2-2",
+    "source_quote": "These features are perhaps best summarized by the slogan 'Ask not why nobody is doing this. You are the \"nobody\"!', which has led the group to be labeled the 'nobody movement'."
   },
   {
-    "term": "Ideathon",
-    "definition": "An extension of Taiwan's hackathon tradition beyond technical solution-building toward envisioning alternative futures and producing media content to support civic imagination. Ideathons represent a broadening of the Presidential Hackathon model to encompass speculative and narrative civic work alongside technical and policy outputs.",
+    "term": "jothons",
+    "definition": "Regular hackathon-style events hosted by g0v (the name is a Mandarin play on words meaning roughly 'join-athon') that bring together civic hackers and a diverse range of non-technical civil-society groups. Distinguished from typical commercial hackathons by majority non-technical participation, near full gender parity, orientation toward civic rather than commercial outcomes, and close collaboration with civic organizations.",
     "see_also": [
-      "presidential-hackathon-taiwan",
-      "jothon"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "Participation Officer Network",
-    "definition": "A network of civil servants across Taiwanese government departments, created with support from PDIS, committed to citizen participation, cross-departmental collaboration, and digital feedback. Participation Officers act as internal supporters and conduits for open-government and digital-democracy practices, embedding civic-engagement capacity within the bureaucracy itself.",
-    "see_also": [
-      "public-digital-innovation-space-pdis",
-      "vtaiwan",
-      "join-platform"
+      "g0v-civic-hacking",
+      "nobody-movement"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
     "term": "Public Digital Innovation Space (PDIS)",
-    "definition": "The unit established within Taiwan's government by Audrey Tang in 2016 to support vTaiwan, the Join platform, and related open-government projects in the ministerial role. PDIS facilitated collaboration between government health officials and g0v privacy advocates during COVID-19 and helped create the Participation Officer Network across government departments.",
+    "definition": "A unit established within Taiwan's government in 2016 to support vTaiwan, the Join platform, and related digital civic-participation projects during one author's ministerial role. PDIS also helped create the Participation Officer Network — a distributed network of civil servants committed to citizen participation, cross-departmental collaboration, and digital feedback — and facilitated privacy-protective design of Taiwan's pandemic tracing systems.",
     "see_also": [
       "vtaiwan",
       "join-platform",
-      "participation-officer-network",
-      "g0v-civic-hacking"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "Alignment Assemblies",
-    "definition": "Citizen-participation processes convened by Taiwan's Ministry of Digital Affairs (and increasingly common globally) for the regulation and steering of AI foundation models. Alignment assemblies apply deliberative democracy methods to questions of AI governance, embedding public values into technical and regulatory decisions about powerful AI systems.",
-    "see_also": [
-      "augmented-deliberation",
-      "vtaiwan",
-      "polis-deliberation-tool"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "Digital Competence Education (Taiwan)",
-    "definition": "Since 2019, Taiwan's 12-Year Basic Education Curriculum has enshrined 'tech, info & media literacy' as a core competency, empowering students to become active co-creators and discerning arbiters of media rather than passive consumers. This policy embeds ⿻ civic capacity at the level of mass public schooling.",
-    "see_also": [
-      "information-integrity-taiwan",
-      "digital-democracy-taiwan-model"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "Information Integrity (Taiwan model)",
-    "definition": "Taiwan's multi-actor ecosystem for combating misinformation and disinformation, combining crowdsourced fact-checking (Cofacts), private-sector chatbots (MyGoPen, Gogolook), government 'humor over rumor' communications, and close civil–government cooperation. Despite being the jurisdiction most heavily targeted by disinformation, Taiwan has maintained among the world's lowest levels of affective polarization and successfully conducted elections resisting large-scale PRC influence campaigns.",
-    "see_also": [
-      "cofacts",
-      "humor-over-rumor",
-      "g0v-civic-hacking",
-      "sunflower-movement"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "New Power Party",
-    "definition": "A political party established by Sunflower Movement leaders following the 2014 occupation of Taiwan's Legislative Yuan, including prominent Taiwanese rock star Freddy Lim. Its founding marked the Sunflower Movement's transition from civil-society protest to formal electoral politics, contributing to a roughly 10-percentage-point swing toward the Green camp in subsequent elections.",
-    "see_also": [
-      "sunflower-movement-318",
-      "g0v-civic-hacking"
-    ],
-    "source_chapter": "Ch. 2-2"
-  },
-  {
-    "term": "Ministry of Digital Affairs (Taiwan, MODA)",
-    "definition": "A dedicated Taiwanese government ministry created in August 2022, elevating digital governance from a ministerial-without-portfolio function to a full cabinet-level ministry. MODA institutionalizes Taiwan's open-government and digital-democracy agenda, including alignment assemblies, digital diplomacy, information security, and broadband access, with Audrey Tang as its inaugural minister.",
-    "see_also": [
-      "public-digital-innovation-space-pdis",
-      "alignment-assemblies",
       "participation-officer-network"
     ],
     "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "⿻ (Plurality) — Social Diversity and Democracy",
-    "definition": "In Ch. 3-0, Weyl and Tang give ⿻ its core working definition: the combination of diversity and democracy as co-constitutive forces. Rather than treating diversity as a problem to be managed or democracy as a procedure for aggregating individual preferences, ⿻ holds that collaborative technology can actively cultivate and harness social difference — across identities, cultures, and communities — to generate richer collective intelligence and cooperation than any homogenizing system can produce.",
+    "term": "Participation Officer Network",
+    "definition": "A network of civil servants across Taiwan's government departments created with PDIS support, committed to citizen participation, cross-departmental collaboration, and digital feedback. Participation Officers act as internal supporters and conduits of ⿻ civic-tech practices — channeling open-government tools and methods from civil society into bureaucratic processes and back.",
     "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "collaborative-technology",
-      "intersectional-social-identity"
+      "public-digital-innovation-space",
+      "g0v-civic-hacking",
+      "vtaiwan"
     ],
-    "source_chapter": "Ch. 3-0",
-    "source_quote": "the marriage of democracy and technology, or what we will call Plurality"
+    "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Diversity and Democracy (⿻ core dyad)",
-    "definition": "The foundational pairing that defines ⿻: diversity (the irreducible plurality of human cultures, perspectives, and social groups) and democracy (collaborative self-governance across difference) are not in tension but are mutually reinforcing. Technology designed on ⿻ principles amplifies both simultaneously, rather than trading one off against the other as monist or atomist framings tend to do.",
+    "term": "Mask App",
+    "definition": "A civic-hacker-built application developed in Taiwan in early 2020, led by Howard Wu, that harnessed government open data (enabled by g0v movement norms) to map real-time mask availability during the onset of Covid-19. The app enabled widespread mask adoption by mid-February 2020, well before global supply caught up — a paradigmatic example of open data, civic hacking, and government transparency combining to produce a rapid public-health response without top-down mandates.",
     "see_also": [
-      "plurality",
-      "monist-technocracy",
-      "atomist-libertarianism"
-    ],
-    "source_chapter": "Ch. 3-0"
-  },
-  {
-    "term": "Network Society",
-    "definition": "The book invokes the 'network society' (drawing on Castells and related theorists) to describe the social formation that digital infrastructure makes possible and that ⿻ is designed to flourish within. In a network society, identity, power, and solidarity are constituted through overlapping, cross-cutting webs of association rather than through a single hierarchy or market. ⿻ treats this as the sociological substrate for plural democratic technology.",
-    "see_also": [
-      "intersectional-social-identity",
-      "federated-identity",
-      "collaborative-technology"
-    ],
-    "source_chapter": "Ch. 3-0"
-  },
-  {
-    "term": "Intersectional Social Identity",
-    "definition": "The book's sociological grounding for ⿻: individuals are not atomic units but nodes at the intersection of multiple overlapping social groups — language communities, religious traditions, professional networks, geographic places, and more. Democratic technology built on ⿻ recognizes and works with these overlapping memberships rather than flattening them into a single identity dimension. This concept underpins designs like plural voting, federated identity, and data coalitions.",
-    "see_also": [
-      "plurality",
-      "network-society",
-      "federated-identity",
-      "plural-voting",
+      "g0v-civic-hacking",
       "data-coalitions"
     ],
-    "source_chapter": "Ch. 3-0"
+    "source_chapter": "Ch. 2-2"
   },
   {
-    "term": "Federated Identity (⿻ identity infrastructure)",
-    "definition": "A model of digital identity in which a person's credentials and affiliations are held across multiple overlapping institutions — professional bodies, civic associations, municipalities — rather than being monopolized by a single state or platform. In ⿻ framing, federated identity is the technical instantiation of intersectional social identity: it lets governance systems recognize and act on the richness of who people are across communities.",
+    "term": "alignment assemblies",
+    "definition": "Citizen participation processes convened by Taiwan — pioneered through the Ministry of Digital Affairs — to involve the public in regulating and steering AI foundation models. Part of a growing global trend of deliberative assemblies focused on AI governance, Taiwan's alignment assemblies integrate public values into AI policy formation, drawing on the country's broader tradition of augmented deliberation and civic engagement.",
     "see_also": [
-      "intersectional-social-identity",
-      "data-coalitions",
-      "rights-os"
+      "vtaiwan",
+      "augmented-deliberation",
+      "public-digital-innovation-space"
+    ],
+    "source_chapter": "Ch. 2-2"
+  },
+  {
+    "term": "Ministry of Digital Affairs (Taiwan)",
+    "definition": "A Taiwanese government ministry created in August 2022, elevating the digital portfolio from a Minister without Portfolio role to a full ministry. Its mandate encompasses open government, social innovation, digital resilience, information integrity, and civic-tech coordination. The ministry institutionalizes the decade-long trajectory of g0v, vTaiwan, PDIS, and related projects into formal state capacity.",
+    "see_also": [
+      "public-digital-innovation-space",
+      "g0v-civic-hacking",
+      "alignment-assemblies"
+    ],
+    "source_chapter": "Ch. 2-2"
+  },
+  {
+    "term": "monist",
+    "definition": "A disposition that treats diversity as a problem to be overcome by reducing it to a single standard, authority, or metric. In the book's framing, monism characterizes both technocratic AI-governance visions (one optimal policy) and centralizing state power — the tendency to collapse plural social difference into unity rather than build systems that work across it.",
+    "see_also": [
+      "atomist",
+      "technocracy",
+      "⿻"
     ],
     "source_chapter": "Ch. 3-0"
   },
   {
-    "term": "Monist vs. Atomist Failure Modes (contrast)",
-    "definition": "Ch. 3-0 uses this contrast as a diagnostic frame. Monism collapses diversity into a single organizing principle (state, market, or AI optimization target); atomism dissolves collective structures into individual units interacting via price or code. Both eliminate the cross-cutting group memberships that ⿻ treats as the generative substrate of democratic life. The chapter positions ⿻ as the third path between these failure modes.",
+    "term": "atomist",
+    "definition": "A disposition that treats society as composed of irreducibly individual, self-interested agents whose interactions should be mediated by markets or cryptographic protocols rather than collective institutions. In the book's framing, atomism characterizes libertarian crypto-governance visions that dissolve community into bilateral exchange, neglecting the plural group identities that sit between the individual and the state.",
     "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "plurality"
+      "monist",
+      "libertarianism",
+      "⿻"
     ],
     "source_chapter": "Ch. 3-0"
   },
   {
-    "term": "Monist Atomism",
-    "definition": "The shared philosophical assumption underlying both Libertarianism and Technocracy that the social world is composed only of two levels: isolated individual atoms and a single social whole. ⿻ identifies this as the core failure of both ideologies, which miss the intermediate fabric of diverse, intersecting social groups that constitute identities and collective life. The term captures their common blindspot even as they differ on how much authority should vest in individuals versus the whole.",
+    "term": "collaborative technology",
+    "definition": "Technology designed to enable cooperation across lines of difference — across identities, communities, languages, and jurisdictions — rather than to maximize individual utility or aggregate social welfare into a single optimum. The book frames ⿻ as the project of building collaborative technology that makes democratic participation and mutual understanding possible at scale.",
     "see_also": [
-      "atomist-libertarianism",
-      "monist-technocracy",
-      "intersectional-social-identity",
-      "plurality-plurality"
+      "⿻",
+      "digital democracy",
+      "intelligence augmentation"
+    ],
+    "source_chapter": "Ch. 3-0"
+  },
+  {
+    "term": "monist atomism",
+    "definition": "The shared assumption underlying both Libertarianism and Technocracy that the social world is composed of two levels only: discrete individuals (atoms) and a social whole. ⿻ 數位 Plurality critiques this view for missing the core fabric of intersecting diverse social groups and the people whose identities are constituted by those intersections. The term captures the convergent blind spot of otherwise opposed ideological traditions.",
+    "see_also": [
+      "monist",
+      "atomist",
+      "⿻",
+      "intersectional social identity"
     ],
     "source_chapter": "Ch. 3-0",
-    "source_quote": "This contrasts with a common element between Libertarianism and Technocracy: that both consider the world to be made up of atoms (viz. individuals) and a social whole, a view we call 'monist atomism'. While they take different positions on how much authority should go to each, they miss the core idea of ⿻ 數位 Plurality, that intersecting diverse social groups and the diverse and collaborative people whose identities are constituted by these intersections are the core fabric of the social world."
+    "source_quote": "This contrasts with a common element between Libertarianism and Technocracy: that both consider the world to be made up of atoms (viz. individuals) and a social whole, a view we call 'monist atomism'."
   },
   {
-    "term": "數位 (Shuwei)",
-    "definition": "Traditional Mandarin characters used in Audrey Tang's ministerial title (Digital Minister), carrying a deliberate double meaning: 'plural' when applied to people, and 'digital' when applied to technology. The fusion of these meanings in a single term captures the ⿻ thesis that the digital and the plural are not merely compatible but mutually constitutive — digital technology, properly designed, is the infrastructure for a plural society.",
+    "term": "數位 (shuwei)",
+    "definition": "Traditional Mandarin characters used in Audrey Tang's ministerial title (Digital Minister) that simultaneously mean 'plural' when applied to people and 'digital' in the technological sense. In ⿻ 數位 Plurality, 數位 captures the fusion of Arendt's and Allen's philosophical traditions with the transformative potential of digital technology, and the book treats the two meanings as inseparable rather than merely homophonic.",
     "see_also": [
-      "plurality-plurality",
-      "audrey-tang-digital-minister",
-      "collaborative-technology"
+      "⿻ 數位 Plurality",
+      "⿻"
     ],
     "source_chapter": "Ch. 3-0",
-    "source_quote": "We associate it even more closely with the use in her title (as Digital Minister) of the traditional Mandarin characters 數位 (pronounced in English as 'shuwei') which, in Taiwan, mean simultaneously 'plural' when applied to people and 'digital' and thus capture the fusion of the philosophy arising in Arendt and Allen with the transformative potential of digital technology."
+    "source_quote": "the traditional Mandarin characters 數位 (pronounced in English as 'shuwei') which, in Taiwan, mean simultaneously 'plural' when applied to people and 'digital' and thus capture the fusion of the philosophy arising in Arendt and Allen with the transformative potential of digital technology."
   },
   {
     "term": "Connected Society",
-    "definition": "Danielle Allen's normative ideal in which bridging ties across lines of difference are formed at a high rate, constituting the social precondition for democratic flourishing. In the ⿻ framework, this ideal provides the normative core: diversity is the fuel of social progress, and a connected society is one that harnesses rather than suppresses that diversity. Allen's formulation links to a broader philosophical tradition including George and Dewey that shaped both American progressivism and Taiwan.",
+    "definition": "Danielle Allen's normative ideal, adopted by ⿻ as its normative component, describing a society where bridging ties across lines of difference are formed at a high rate. In the ⿻ framework, a Connected Society treats diversity as the fuel of social progress — something to be harnessed rather than suppressed — and serves as the normative standard by which ⿻ technology design is judged.",
     "see_also": [
-      "intersectional-social-identity",
-      "deweyian-pragmatism-in-taiwan",
-      "diversity-and-democracy"
+      "⿻ 數位 Plurality",
+      "monist atomism",
+      "intersectional social identity"
     ],
     "source_chapter": "Ch. 3-0",
-    "source_quote": "Diversity is the fuel of social progress and while it may explode like any fuel (into conflict), societies succeed largely to the extent they manage to instead harness its potential energy for growth."
+    "source_quote": "an ideal of 'social connectedness'...denotes a society where bridging ties, across lines of difference are formed at a high rate."
   },
   {
-    "term": "Infinite Diversity in Infinite Combinations (IDIC)",
-    "definition": "The Vulcan philosophy from the original *Star Trek* series — 'a belief that beauty, growth, progress — all result from the union of the unlike' — cited in *Plurality* as a canonical popular-culture articulation of the ⿻ vision. Weyl and Tang invoke IDIC to show that the aspiration toward collaborative diversity across difference is not merely academic but is embedded in the dominant positive vision of the future in the science-fiction imagination.",
+    "term": "diversity and democracy",
+    "definition": "The book's framing of diversity and democracy as co-constitutive rather than in tension: diversity is the lived reality of a world composed of overlapping, cross-cutting social groups, and democracy is the set of collaborative protocols that allow such a world to govern itself without collapsing into uniformity or fragmentation. Together they form the substrate of ⿻.",
     "see_also": [
-      "plurality-plurality",
-      "diversity-and-democracy",
-      "collaborative-technology"
-    ],
-    "source_chapter": "Ch. 3-0",
-    "source_quote": "Perhaps the most canonical work of science fiction and thus vision of a positive future is Star Trek, in the original series of which the heroic Vulcans maintain a philosophy of 'Infinite Diversity in Infinite Combinations...a...belief that beauty, growth, progress -- all result from the union of the unlike.'"
-  },
-  {
-    "term": "Plurality World (Living In)",
-    "definition": "The condition described in Ch. 3-1 wherein human life is already constituted by overlapping, cross-cutting social groups — families, cities, professions, faiths, nations — each with partially shared but distinct experiences and cultures. Weyl & Tang argue this plural social fabric is not a problem to be overcome by uniformity (monism) or dissolved into isolated individuals (atomism), but is the generative substrate from which democratic legitimacy and collaborative technology must be built.",
-    "see_also": [
-      "⿻ (plurality)",
-      "intersectional-social-identity",
-      "diversity-and-democracy",
-      "network-society",
-      "connected-society"
+      "⿻",
+      "intersectional social identity",
+      "plural social identity",
+      "collaborative technology"
     ],
     "source_chapter": "Ch. 3-1",
-    "source_quote": "We all live in a plurality of social groups — our families, neighborhoods, professions, religions, and nations each shape who we are. These groups are not hermetically sealed; they overlap, conflict, and evolve."
+    "source_quote": "Diversity and democracy are not just important values to be balanced against other considerations; they are the very nature of what we are."
   },
   {
-    "term": "Cross-Cutting Ties",
-    "definition": "Relationships and affiliations that bridge distinct social groups, creating weak links across otherwise separate communities. In Plurality's framing, cross-cutting ties are the structural mechanism through which diverse societies remain cohesive without collapsing into uniformity. They are treated as a prerequisite for ⿻ governance design: institutions and platforms that weaken cross-cutting ties accelerate polarization, while those that strengthen them deepen collaborative capacity.",
+    "term": "supermodular cooperation",
+    "definition": "A pattern of cooperation in which the gains from working across diverse, differently-situated groups exceed what any homogeneous group could produce on its own — the returns to collaboration increase with diversity. The book uses this to argue that ⿻ is not merely ethically desirable but economically and epistemically productive.",
     "see_also": [
-      "intersectional-social-identity",
-      "plurality-world-living-in",
-      "network-society",
-      "diversity-and-democracy"
+      "⿻",
+      "collaborative technology",
+      "intersectional social identity"
     ],
     "source_chapter": "Ch. 3-1"
   },
   {
-    "term": "Overlapping Groups (Social Ontology)",
-    "definition": "The ontological claim in Plurality that persons are not atomic individuals nor mere members of a single collective, but nodes in multiple, overlapping social groups simultaneously. This contrasts with both liberal individualism (which reduces to atoms) and nationalist or majoritarian collectivism (which reduces to one group). The overlapping-group ontology grounds ⿻'s argument that technology and governance should be designed for the full texture of social life, not for idealized individuals or unified publics.",
+    "term": "network society",
+    "definition": "A social formation, theorised notably by Manuel Castells, in which power, identity, and economic value are organised through distributed networks rather than through hierarchical institutions or sovereign territories. Plurality treats the network society as the empirical backdrop against which both monist and atomist responses fail, and ⿻ becomes necessary.",
     "see_also": [
-      "intersectional-social-identity",
-      "monist-atomism",
-      "atomist-libertarianism",
-      "monist-technocracy",
-      "plurality-world-living-in"
+      "⿻",
+      "monist",
+      "atomist",
+      "Connected Society"
     ],
     "source_chapter": "Ch. 3-1"
   },
   {
-    "term": "Diversity as Strength (⿻ Premise)",
-    "definition": "The foundational claim in Ch. 3-1 that social, cultural, and epistemic diversity is not merely tolerable but is the primary source of resilience, creativity, and problem-solving capacity in human societies. Plurality treats this not as a value preference but as an empirical observation: diverse groups reliably out-predict, out-adapt, and out-create homogeneous ones. This premise motivates the entire ⿻ research agenda — technology should amplify diversity rather than flatten it.",
+    "term": "overlapping affiliations",
+    "definition": "The condition, emphasised by Georg Simmel and taken up throughout Plurality, in which every individual belongs simultaneously to multiple, cross-cutting social circles — professional, ethnic, religious, geographic, and more. Overlapping affiliations are the structural basis for intersectional social identity and for the claim that society is irreducibly plural rather than decomposable into isolated atoms or a single collective.",
     "see_also": [
-      "diversity-and-democracy",
-      "plurality-world-living-in",
-      "overlapping-groups-social-ontology",
-      "cross-cutting-ties"
+      "intersectional social identity",
+      "plural social identity",
+      "⿻"
     ],
     "source_chapter": "Ch. 3-1"
   },
   {
-    "term": "Edge of Chaos",
-    "definition": "In complexity science, the narrow transitional zone between chaotic (essentially random) and orderly (static and rigid) states in complex systems. ⿻ draws on this concept to argue that complex, life-like, unpredictable-yet-structured behavior emerges precisely when a system sits near this critical threshold — and maps this onto the 'narrow corridor' between Technocratic (orderly/centralizing) and Libertarian (chaotic/atomizing) threats to democratic social organization.",
-    "see_also": [
-      "narrow-corridor",
-      "self-organizing-criticality",
-      "monist-technocracy",
-      "atomist-libertarianism"
-    ],
+    "term": "edge of chaos",
+    "definition": "In complexity theory, the critical transition zone between chaotic (random) and orderly (static/rigid) states of a complex system. When a governing parameter sits near this critical value, complex, life-like, unpredictable-yet-structured behavior can emerge. Weyl and Tang use this as a scientific analogue for the ⿻ 'narrow corridor' between Technocratic centralizing threats and Libertarian antisocial threats, arguing that ⿻ governance aims to steer toward and widen this corridor through self-organizing criticality.",
     "source_chapter": "Ch. 3-1",
-    "source_quote": "When the parameter is very close to the 'critical value' of transition between these states, when it sits on what complexity theorists call the 'edge of chaos', complex behavior can emerge, forming unpredictable, developing, life-like structures that are neither chaotic nor orderly but instead complex."
+    "source_quote": "When the parameter is very close to the 'critical value' of transition between these states, when it sits on what complexity theorists call the 'edge of chaos', complex behavior can emerge, forming unpredictable, developing, life-like structures that are neither chaotic nor orderly but instead complex.",
+    "see_also": [
+      "narrow corridor",
+      "self-organizing criticality",
+      "monist atomism",
+      "⿻"
+    ]
   },
   {
-    "term": "Self-Organizing Criticality",
-    "definition": "A concept from complexity science referring to systems that naturally evolve toward the 'edge of chaos' — the critical threshold between order and disorder where rich, complex behavior emerges. ⿻ borrows this concept to describe the ongoing social and institutional work of steering toward and widening the narrow corridor between centralizing (Technocratic) and atomizing (Libertarian) threats, drawing on wisdom from multiple scientific traditions rather than any single set of analogies.",
-    "see_also": [
-      "edge-of-chaos",
-      "narrow-corridor",
-      "⿻-plurality"
-    ],
-    "source_chapter": "Ch. 3-1"
-  },
-  {
-    "term": "Metascience (Science of Science)",
-    "definition": "An interdisciplinary field studying the emergence of scientific knowledge as a complex system arising from networks among scientists and ideas. Metascience finds that decentralized scientific communities using diverse methods and drawing on broad prior work yield more reliable and innovative results, while centralized communities with repeated collaborations and narrow methodological repertoires generate less replicable outcomes. ⿻ treats these findings as evidence for the power of social diversity and intersecting networks — a ⿻ perspective — applied to the very practice of knowledge production.",
-    "see_also": [
-      "⿻-plurality",
-      "intersectional-social-identity",
-      "overlapping-groups-social-ontology"
-    ],
-    "source_chapter": "Ch. 3-1"
-  },
-  {
-    "term": "Relational Ontology (⿻ Science)",
-    "definition": "The philosophical-scientific view, drawn from quantum mechanics, network sociology, ecology, and neuroscience, that reality — including social reality — is constituted by relationships and interactions rather than fixed, independent atoms or collectives. ⿻ grounds its social vision in this relational ontology: personal identity arises from social relationships, social groups constantly shift and reconfigure, and no single level of organization is foundational. Mark Granovetter's network sociology is cited as the crispest social-scientific articulation.",
-    "see_also": [
-      "intersectional-social-identity",
-      "overlapping-groups-social-ontology",
-      "monist-atomism",
-      "⿻-plurality"
-    ],
+    "term": "self-organizing criticality",
+    "definition": "A process identified in complexity science whereby a system dynamically steers itself toward and maintains the critical zone between order and chaos — the 'edge of chaos' — without external direction. Weyl and Tang invoke this concept to argue that ⿻ social and technological design aspires to widen the narrow corridor of complex, pluralistic governance, resisting both Technocratic rigidity and Libertarian dissolution.",
     "source_chapter": "Ch. 3-1",
-    "source_quote": "There is no basic individual atom; personal identity fundamentally arises from social relationships and connections. Nor is there any fixed collective or even set of collectives: social groups do and must constantly shift and reconfigure. This bidirectional equilibrium between the diversity of people and the social groups they create is the essence of ⿻ social science."
+    "source_quote": "⿻ can take from science the crucial importance of steering towards and widening this narrow corridor, a process complexity scientists call 'self-organizing criticality'.",
+    "see_also": [
+      "edge of chaos",
+      "narrow corridor",
+      "⿻"
+    ]
   },
   {
-    "term": "Computational Complexity (as Limit to Reductionism)",
-    "definition": "Even where reductionism is feasible in principle, the computation required to predict higher-level phenomena from their components is often so large as to be practically irrelevant — sometimes consuming more resources than could be recovered from the understanding gained. ⿻ cites computational complexity (including P vs. NP) as a scientific argument against the Technocratic fantasy of a unified rational planning system, and in favor of heuristics, emergence, and multi-level governance.",
+    "term": "metascience",
+    "definition": "An interdisciplinary academic field that studies the emergence of scientific knowledge as a complex system arising from networks among scientists and ideas. It examines the proliferation of fields, sources of novelty, exploration strategies, and the impact of social structure on intellectual advancement. The book draws on metascience findings to argue that decentralized, diverse scientific communities produce more reliable and innovative knowledge than centralized ones — a pattern that mirrors ⿻ social organization more broadly.",
+    "source_chapter": "Ch. 3-1",
     "see_also": [
-      "monist-technocracy",
-      "monist-atomism",
-      "edge-of-chaos"
-    ],
-    "source_chapter": "Ch. 3-1"
+      "⿻",
+      "network society",
+      "overlapping affiliations"
+    ]
   },
   {
-    "term": "Multi-Scale Social Organization",
-    "definition": "The ⿻ social-scientific view that human societies are organized at a variety of intersecting, non-hierarchical levels — families, clubs, towns, provinces, religious groups, businesses, demographic identities, and more — each of which both contains and is contained by others in non-simple ways. The Catholic/US example (6% of Catholics are American; 23% of Americans are Catholic) illustrates how membership ratios invert across scales, demonstrating that no single level is foundational or uniquely authoritative.",
+    "term": "extended evolutionary synthesis",
+    "definition": "A biological framework that expands on classical Darwinian natural selection to incorporate ecosystems, multi-level selection, epigenetics, mutualism, and cross-species interdependencies. The book uses it to illustrate how 20th-century biology moved away from reductive 'survival of the fittest' atomism toward complexity, emergence, and relationality — providing a scientific parallel to ⿻ social theory.",
+    "source_chapter": "Ch. 3-1",
     "see_also": [
-      "intersectional-social-identity",
-      "overlapping-groups-social-ontology",
-      "relational-ontology-⿻-science",
-      "cross-cutting-ties"
-    ],
-    "source_chapter": "Ch. 3-1"
+      "monist atomism",
+      "⿻",
+      "mutualism"
+    ]
   },
   {
-    "term": "Mutualism (Biological and Social)",
-    "definition": "A cross-species interaction pattern in which organisms depend on services provided by other organisms and help sustain them in turn. ⿻ highlights mutualism as a key concept from 20th-century extended evolutionary synthesis that undermines 'survival of the fittest' as the central paradigm. The term was used almost interchangeably by early anarchist thinkers like Proudhon, and the book connects it explicitly to ⿻ social thought and the theory of social markets.",
+    "term": "mutualism",
+    "definition": "A form of cross-species biological interaction in which organisms depend on and sustain one another, as distinct from competition or predator-prey dynamics. The book highlights mutualism as a biological exemplar of ⿻ relationality and entanglement, and notes its deep connection to ⿻ social thought — from early anarchist thinkers like Proudhon to Weyl's own research linking biological mutualism to social-market theory.",
+    "source_chapter": "Ch. 3-1",
     "see_also": [
-      "relational-ontology-⿻-science",
-      "overlapping-groups-social-ontology"
-    ],
-    "source_chapter": "Ch. 3-1"
+      "extended evolutionary synthesis",
+      "⿻",
+      "supermodular cooperation"
+    ]
   },
   {
-    "term": "Hebbian Relationality",
-    "definition": "The neuroscientific model in which synaptic connections are strengthened by repeated co-firing of neurons. ⿻ cites this as one of the most elegant illustrations of 'relationality' in science, closely paralleling how human relationships develop through repeated interaction — and by extension, how social bonds and group identities are not fixed properties of individuals but emergent products of interaction history.",
+    "term": "relational quantum mechanics",
+    "definition": "Carlo Rovelli's interpretation of quantum physics, in which the properties of particles are not fixed absolutes but are defined by their interactions and relationships with the rest of the world. The book cites this as scientific grounding for the ⿻ claim that reality is a network of processes rather than a collection of things — undermining the monist-atomist assumption of fixed, independent fundamental entities.",
+    "source_chapter": "Ch. 3-1",
+    "source_quote": "are…atoms independent elements of reality? No…as quantum theory shows: they are defined by their…interactions with the rest of the world…Reality is not a collection of things, it's a network of processes.",
     "see_also": [
-      "relational-ontology-⿻-science",
-      "intersectional-social-identity"
-    ],
-    "source_chapter": "Ch. 3-1"
+      "monist atomism",
+      "⿻",
+      "atomist"
+    ]
   },
   {
-    "term": "Network Sociology (Granovetter)",
-    "definition": "The sociological tradition, led by Mark Granovetter, that treats social relationships and network structures as the primary unit of analysis for understanding economic and social behavior. ⿻ cites Granovetter as providing the crispest scientific articulation of the ⿻ social ontology: no basic individual atom, no fixed collective, personal identity arising from social relationships, and a bidirectional equilibrium between diverse people and the groups they create and inhabit.",
+    "term": "Hebbian model",
+    "definition": "A neuroscientific principle stating that connections between neurons are strengthened by repeated co-firing ('neurons that fire together, wire together'). The book treats the Hebbian model as an elegant scientific illustration of 'relationality' — the idea that the character of entities is constituted through their repeated interactions — closely paralleling how human social relationships develop and providing a neurological analogue for ⿻ social structure.",
+    "source_chapter": "Ch. 3-1",
     "see_also": [
-      "relational-ontology-⿻-science",
-      "cross-cutting-ties",
-      "intersectional-social-identity",
-      "⿻-plurality"
-    ],
-    "source_chapter": "Ch. 3-1"
+      "⿻",
+      "intersectional social identity",
+      "network society"
+    ]
   },
   {
-    "term": "Social Capital",
-    "definition": "The web of trust, norms, and networks that enables cooperation within and across communities. In the ⿻ framing, social capital is not merely a resource individuals accumulate but an emergent property of overlapping group memberships and cross-cutting ties. Bridging social capital — connections across diverse groups — is especially central to ⿻'s vision of a connected society, as it generates the information flows and mutual understanding that underpin democratic collaboration.",
+    "term": "network effects",
+    "definition": "The phenomenon whereby a technology or service becomes more valuable as more people use it. In Plurality's framing, network effects are central to understanding how digital infrastructure can entrench monopoly or, alternatively, how ⿻ protocols can create supermodular gains — value that grows faster than the sum of individual contributions — when diversity and cross-network connection are preserved rather than collapsed into uniformity.",
     "see_also": [
-      "cross-cutting ties",
-      "overlapping groups (social ontology)",
-      "network sociology (granovetter)",
+      "supermodular cooperation",
+      "overlapping affiliations",
       "connected society"
     ],
     "source_chapter": "Ch. 3-2"
   },
   {
-    "term": "Bridging vs. Bonding Social Capital",
-    "definition": "A distinction drawn in social network theory (and invoked in the ⿻ framing) between bonding capital — dense trust within homogeneous groups — and bridging capital — weaker but wider ties that cross group boundaries. ⿻ prizes bridging capital because it is the substrate for democratic collaboration across difference; pure bonding capital without bridging tends toward insularity and can harden into tribalism incompatible with pluralist democracy.",
+    "term": "diversity dividend",
+    "definition": "The surplus value generated when diverse perspectives, communities, and approaches interact and collaborate rather than homogenizing. The book argues this is the core economic and social logic of ⿻: cooperation across difference produces outcomes that no monoculture can achieve, grounding the case that diversity is a productive resource rather than merely a moral obligation.",
     "see_also": [
-      "cross-cutting ties",
-      "social capital",
-      "overlapping groups (social ontology)",
-      "network sociology (granovetter)"
+      "supermodular cooperation",
+      "overlapping affiliations",
+      "⿻"
     ],
-    "source_chapter": "Ch. 3-2"
+    "source_chapter": "Ch. 3-2",
+    "source_quote": "diversity is not merely a moral imperative but a productive resource, the source of social 'supermodularity'"
   },
   {
-    "term": "Diversity-Innovation Nexus",
-    "definition": "The empirically documented relationship — central to the ⿻ argument — in which cognitively and socially diverse groups consistently outperform homogeneous groups on complex problem-solving and innovation tasks. The book draws on Scott Page's work and related research to ground the claim that diversity is not merely a social good but a functional prerequisite for the kind of collective intelligence that ⿻ collaborative technology aims to amplify.",
+    "term": "plural publics",
+    "definition": "Distinct but overlapping communities that each sustain their own norms, identities, and forms of self-governance while remaining in communication and cooperation with one another. For Plurality, plural publics are the social substrate that ⿻ technology should support — neither collapsed into a single universal public nor atomised into isolated private spheres.",
     "see_also": [
-      "diversity as strength (⿻ premise)",
-      "edge of chaos",
-      "metascience (science of science)",
-      "intersectional social identity"
-    ],
-    "source_chapter": "Ch. 3-2"
-  },
-  {
-    "term": "Plurality Publics",
-    "definition": "Overlapping, partially intersecting publics — each shaped by distinct identities, commitments, and communication norms — that together constitute democratic life in a ⿻ society. Rather than a single undifferentiated 'public sphere,' ⿻ sees democratic legitimacy as emerging from the managed friction and collaboration among these multiple publics, mediated by institutions and technologies that respect their boundaries while enabling cross-cutting dialogue.",
-    "see_also": [
-      "overlapping groups (social ontology)",
-      "cross-cutting ties",
+      "overlapping affiliations",
       "intersectional social identity",
       "connected society"
     ],
     "source_chapter": "Ch. 3-2"
   },
   {
-    "term": "Atomist Monism (Liberal Modernity)",
-    "definition": "The foundational social architecture of most modern liberal democracies, in which individuals are treated as the irreducible atoms of society and the nation-state as the singular whole connecting them. Property is held privately, identity is anchored to state-issued documents, and voting operates on one-person-one-vote. This arrangement 'extracted' individuals from their social embeddings — kin, guild, commons — to produce exchangeable, detached citizens of an abstracted national polity. ⿻ social science treats this as a severe reduction of the richer, intersectional reality of social life.",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "Individuals are the atoms; the nation state is the whole that connects them. Every citizen is seen as equal and exchangeable in the eyes of the whole, rather than part of a network of relationships that forms the fabric of society.",
+    "term": "bridging capital",
+    "definition": "Social capital that connects individuals or groups across different communities, identities, or affiliations — as distinguished from 'bonding capital,' which reinforces ties within a homogeneous group. Plurality draws on this sociological concept to articulate what ⿻ infrastructure should cultivate: connections that span diversity rather than deepen homophily.",
     "see_also": [
-      "monist-atomism",
-      "intersectional-social-identity",
-      "plurality-publics",
-      "lost-dao",
-      "property-as-bundle-of-rights"
-    ]
+      "overlapping affiliations",
+      "supermodular cooperation",
+      "plural publics"
+    ],
+    "source_chapter": "Ch. 3-2"
   },
   {
-    "term": "Property as Bundle of Rights",
-    "definition": "A legal-theoretic framing, foregrounded in the chapter's critique of Georgism, that ownership comprises at least three distinct rights: 'usus' (access), 'abusus' (building on or disposing), and 'fructus' (profiting from). The chapter uses this to argue that simply declaring land value socially produced — as Henry George did — leaves unanswered who holds which strand of the bundle at which scale. ⿻ property thinking must assign these rights to the intersecting social circles that produce the value.",
-    "source_chapter": "Ch. 3-2",
+    "term": "atomist monism",
+    "definition": "The foundational social logic of modern liberal democracies, in which individuals are the irreducible atoms and the nation-state is the singular whole connecting them. Each citizen is seen as equal and exchangeable in the eyes of the whole rather than embedded in a network of relationships. Property, identity, and voting are the three sharpest institutional expressions: private ownership, birth-certificate-anchored identity, and one-person-one-vote. ⿻ social science emerged by exposing the limits of this abstraction and pointing toward richer, networked alternatives.",
     "see_also": [
-      "georgist-land-value-tax-taiwan",
-      "networked-value-henry-george",
-      "intersectional-social-identity"
-    ]
+      "monist",
+      "atomist",
+      "intersectional social identity",
+      "emergent publics",
+      "networked value",
+      "⿻"
+    ],
+    "source_chapter": "Ch. 3-2",
+    "source_quote": "Individuals are the atoms; the nation state is the whole that connects them. Every citizen is seen as equal and exchangeable in the eyes of the whole, rather than part of a network of relationships that forms the fabric of society."
   },
   {
-    "term": "Networked Value (Henry George)",
-    "definition": "Henry George's insight, elaborated in the chapter, that the value of land and other assets is a collective product of the intersecting social circles — universities, municipalities, nation-states, global networks — that surround and contribute to it. No single owner or level of government can justly claim that value; it belongs 'in differing degrees, to these intersecting social circles.' The chapter frames George as a founder of ⿻ social science for this reason, anticipating the ⿻ notion that value is produced and owned across networks rather than by atoms.",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "The world George invites us to reflect on and imagine how to design for is thus one of ⿻ value, one where a variety of entities, localized at different scales (universities, municipalities, nation states, etc.) all contribute to differing degrees to create value, just as networks of waves and neurons contribute to differing degrees to the probabilities of particles being found in various positions or thoughts occurring in a mind.",
+    "term": "networked value",
+    "definition": "The ⿻ insight, traced to Henry George, that the value of property (especially land) is a collective product of intersecting social networks—universities, municipalities, nation-states, and global research communities—rather than the creation of any single owner. Because value is contributed in differing degrees by multiple overlapping entities at different scales, justice and productivity both require that ownership and revenue reflect this networked interdependence rather than resting solely with private individuals or a single sovereign.",
     "see_also": [
-      "georgist-land-value-tax-taiwan",
-      "property-as-bundle-of-rights",
-      "henry-george-theorem",
-      "intersectional-social-identity"
-    ]
+      "Henry George Theorem",
+      "partial common ownership",
+      "social markets",
+      "⿻"
+    ],
+    "source_chapter": "Ch. 3-2",
+    "source_quote": "The world George invites us to reflect on and imagine how to design for is thus one of ⿻ value, one where a variety of entities, localized at different scales (universities, municipalities, nation states, etc.) all contribute to differing degrees to create value."
   },
   {
     "term": "Henry George Theorem",
-    "definition": "An economic result, named for Henry George and developed by later economists including one of the book's authors, holding that the revenue from a land value tax can fund the shared infrastructure (schools, wells, public goods) that itself gives land its value — creating a self-sustaining fiscal loop. The theorem is invoked to support the ⿻ claim that networked, collectively produced value should be collectively captured and reinvested, rather than accruing to individual property owners by default.",
-    "source_chapter": "Ch. 3-2",
+    "definition": "The economic principle, developed by Henry George and later formalized by economists, that a tax on land value—whose appreciation is collectively produced by surrounding community investment—can both discourage unproductive holding of land and fund the shared infrastructure (schools, wells, public goods) that generates that value in the first place. Taiwan and Estonia are cited as places where carefully designed versions of this principle have been partially implemented.",
     "see_also": [
-      "networked-value-henry-george",
-      "georgist-land-value-tax-taiwan",
-      "property-as-bundle-of-rights"
-    ]
+      "networked value",
+      "partial common ownership",
+      "social markets"
+    ],
+    "source_chapter": "Ch. 3-2"
   },
   {
-    "term": "Qualitative Individuality (Simmel)",
-    "definition": "Georg Simmel's term for the subjective sense of uniqueness that arises in complex urban societies as individuals participate in an ever-wider set of non-overlapping social circles. Because no one else shares precisely the same intersection of affiliations, each person feels singular — yet this singularity is produced by, and inseparable from, the proliferation of collective memberships. Simmel calls this being 'dividual': divided among many loyalties. The chapter uses the concept to show that individualism is an emergent property of social complexity, not a pre-social given.",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "such 'individuation' occurs precisely because and to the extent that the 'individual' becomes divided among many loyalties and thus dividual.",
+    "term": "emergent publics",
+    "definition": "John Dewey's concept of new collective actors that arise whenever technology or other forces create novel forms of interdependence whose consequences are not captured by existing political institutions or market arrangements. Because new interdependencies rarely map onto existing jurisdictional boundaries, true democracy requires these publics to form, perceive their shared stake, and reshape governance accordingly. 'Mirrors'—entrepreneurs, founders, union leaders—play a key role in making a nascent public visible to itself before stepping back once the public is self-governing.",
     "see_also": [
-      "intersectional-social-identity",
-      "atomist-monism-liberal-modernity",
-      "plurality-publics",
+      "⿻",
+      "cybernetics",
+      "intersectional social identity",
+      "supermodular cooperation"
+    ],
+    "source_chapter": "Ch. 3-2",
+    "source_quote": "Core to true democracy is the idea that the 'relevant public', the set of people whose lives are actually shaped by the phenomenon in question, manage that challenge. Because technology is constantly throwing up new forms of interdependence, which will almost never correspond precisely to existing political boundaries, true democracy requires new publics to constantly emerge and reshape existing jurisdictions."
+  },
+  {
+    "term": "qualitative individuality",
+    "definition": "Georg Simmel's term for the felt sense of uniqueness—or isolation—that arises as urban life multiplies a person's social affiliations. The more numerous and diverse these affiliations become, the less likely any two people share exactly the same intersection, producing persons who experience themselves as irreducibly singular. Simmel notes the irony: this 'individuation' occurs precisely because the person is divided among many loyalties and thus becomes a dividual rather than an indivisible atom.",
+    "see_also": [
+      "intersectional social identity",
+      "dividual",
+      "overlapping affiliations"
+    ],
+    "source_chapter": "Ch. 3-2"
+  },
+  {
+    "term": "dividual",
+    "definition": "Simmel's implicit counter-concept to the liberal 'individual': a person whose identity is constituted by division across multiple intersecting social circles rather than by an indivisible inner core. The book deploys the portmanteau '(in)dividual' to capture both faces: individuals appear as such precisely because and insofar as they are divided among many group loyalties. This concept challenges the atomist premise that the individual is the irreducible unit of social analysis.",
+    "see_also": [
+      "qualitative individuality",
+      "intersectional social identity",
+      "atomist monism"
+    ],
+    "source_chapter": "Ch. 3-2",
+    "source_quote": "Such 'individuation' occurs precisely because and to the extent that the 'individual' becomes divided among many loyalties and thus dividual."
+  },
+  {
+    "term": "cybernetics",
+    "definition": "Norbert Wiener's science of 'control and communication in the animal and the machine', understood broadly as the science of communication within and governance of, by, and for networks. The term derives from the Greek image of a ship steered by the collective inputs of its oarsmen. Wiener hoped cybernetics could provide scientific foundations for the ⿻ social visions of George, Simmel, and Dewey, though he remained skeptical that social complexity made rigorous social science feasible. All uses of 'cyber' in digital technology descend from this coinage.",
+    "see_also": [
+      "⿻",
+      "emergent publics",
+      "network society",
+      "networked value"
+    ],
+    "source_chapter": "Ch. 3-2",
+    "source_quote": "Wiener defined cybernetics as 'the science of control and communication in (complex systems like) the animal and machine', but perhaps the most broadly accepted meaning is something like the 'science of communication within and governance of, by and for networks'."
+  },
+  {
+    "term": "WEIRD universalism",
+    "definition": "The Western, Educated, Industrialized, Rich, Democratic mode of social organization—traced to the erosion of kin-based institutions by the Roman Empire and Christianity—that abstracts personal identity from local social embedding and reconstitutes it as a relationship to a state. WEIRD universalism enabled broad mobility and impersonal exchange but stripped identity of its networked, community-anchored character, producing the flat, document-anchored individual of modern liberal states.",
+    "see_also": [
+      "atomist monism",
+      "intersectional social identity",
       "dividual"
-    ]
+    ],
+    "source_chapter": "Ch. 3-2"
   },
   {
-    "term": "Dividual",
-    "definition": "Simmel's implicit concept, named explicitly in the chapter, for an individual whose identity is constituted by division across multiple social circles and loyalties. Whereas liberal modernity treats the individual as an irreducible unit, Simmel shows that apparent individuality is itself produced by the crossing of collective affiliations — making the 'in-dividual' actually a 'dividual.' The chapter uses this to challenge atomist social science and to ground ⿻ identity infrastructure that mirrors real social embeddedness.",
-    "source_chapter": "Ch. 3-2",
+    "term": "bundle of rights",
+    "definition": "The legal-scholarly framing of property as a composite of distinct entitlements: usus (right of access), abusus (right to build on or dispose of), and fructus (right to profit). The book invokes this framework to show that George's land-value critique, while powerful, left most questions about property unanswered—who may access, build on, or profit from a piece of land remains deeply contested even after rejecting sole private ownership, pointing toward the need for ⿻ property regimes.",
     "see_also": [
-      "qualitative-individuality-simmel",
-      "intersectional-social-identity",
-      "atomist-monism-liberal-modernity"
-    ]
+      "networked value",
+      "partial common ownership",
+      "atomist monism"
+    ],
+    "source_chapter": "Ch. 3-2"
   },
   {
-    "term": "Emergent Publics (Dewey)",
-    "definition": "John Dewey's concept, from *The Public and its Problems* (1927), that technology constantly creates new forms of interdependence — railroads, radio, pollution, the internet — which generate new 'relevant publics': the set of people whose lives are shaped by the phenomenon in question. These publics cannot be captured by pre-existing political boundaries and must be brought into existence through the work of 'mirrors' (leaders, founders, entrepreneurs) who perceive the interdependence, explain it, and empower new governance. True democracy, on this view, requires publics to emerge and reshape jurisdictions continuously.",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "Because technology is constantly throwing up new forms of interdependence, which will almost never correspond precisely to existing political boundaries, true democracy requires new publics to constantly emerge and reshape existing jurisdictions.",
+    "term": "intersection of social circles",
+    "definition": "Georg Simmel's original term (from the 1908 Soziologie) for the process by which individual identity is constituted at the crossing-point of multiple group affiliations. The mistranslation of this concept as a 'web of group-affiliations' by Reinhard Bendix in 1955 arguably planted the metaphor that gave rise to the 'world wide web'. The book recovers the original phrasing to emphasize that identity is a relational intersection, not a node in a passive network, and to ground ⿻ identity design in Simmel's actual claim.",
     "see_also": [
-      "plurality-publics",
-      "deweyian-pragmatism-in-taiwan",
-      "mirrors-social-entrepreneurs",
-      "cybernetic-society-wiener",
-      "intersectional-social-identity"
-    ]
-  },
-  {
-    "term": "Mirrors (Social Entrepreneurs / Founders)",
-    "definition": "Dewey's term, as reframed in the chapter, for the leaders, founders, pioneers, or 'mirrors' who perceive a new form of technological interdependence before most people do, explain it by word and deed to those affected, and thereby empower a new public to come into existence. Historical examples cited include George Washington, union leaders, founders of rural electricity cooperatives, and the founders of the United Nations. Once the emergent public is recognized and empowered, the mirror's role fades — as Washington returned to Mount Vernon.",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "the role of such mirrors is to perceive a new form of interdependence (e.g. solidarity among workers, the carbon-to-global-warming chain), explain it to those involved by both word and deed, and thereby empower a new public to come into existence.",
-    "see_also": [
-      "emergent-publics-dewey",
-      "plurality-publics",
-      "deweyian-pragmatism-in-taiwan"
-    ]
-  },
-  {
-    "term": "Cybernetic Society (Wiener)",
-    "definition": "Norbert Wiener's vision — and anxiety — about applying cybernetics (the science of control and communication in complex systems) to social organization. Wiener defined cybernetics as governing networks by and for their participants, drawing on a Greek analogy of a ship steered by oarsmen. While he shared George's, Simmel's, and Dewey's conviction that ⿻ social science could ground more just and stable institutions, he feared that power concentration and the impossibility of precision in social measurement made 'social cybernetics' largely infeasible. His work nonetheless planted the terminological seed for 'cyber-' in digital technology.",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "without profound social reform his scientific work would come to worse than nothing... there are those who hope that the good of a better understanding of man and society which is offered by this new field of work may anticipate and outweigh the incidental contribution we are making to the concentration of power.",
-    "see_also": [
-      "emergent-publics-dewey",
-      "networked-value-henry-george",
-      "plurality-publics",
-      "monist-technocracy"
-    ]
-  },
-  {
-    "term": "WEIRD Universalism",
-    "definition": "The chapter's shorthand — drawn from Joseph Henrich — for the 'Western Educated Industrialized Rich Democratic' abstraction of identity from social context. WEIRD identity systems anchor personhood to state-issued documents (birth certificates, passports, national ID cards) rather than kin, guild, or community membership, enabling mobility and broad interaction at the cost of stripping away the layered social embeddings that constitute real identity. The chapter treats WEIRD universalism as the identity analogue of private property: a simplification that enabled liberal modernity but that ⿻ social science shows to be severely reductive.",
-    "source_chapter": "Ch. 3-2",
-    "see_also": [
-      "atomist-monism-liberal-modernity",
-      "intersectional-social-identity",
+      "intersectional social identity",
       "dividual",
-      "federated-identity"
-    ]
-  },
-  {
-    "term": "One-Person-One-Vote (as Monist Abstraction)",
-    "definition": "The chapter's treatment of the dominant democratic principle not as a neutral given but as a particular social technology that 'extracts' individuals from their social embeddings — family, religion, profession, fealty — and makes them exchangeable citizens of an abstracted national polity. Contrasted with historical decision-making structures that involved diverse representation by social relationships, the chapter argues this principle is the voting-system analogue of private property and WEIRD identity: a powerful simplification with severe ⿻ limitations.",
+      "qualitative individuality",
+      "overlapping affiliations"
+    ],
     "source_chapter": "Ch. 3-2",
-    "see_also": [
-      "atomist-monism-liberal-modernity",
-      "weird-universalism",
-      "emergent-publics-dewey",
-      "plurality-publics"
-    ]
+    "source_quote": "Reinhard Bendix chose to describe Simmel's idea as describing a 'web of group-affiliations' over what he described as the 'almost meaningless' direct translation 'intersection of social circles'."
   },
   {
-    "term": "Intersection of Social Circles (Simmel)",
-    "definition": "Georg Simmel's original 1908 concept — nearly rendered as 'web of group-affiliations' in the 1955 English translation — holding that individual identity is constituted by the crossing of multiple social groups: work, worship, politics, recreation, solidarity. The chapter argues this concept is foundational to ⿻ social science and notes the translation choice may have contributed to 'web' becoming the dominant metaphor for digital networks rather than 'circles.'",
-    "source_chapter": "Ch. 3-2",
-    "source_quote": "Reinhard Bendix chose to describe Simmel's idea as describing a 'web of group-affiliations' over what he described as the 'almost meaningless' direct translation 'intersection of social circles'. While the precise lines of influence are hard to trace, it is possible that, had Bendix made an opposite choice, we might talk of the internet in terms of 'intersecting global circles' rather than the 'world wide web'.",
+    "term": "governable space",
+    "definition": "The conceptual and technical architecture within which democratic governance can actually operate. Weyl & Tang argue that the structure of property rights, identity systems, and communication infrastructure determines what kinds of collective decisions are even possible — governing well requires first constructing spaces where governance can take hold. The book traces how the internet's early architecture expanded or contracted such spaces, and how ⿻ design seeks to enlarge them against both monist and atomist pressures.",
     "see_also": [
-      "intersectional-social-identity",
-      "dividual",
-      "qualitative-individuality-simmel",
-      "network-society"
-    ]
+      "governable stack",
+      "modular politics",
+      "metagovernance",
+      "lost dao",
+      "⿻"
+    ],
+    "source_chapter": "Ch. 3-3",
+    "source_quote": "The internet was supposed to be a new kind of governable space — open, modular, and layered — but its capture by centralizing platforms and atomizing protocols foreclosed many of the governance possibilities its early architects imagined."
   },
   {
-    "term": "Supermodularity (Network Externalities)",
-    "definition": "A property of technologies and social systems in which 'the whole of (e.g. a railroad network) is greater than the sum of its parts' — sometimes called 'increasing returns.' The chapter cites supermodularity to explain why markets fail to govern technology-driven interdependence: capitalist enterprises cannot capture all spillovers, and to the extent they do, they accumulate market power and exclude participants. Supermodularity is the economic mechanism that makes emergent publics necessary and private governance insufficient.",
-    "source_chapter": "Ch. 3-2",
+    "term": "governable stack",
+    "definition": "The layered technical infrastructure — from physical networks through identity, payments, data, and application layers — understood as a site of democratic governance. Weyl & Tang argue that whoever controls which layers of the stack, and on what terms, shapes what forms of collective self-organization remain possible. A ⿻ governable stack is one designed so that communities at every layer can negotiate the terms of their participation rather than accepting them from a monopolist above.",
     "see_also": [
-      "emergent-publics-dewey",
-      "networked-value-henry-george",
-      "plurality-publics"
-    ]
-  },
-  {
-    "term": "High Modernism",
-    "definition": "The mid-twentieth century peak of atomist-monist social organization, as described in the chapter: properties rationalized into regular shapes and sizes, identity reinforced with biometrics, and one-person-one-vote spread to a broad range of organizations. The chapter treats high modernism as the final expression of a Weberian trajectory that began in the Renaissance and Enlightenment, reaching its limits precisely when the tools of ⿻ social science — cybernetics, network sociology, Deweyan pragmatism — began to emerge.",
-    "source_chapter": "Ch. 3-2",
-    "see_also": [
-      "atomist-monism-liberal-modernity",
-      "weird-universalism",
-      "cybernetic-society-wiener",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Licklider Vision (Intergalactic Computer Network)",
-    "definition": "J.C.R. Licklider's foundational vision, articulated in his 1960s memos, of a globally networked computing infrastructure designed to augment human intelligence and enable collaborative problem-solving across institutions and geographies. Licklider imagined computers not as replacing human thought but as 'human-computer symbiosis' — interactive tools for extending the reach of human minds working together. The book treats this vision as a founding articulation of the ⿻ dao that was subsequently lost when computing commercialized around individual productivity and later around engagement-maximizing platforms.",
-    "see_also": [
-      "intelligence-augmentation-ia",
-      "lost-dao-失道",
-      "human-computer-symbiosis",
-      "arpanet-early-internet"
+      "governable space",
+      "modular politics",
+      "metagovernance",
+      "rights os"
     ],
     "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Human-Computer Symbiosis",
-    "definition": "Licklider's term for the relationship he envisioned between humans and computers: not automation or replacement of human cognition, but an intimate, interactive partnership in which machines extend and amplify human reasoning, memory, and collaborative capacity. The book holds this concept as one of the intellectual roots of ⿻, contrasting it with both the monist technocratic dream of AI replacing human judgment and the atomist libertarian dream of frictionless individual transaction. Human-computer symbiosis implies an ongoing, evolving relationship between human social structures and their technological extensions.",
+    "term": "modular politics",
+    "definition": "A mode of political organization in which governance functions — identity verification, dispute resolution, resource allocation, rule-making — are decomposed into separable, interoperable modules that communities can combine and substitute rather than accepting a single integrated sovereign's package. The book frames modular politics as the political analogue of modular software architecture: it enables competition, experimentation, and exit without the destructive costs of territorial secession.",
     "see_also": [
-      "intelligence-augmentation-ia",
-      "licklider-vision-intergalactic-computer-network",
-      "lost-dao-失道",
-      "collaborative-technology"
+      "governable stack",
+      "metagovernance",
+      "intersectional social identity",
+      "⿻"
     ],
     "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "ARPANET (Early Internet as ⿻ Infrastructure)",
-    "definition": "The Advanced Research Projects Agency Network, funded by the U.S. Department of Defense and developed in the late 1960s–70s, which the book treats as a partial instantiation of the Licklider–Wiener vision: a decentralized, packet-switched network designed to be resilient, interoperable, and non-hierarchical. ARPANET's architecture embedded assumptions about distributed authority and collaborative protocols that the book identifies as proto-⿻. Its subsequent commercialization and the rise of centralized platforms represent the departure from — the 'loss' of — that dao.",
+    "term": "metagovernance",
+    "definition": "Governance of the rules and structures by which governance itself is conducted — the protocols, standards, and meta-level norms that determine which actors can participate in which governance processes on what terms. In the book's framing, metagovernance is not a single sovereign authority but a set of negotiated, overlapping, and often technically encoded arrangements that shape the possibility space for lower-level collective decisions. ⿻ design treats metagovernance as a site of democratic contestation rather than neutral infrastructure.",
     "see_also": [
-      "licklider-vision-intergalactic-computer-network",
-      "lost-dao-失道",
-      "human-computer-symbiosis",
-      "public-rd-investment-decline-of"
+      "governable stack",
+      "modular politics",
+      "governable space",
+      "rights os"
     ],
     "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Network Protocols as Governance (TCP/IP, SMTP, HTTP)",
-    "definition": "The book highlights that the foundational protocols of the internet — TCP/IP, SMTP, HTTP — were not merely technical standards but embedded governance choices: they were open, non-proprietary, interoperable, and designed by consensus among researchers. These protocols constituted a form of ⿻ governance infrastructure, distributing power across nodes rather than centralizing it. The book contrasts this protocol-layer openness with the subsequent capture of the application layer by a small number of large platforms, identifying the divergence as a key moment in the 'loss' of the dao.",
+    "term": "democratic mediation",
+    "definition": "The process by which conflicts between individuals, communities, and institutions are resolved through structured collective deliberation and negotiation rather than by market price, algorithmic optimization, or sovereign fiat. Weyl & Tang use the term to mark a ⿻ middle path between atomist exit (markets) and monist authority (technocracy or state), arguing that the internet's original promise was precisely to extend the reach of democratic mediation into domains previously governed by neither.",
     "see_also": [
-      "arpanet-early-internet-as-⿻-infrastructure",
-      "lost-dao-失道",
-      "federated-identity-⿻-identity-infrastructure",
-      "public-rd-investment-decline-of"
+      "modular politics",
+      "metagovernance",
+      "⿻",
+      "monist",
+      "atomist"
     ],
     "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Engelbart's Augmentation Research Center (ARC)",
-    "definition": "Douglas Engelbart's research group at Stanford Research Institute, which pioneered interactive computing in the 1960s — inventing the mouse, hypertext, and collaborative real-time editing — as expressions of his core mission to augment human intellect and collective problem-solving capacity. The book treats Engelbart's ARC as one of the clearest institutional expressions of the lost dao: a research program explicitly oriented toward using computing to enhance democratic deliberation and collective intelligence, whose trajectory was deflected by the commercialization of computing toward individual consumer productivity.",
+    "term": "implicit feudalism",
+    "definition": "A condition in which nominally open digital platforms or protocols replicate feudal structures of dependency and subordination without explicitly invoking them — platform owners extract rents and set terms unilaterally while users lack exit options, portability, or voice. Weyl & Tang apply this concept to the trajectory of the early internet, arguing that the failure to build robust ⿻ governance infrastructure allowed the open web to curdle into a set of enclosures that function as digital fiefdoms.",
     "see_also": [
-      "licklider-vision-intergalactic-computer-network",
-      "human-computer-symbiosis",
-      "intelligence-augmentation-ia",
-      "lost-dao-失道"
+      "governable stack",
+      "lost dao",
+      "atomist libertarianism",
+      "monist technocracy"
     ],
     "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Commercialization of the Internet (as Departure from ⿻)",
-    "definition": "The historical process, accelerating through the 1990s–2000s, by which the internet's governance and infrastructure shifted from public research institutions and open-protocol communities toward investor-driven, advertising-supported, proprietary platforms. The book frames this commercialization as the primary mechanism by which the Licklider–Engelbart–Wiener vision was displaced: rather than augmenting collective intelligence and democratic self-governance, the dominant internet came to maximize individual engagement and data extraction. This departure is the 'lost' in 'lost dao.'",
+    "term": "rights os",
+    "definition": "The foundational layer of sociotechnical infrastructure — analogous to an operating system — that encodes and enforces the basic rights, identities, and property relations on which all higher-level applications depend. In Weyl & Tang's framing, the choice of 'rights OS' is not a neutral technical decision but a constitutional one: it determines which forms of association, ownership, and governance are natively supported and which require expensive workarounds. A ⿻ rights OS is designed to support plural, overlapping, and negotiable rights bundles.",
     "see_also": [
-      "lost-dao-失道",
-      "surveillance-capitalism",
-      "engagement-maximization",
-      "atomist-libertarianism",
-      "public-rd-investment-decline-of"
+      "governable stack",
+      "bundle of rights",
+      "intersectional social identity",
+      "modular politics"
     ],
     "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Wiener's Cybernetics (as ⿻ Predecessor)",
-    "definition": "Norbert Wiener's mid-20th-century science of feedback, communication, and control in complex systems — cybernetics — which the book identifies as a foundational intellectual ancestor of ⿻. Wiener theorized society as a system of communication and feedback loops, emphasized the dangers of concentrating control, and warned against both technocratic and market-monopoly capture of information flows. The book draws on Wiener's social cybernetics to ground ⿻'s insistence that healthy societies require distributed, diverse, and recursively self-correcting governance of their information and communication infrastructure.",
+    "term": "man-computer symbiosis",
+    "definition": "J.C.R. Licklider's 1960 vision of humans and computers working together as partners during an extended 'interim' period before machines might outpace human cognition — a period he believed would be 'intellectually the most creative and exciting in the history of mankind.' Distinct from AI's goal of replacing human intelligence, symbiosis emphasized augmenting human capability through close interactive partnership between people and computing machines.",
     "see_also": [
-      "cybernetic-society-wiener",
-      "licklider-vision-intergalactic-computer-network",
-      "lost-dao-失道",
-      "relational-ontology-⿻-science"
+      "intelligence augmentation",
+      "intergalactic-computer-network",
+      "arpanet"
     ],
-    "source_chapter": "Ch. 3-3"
+    "source_chapter": "Ch. 3-3",
+    "source_quote": "Lick hypothesized that while 'in due course...\"machines\" will outdo the human brain in most of the functions we now consider exclusively within its province...(t)here will...be a fairly long interim during which the main advances will be made by men and computers working together...those years should be intellectually the most creative and exciting in the history of mankind.'"
   },
   {
-    "term": "Man-Computer Symbiosis",
-    "definition": "J.C.R. Licklider's 1960 vision of human-computer collaboration as an alternative to pure Artificial Intelligence. Licklider hypothesized that during a 'fairly long interim' before machines outdo the human brain, 'the main advances will be made by men and computers working together,' making those years 'the most creative and exciting in the history of mankind.' This framing centers augmentation over automation and anchors the ⿻ tradition of intelligence augmentation.",
-    "source_chapter": "Ch. 3-3",
-    "source_quote": "while 'in due course...\"machines\" will outdo the human brain in most of the functions we now consider exclusively within its province...(t)here will...be a fairly long interim during which the main advances will be made by men and computers working together...those years should be intellectually the most creative and exciting in the history of mankind.'",
-    "see_also": [
-      "human-computer-symbiosis",
-      "licklider-vision-intergalactic-computer-network",
-      "intelligence-augmentation-ia"
-    ]
-  },
-  {
-    "term": "Packet Switching (as ⿻ Infrastructure)",
-    "definition": "The networking principle, articulated by Paul Baran in 1964 and concurrently by Donald Davies, that communications networks should route data through many redundant nodes rather than centralized switchboards. Baran argued that distributed networks could be built from cheap, unreliable components and still withstand devastating attacks by 'routing around damage.' This became the technical backbone of ARPANET and the internet, instantiating ⿻ values of resilience and decentralization at the protocol layer.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "network-protocols-as-governance-tcp-ip-smtp-http",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Hypertext (as ⿻ Communication)",
-    "definition": "Ted Nelson's concept, co-developed with Engelbart, of non-linear navigation through networked documents via bidirectional links. Nelson imagined hypertext as liberating communication from 'the tyranny of a linear interpretation imposed by an original author,' empowering a 'pluralism of paths through material.' Nelson's Project Xanadu pursued this vision comprehensively, while Tim Berners-Lee's World Wide Web made a simpler form of it globally available, ushering in the era of broad internet adoption.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "project-xanadu",
-      "engelbart-augmentation-research-center-arc",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Request for Comments (RFC) Process",
-    "definition": "An informal, open, and mostly additive standard-setting process created by Steve Crocker for the ARPANET community — arguably one of the first 'wiki'-like collaborative governance processes across geographically and sectorally dispersed contributors (governmental, corporate, and university). The RFC process produced the Network Control Protocol and eventually TCP/IP, embodying the ⿻ ideal of distributed, participatory governance of shared technical infrastructure rather than top-down corporate or government control.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "network-protocols-as-governance-tcp-ip-smtp-http",
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "open-source-software-oss"
-    ]
-  },
-  {
-    "term": "Open Source Software (OSS)",
-    "definition": "A model of collaborative software development rooted in the free-sharing ethos of early ARPANET, formalized through Richard Stallman's GNU General Public License and the Linux kernel led by Linus Torvalds. OSS represents ⿻ on a large scale: emergent, collective co-creation of shared global resources where communities form around interests, freely build on each other's work, vet contributions through maintainers, and 'fork' projects in case of irreconcilable differences. GitHub now hosts over 100 million contributors. OSS faces chronic underfunding following the withdrawal of public investment.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "lost-dao",
-      "commercialization-of-the-internet-as-departure-from-plurality",
-      "peer-production",
-      "wikipedia"
-    ]
-  },
-  {
-    "term": "Peer Production",
-    "definition": "The mode of commons-based collaborative creation — exemplified by open source software, Wikipedia, and collaborative wikis — in which large distributed volunteer communities produce shared public goods outside conventional market or state structures. Documented by Yochai Benkler, peer production's success has 'forced the broad reconsideration of many assumptions underlying standard economic analysis.' For ⿻, peer production is a living demonstration of networked, participatory co-governance at scale.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "open-source-software-oss",
-      "wikipedia",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Nameraka Society (なめらかな社会)",
-    "definition": "Ken Suzuki's vision of a technologically mediated society that transcends human cognitive limitations and the membrane/nucleus (inside/outside, friend/enemy) structures that fragment social life. In a Nameraka Society, individuals become 'dividuals' — multi-agent systems — capable of belonging to multiple communities simultaneously without a single fixed identity. Drawing on cybernetics and complex systems, Suzuki proposed dividual democracy ('divicracy') and PICSY (a propagational currency), anticipating ideas later embodied in Ethereum's smart contracts.",
-    "source_chapter": "Ch. 3-3",
+    "term": "nameraka society",
+    "definition": "Ken Suzuki's vision, elaborated in his 2013 book 'The Nameraka Society and Its Enemies,' of a future social order that uses technology to transcend cognitive and institutional limitations—dissolving membrane-like boundaries (inside/outside) and nucleus-like power structures (state, ego) that binary oppositions produce. In a Nameraka Society, individuals become 'dividuals' belonging simultaneously to multiple communities without maintaining a single fixed identity, enabled by network-like social organization.",
     "see_also": [
       "dividual",
+      "nameraka-society",
       "divicracy",
       "picsy",
-      "cybernetic-society-wiener",
       "constructive-social-contract-theory"
-    ]
+    ],
+    "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Divicracy (Dividual Democracy)",
-    "definition": "Ken Suzuki's experimental governance concept in which individuals may divide and delegate their votes across multiple political issues or to multiple representatives, rather than casting a single undivided vote. Divicracy operationalizes the 'dividual' — a person as a multi-agent system — at the political level, enabling representation that mirrors the complexity of overlapping social identities. Weyl and Tang flag it as a precursor to ⿻ voting approaches.",
-    "source_chapter": "Ch. 3-3",
+    "term": "divicracy",
+    "definition": "Dividual democracy (分人民主主義), a concept proposed by Ken Suzuki, which allows for the division and delegation of votes across multiple political issues. Rather than treating each person as a single unified voter, divicracy enables splitting and delegating one's vote to others or across issues, extending the 'dividual' conception of the person into the domain of democratic participation.",
     "see_also": [
-      "nameraka-society",
       "dividual",
-      "one-person-one-vote-as-monist-abstraction",
-      "quadratic-voting"
-    ]
+      "nameraka society",
+      "plural social identity"
+    ],
+    "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "PICSY (Propagational Investment Currency System)",
-    "definition": "A monetary system proposed by Ken Suzuki in which contributions and value propagate through a network rather than settling in individual accounts. PICSY encodes the idea that economic value is relational and emergent, not atomistic — aligning with ⿻ social-market thinking. Weyl and Tang flag it as a precursor to ⿻ approaches to social markets and quadratic mechanisms.",
-    "source_chapter": "Ch. 3-3",
+    "term": "PICSY",
+    "definition": "Propagational Investment Currency SYstem — a monetary system concept proposed by Ken Suzuki in which contributions and value propagate through a network rather than settling in discrete transactions. PICSY is designed to make the social contribution of economic activity visible and transferable, reflecting cybernetic feedback principles applied to currency and investment.",
     "see_also": [
-      "nameraka-society",
+      "nameraka society",
       "divicracy",
-      "networked-value-henry-george"
-    ]
+      "networked value"
+    ],
+    "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Constructive Social Contract Theory",
-    "definition": "Ken Suzuki's circa-2005 proposal to create societies governed by laws that could be automatically executed using human-and-machine-readable legal languages — preceding Ethereum's smart contracts by nearly a decade. The theory aimed to make Dewey's emergent publics flourish by grounding the source of social power in emergent, computable processes rather than fixed constitutional authority.",
+    "term": "constructive social contract theory",
+    "definition": "A concept proposed by Ken Suzuki around 2005 aimed at creating a society under law that could be automatically executed using human-and-machine-readable legal languages — anticipating the logic of smart contracts and blockchain by nearly a decade. The theory envisions emergent sources of power enabling Dewey's emergent publics to flourish through algorithmically executable social agreements.",
+    "see_also": [
+      "nameraka society",
+      "emergent publics",
+      "dividual"
+    ],
+    "source_chapter": "Ch. 3-3"
+  },
+  {
+    "term": "peer production",
+    "definition": "The model of collaborative, non-market, open creation of shared resources—exemplified by open source software, Wikipedia, and similar commons—in which communities form around shared interests, freely build on each other's work, vet contributions through unpaid maintainers, and 'fork' projects in case of irreconcilable differences. The success and impact of peer production has forced broad reconsideration of assumptions underlying standard economic analysis.",
+    "see_also": [
+      "open-source-software",
+      "wikipedia",
+      "collaborative technology"
+    ],
+    "source_chapter": "Ch. 3-3"
+  },
+  {
+    "term": "request for comments",
+    "definition": "The RFC process, initiated by Steve Crocker in the ARPANET community, was arguably one of the first 'wiki'-like processes of informal and mostly additive collaboration across geographically and sectorally dispersed contributors — governmental, corporate, and university. It embodied a culture of collegiality across competing institutions and became the governance mechanism through which the common Network Control Protocol and eventually TCP/IP were developed.",
+    "see_also": [
+      "arpanet",
+      "packet-switching",
+      "open-source-software"
+    ],
+    "source_chapter": "Ch. 3-3"
+  },
+  {
+    "term": "hypertext",
+    "definition": "A concept co-developed by Ted Nelson and Douglas Engelbart that liberates communication from the tyranny of linear, author-imposed interpretation by empowering a 'pluralism' of paths through material via a network of bidirectional links. Nelson imagined hypertext enabling the formation of new cultures and narratives at unprecedented speed; it became central to Tim Berners-Lee's World Wide Web and the modern browsing experience.",
+    "see_also": [
+      "project-xanadu",
+      "world-wide-web",
+      "arpanet"
+    ],
     "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "nameraka-society",
-      "emergent-publics-dewey",
-      "divicracy"
-    ]
+    "source_quote": "Nelson imagined hypertext as a way to liberate communication from the tyranny of a linear interpretation imposed by an original author, empowering a 'pluralism' (as he labeled it) of paths through material through a network of (bidirectional) links connecting material in a variety of sequences."
   },
   {
-    "term": "Fediverse / Decentralized Web",
-    "definition": "A constellation of non-commercial, community-based communication protocols and platforms — including ActivityPub (Christine Lemmer Webber), Mastodon, and Bluesky — that offer alternatives to mainstream social media by grounding identity and social connection in community relationships rather than corporate platforms. The Fediverse recovers the early internet's decentralized, multi-stakeholder spirit and is central to ⿻ approaches to reimagining identity and privacy.",
-    "source_chapter": "Ch. 3-3",
+    "term": "packet switching",
+    "definition": "A networking architecture articulated by Paul Baran in 1964 that replaces centralized switchboards with distributed, redundant networks. Rather than following prespecified paths, data is routed dynamically based on availability, enabling networks to 'route around damage.' Packet switching was adopted for ARPANET and became foundational to the internet, representing the replacement of centralized, linear structures with ⿻ relationships at the level of technical communication.",
     "see_also": [
-      "lost-dao",
-      "commercialization-of-the-internet-as-departure-from-plurality",
-      "federated-identity-plurality-identity-infrastructure"
-    ]
+      "arpanet",
+      "network-of-networks",
+      "request-for-comments"
+    ],
+    "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "GovTech / Civic Tech Movement",
-    "definition": "A global movement harnessing OSS-style development practices to improve government service delivery and public participation. Leaders include Jennifer Pahlka (Code for America), Beth Simone Noveck (The GovLab), and Hal Seki (Code for Japan). The movement aims to revive the public and multisectoral spirit of the early internet, bringing diverse publics into governance processes. Taiwan's g0v is the movement's broadest national instantiation; Decidim, CONSUL, and Ushahidi are regional exemplars.",
-    "source_chapter": "Ch. 3-3",
+    "term": "Kaizen",
+    "definition": "A Japanese manufacturing philosophy, shaped by W. Edwards Deming's quality control lectures and rooted in cybernetic feedback principles, emphasizing continuous process improvement through iterative PDCA (Plan-Do-Check-Act) cycles. Kaizen applies Wiener's cybernetic concept of feedback loops to industrial organization, transforming Japanese manufacturing from inspection-centric to process-centric quality management and contributing to Japan's postwar economic transformation.",
     "see_also": [
-      "g0v-gov-zero",
-      "decidim-barcelona",
-      "ushahidi",
-      "open-source-software-oss",
-      "lost-dao"
-    ]
+      "cybernetics",
+      "pdca-cycle",
+      "nameraka society"
+    ],
+    "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Techlash (internet discontents)",
-    "definition": "The growing public and scholarly recognition, accelerating after roughly 2010, that the commercial internet had reproduced many of the failure modes Licklider predicted in 1980 — pervasive surveillance, monopolization, misinformation, debasement of creative professions, and corporate control of public discourse. The Techlash validated the warnings of Nelson, Lanier, and Lick himself, and provided the political opening for ⿻ alternatives to gain traction.",
-    "source_chapter": "Ch. 3-3",
+    "term": "PDCA cycle",
+    "definition": "Plan-Do-Check-Act: an iterative management and quality-improvement methodology that emerged from W. Edwards Deming's influence on Japanese industry, embodying cybernetic feedback loops. The PDCA cycle became central to Japanese manufacturing practice (including Toyota's Total Quality Management) and is recognized as an applied instantiation of Wiener's cybernetic concept of self-adaptive systems.",
     "see_also": [
-      "lost-dao",
-      "commercialization-of-the-internet-as-departure-from-plurality",
-      "surveillance-capitalism",
-      "widening-gulf-between-technology-and-democracy"
-    ]
+      "Kaizen",
+      "cybernetics",
+      "nameraka society"
+    ],
+    "source_chapter": "Ch. 3-3"
   },
   {
-    "term": "Virtual Reality (VR) as ⿻ Communication",
-    "definition": "Jaron Lanier's technological research program, developed in the 1980s, aimed at deepening human communication beyond symbols processable by ears and eyes — words and pictures — to senses like touch and proprioception. VR embodies the ⿻ aspiration for 'post-symbolic communication': sharing experiences that resist full symbolic encoding. Lanier simultaneously championed Nelson's critique of missing internet base-layer protocols for payments, data provenance, and OSS support.",
-    "source_chapter": "Ch. 3-3",
+    "term": "social suite",
+    "definition": "Anthropologist Nicholas Christakis's term for the nearly universal tendencies of human behavior: having a sense of personal identity, forming familial relationships and long-term friendships, building cooperative social networks and groups toward which members are 'biased,' maintaining differentiated trust based on relationships and capacities, and learning from each other. Plurality draws on the social suite to ground its account of why rights protecting identity, association, and communication are foundational to democratic life.",
     "see_also": [
-      "post-symbolic-communication",
-      "lost-dao",
-      "human-computer-symbiosis"
-    ]
-  },
-  {
-    "term": "Deming's Quality Control (PDCA / Kaizen)",
-    "definition": "W. Edwards Deming's approach to manufacturing quality, introduced to Japan via JUSE in 1950, that treats production as a statistically managed feedback loop (Plan-Do-Check-Act) subject to continuous improvement (Kaizen). Deming urged top management to engage in communication with engineers and workers to build a total-QC culture. This application of Wiener's cybernetic feedback principles to industrial organization is, alongside the internet, one of two major mid-20th-century materializations of cybernetic ⿻ thinking.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "cybernetic-society-wiener",
-      "nameraka-society",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Project Xanadu",
-    "definition": "Ted Nelson's decades-long project, begun in his early 20s, to build a comprehensive human-centered computer network interface based on bidirectional hypertext links, secure identity, embedded commerce protocols, and decentralized information control. Nelson identified as indispensable seventeen principles — including identity, provenance, payments, and secure sharing — whose absence from the World Wide Web he predicted would lead to surveillance, monopolization, and information siloing. Xanadu was released in partial form in the 2010s.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "hypertext-as-plurality-communication",
-      "lost-dao",
-      "commercialization-of-the-internet-as-departure-from-plurality"
-    ]
-  },
-  {
-    "term": "Sinsai.info",
-    "definition": "A data collection and visualization platform developed by Hal Seki and collaborators in Japan following the Great East Japan Earthquake of 2011, later becoming the foundation for Code for Japan. Sinsai.info is an early civic-tech instance of OSS-style crisis response infrastructure built outside government channels, embodying the g0v ethos of citizen-led digital public infrastructure.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "govtech-civic-tech-movement",
-      "g0v-gov-zero",
-      "open-source-software-oss"
-    ]
-  },
-  {
-    "term": "Ushahidi",
-    "definition": "A Kenyan collective crisis reporting platform founded by Juliana Rotich and collaborators, supported by Beth Noveck as mentor. Ushahidi aggregates crowdsourced reports from affected communities, making decentralized civic data collection accessible in crisis contexts. It is a global exemplar of the ⿻ civic-tech approach: participatory, networked, and operating across institutional boundaries.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "govtech-civic-tech-movement",
-      "decidim-barcelona",
-      "g0v-gov-zero"
-    ]
-  },
-  {
-    "term": "Decidim (Barcelona)",
-    "definition": "An open-source participative policy-making platform founded by Francesca Bria and collaborators in Barcelona, supported by Beth Noveck. Decidim emerged from the civic-tech wave parallel to g0v in Spain's Indignado movement and has become a leading European platform for digital participatory democracy. It exemplifies ⿻ public-infrastructure design: community-governed, open-source, and extensible across municipalities.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "govtech-civic-tech-movement",
-      "ushahidi",
-      "g0v-gov-zero",
-      "consul-platform"
-    ]
-  },
-  {
-    "term": "CONSUL Platform",
-    "definition": "An open-source participative democracy platform arising from Spain's Indignado movement, used by municipalities for participatory budgeting and policy deliberation. CONSUL is a sibling to Decidim in the European civic-tech ecosystem; one of the book's authors sits on its board. Like Decidim, it represents the ⿻ aspiration to embed digital participation in formal governmental structures.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "decidim-barcelona",
-      "govtech-civic-tech-movement",
-      "g0v-gov-zero"
-    ]
-  },
-  {
-    "term": "Estonia (Digital Democracy Model)",
-    "definition": "Frequently cited as the most digitized democratic government in the world, Estonia pioneered digital democracy in the late 1990s. It shares with Taiwan a strong tradition of Georgism and land taxes. The book notes Estonia as a leading ⿻ exemplar outside Taiwan, though it has not institutionalized the same breadth and depth of ⿻ approaches across sectors.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "taiwan-as-plurality-lab",
-      "digital-democracy-taiwan-model",
-      "georgist-land-value-tax-taiwan"
-    ]
-  },
-  {
-    "term": "Wikipedia (as ⿻ Institution)",
-    "definition": "An open, non-profit collaborative reference project that has become the leading global resource for shared factual information, maintained through large-scale open self-governance. In contrast to informational fragmentation across the commercial internet, Wikipedia achieves widely accepted shared understanding through participatory, roughly consensual governance. Research shows it appears in 70–80% of common search results. The book treats it as perhaps the most vivid 'node of light' demonstrating ⿻ at scale.",
-    "source_chapter": "Ch. 3-3",
-    "source_quote": "For all the celebration of the commercial internet, this one public, deliberative, participatory, and roughly consensual resource is perhaps its most common endpoint.",
-    "see_also": [
-      "peer-production",
-      "open-source-software-oss",
-      "lost-dao",
-      "wiki-governance"
-    ]
-  },
-  {
-    "term": "Wiki Governance",
-    "definition": "The model of collaborative self-governance pioneered by Ward Cunningham's WikiWikiWeb (1995) and scaled through Wikipedia: all users, not just experts, may edit or create linked pages via a standard browser, producing a dynamic, evolving knowledge base. Wikis extend the ⿻ principles of hypertextual navigation and inclusive governance to knowledge production, and helped inspire the 'groupware' revolution including real-time collaborative editors like HackMD used by g0v.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "wikipedia-as-plurality-institution",
-      "request-for-comments-rfc-process",
-      "peer-production",
-      "g0v-gov-zero"
-    ]
-  },
-  {
-    "term": "Gitcoin (as ⿻ Funding Infrastructure)",
-    "definition": "A platform using cryptographic and blockchain mechanisms to fund open-source software and public goods, inspired by both the original aspirations of the internet and Vitalik Buterin's Ethereum. Gitcoin is highlighted in Plurality as a web3 project that maintains connection to the founding ⿻ ideals of the internet — collective support for shared infrastructure — as a central inspiration for ⿻ today, in contrast to the Libertarian and hyper-financialized tendencies of much of 'web3'.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "open-source-software-oss",
-      "quadratic-funding",
-      "lost-dao",
-      "ethereum"
-    ]
-  },
-  {
-    "term": "Ethereum (Smart Contracts as ⿻ Infrastructure)",
-    "definition": "The largest smart contract platform, founded by Vitalik Buterin, that enables programmable, automatically executing social contracts on a blockchain. The book frames Ethereum as having maintained an enduring connection to the original aspirations of the internet — particularly Suzuki's Constructive Social Contract Theory — while inspiring ⿻ projects like Gitcoin and decentralized identity. Buterin's leadership is distinguished from the Libertarian and hyper-financialized tendencies that pervade much of the broader web3 space.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "gitcoin-as-plurality-funding-infrastructure",
-      "constructive-social-contract-theory",
-      "decentralized-identity",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Decentralized Identity",
-    "definition": "An approach to digital identity grounded in cryptographic and social/community relationships rather than corporate or state-issued credentials, developed in and around web3 and Fediverse communities. The book highlights decentralized identity — alongside Gitcoin — as among the web3 projects most central to ⿻ today, recovering the missing 'identity layer' that Licklider, Nelson, and Lanier identified as a core gap in the original internet.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "federated-identity-plurality-identity-infrastructure",
-      "ethereum",
-      "fediverse-decentralized-web",
-      "project-xanadu"
-    ]
-  },
-  {
-    "term": "Mansfield Amendments (as ⿻ Setback)",
-    "definition": "A series of 1970–1973 US Congressional amendments that prohibited ARPA from funding any research not directly related to the 'defense function.' Combined with the rise of small-government conservatism, these amendments redirected DARPA's focus from networking protocols and human-computer interaction toward cryptography and weapons-oriented AI, accelerating the withdrawal of public investment from the foundational layers of the internet and opening the vacuum that commercial actors filled.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "lost-dao",
-      "public-r-d-investment-decline-of",
-      "commercialization-of-the-internet-as-departure-from-plurality"
-    ]
-  },
-  {
-    "term": "Minitel (as Centralized Alternative)",
-    "definition": "France's concurrent government-run online network, standardized top-down by the state, contrasted by the book with the internet's 'network of networks' approach. Minitel exemplifies the monist, centralized model of digital infrastructure — high coordination but fragile, and incompatible with the ⿻ principle of diverse, locally governed networks achieving near-seamless interoperation.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "network-protocols-as-governance-tcp-ip-smtp-http",
-      "monist-technocracy"
-    ]
-  },
-  {
-    "term": "Code for America / Code for Japan",
-    "definition": "Civic-tech organizations — Code for America (Jennifer Pahlka) in the US and Code for Japan (Hal Seki) in Japan — that harness OSS-style development practices to improve government service delivery and public participation. They represent the GovTech movement's institutionalization of early-internet ⿻ values within and alongside government, and are nodes in the global network of civic-tech organizations that includes g0v, Decidim, and Ushahidi.",
-    "source_chapter": "Ch. 3-3",
-    "see_also": [
-      "govtech-civic-tech-movement",
-      "g0v-gov-zero",
-      "sinsai-info",
-      "open-source-software-oss"
-    ]
-  },
-  {
-    "term": "Rights OS (Rights Operating System)",
-    "definition": "The book's framing of liberal democratic rights — free speech, privacy, property, bodily autonomy, rule of law — as an 'operating system' upon which digital technology and social cooperation run. Like a computer OS, the Rights OS sets ground rules that higher-level applications (markets, democratic deliberation, civic life) depend on. Weyl and Tang argue that ⿻ (plurality) does not abolish this OS but upgrades it to handle networked, intersectional, and collective identities rather than only isolated individuals.",
-    "source_chapter": "Ch. 4-0",
-    "source_quote": "rights...form an 'operating system' that underlies a flourishing digital democracy",
-    "see_also": [
-      "atomist-libertarianism",
-      "intersectional-social-identity",
-      "federated-identity",
-      "plurality-freedom"
-    ]
-  },
-  {
-    "term": "Plurality Freedom",
-    "definition": "The book's reconceptualization of freedom not as individual non-interference (negative liberty) nor collective self-determination alone, but as the capacity of diverse, overlapping social groups to govern themselves across many scales simultaneously. ⿻ freedom is relational and plural: it expands as cross-cutting associations multiply and as the 'Rights OS' is upgraded to protect collective as well as individual agency. This reframing distinguishes ⿻ from both atomist-libertarian and monist-technocratic accounts of liberty.",
-    "source_chapter": "Ch. 4-0",
-    "see_also": [
-      "rights-os",
-      "intersectional-social-identity",
-      "cross-cutting-ties",
-      "overlapping-groups",
-      "atomist-libertarianism",
-      "monist-technocracy"
-    ]
-  },
-  {
-    "term": "Rights as Foundation of Democracy",
-    "definition": "In ⿻ framing, rights — speech, association, conscience, property, and more — are not merely legal entitlements but the preconditions that make democratic self-governance possible. Without rights that protect free expression and association, elections become shams: outcomes reflect coercers' wills rather than citizens' own. Danielle Allen's work grounds this: government cannot respond to 'the will of the people' if that will cannot be safely and freely expressed. Rights are also aspirational, culturally rooted, and defended by a diffuse network of institutions — courts, civil society, corporations — not any single enforcer.",
-    "see_also": [
-      "rights-os",
-      "plurality-freedom",
-      "atomist-libertarianism",
-      "monist-technocracy",
-      "connected-society"
+      "intersectional social identity",
+      "rights os",
+      "plural social identity"
     ],
     "source_chapter": "Ch. 4-0",
-    "source_quote": "government cannot respond to the 'will of the people' if their will cannot be safely and freely expressed. If voting one's conscience is personally dangerous, there is no reason to believe that outcomes reflect anything other than a coercer's will."
+    "source_quote": "These include what Christakis calls the 'social suite', the nearly universal tendency of humans to have a sense of personal identity, to form familial relationships as well as long-term friendships, for these to form the basis of broader cooperative social networks and groups towards which members are 'biased', to have differentiated trust within these networks based on relationships and capacities and to learn from each other."
   },
   {
-    "term": "Operating System (OS) as Social Foundation",
-    "definition": "In ⿻ framing, operating systems (OSs) are not merely technical artifacts but structural analogues to systems of rights: they define the possibility space for applications that run atop them, establish background conditions, require active defense of integrity against adversarial use, and remain perpetually aspirational and incomplete. OSs must adapt to unanticipated behaviors — both desired innovations and viral threats — just as rights-systems must evolve with changing social conditions. The parallel between OSs and rights underlies the ⿻ concept of a 'Rights OS' for digital society.",
+    "term": "competitive authoritarianism",
+    "definition": "A regime type identified by political scientists Steven Levitsky and Lucan A. Way in which formally democratic institutions (elections, legislatures) persist but incumbent rulers systematically violate democratic rules to the point that meaningful competition is effectively constrained. Plurality cites this concept to underscore that the erosion of rights — free speech, association, economic independence — is a live, current threat to democracy, not merely a historical lesson.",
     "see_also": [
-      "rights-os",
-      "plurality-freedom",
-      "dynamism-rights-os"
+      "rights os",
+      "governable space",
+      "monist"
     ],
     "source_chapter": "Ch. 4-0"
   },
   {
-    "term": "Dynamism (Rights and OS)",
-    "definition": "A core ⿻ principle holding that both systems of rights and operating systems are inherently dynamic, not fixed. Framers of rights and OS designers cannot anticipate how foundations will be used, abused, or reimagined by diverse and sometimes adversarial actors. Dynamism is not desirable for its own sake but is an emergent property of adaptive systems discovering their future while renewing their capacity to continue adapting — self-organizing to the 'edge of chaos' where complexity thrives. Rights and OSs evolve to support the democracies and applications built on them, rather than collapsing to an external will such as narrow corporate profit or national interest.",
+    "term": "positive freedom of speech",
+    "definition": "The principle, emphasized in Scandinavian democratic traditions, that every citizen regardless of means has a viable path for their voice to be heard — not merely the absence of state censorship but the active availability of platforms and resources for expression. Plurality contrasts this with 'negative freedom of speech' (the US emphasis) and uses both to illustrate how the underlying goal of rights — ensuring autonomous political voice — must evolve as information environments change.",
     "see_also": [
-      "edge-of-chaos",
-      "rights-os",
-      "plurality-freedom",
-      "monist-technocracy",
-      "atomist-libertarianism"
-    ],
-    "source_chapter": "Ch. 4-0",
-    "source_quote": "dynamism is an emergent property of adaptive systems discovering their future while renewing and improving their ability to continue to adapt in the future, self-organizing to the 'edge of chaos' where complexity thrives and grows."
-  },
-  {
-    "term": "Rights and Relationships (⿻ Understanding)",
-    "definition": "A ⿻ understanding of rights recognizes systems and groups as much as individuals. Freedom of association protects associations themselves; federalist systems recognize rights of states and localities; commercial freedoms protect corporate entities and collective bargaining. OSs similarly protect interactions between applications and users, not just each in isolation. Speech necessarily involves more than one party; communication networks depend on the collective participation and consent of many willing applications, users, and groups. Rights emerge from intersecting people and social circles defending and protecting their networks of social interactions — they are neither exclusively individual nor exclusively state-held.",
-    "see_also": [
-      "intersectional-social-identity",
-      "overlapping-groups-social-ontology",
-      "networked-value-henry-george",
-      "connected-society"
+      "rights os",
+      "negative freedom of speech",
+      "attention economy"
     ],
     "source_chapter": "Ch. 4-0"
   },
   {
-    "term": "Hypergraph (Social Model)",
-    "definition": "The canonical mathematical model the book uses to represent ⿻ society. A hypergraph extends a conventional network or graph by allowing edges to connect groups rather than only bilateral pairs. Nodes represent people; edges (blobs) represent groups; the shade/weight of each edge represents the strength of the relationship; digital assets (data, computation, storage) contained in edges represent the collaborative substrate of those groups. Arrows entering the diagram represent digital tools through which real humans access this model. The hypergraph frames the five ⿻ foundational rights/OS properties: identity/personhood, association, commercial trust, property/contract, and access.",
+    "term": "negative freedom of speech",
+    "definition": "The principle, emphasized in the US tradition, that no one may impede through government intervention the expression of a view. Plurality places this alongside 'positive freedom of speech' to show that both rest on the same foundational assumption — that protecting speech protects agency — while arguing that the digital information environment (abundant information, scarce attention) requires this assumption to be revisited and updated.",
     "see_also": [
-      "intersectional-social-identity",
-      "overlapping-groups-social-ontology",
-      "plurality-freedom",
-      "rights-os"
+      "positive freedom of speech",
+      "rights os",
+      "attention economy"
     ],
-    "source_chapter": "Ch. 4-0",
-    "source_quote": "A hypergraph, which extends the more common idea of a network or graph by allowing groups rather than just bilateral relationships, is a collection of 'nodes' (viz. people, represented by the dots) and 'edges' (viz. groups, represented by the blobs)."
+    "source_chapter": "Ch. 4-0"
   },
   {
-    "term": "Missing Layers of the Internet",
-    "definition": "A diagnosis — associated with thinkers like JCR Licklider and taken up by Ford Foundation and Project Liberty — that the internet lacks widely adopted, non-proprietary protocols for identification, group communication, payments, and secure sharing of digital assets (computation, memory, data). Without these layers, the fundamental affordances of networking remain controlled and often quasi-monopolized by nation-states or private corporations. The book treats this absence as the central obstacle to realizing ⿻ freedom and traces fitful efforts — web3, decentralized web, Gaia-X, India Stack, digital public infrastructure — as nascent responses.",
+    "term": "attention economy",
+    "definition": "The regime of digital communication in which information is abundant and human attention is the scarce resource. Plurality argues that this environment fundamentally alters the meaning of free speech: adversaries seeking to suppress inconvenient views find it more effective to flood the information commons with distractions and spam than to censor directly, as documented by King, Pan, and Roberts's research on PRC social-media fabrication. The challenge becomes surfacing diverse, relevant, and genuine content — not only preventing literal censorship.",
     "see_also": [
-      "lost-dao",
-      "rights-os",
-      "plurality-freedom",
+      "positive freedom of speech",
+      "negative freedom of speech",
+      "rights os",
+      "antisocial threats"
+    ],
+    "source_chapter": "Ch. 4-0",
+    "source_quote": "The present environment is different: information is abundant and attention scarce. Thus it is often easier for adversaries who seek to suppress or censor inconvenient views (attacking the foundations of democracy) to simply flood the information commons with distractions and spam, rather than try to suppress dissidents and unwanted content."
+  },
+  {
+    "term": "hypergraph",
+    "definition": "A mathematical structure that extends the ordinary notion of a network or graph by allowing 'edges' to connect groups of nodes rather than only pairs. In Plurality's framework the hypergraph serves as the canonical formal model of ⿻ society: nodes represent people, edges/blobs represent groups or communities, edge weights and directions represent relationship strength, and digital assets contained within edges represent the collaborative substrate of those groups. The hypergraph underpins the book's account of the five ⿻ rights/OS properties: identity, association, commercial trust, property/contract, and access.",
+    "see_also": [
+      "rights os",
+      "intersectional social identity",
+      "plural social identity",
+      "governable stack",
+      "⿻"
+    ],
+    "source_chapter": "Ch. 4-0",
+    "source_quote": "A hypergraph, which extends the more common idea of a network or graph by allowing groups rather than just bilateral relationships, is a collection of 'nodes' (viz. people, represented by the dots) and 'edges' (viz. groups, represented by the blobs). The shade of each edge/group represents the strength of the relationship involved (viz. mathematically its 'weight' and 'direction'), while the digital assets (e.g. data, computation and digital storage) contained in the edges represent the collaborative substrate of these groups."
+  },
+  {
+    "term": "missing layers",
+    "definition": "The set of foundational digital protocols — for identity/personhood, free association, commercial trust, property/contract, and access — that early internet architects envisioned but that were never widely adopted in non-proprietary, rights-respecting forms. Plurality traces this absence to what it calls the 'Lost Dao' and argues that most natural affordances of networking remain unavailable to most people even in wealthy countries, leaving these social functions controlled by nation-states or private corporations. The book frames contemporary digital-public-infrastructure efforts (India Stack, Gaia-X, web3) as fitful attempts to fill these missing layers.",
+    "see_also": [
+      "lost dao",
+      "rights os",
       "india-stack",
-      "decentralized-identity",
-      "fediverse-decentralized-web"
+      "governable stack"
     ],
     "source_chapter": "Ch. 4-0",
-    "source_quote": "There is no widely adopted, non-proprietary protocol for identification that protects rights to life and personhood online, no widely adopted non-proprietary protocols for the ways we communicate and form groups online that allows free association, no widely adopted non-proprietary protocols for payments to support commerce on real-world assets."
+    "source_quote": "Most of the natural, fundamental affordances of networking are not available to most people even in wealthy countries as basic parts of the online experience. There is no widely adopted, non-proprietary protocol for identification… no widely adopted non-proprietary protocols for the ways we communicate and form groups online… no widely adopted non-proprietary protocols for payments… and no protocols for the secure sharing of digital assets."
   },
   {
-    "term": "India Stack",
-    "definition": "A suite of digital public infrastructure developed in India over the past decade, cited in Plurality as a leading example of growing investment in 'digital public infrastructure' and a proof of concept for more systematically pursuing ⿻ at national scale. India Stack includes identity (Aadhaar), payment (UPI), and data-sharing layers. The book places it alongside Gaia-X and decentralized-web efforts as a fitful but meaningful response to the 'missing layers' of the internet, while noting these efforts have been underfunded, fragmented, and sometimes limited by technocratic or libertarian ideologies.",
+    "term": "digital public infrastructure",
+    "definition": "A term — increasingly adopted by bodies such as the UNDP — for the foundational, non-proprietary digital systems (identity, payments, data-sharing, communication) that serve as public goods analogous to roads or utilities. Plurality cites India Stack as the leading exemplar and frames investment in digital public infrastructure as the practical path toward instantiating the ⿻ rights/OS vision at scale, while cautioning that many current efforts remain underfunded, fragmented, and distorted by Technocratic or Libertarian ideologies.",
     "see_also": [
-      "missing-layers-of-the-internet",
-      "rights-os",
-      "plurality-freedom",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 4-0"
-  },
-  {
-    "term": "Digital Public Infrastructure",
-    "definition": "A policy and infrastructure concept — increasingly recognized by bodies such as UNDP — referring to shared, openly governed digital systems (identity, payment, data exchange) that serve as foundational layers for society analogous to roads or utilities. In Plurality, digital public infrastructure is framed as the necessary successor to the 'missing layers' of the internet, and the India Stack is its leading exemplar. The book argues these layers need to be non-proprietary, reflect ⿻ social ontology (hypergraph, not bilateral networks), and be systematically invested in.",
-    "see_also": [
+      "missing layers",
+      "rights os",
       "india-stack",
-      "missing-layers-of-the-internet",
-      "rights-os",
-      "plurality-freedom"
+      "governable stack"
     ],
     "source_chapter": "Ch. 4-0"
   },
   {
-    "term": "Gaia-X",
-    "definition": "A European data-sharing framework cited in Plurality as one of the fitful responses to the 'missing layers' of the internet. Gaia-X aims to create a federated, interoperable data infrastructure for Europe, distinct from proprietary cloud monopolies. The book situates it alongside web3, India Stack, and decentralized-web efforts as partial proof-of-concept for more systematic ⿻ digital infrastructure, while noting the broader ecosystem of such efforts remains underfunded and fragmented.",
+    "term": "identity and personhood",
+    "definition": "In ⿻ framing, identity is not a fixed, singular self but a dynamic intersection of overlapping social circles, affiliations, and relationships. Personhood is relationally constituted — individuals are both shaped by and constitutive of their communities. The book contrasts this with WEIRD universalism's atomistic individual and with monist state-assigned identity, arguing that plural, intersectional identity is the foundation for collaborative technology and democratic participation.",
     "see_also": [
-      "missing-layers-of-the-internet",
-      "digital-public-infrastructure",
-      "rights-os"
-    ],
-    "source_chapter": "Ch. 4-0"
-  },
-  {
-    "term": "Competitive Authoritarian Regimes",
-    "definition": "A category from political scientists Steven Levitsky and Lucan A. Way describing governments that retain formal democratic structures (elections, parliaments) while curtailing the liberties that make those structures meaningful — speech, association, press freedom. In Plurality, this concept is invoked to show that the erosion of rights is not a historical relic (Weimar) but a live contemporary concern, and that digital technologies — including social media's attention-economy dynamics and authoritarian influence operations — are active vectors through which democratic societies can slide toward competitive authoritarianism.",
-    "see_also": [
-      "authoritarian-digital-governance",
-      "rights-as-foundation-of-democracy",
-      "widening-gulf-between-technology-and-democracy"
-    ],
-    "source_chapter": "Ch. 4-0"
-  },
-  {
-    "term": "Attention Scarcity (vs. Information Abundance)",
-    "definition": "A structural shift in the information environment that the book argues is transforming the nature of free speech as a democratic right. Classical free-speech protections assumed information was scarce and suppression was the primary threat to voice. In the contemporary environment, information is abundant and attention is scarce, making distraction and information flooding — rather than censorship — the dominant tools of adversarial influence. The book draws on King, Pan, and Roberts's research on Chinese government 'strategic distraction' to illustrate this, arguing free-speech protections must evolve to ensure diverse, relevant, and genuine content surfaces for attention.",
-    "see_also": [
-      "dynamism-rights-os",
-      "authoritarian-digital-governance",
-      "information-integrity-taiwan-model",
-      "surveillance-capitalism"
-    ],
-    "source_chapter": "Ch. 4-0",
-    "source_quote": "information is abundant and attention scarce. Thus it is often easier for adversaries who seek to suppress or censor inconvenient views (attacking the foundations of democracy) to simply flood the information commons with distractions and spam, rather than try to suppress dissidents and unwanted content."
-  },
-  {
-    "term": "Project Liberty",
-    "definition": "A major philanthropic initiative founded by Frank McCourt aimed at reforming technology infrastructure around the thesis that the internet's 'missing layers' — identity, association, commerce — need non-proprietary, rights-respecting protocols. Cited in Plurality alongside the Ford Foundation's framing of 'reconceiving missing layers' as evidence that civil actors are increasingly recognizing the structural deficit in internet governance and investing in ⿻-compatible alternatives.",
-    "see_also": [
-      "missing-layers-of-the-internet",
-      "rights-os",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 4-0"
-  },
-  {
-    "term": "Self-Sovereign Identity (SSI)",
-    "definition": "A model of digital identity in which individuals hold and control their own credentials without reliance on a central authority or platform intermediary. Plurality frames SSI as one approach to reclaiming personhood online, though it cautions that purely individualist SSI implementations risk reproducing atomist assumptions — identity as a portable possession rather than a relational, intersectional social fact.",
-    "see_also": [
-      "federated-identity",
-      "intersectional-social-identity",
-      "decentralized-identity",
-      "rights-os"
-    ],
-    "source_chapter": "Ch. 4-1"
-  },
-  {
-    "term": "Personhood (Digital)",
-    "definition": "The condition of being recognized as a bearer of rights, relationships, and agency within digital systems. Plurality argues that dominant digital systems reduce personhood to either a platform account (monist) or a cryptographic key-pair (atomist), both of which fail to capture the plural, relational, and intersectional character of actual social identity. ⿻ personhood is constituted through overlapping group memberships and cross-cutting social ties rather than a single sovereign identifier.",
-    "see_also": [
-      "intersectional-social-identity",
-      "federated-identity",
+      "intersectional social identity",
+      "plural social identity",
       "dividual",
-      "self-sovereign-identity-ssi",
-      "overlapping-groups-social-ontology"
+      "qualitative individuality",
+      "intersection of social circles"
     ],
     "source_chapter": "Ch. 4-1",
-    "source_quote": "Rather than the isolated individual of libertarian imagination or the subject of a unitary state, the self is constituted through a web of relationships and affiliations."
+    "source_quote": "Identity, in the ⿻ sense, is not a fixed essence but a living intersection of communities, affiliations, and relationships that are themselves always in flux."
   },
   {
-    "term": "Sybil Attack (as Identity Failure Mode)",
-    "definition": "A threat to digital governance in which a single actor creates multiple fake identities to manipulate voting, resource allocation, or reputation systems. Plurality treats Sybil resistance as a core design constraint for any ⿻ identity infrastructure: systems that cannot distinguish unique persons from duplicates are vulnerable to capture by well-resourced actors who can flood participation channels with sock-puppet accounts.",
+    "term": "identity proofing",
+    "definition": "The process by which a digital or institutional system verifies that a claimed identity corresponds to a real, unique individual or entity. In ⿻ framing, identity proofing is a foundational layer of digital public infrastructure — enabling trust in online interactions, access to services, and participation in digital democracy — while raising risks of surveillance and exclusion if centralized or monopolized.",
     "see_also": [
-      "federated-identity",
-      "intersectional-social-identity",
-      "decentralized-identity",
-      "quadratic-voting"
+      "rights os",
+      "governable stack",
+      "digital public infrastructure",
+      "intersectional social identity"
     ],
     "source_chapter": "Ch. 4-1"
   },
   {
-    "term": "Biometric Identity (as Governance Infrastructure)",
-    "definition": "The use of biological characteristics — fingerprints, iris scans, facial geometry — to establish unique personhood in digital systems. Plurality acknowledges biometrics' Sybil-resistance properties while flagging the surveillance and exclusion risks: biometric systems can entrench state control, discriminate against marginalized bodies, and create single points of failure for personal privacy.",
+    "term": "unique personhood",
+    "definition": "The property of being a distinct, non-duplicable individual — distinguishable from all others — as a precondition for meaningful participation in digital systems, voting, and resource allocation. The book treats unique personhood as a technical and social challenge: systems must confirm uniqueness without reducing identity to a single government-issued number or enabling totalizing surveillance.",
     "see_also": [
-      "sybil-attack-as-identity-failure-mode",
-      "india-stack",
-      "digital-public-infrastructure",
-      "authoritarian-digital-governance"
+      "identity proofing",
+      "plural social identity",
+      "rights os"
     ],
     "source_chapter": "Ch. 4-1"
   },
   {
-    "term": "Identity Verification (as ⿻ Challenge)",
-    "definition": "The design problem of confirming that a digital participant is a distinct, real person without reducing that person to a single platform account or biometric record. Plurality frames this as one of the foundational unsolved problems of the open internet — the 'missing layer' of personhood — whose absence has allowed both surveillance-capitalist platforms and authoritarian states to fill the vacuum with identity architectures that serve their own interests rather than the commons.",
-    "see_also": [
-      "missing-layers-of-the-internet",
-      "sybil-attack-as-identity-failure-mode",
-      "federated-identity",
-      "self-sovereign-identity-ssi",
-      "india-stack"
-    ],
-    "source_chapter": "Ch. 4-1"
-  },
-  {
-    "term": "Intersectional Social Identity (⿻ Identity)",
-    "definition": "A ⿻ approach to digital identity grounded in the sociological observation that people are not just biological but social beings. Identity is understood as the intersection of shared histories, interactions, and affiliations with diverse groups and institutions — 'sociometrics' rather than biometrics. This approach offers comprehensiveness, redundancy, privacy, progressive authentication, security against single points of failure, and natural social recovery. Pioneered conceptually by danah boyd's 'faceted identity' thesis (2002).",
+    "term": "levels of assurance",
+    "definition": "A graduated framework for measuring how confident an identity system's owner can be in the identifying information presented by an individual during enrollment. Higher levels require more rigorous verification processes; lower levels accept minimal proof of identity. The concept is used by bodies such as the World Bank ID4D program and the International Civil Aeronautics Organization to standardize identity verification requirements across different contexts and risk levels.",
     "source_chapter": "Ch. 4-1",
-    "source_quote": "Far richer than their biometric profile is the set of shared histories and interactions they have with other people and social groups.",
     "see_also": [
-      "federated-identity",
-      "social-recovery",
-      "contextual-integrity",
-      "transitive-trust",
-      "polycentric-identity",
-      "faceted-identity"
+      "identity and personhood",
+      "unique personhood",
+      "digital public infrastructure"
     ]
   },
   {
-    "term": "Faceted Identity",
-    "definition": "A concept pioneered by danah boyd in her 2002 MIT master's thesis, describing how individuals manage multiple, context-specific representations of themselves in digital life. In the ⿻ framing, faceted identity is a precursor to ⿻ social identity systems: by drawing on diverse social relationships and institutional affiliations rather than a single canonical identifier, individuals can establish rich, context-appropriate identities while preserving privacy and resisting surveillance.",
+    "term": "social graph",
+    "definition": "The network of connections between user accounts that accumulates as participants interact within or across identity systems — exchanging messages, co-attending events, transacting, etc. Social graph data belongs simultaneously to multiple accounts and is harnessed both for security (recovery, authentication) and for surveillance. In a ⿻ identity framework the social graph also provides the substrate for progressive authentication, transitive trust and community recovery.",
     "source_chapter": "Ch. 4-1",
-    "source_quote": "This social, ⿻ approach to online identity was pioneered by danah boyd in her astonishingly farsighted master's thesis on 'faceted identity' more than 20 years ago.",
     "see_also": [
-      "intersectional-social-identity",
-      "contextual-integrity",
-      "polycentric-identity"
+      "identity and personhood",
+      "transitive trust",
+      "community recovery",
+      "intersectional social identity"
     ]
   },
   {
-    "term": "Contextual Integrity",
-    "definition": "A privacy principle articulated by Helen Nissenbaum holding that information flows appropriately when they match the norms of the social context in which information was originally shared. In the ⿻ identity framework, contextual integrity replaces individualistic notions of privacy: the goal is not data minimization per se but ensuring information stays within the social settings for which it was intended. Violations occur both through over-sharing and through erasing shared social memories. This frames privacy as fundamentally about freedom of association rather than individual control.",
+    "term": "faceted identity",
+    "definition": "danah boyd's concept, developed in her 2002 MIT master's thesis, that individuals naturally present different facets of themselves across different social contexts and that digital identity systems should reflect and protect this multi-dimensionality. The approach anticipates key ⿻ identity properties: comprehensiveness, privacy through contextual separation, progressive authentication and natural recovery via social relationships, without requiring a single unified identifier or centralized surveillance.",
+    "source_chapter": "Ch. 4-1",
+    "source_quote": "This social, ⿻ approach to online identity was pioneered by danah boyd in her astonishingly farsighted master's thesis on 'faceted identity' more than 20 years ago. While she focused primarily on the benefits of such a system for feelings of personal agency (in the spirit of Simmel), the potential benefits for the balance between identity establishment and protection are even more astonishing.",
+    "see_also": [
+      "intersectional social identity",
+      "contextual integrity",
+      "plural social identity",
+      "sociometrics"
+    ]
+  },
+  {
+    "term": "sociometrics",
+    "definition": "The rich set of socially observable traits and behaviors — shared locations, communications, witnessed actions, personality traits expressed in interaction — through which people actually know and identify one another. Contrasted in the book with biometrics: whereas biometrics reduce identity to biological signals readable by a single scanner, sociometrics ground identity in the full texture of social life and are jointly held by many parties, making them naturally redundant, privacy-respecting and hard to forge.",
+    "source_chapter": "Ch. 4-1",
+    "see_also": [
+      "faceted identity",
+      "identity and personhood",
+      "intersectional social identity",
+      "progressive authentication"
+    ]
+  },
+  {
+    "term": "progressive authentication",
+    "definition": "A property of ⿻ identity systems whereby the confidence level of a verification can be tuned by drawing on more or fewer trusted attribute issuers. Unlike single-factor verification, which yields a binary outcome bounded by trust in one verifying party, progressive authentication allows a wide range of assurance levels to be achieved incrementally, adapting to the security requirements of different use cases.",
+    "source_chapter": "Ch. 4-1",
+    "see_also": [
+      "levels of assurance",
+      "faceted identity",
+      "sociometrics",
+      "transitive trust"
+    ]
+  },
+  {
+    "term": "transitive trust",
+    "definition": "A mechanism for establishing identity and reputation across social distance by traversing chains of existing relationships — 'friends of friends' — rather than requiring direct verification by a central authority. The book links this to the classical 'maximum flow' problem in computer science and to the empirical finding of roughly six degrees of separation between any two people on earth, arguing that transitive trust combined with polycentric issuers can support a highly ⿻ identity landscape.",
+    "source_chapter": "Ch. 4-1",
+    "see_also": [
+      "community recovery",
+      "social graph",
+      "polycentric identity",
+      "intersectional social identity"
+    ]
+  },
+  {
+    "term": "community recovery",
+    "definition": "A ⿻ approach to credential recovery in which an individual relies on a threshold set of social relationships — for example, 3 of 5 trusted friends or institutions — to restore lost or stolen credentials, rather than appealing to a single powerful authority or holding a self-managed key. Proposed by Ohlhaver, Weyl and Buterin as a more secure and decentralized alternative to both custodial recovery and pure self-sovereignty.",
+    "source_chapter": "Ch. 4-1",
+    "source_quote": "More sophisticated approaches to voting could make such an approach even more secure by ensuring that distinct parts of an individual's network who are unlikely to cooperate against her interest would together be able to recover her credentials, something we call 'community recovery'.",
+    "see_also": [
+      "transitive trust",
+      "social graph",
+      "faceted identity",
+      "soulbound tokens"
+    ]
+  },
+  {
+    "term": "contextual integrity",
+    "definition": "Helen Nissenbaum's principle that privacy is violated not merely by disclosure of information but by its flow outside the social context for which it was originally intended. The book uses contextual integrity as the normative foundation for ⿻ identity: the goal is not to prevent the recording of social information but to ensure that information remains within the social settings that generated it, protecting collective norms rather than only individual preferences.",
     "source_chapter": "Ch. 4-1",
     "source_quote": "What we are after, therefore, is not well-described by the term 'privacy'. It is about information remaining in the social setting for which it was intended, what leading privacy scholar Helen Nissenbaum calls 'contextual integrity'.",
     "see_also": [
-      "intersectional-social-identity",
-      "federated-identity",
-      "freedom-of-association-digital"
+      "faceted identity",
+      "sociometrics",
+      "intersectional social identity",
+      "plural social identity"
     ]
   },
   {
-    "term": "Polycentric Identity",
-    "definition": "An identity architecture strategy, contrasted with both fully centralized (state biometric) and fully distributed (blockchain-pseudonymous) models, in which many verifiers of significant size — governments, churches, employers, professional associations — provide attribute attestations. Drawing on Paul Baran's network typology and Kim Cameron's 'polycentrism', this approach limits complexity to a manageable number of issuers (perhaps ~100,000 globally) while enabling far greater autonomy and diversity than current identity landscapes allow.",
+    "term": "polycentric identity",
+    "definition": "An identity architecture, contrasted with both centralized biometric databases and fully distributed peer-to-peer systems, in which a moderate number of independent issuers of attributes (governments, churches, employers, associations) collectively verify identities. Drawing on Paul Baran's concept of polycentrism and Kim Cameron's Laws of Identity, the approach limits coordination complexity while preserving ⿻ diversity of affiliations, and can be combined with transitive trust to support billions of people with far more issuers than any current system.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "transitive-trust",
-      "intersectional-social-identity",
-      "mediators-of-individual-data",
-      "dunbar-number"
+      "transitive trust",
+      "intersectional social identity",
+      "faceted identity",
+      "community recovery"
     ]
   },
   {
-    "term": "Transitive Trust",
-    "definition": "A strategy for spanning social distance in ⿻ identity systems by traversing chains of existing relationships — analogous to introductions, the LinkedIn professional network, or the 'six degrees of separation' phenomenon documented by Watts and Strogatz. Since most people on earth are within ~6 degrees of separation from each other, transitive trust enables identity verification between strangers without requiring either a centralized authority or direct personal knowledge, making it a key complement to polycentric identity.",
-    "source_chapter": "Ch. 4-1",
-    "source_quote": "Furthermore, the idea of establishing relationships, information and validity through transitive chains is ancient and common. It lies behind the concept of an introduction, the game 'telephone'... and the popular professional social network LinkedIn.",
-    "see_also": [
-      "polycentric-identity",
-      "dunbar-number",
-      "intersectional-social-identity",
-      "community-recovery"
-    ]
-  },
-  {
-    "term": "Social Recovery",
-    "definition": "A credential-recovery mechanism in which a user relies on a trusted group of relationships — e.g., 3 of 5 friends or institutions — to restore lost or stolen access credentials, rather than depending on a single centralized authority or self-managing an irrecoverable key. Described as the 'gold standard' in many Web3 communities and increasingly adopted by major platforms. The ⿻ extension, 'community recovery', uses voting mechanisms to ensure that distinct, non-colluding parts of an individual's network together authorize recovery.",
-    "source_chapter": "Ch. 4-1",
-    "source_quote": "A natural alternative would be for individuals to rely on a group of relationships allowing, for example, 3 of 5 friends or institutions to recover their key.",
-    "see_also": [
-      "community-recovery",
-      "transitive-trust",
-      "intersectional-social-identity",
-      "decentralized-identity"
-    ]
-  },
-  {
-    "term": "Community Recovery",
-    "definition": "An advanced form of social recovery in which sophisticated voting or threshold mechanisms ensure that credential recovery requires cooperation among distinct, socially non-overlapping parts of an individual's network — parties unlikely to collude against her interest. Proposed in the 'Decentralized Society: Finding Web3's Soul' paper (Ohlhaver, Weyl, Buterin 2022) as a more secure alternative to both centralized authority recovery and simple social-recovery schemes.",
+    "term": "mediators of individual data (MIDs)",
+    "definition": "Institutions of medium scale — businesses, churches, professional associations — that play intermediary roles in managing the complexity of ⿻ identity by aggregating and brokering attribute verification relationships on behalf of individuals. Coined by Jaron Lanier and E. Glen Weyl in a 2018 Harvard Business Review essay as part of a blueprint for a better digital society, MIDs reduce the number of direct relationships any individual needs to maintain while keeping identity control distributed rather than concentrated in large platforms.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "social-recovery",
-      "transitive-trust",
-      "polycentric-identity",
-      "soulbound-tokens"
+      "polycentric identity",
+      "transitive trust",
+      "data coalitions",
+      "intersectional social identity"
     ]
   },
   {
-    "term": "Mediators of Individual Data (MIDs)",
-    "definition": "Intermediate-scale institutions — medium businesses, churches, professional associations, civic organizations — that play a broker role between individuals and large-scale identity or data systems. Proposed by Jaron Lanier and Glen Weyl as a way to manage the complexity of ⿻ identity verification without requiring individuals to maintain hundreds of direct institutional relationships or ceding control to surveillance-scale platforms. MIDs hold and vouch for identity attributes on behalf of their members.",
-    "source_chapter": "Ch. 4-1",
-    "source_quote": "Another approach is to limit the number of relationships any individual or institution has to manage and rely on either institutions of medium size (e.g. medium businesses, churches, etc.) that play intermediary roles (which Jaron Lanier and one of us have called 'mediators of individual data or MIDs')",
-    "see_also": [
-      "polycentric-identity",
-      "transitive-trust",
-      "data-coalitions",
-      "intersectional-social-identity"
-    ]
-  },
-  {
-    "term": "Dunbar Number",
-    "definition": "The empirical limit — approximately 150 — on the number of stable social relationships a person can maintain without significant information-technology assistance, as proposed by anthropologist Robin Dunbar. In ⿻ identity design, the Dunbar number is a key heuristic: any identity or reputation system must account for the fact that individuals cannot directly evaluate more than a few hundred relationships, motivating polycentric and transitive-trust architectures that keep complexity manageable.",
+    "term": "soulbound tokens",
+    "definition": "Non-transferable blockchain tokens proposed as a form of public identity credential — commitments that are visibly and permanently tied to an account (a 'soul'), such as a pledge to repay a loan or acknowledgement of an achievement. The book positions soulbound tokens as one pole of the decentralized identity debate (against verifiable credentials), emphasizing public commitability over privacy, and notes the trade-off: they enable accountability but resist the contextual separation that ⿻ identity requires.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "polycentric-identity",
-      "transitive-trust",
-      "mediators-of-individual-data"
+      "verifiable credentials",
+      "community recovery",
+      "decentralized identifiers"
     ]
   },
   {
-    "term": "Progressive Authentication",
-    "definition": "A feature of ⿻ identity systems in which the level of confidence in a verified attribute can be incrementally increased by drawing on more and more trusted issuers. Unlike binary authentication (a single verifier returns yes/no), progressive authentication allows adaptation to a wide range of use-case security requirements — from casual online interactions to high-stakes legal or financial contexts — by accumulating attestations from multiple independent sources.",
+    "term": "verifiable credentials",
+    "definition": "A W3C standard for digitally signed, machine-readable claims about a subject — issued by one party, held by the subject, and presented selectively to verifiers — that prioritizes user control over which attributes are disclosed at any time. The book presents verifiable credentials as a privacy-preserving pole of the decentralized identity design space, in tension with soulbound tokens, and as a key emerging standard for connecting the currently fragmented ecosystem of ⿻ identity sources.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "intersectional-social-identity",
-      "polycentric-identity",
-      "verifiable-credentials"
+      "soulbound tokens",
+      "decentralized identifiers",
+      "faceted identity",
+      "polycentric identity"
     ]
   },
   {
-    "term": "Single Sign-On (SSO) / Identity Provider Surveillance",
-    "definition": "A failure mode in which large technology platforms (Meta, Google, Apple, Microsoft) leverage open standards like OAuth and OpenID Connect to become de facto identity providers across the web. Via 'sign in with...' flows, the identity provider observes every service a user authenticates with, enabling cross-context behavioral profiling. The book identifies this as a structural form of surveillance capitalism embedded in the identity layer, where convenience is traded for comprehensive behavioral visibility.",
+    "term": "decentralized identifiers",
+    "definition": "A W3C standard (DIDs) defining a way to create globally resolvable, decentralized identifier endpoints with associated public keys, typically anchored in public data repositories such as blockchains. DIDs are intended to give individuals 'ownership' over their identifiers without relying on a central registry, and serve as a foundation for the issuance of verifiable credentials. The book notes that the practical challenge of key recovery without a trusted authority remains largely unsolved for large, diverse populations.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "surveillance-capitalism",
-      "contextual-integrity",
-      "federated-identity",
-      "data-coalitions"
+      "verifiable credentials",
+      "soulbound tokens",
+      "community recovery",
+      "polycentric identity"
     ]
   },
   {
-    "term": "Verifiable Credentials (VCs)",
-    "definition": "A W3C standard (Verifiable Credentials Data Model) for digitally signed attestations that allow issuers (governments, employers, educational institutions) to make claims about subjects in a format that can be cryptographically verified by any relying party. In the ⿻ identity framework, VCs are a key enabling technology for polycentric identity: they allow diverse, fragmented identity systems to interoperate while preserving user control over which claims are disclosed. The book contrasts VC-centric (privacy-preserving) approaches with soulbound-token (public-commitment) approaches.",
+    "term": "single sign-on (SSO)",
+    "definition": "A federated authentication mechanism, enabled by standards such as OAuth and OpenID Connect, that allows users to log into multiple services using credentials from a single large platform (the 'identity provider'). The book highlights that SSO gives major technology platforms — Meta, Google, Apple, Microsoft — pervasive visibility into user activity across the web, creating a structural form of surveillance capitalism embedded in everyday identity infrastructure.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "decentralized-identity",
-      "soulbound-tokens",
-      "polycentric-identity",
-      "progressive-authentication"
+      "identity and personhood",
+      "contextual integrity",
+      "mediators of individual data (MIDs)"
     ]
   },
   {
-    "term": "Soulbound Tokens (SBTs)",
-    "definition": "Blockchain-based identity credentials that are permanently and publicly tied to a wallet address, representing non-transferable commitments or affiliations (e.g., degrees, memberships, reputation). Contrasted in the ⿻ framework with verifiable credentials: SBTs emphasize public accountability and non-transferability at the cost of privacy, while VCs prioritize selective disclosure. Both approaches struggle with the core identity trade-off between establishment and protection.",
+    "term": "know your customer (KYC)",
+    "definition": "A regulatory requirement, applied primarily to banks and some telecommunications providers, that obliges service providers to verify the identity of customers using government-issued ID before enrollment. The book presents KYC-regulated institutions as occupying a 'halfway point' in the identity landscape — more legitimate and portable than corporate SSO systems but still vulnerable to theft, difficult to recover and lacking the rich contextual grounding of ⿻ identity.",
     "source_chapter": "Ch. 4-1",
     "see_also": [
-      "verifiable-credentials",
-      "decentralized-identity",
-      "community-recovery",
-      "captured-dao-plutocracy"
+      "identity and personhood",
+      "levels of assurance",
+      "digital public infrastructure"
     ]
   },
   {
-    "term": "Biometric Identity (Failure Mode: Single Point of Failure)",
-    "definition": "A pattern in which biometric data (iris scans, fingerprints, genetic information) is used as the primary or sole basis for unique identity establishment. The book identifies this as reductive: it forces an irreconcilable trade-off between surveillance (if biometrics are used continuously for authentication) and account theft vulnerability (if biometrics initialize accounts only). Advanced AI combined with printing technology represents a potential catastrophic single point of failure for purely biometric systems.",
-    "source_chapter": "Ch. 4-1",
-    "source_quote": "In short, despite their important capacity for inclusion and simplicity, biometric systems are too reductive to establish and protect identities with the richness and security required to support ⿻.",
+    "term": "plurality publics",
+    "definition": "Publics that emerge from the overlapping, intersecting, and sometimes conflicting affiliations of individuals across multiple communities and identities. Rather than a single unified public sphere, plurality publics recognizes that democratic life is constituted through many partially overlapping collectivities whose interactions generate both conflict and cooperation. The concept draws on Georg Simmel's notion of intersecting social circles to argue that healthy democratic societies cultivate cross-cutting solidarities rather than homogeneous masses.",
     "see_also": [
-      "aadhaar-identity-system",
-      "worldcoin",
-      "intersectional-social-identity",
-      "sybil-attack"
-    ]
-  },
-  {
-    "term": "Levels of Assurance (LoA)",
-    "definition": "A framework for categorizing the degree of confidence an identity system has in the identifying information presented during enrollment, used by international bodies (e.g., ICAO) and digital identity standards to calibrate the rigor of identity verification to the risk level of the service being accessed. In the ⿻ framing, LoA is closely related to progressive authentication: ⿻ systems can achieve higher assurance by accumulating attestations from multiple independent sources rather than relying on a single high-assurance credential.",
-    "source_chapter": "Ch. 4-1",
-    "see_also": [
-      "progressive-authentication",
-      "verifiable-credentials",
-      "polycentric-identity"
-    ]
-  },
-  {
-    "term": "Social Graph (as Identity Infrastructure)",
-    "definition": "The network of interactive relationships and connections between user accounts — messages exchanged, events co-attended, transactions completed — that accumulates as a byproduct of digital social life and constitutes a rich, jointly-owned record of identity. In the ⿻ framework, the social graph is reframed from a surveillance asset (as exploited by large platforms) into the natural substrate for ⿻ identity verification: it encodes sociometrics that are more comprehensive and harder to fake than biometrics.",
-    "source_chapter": "Ch. 4-1",
-    "see_also": [
-      "intersectional-social-identity",
-      "contextual-integrity",
-      "transitive-trust",
-      "mediators-of-individual-data"
-    ]
-  },
-  {
-    "term": "Know Your Customer (KYC)",
-    "definition": "A regulatory requirement, typically applied to banks and financial institutions, mandating verification of customer identity using government-issued documents before account creation. In the ⿻ identity landscape analysis, KYC-anchored institutions (banks, telecom providers) occupy a middle position between government-issued IDs (high legitimacy, thin signals) and corporate SSO surveillance (rich signals, low legitimacy) — offering useful security anchors for multi-factor authentication while remaining vulnerable to theft and lacking strong portability.",
-    "source_chapter": "Ch. 4-1",
-    "see_also": [
-      "federated-identity",
-      "levels-of-assurance",
-      "single-sign-on-sso-identity-provider-surveillance"
-    ]
-  },
-  {
-    "term": "Decentralized Identifiers (DIDs)",
-    "definition": "A W3C standard for globally resolvable, cryptographically verifiable identifiers that are rooted in decentralized data repositories (such as blockchains) rather than controlled by a central authority. DIDs give individuals 'ownership' over their identifiers and provide a foundation for verifiable credentials. The book notes their key practical challenge: truly self-owned identity requires either self-managed keys (highly failure-prone at scale) or a trusted recovery authority — recreating the centralization problem they sought to avoid.",
-    "source_chapter": "Ch. 4-1",
-    "see_also": [
-      "verifiable-credentials",
-      "decentralized-identity",
-      "social-recovery",
-      "soulbound-tokens"
-    ]
-  },
-  {
-    "term": "Pseudonymous / Anonymous Identity (as Capture Failure Mode)",
-    "definition": "A pattern in digital communities — prominent in many Web3 and crypto contexts — where reliance on pseudonymity or anonymity in the absence of robust identity infrastructure allows those with access to physical and financial resources to capture governance and economic outcomes. The book cites Vitalik Buterin's analysis of cryptoeconomic limits: without personhood-grounding, online democracy degenerates toward plutocracy, as those who can mint the most pseudonymous accounts or accumulate the most tokens dominate.",
-    "source_chapter": "Ch. 4-1",
-    "source_quote": "Web3 communities that have relied heavily on pseudonymity or even anonymity and have thus often been captured by the interests of those with access to physical and financial resources.",
-    "see_also": [
-      "captured-dao-plutocracy",
-      "sybil-attack",
-      "atomist-libertarianism",
-      "soulbound-tokens"
-    ]
-  },
-  {
-    "term": "Association and Plurality Publics",
-    "definition": "The ⿻ principle that democratic life is constituted not by isolated individuals or a single sovereign public, but by overlapping voluntary associations — clubs, unions, faith communities, professional networks, neighborhoods — whose cross-cutting memberships generate the diversity-bridging ties that democracy requires. Drawing on Tocqueville, Dewey, and Simmel, the chapter argues that healthy self-governance depends on the density and diversity of associational life rather than on direct individual-to-state links.",
-    "see_also": [
-      "plurality-publics",
-      "cross-cutting-ties",
-      "overlapping-groups-social-ontology",
-      "emergent-publics-dewey",
-      "bridging-vs-bonding-social-capital"
+      "plural publics",
+      "bridging capital",
+      "intersectional social identity",
+      "emergent publics",
+      "overlapping affiliations"
     ],
     "source_chapter": "Ch. 4-2",
-    "source_quote": "Democracy, in this view, is not primarily a set of procedures for aggregating individual preferences, but a way of life constituted by the associations through which citizens develop the capacities for self-governance."
+    "source_quote": "Rather than a single public sphere, we can think of a plurality of publics that are constituted by overlapping affiliations and that interact, conflict, and cooperate in ways that generate democratic life."
   },
   {
-    "term": "Associational Life (Tocquevillian)",
-    "definition": "Alexis de Tocqueville's observation, revived in ⿻ framing, that American democracy's vitality derived from the extraordinary density of voluntary associations — civic clubs, religious congregations, mutual-aid societies, local political organizations — which trained citizens in cooperation, accountability, and the arts of self-governance. The erosion of such associations is treated as a structural threat to democracy analogous to digital atomization.",
+    "term": "association",
+    "definition": "In the ⿻ framing, association denotes the voluntary formation of groups, networks, and communities as the foundational social infrastructure of democratic life. Drawing on Tocqueville and Dewey, the book emphasizes that robust associational life — civic clubs, religious congregations, unions, professional societies — historically generated the bridging capital and deliberative practice needed for democratic self-governance. Digital technology both threatens and potentially reinvents associational forms.",
     "see_also": [
-      "plurality-publics",
-      "association-and-plurality-publics",
-      "cross-cutting-ties",
-      "bridging-vs-bonding-social-capital"
+      "plural publics",
+      "bridging capital",
+      "plurality publics",
+      "overlapping affiliations",
+      "networked value"
     ],
     "source_chapter": "Ch. 4-2"
   },
   {
-    "term": "Mesostructure (Associational)",
-    "definition": "The intermediate layer of social organization — between the individual and the state — occupied by voluntary associations, civic organizations, professional societies, unions, faith communities, and cooperatives. In ⿻ analysis, weakening of this mesostructure (through market individualism, platform monopoly, or state centralization) is a primary driver of both atomist and monist pathologies. Robust mesostructure is a precondition for plurality publics to form and persist.",
+    "term": "common knowledge",
+    "definition": "A state in which a group of people not only share a belief or fact but also know that all others in the group know it, and know that all others know that all others know it, and so on ad infinitum. Distinct from mere shared belief, common knowledge is a precondition for coordinated collective action in risky situations — as illustrated by bank runs, the #MeToo movement, and public protests — because it allows individuals to act without fear of being unsupported by others.",
     "see_also": [
-      "association-and-plurality-publics",
-      "plurality-publics",
-      "multi-scale-social-organization",
-      "overlapping-groups-social-ontology"
-    ],
-    "source_chapter": "Ch. 4-2"
-  },
-  {
-    "term": "Epistemic Communities",
-    "definition": "Networks of practitioners and experts who share recognized expertise and authoritative claims in a policy domain, and whose shared norms and beliefs influence governance. In ⿻ framing, epistemic communities function as one variety of plurality public — cross-cutting professional associations that bridge governmental and civil-society spheres — and are threatened by both monist capture (state co-optation) and atomist dissolution (platform fragmentation of shared professional standards).",
-    "see_also": [
-      "plurality-publics",
-      "association-and-plurality-publics",
-      "mesostructure-associational"
-    ],
-    "source_chapter": "Ch. 4-2"
-  },
-  {
-    "term": "Digital Associational Life",
-    "definition": "The online equivalents and extensions of traditional voluntary associations — open-source communities, wikis, civic-tech networks, online mutual-aid groups, fan communities with governance structures — that ⿻ treats as genuine successors to Tocquevillian civil society when they exhibit cross-cutting membership, distributed governance, and bridging rather than purely bonding social capital. The book contrasts these with engagement-maximizing platforms that simulate community while atomizing participants.",
-    "see_also": [
-      "associational-life-tocquevillian",
-      "plurality-publics",
-      "mesostructure-associational",
-      "bridging-vs-bonding-social-capital",
-      "online-community"
-    ],
-    "source_chapter": "Ch. 4-2"
-  },
-  {
-    "term": "Communication Infrastructure (for Publics)",
-    "definition": "The media, protocols, and platforms through which plurality publics recognize themselves as publics and coordinate action. Dewey's insight, central to Ch. 4-2, is that publics are called into being by communication — without adequate infrastructure for recognizing shared consequences, affected groups cannot constitute themselves as a public. ⿻ design therefore treats communication infrastructure as foundational governance infrastructure, not merely a service layer.",
-    "see_also": [
-      "emergent-publics-dewey",
-      "plurality-publics",
-      "missing-layers-of-the-internet",
-      "network-protocols-as-governance"
-    ],
-    "source_chapter": "Ch. 4-2"
-  },
-  {
-    "term": "Problem of the Public (Dewey)",
-    "definition": "John Dewey's diagnosis in 'The Public and Its Problems' (1927): modern industrial society generates vast chains of indirect consequences affecting people who do not know each other, yet existing communication and associational infrastructure is too weak to allow those affected to recognize their shared situation and organize as a public. ⿻ treats this as the foundational challenge that digital infrastructure can either deepen (through engagement-maximization) or address (through augmented deliberation and plurality-friendly communication tools).",
-    "see_also": [
-      "emergent-publics-dewey",
-      "communication-infrastructure-for-publics",
-      "plurality-publics",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 4-2"
-  },
-  {
-    "term": "Voluntary Association (as ⿻ Unit)",
-    "definition": "In ⿻ social ontology, the voluntary association — not the individual nor the nation-state — is the primary unit of democratic life. Associations are constituted by overlapping memberships, produce bridging social capital across their members' other circles, and serve as the training ground for democratic capacities. This framing draws on Tocqueville, Dewey, and Simmel and is contrasted with both atomist (individual-sovereign) and monist (state-sovereign) alternatives.",
-    "see_also": [
-      "association-and-plurality-publics",
-      "mesostructure-associational",
-      "overlapping-groups-social-ontology",
-      "plurality-publics"
-    ],
-    "source_chapter": "Ch. 4-2"
-  },
-  {
-    "term": "Common Knowledge (Game-Theoretic)",
-    "definition": "A technical concept from game theory and logic describing a situation where a group of people not only share a belief or fact, but each knows that all others know it, and knows that all others know that all others know it, and so on ad infinitum. Weyl & Tang identify common knowledge as the precise informational precondition for effective collective action and the formation of genuine associations — distinguishing it from mere shared belief, which is insufficient for coordinated action in 'risky collective action' situations.",
-    "source_chapter": "Ch. 5-1",
-    "source_quote": "Mathematically, 'common knowledge' is defined as a situation where a group of people know something, but also know that all of them know it, and know that all of them knows that all of them knows it and so on ad infinitum.",
-    "see_also": [
-      "associational-life-tocquevillian",
-      "plurality-publics",
-      "contextual-integrity",
-      "digital-associational-life"
-    ]
-  },
-  {
-    "term": "Contextual Confidence",
-    "definition": "A concept developed by Shrey Jain, Zoë Hitzig and Pamela Mishkin describing a property of information systems in which participants can easily establish and protect the context of their communications. Weyl & Tang adopt this as the technical aspiration underlying ⿻ publics: systems where communities can form strong internal common beliefs shielded from external surveillance, enabling genuine freedom of association online.",
-    "source_chapter": "Ch. 5-1",
-    "source_quote": "Achieving this requires maintaining what Shrey Jain, Zoë Hitzig and Pamela Mishkin have called 'contextual confidence', where participants in a system can easily establish and protect the context of their communications.",
-    "see_also": [
-      "plurality-publics",
-      "contextual-integrity",
-      "common-knowledge-game-theoretic",
-      "digital-associational-life"
-    ]
-  },
-  {
-    "term": "Zero-Knowledge Proofs (ZKPs)",
-    "definition": "A cryptographic technique that allows a party to prove a fact is true without revealing the underlying data that establishes it. For example, proving one is above a certain age without disclosing a full identity document. Weyl & Tang identify ZKPs as a key privacy-enhancing technology (PET) that, combined with other tools, could undergird ⿻ publics — enabling communities to share verifiable claims internally without over-exposing sensitive information to outsiders.",
-    "source_chapter": "Ch. 5-1",
-    "see_also": [
-      "plurality-publics",
+      "plural-publics",
       "contextual-confidence",
-      "secure-multi-party-computation",
-      "privacy-enhancing-technologies"
-    ]
+      "association",
+      "common-belief"
+    ],
+    "source_chapter": "Ch. 5-1",
+    "source_quote": "Mathematically, 'common knowledge' is defined as a situation where a group of people know something, but also know that all of them know it, and know that all of them knows that all of them knows it and so on ad infinitum."
   },
   {
-    "term": "Privacy-Enhancing Technologies (PETs)",
-    "definition": "A family of cryptographic and computational tools — including zero-knowledge proofs, secure multi-party computation, homomorphic encryption, differential privacy, confidential computing, and federated learning — that protect data from external surveillance or unintended disclosure. Weyl & Tang survey these as building blocks toward ⿻ publics, noting their current limitation: they primarily guard against external snooping rather than the equally important problem of internal over-sharing.",
-    "source_chapter": "Ch. 5-1",
+    "term": "contextual confidence",
+    "definition": "A property of information systems in which participants can easily establish and protect the context of their communications — knowing who they are speaking to, what shared background they hold, and that outsiders cannot access or credibly re-share what was communicated within that context. Coined by Shrey Jain, Zoë Hitzig, and Pamela Mishkin, it is the technical and social goal underlying ⿻ publics.",
     "see_also": [
-      "zero-knowledge-proofs-zkps",
+      "plural-publics",
+      "contextual-integrity",
+      "common-knowledge",
+      "designated-verifier-proofs"
+    ],
+    "source_chapter": "Ch. 5-1",
+    "source_quote": "Achieving this requires maintaining what Shrey Jain, Zoë Hitzig and Pamela Mishkin have called 'contextual confidence', where participants in a system can easily establish and protect the context of their communications."
+  },
+  {
+    "term": "designated verifier proofs",
+    "definition": "A cryptographic technique that proves authenticity only to a single intended recipient while appearing potentially forged to everyone else. Because unintended recipients cannot reliably verify the proof, over-sharing becomes less useful — the information loses its credibility outside its intended context. Weyl and Tang frame DVPs as a promising tool for protecting associations from internal over-sharing, complementing external-surveillance defenses.",
+    "see_also": [
+      "contextual-confidence",
+      "plural-publics",
+      "zero-knowledge-proofs",
+      "privacy-enhancing-technologies"
+    ],
+    "source_chapter": "Ch. 5-1"
+  },
+  {
+    "term": "privacy-enhancing technologies",
+    "definition": "A family of cryptographic and computational techniques — including zero-knowledge proofs, secure multi-party computation, homomorphic encryption, unforgeable/undeniable signatures, confidential computing, differential privacy, and federated learning — that allow information to be protected, computed upon, or selectively disclosed without leaking underlying data. The book frames these as necessary but insufficient for ⿻ publics because they focus primarily on protecting against external surveillance rather than internal over-sharing.",
+    "see_also": [
+      "zero-knowledge-proofs",
       "secure-multi-party-computation",
       "differential-privacy",
       "federated-learning",
-      "plurality-publics"
-    ]
+      "contextual-confidence",
+      "plural-publics"
+    ],
+    "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "Secure Multi-Party Computation (SMPC)",
-    "definition": "A cryptographic technique enabling a group of parties to jointly compute a function over their combined private data without any party revealing their individual inputs to the others — while allowing the result to be verified. Weyl & Tang cite secret-ballot elections with verifiable results as a canonical application, and identify SMPC (alongside homomorphic encryption) as a key PET component for building ⿻ publics.",
-    "source_chapter": "Ch. 5-1",
+    "term": "zero-knowledge proofs",
+    "definition": "A cryptographic technique allowing one party to prove the truth of a statement to another without revealing any information beyond the statement's validity. For example, proving one is above a certain age without disclosing one's full identification. The book identifies ZKPs as a core privacy-enhancing technology and a promising building block for ⿻ publics when combined with distributed ledger and open protocol work.",
     "see_also": [
       "privacy-enhancing-technologies",
-      "zero-knowledge-proofs-zkps",
-      "plurality-publics"
-    ]
-  },
-  {
-    "term": "Differential Privacy",
-    "definition": "A mathematical framework measuring and bounding the degree to which outputs of a computation inadvertently leak sensitive input data, typically enforced by adding calibrated noise to disclosures. Weyl & Tang cite the US Census as a legal case where both disclosure and confidentiality obligations are met via differential privacy mechanisms, framing it as a PET relevant to protecting associational context.",
-    "source_chapter": "Ch. 5-1",
-    "see_also": [
-      "privacy-enhancing-technologies",
-      "plurality-publics",
+      "secure-multi-party-computation",
+      "plural-publics",
       "contextual-confidence"
-    ]
+    ],
+    "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "Federated Learning",
-    "definition": "A machine learning methodology that trains and evaluates models on data physically distributed across many locations without centralizing that data, combining privacy-enhancing techniques to enable collective computation while preserving local data control. Weyl & Tang describe it as 'less a fundamental privacy technique than a sophisticated application and combination of other techniques,' relevant to ⿻ associational infrastructure.",
-    "source_chapter": "Ch. 5-1",
+    "term": "secure multi-party computation",
+    "definition": "A cryptographic method enabling a group of parties to jointly compute a function over their combined private inputs without any party revealing its own data to the others, with the process verifiable by all participants. The book cites secret-ballot elections as a canonical application, and frames SMPC alongside homomorphic encryption as a privacy-enhancing technology relevant to protecting ⿻ publics.",
     "see_also": [
       "privacy-enhancing-technologies",
-      "plurality-publics"
-    ]
+      "zero-knowledge-proofs",
+      "homomorphic-encryption",
+      "plural-publics"
+    ],
+    "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "Designated Verifier Proofs (DVPs)",
-    "definition": "A cryptographic technique that proves the authenticity of information to a single designated recipient while making the proof appear potentially forged to anyone else. Weyl & Tang identify DVPs as a promising tool against internal over-sharing: information verified for one community member cannot be credibly re-shared outside that context, potentially enabling formal guarantees of contextual confidence within ⿻ publics.",
-    "source_chapter": "Ch. 5-1",
+    "term": "differential privacy",
+    "definition": "A mathematical framework that measures and bounds the extent to which the outputs of a computation might leak sensitive input data. Implementations add calibrated noise to disclosures so that individual records cannot be reconstructed from aggregate statistics. The book cites the US Census as a policy context where differential privacy reconciles legally required disclosure with source-data confidentiality.",
     "see_also": [
-      "zero-knowledge-proofs-zkps",
+      "privacy-enhancing-technologies",
+      "federated-learning",
+      "contextual-confidence"
+    ],
+    "source_chapter": "Ch. 5-1"
+  },
+  {
+    "term": "federated learning",
+    "definition": "A method for training and evaluating machine learning models on data that remains physically distributed across multiple parties, combining privacy-enhancing techniques so that raw data never needs to be centralized. The book classifies it as an advanced application-layer technique rather than a foundational cryptographic primitive, and notes it as part of the broader toolkit relevant to protecting context in ⿻ publics.",
+    "see_also": [
+      "privacy-enhancing-technologies",
+      "differential-privacy",
+      "plural-publics"
+    ],
+    "source_chapter": "Ch. 5-1"
+  },
+  {
+    "term": "over-sharing",
+    "definition": "The unilateral disclosure of information by one member of an association to parties outside the intended context, threatening the privacy interests of all others whose data that information implicates. Weyl and Tang argue that because almost all data is inherently multiparty — genetic, locational, communicative, financial — the dominant focus on protecting against external surveillance has neglected the equally serious risk of internal over-sharing, which cryptography alone cannot fully prevent.",
+    "see_also": [
       "contextual-confidence",
-      "plurality-publics",
+      "contextual-integrity",
+      "plural-publics",
+      "designated-verifier-proofs",
       "privacy-enhancing-technologies"
-    ]
+    ],
+    "source_chapter": "Ch. 5-1",
+    "source_quote": "This implies that in almost every relevant case, unilateral disclosure of data by an individual threatens the legitimate privacy interests of other individuals. Protecting privacy therefore requires protecting against unilateral over-sharing."
   },
   {
-    "term": "Distributed Ledger Technologies (DLTs) as Association Infrastructure",
-    "definition": "Blockchains and other DLTs maintain a shared record appended only by consensus, leading game theorists to argue they hold special promise for creating common beliefs among participants. Weyl & Tang assess DLTs as potentially important components of a future association infrastructure — while cautioning that common knowledge among machines does not automatically translate to community among people, and that financial incentives tend to attract validators rather than civic actors.",
-    "source_chapter": "Ch. 5-1",
+    "term": "bowling alone",
+    "definition": "Robert Putnam's diagnosis of declining American civic life from the 1960s onward, attributed to the collapse of participatory community associations — fraternal organizations, religious groups, parent-teacher associations — and the corresponding erosion of social capital and trust. The book invokes Putnam's framework to frame the challenge of digital technology: whether the extraordinary reach of networked platforms can be harnessed to form meaningful communities and deeper social interaction rather than 'wider and shallower' ones.",
     "see_also": [
-      "common-knowledge-game-theoretic",
-      "plurality-publics",
-      "associational-life-tocquevillian",
-      "fediverse-decentralized-web"
-    ]
+      "plural-publics",
+      "association",
+      "bridging-capital",
+      "network-society"
+    ],
+    "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "Internal Over-Sharing (as Association Failure Mode)",
-    "definition": "The threat to associational privacy that arises not from external surveillance but from members of a group sharing information beyond its intended context — through leaks, social engineering, phishing, or the simple ease of digital forwarding. Weyl & Tang argue that almost all existing cryptography and privacy regulation focuses on protecting against external snoops while largely neglecting this internal threat, which is equally corrosive to ⿻ publics.",
-    "source_chapter": "Ch. 5-1",
-    "source_quote": "Yet a basic limitation of almost all this work is the focus on protecting communication from external surveillance rather than from internal over-sharing.",
+    "term": "ActivityPub",
+    "definition": "An open W3C standard for federated social networking, authored by Christine Lemmer Webber and Jessica Tallon, that enables decentralized services like Mastodon to interoperate across independently operated servers. The book presents ActivityPub as a foundational open protocol for digital publication and a precursor to the richer ⿻ publics infrastructure it envisions — one that could eventually support community-level context establishment and protection.",
     "see_also": [
-      "plurality-publics",
+      "plural-publics",
+      "spritely",
+      "decentralized-social-networking-protocol",
+      "contextual-confidence"
+    ],
+    "source_chapter": "Ch. 5-1"
+  },
+  {
+    "term": "Spritely",
+    "definition": "A project by Christine Lemmer Webber (of ActivityPub fame) to build self-governing, strongly connected private communities in open standards, allowing individual users to clearly discern, navigate, and separate community contexts. The book identifies Spritely as one of the most direct practical efforts toward achieving ⿻ publics — combining the publicity affordances of ActivityPub with meaningful context protection.",
+    "see_also": [
+      "plural-publics",
+      "activitypub",
       "contextual-confidence",
-      "contextual-integrity",
-      "designated-verifier-proofs-dvps"
-    ]
+      "privacy-enhancing-technologies"
+    ],
+    "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "ActivityPub / Fediverse Standards",
-    "definition": "An open W3C-published protocol for federated social networking, authored by Christine Lemmer Webber and Jessica Tallon, that enables decentralized services like Mastodon to serve millions without reliance on a single proprietary platform. Weyl & Tang cite ActivityPub as a key step toward open digital publication infrastructure, while noting that publicity alone does not create community — and that Webber's follow-on Spritely project pursues the fuller ⿻ publics vision.",
-    "source_chapter": "Ch. 5-1",
+    "term": "trust networks",
+    "definition": "In ⿻ framing, trust networks are the social substrate underlying commerce and cooperation — webs of reputation, reciprocity, and shared identity that allow economic exchange to function across difference. The book traces how traditional trust was embedded in local community and kin, how it was partially replaced by formal contracts and state enforcement, and how digital infrastructure can now reconstruct layered, contextual trust at scale across intersecting social circles rather than flattening it into a single universal ledger.",
     "see_also": [
-      "fediverse-decentralized-web",
-      "plurality-publics",
-      "spritely-project",
-      "communication-infrastructure-for-publics"
-    ]
-  },
-  {
-    "term": "Spritely Project",
-    "definition": "An open-standards project by Christine Lemmer Webber (co-author of ActivityPub) to create self-governing, strongly connected private communities — allowing individual users to clearly discern, navigate and separate community contexts. Weyl & Tang identify Spritely as one of the most promising current efforts directly aimed at achieving ⿻ publics: protected associational spaces with strong internal common beliefs, built on open rather than proprietary infrastructure.",
-    "source_chapter": "Ch. 5-1",
-    "see_also": [
-      "plurality-publics",
-      "activitypub-fediverse-standards",
-      "contextual-confidence",
-      "fediverse-decentralized-web"
-    ]
-  },
-  {
-    "term": "Bowling Alone (Putnam / Associational Decline)",
-    "definition": "Robert Putnam's 1995 diagnosis of declining American civic life, documenting the collapse of participatory associations — fraternal organizations, religious groups, parent-teacher associations — and linking this to erosion of social capital and trust. Weyl & Tang invoke Putnam's thesis to frame the stakes for digital freedom of association: the internet's challenge is not merely enabling communication but enabling the kind of meaningful, associative engagement that builds social capital.",
-    "source_chapter": "Ch. 5-1",
-    "source_quote": "He argues that the decrease in associative behavior directly affects the development of social capital and trust which 'facilitate coordination and cooperation for mutual benefit.'",
-    "see_also": [
-      "associational-life-tocquevillian",
-      "social-capital",
-      "digital-associational-life",
-      "bridging-vs-bonding-social-capital"
-    ]
-  },
-  {
-    "term": "Decentralized Social Networking Protocol (DSNP)",
-    "definition": "A blockchain-based protocol developed under Frank McCourt's Project Liberty as an open foundation for decentralized social networking, aiming to give users control over their social graphs independent of proprietary platforms. Weyl & Tang cite DSNP alongside ActivityPub and BlueSky as part of a convergent ecosystem of open protocols that could eventually enshrine digital freedom of association.",
-    "source_chapter": "Ch. 5-1",
-    "see_also": [
-      "activitypub-fediverse-standards",
-      "fediverse-decentralized-web",
-      "plurality-publics",
-      "project-liberty"
-    ]
-  },
-  {
-    "term": "Group Privacy (vs. Individual Privacy)",
-    "definition": "Weyl & Tang's argument that nearly all naturally occurring data pertains not to single individuals but to multiple parties — genetic data implicates families, communications are inherently multiparty, location data is typically shared — meaning that privacy is fundamentally a group phenomenon. Individual-focused privacy law and cryptography systematically under-protect associational privacy because unilateral disclosure by any member threatens the legitimate privacy interests of all others.",
-    "source_chapter": "Ch. 5-1",
-    "source_quote": "This implies that in almost every relevant case, unilateral disclosure of data by an individual threatens the legitimate privacy interests of other individuals.",
-    "see_also": [
-      "plurality-publics",
-      "contextual-integrity",
-      "contextual-confidence",
-      "internal-over-sharing-as-association-failure-mode"
-    ]
-  },
-  {
-    "term": "Commerce (⿻ Understanding)",
-    "definition": "In ⿻ framing, commerce is not a domain of purely bilateral, atomistic exchange between self-interested individuals but a web of socially embedded relationships that depend on — and reinforce — trust, identity, and associational life. The book argues that markets are built on social infrastructure (shared standards, reputational systems, legal institutions) and that healthy commerce both requires and can deepen cross-cutting ties rather than dissolve them.",
-    "see_also": [
-      "intersectional-social-identity",
-      "transitive-trust",
-      "federated-identity",
-      "data-coalitions",
-      "plurality-publics"
+      "transitive trust",
+      "intersectional social identity",
+      "polycentric identity",
+      "contextual integrity",
+      "sociometrics"
     ],
     "source_chapter": "Ch. 4-3",
-    "source_quote": "Commerce, in this view, is not the antithesis of community but one of its expressions — a domain where trust built in one context travels across contexts."
+    "source_quote": "Commerce has always depended on trust, and trust has always depended on social infrastructure."
   },
   {
-    "term": "Trust (as ⿻ Infrastructure)",
-    "definition": "In ⿻ framing, trust is not a binary, one-to-one property between individuals but a layered, context-sensitive social resource that flows through networks. Transitive trust — where A trusts B who trusts C — enables cooperative action at scale without requiring universal transparency or centralised verification. The book presents trust infrastructure as a prerequisite for both commerce and democratic participation, and argues that its erosion (by surveillance capitalism, engagement-maximisation, or atomistic anonymity) is a central dysfunction of the current digital moment.",
+    "term": "reputation systems",
+    "definition": "Mechanisms that encode prior interactions and community assessments of actors into signals others can consult before transacting. The book presents reputation systems as a digital analog to the community-embedded trust that preceded formal contract law — capable of enabling cooperation across social distance when designed to respect contextual integrity and resist gaming, but prone to capture, homogenization, and exclusion when centralized.",
     "see_also": [
-      "transitive-trust",
-      "social-capital",
-      "federated-identity",
+      "trust networks",
+      "transitive trust",
+      "sociometrics",
+      "contextual integrity"
+    ],
+    "source_chapter": "Ch. 4-3"
+  },
+  {
+    "term": "payment rails",
+    "definition": "The underlying infrastructure through which monetary value moves between parties. The book identifies payment rails as a foundational layer of the digital economy that has remained largely captured by a small number of intermediaries, creating bottlenecks that exclude the unbanked, impose high fees on cross-border transactions, and give private actors surveillance and censorship power over economic life. ⿻ alternatives seek payment infrastructure that is interoperable, plural, and governed as digital public infrastructure.",
+    "see_also": [
+      "digital public infrastructure",
+      "missing layers",
+      "rights os"
+    ],
+    "source_chapter": "Ch. 4-3"
+  },
+  {
+    "term": "market design",
+    "definition": "The deliberate structuring of exchange mechanisms — who can transact, on what terms, with what matching rules — to achieve social as well as allocative goals. The book treats market design as an arena where ⿻ principles apply: well-designed markets can harness decentralized information and preference while embedding social obligations, bridging across communities, and distributing gains more equitably than either laissez-faire or centrally planned alternatives.",
+    "see_also": [
+      "trust networks",
+      "payment rails",
+      "governable space",
+      "supermodular cooperation"
+    ],
+    "source_chapter": "Ch. 4-3"
+  },
+  {
+    "term": "community currency",
+    "definition": "A currency restricted to use within a defined community — such as housing vouchers, fair scrip, or university meal credits — that can partially interoperate with other community currencies but is designed so holders cannot freely convert it to broader currency without community consent. In ⿻ commerce, community currencies are proposed as a polycentric alternative to universal fungible money, allowing communities to track and govern value in ways that reflect their own social logics. The book notes that challenges with secure identities have limited community currency experiments by making it too easy to sell an account and circumvent transfer controls.",
+    "see_also": [
+      "plural-money",
+      "polycentric-identity",
       "contextual-integrity",
-      "data-coalitions"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Reputation (Networked / Contextual)",
-    "definition": "The book treats reputation not as a single, portable score (credit-score model) nor as purely local gossip, but as contextual and networked: reputational signals travel across overlapping social circles, carry different weight in different contexts, and are made legible by shared institutional infrastructure. ⿻ commerce depends on reputation systems that preserve contextual integrity — allowing enough transitive trust to enable transactions while preventing surveillance-style aggregation of personal data.",
-    "see_also": [
-      "transitive-trust",
-      "contextual-integrity",
-      "intersectional-social-identity",
-      "levels-of-assurance"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Property Rights (⿻ Critique of Atomist Ownership)",
-    "definition": "Extending the 'property as bundle of rights' framing, the book argues that conventional atomist conceptions of property — absolute individual ownership — obscure the socially constituted nature of value creation. Drawing on Georgist and networked-value arguments, it holds that property claims are always already relational and that ⿻ alternatives (partial common ownership, depreciating licenses, data coalitions) better capture the social dimension of value while preserving individual stakes.",
-    "see_also": [
-      "property-as-bundle-of-rights",
-      "networked-value",
-      "henry-george-theorem",
-      "data-coalitions",
-      "partial-common-ownership"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Partial Common Ownership",
-    "definition": "A property regime in which asset holders self-assess the value of their holdings and pay a recurring fee (Harberger tax) at that rate, while the asset remains continuously available for purchase at the self-assessed price. This aligns private incentives with social efficiency, prevents monopolistic lock-in, and channels revenues toward common goods. The book presents it as a ⿻ alternative to both full private ownership and state ownership, applicable to digital assets, spectrum, land, and data.",
-    "see_also": [
-      "property-as-bundle-of-rights",
-      "networked-value",
-      "henry-george-theorem",
-      "depreciating-licenses",
-      "data-coalitions"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Depreciating Licenses",
-    "definition": "A governance mechanism in which rights over a resource (e.g., intellectual property, spectrum allocation, data access) automatically diminish over time unless actively renewed, preventing perpetual lock-in and encouraging productive use. The book invokes depreciating licenses as one ⿻ tool in a broader portfolio of relational property arrangements that align individual incentives with collective benefit.",
-    "see_also": [
-      "partial-common-ownership",
-      "property-as-bundle-of-rights",
-      "networked-value"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Harberger Tax",
-    "definition": "An economic mechanism, associated with Arnold Harberger and elaborated by Eric Posner and Glen Weyl, in which asset owners self-assess their holdings' value and pay a proportional tax, while the asset is always buyable at that declared price. The book treats it as a concrete implementation of partial common ownership: it removes monopoly rents, funds common goods, and embeds commerce in social accountability without eliminating markets.",
-    "see_also": [
-      "partial-common-ownership",
-      "property-as-bundle-of-rights",
-      "henry-george-theorem",
-      "networked-value"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Data Dignity",
-    "definition": "The principle that individuals and communities hold meaningful, enforceable claims over data generated by or about them — not merely as a privacy right but as an economic entitlement. The book argues that data dignity, operationalised through data coalitions and mediators of individual data (MIDs), rebalances the asymmetric value extraction of surveillance-capitalism platforms and enables ⿻ forms of commerce in which data workers share in the value their data creates.",
-    "see_also": [
-      "data-coalitions",
-      "mediators-of-individual-data",
-      "surveillance-capitalism",
-      "group-privacy"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Quadratic Voting (QV)",
-    "definition": "A collective-decision mechanism in which participants allocate votes across issues by spending 'voice credits', with the cost of additional votes on the same issue rising quadratically (1 vote = 1 credit, 2 votes = 4 credits, etc.). This allows participants to signal intensity of preference, not just direction, aggregating dispersed information more accurately than one-person-one-vote while limiting the dominance of any single strong preference. The book presents QV as a ⿻ primitive applicable to governance, resource allocation, and democratic deliberation.",
-    "see_also": [
-      "quadratic-funding",
-      "plural-voting",
-      "one-person-one-vote",
-      "voice-credits"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Quadratic Funding (QF)",
-    "definition": "A public-goods funding mechanism in which a matching pool amplifies individual contributions in proportion to the square root of the number of contributors rather than the total amount contributed. Projects with many small contributors receive proportionally more matching than those with few large donors, approximating the aggregate revealed social value of a public good. The book presents QF, associated with Buterin, Hitzig, and Weyl, as a ⿻ primitive for democratic resource allocation in digital and civic contexts.",
-    "see_also": [
-      "quadratic-voting",
-      "gitcoin",
-      "plural-voting",
-      "data-coalitions"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Voice Credits",
-    "definition": "The fungible budget of voting power allocated to participants in quadratic voting and related plural-voting mechanisms. Participants spend voice credits across decisions; the quadratic cost structure means that concentrating credits on one issue is expensive relative to distributing them. Voice credits operationalise the ⿻ idea that preference intensity, not just preference direction, carries democratic information.",
-    "see_also": [
-      "quadratic-voting",
-      "plural-voting",
-      "quadratic-funding"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Plural Voting",
-    "definition": "A family of voting mechanisms — including quadratic voting, conviction voting, and their variants — that move beyond binary one-person-one-vote to capture the multidimensionality and intensity of democratic preferences. The book treats plural voting as a ⿻ governance primitive that better maps the overlapping, cross-cutting structure of social identity onto collective decisions.",
-    "see_also": [
-      "quadratic-voting",
-      "quadratic-funding",
-      "conviction-voting",
-      "one-person-one-vote"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Conviction Voting",
-    "definition": "A governance mechanism in which a voter's support for a proposal accumulates ('convicts') over time the longer they hold their vote, and decays if they withdraw or redistribute it. This rewards sustained community commitment over episodic participation, resists last-minute vote manipulation, and surfaces proposals with enduring rather than flash-mob support. The book lists it among ⿻ plural-voting primitives.",
-    "see_also": [
-      "plural-voting",
-      "quadratic-voting",
-      "dao"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Social Wealth Funds",
-    "definition": "Collectively owned investment vehicles that distribute returns broadly across a community or polity rather than concentrating them in individual shareholders or the state. The book positions social wealth funds as a ⿻ mechanism for ensuring that the returns from networked value creation — including platform network effects and data-driven productivity — are shared across the social networks that generated them.",
-    "see_also": [
-      "networked-value",
-      "henry-george-theorem",
-      "partial-common-ownership",
-      "data-dignity"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Prediction Markets (as ⿻ Infrastructure)",
-    "definition": "Markets in which participants trade on the probability of future events, aggregating dispersed information into price signals. The book discusses prediction markets as a ⿻ tool for collective intelligence — surfacing crowd knowledge on contested empirical questions — while noting the risks of manipulation and the limits of market mechanisms for normative or deeply contested political questions.",
-    "see_also": [
-      "quadratic-voting",
-      "plural-voting",
-      "social-capital",
-      "plurality-publics"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Plural Money (Community Currency)",
-    "definition": "A ⿻ approach to currency in which communities issue their own limited-domain currencies — vouchers, scrip, meal credits, contribution tokens — that partially interoperate across communities but cannot be freely converted to universal currency without community consent. Contrasted with the monist structure of universal fungible money, plural money embeds contextual trust and reciprocal obligation directly into its medium of exchange. The book cites Local Exchange Trading Systems (LETS), university meal programs, and the Plurality book's own contributor token as early instances.",
-    "see_also": [
-      "contextual-integrity",
-      "community-currency-lets",
-      "distributed-trust-network",
-      "supermodularity",
-      "quadratic-funding"
+      "soulbound-tokens"
     ],
     "source_chapter": "Ch. 4-3",
-    "source_quote": "In a polycentric structure, instead of a single universal currency, a variety of communities would have their own currencies which could be used in a limited domain... it would be against the rules or perhaps even technically impossible for a holder to sell the community currency for broader currency without community consent."
+    "source_quote": "Instead of a single universal currency, a variety of communities would have their own currencies which could be used in a limited domain... it would be against the rules or perhaps even technically impossible for a holder to sell the community currency for broader currency without community consent."
   },
   {
-    "term": "Distributed Trust Network (Interpersonal Debt / Favor Network)",
-    "definition": "A ⿻ alternative to currency in which interpersonal debts and trust replace fungible money entirely. Instead of transferring funds, parties 'call in favors' through chains of social relationships. Classical maxflow algorithms compute the maximum credit available between any two nodes in the network, making socially-grounded value transfers computationally tractable. The book frames this as the logical extension of the principle of six degrees of separation applied to commercial trust, requiring no universal unit of account.",
+    "term": "plural money",
+    "definition": "A ⿻ conception of commercial exchange that moves beyond universal fungible currency toward either polycentric community currencies or distributed interpersonal-debt networks. The polycentric variant uses restricted community currencies that partially interoperate; the distributed variant replaces currency entirely with direct representations of interpersonal debt and trust, using network maximum-flow algorithms to compute how much 'credit' can travel across chains of social relationships. The book frames plural money as the natural extension of ⿻ identity into the commercial sphere, suited to supermodular production and social consumption that money handles poorly.",
     "see_also": [
-      "plural-money-community-currency",
+      "community-currency",
       "intersectional-social-identity",
+      "supermodular-cooperation",
+      "contextual-integrity"
+    ],
+    "source_chapter": "Ch. 4-3"
+  },
+  {
+    "term": "distributed trust network",
+    "definition": "A system of commercial exchange in which interpersonal debts and favors replace currency. Rather than receiving payment, participants 'call in a favor' from someone who owes one. Credit across longer social distances is computed by tracing chains of relationships using maximum-flow (maxflow) algorithms, leveraging the principle of six degrees of separation. The book presents this as a more ⿻ alternative to both universal currency and polycentric community currencies, making socially-grounded value quantification computationally tractable without requiring universal fungibility.",
+    "see_also": [
+      "plural-money",
+      "community-currency",
       "transitive-trust",
-      "dunbar-number",
-      "supermodularity"
+      "trust-networks"
     ],
     "source_chapter": "Ch. 4-3",
-    "source_quote": "In such a system, rather than receiving payment for a good or service, people would effectively 'call in a favor' from someone who owes one to them... the total amount of 'credit' one can get would be computed by classical computer science algorithms for calculating the 'maximum flow' (maxflow) that can flow between two points in a network."
+    "source_quote": "Rather than receiving payment for a good or service, people would effectively 'call in a favor' from someone who owes one to them... Many potential paths of such favors could be calculated and the total amount of 'credit' one can get would be computed by classical computer science algorithms for calculating the 'maximum flow' that can flow between two points in a network."
   },
   {
-    "term": "Contextual Integrity (Financial)",
-    "definition": "Applied to commerce, contextual integrity holds that financial transaction data should remain within the community of affected parties rather than being subject to universal surveillance or purely private anonymity. The book argues that the privacy-versus-accountability debate in payments is a misspecification: the real goal is ensuring financial information stays within the communities it affects, with spillovers addressed through ⿻ checks and balances rather than asymmetric external surveillance.",
+    "term": "contextual integrity (financial)",
+    "definition": "Applied to commerce, the principle that financial transaction information should remain within the community of parties actually affected — not be available to arbitrary external surveillance, but also not be entirely opaque when it causes recognized spillover effects on other communities. The book argues that the goal of financial privacy is not anonymity but contextual integrity: information stays within the affected community unless externally harmful activity justifies involvement of other communities, with ⿻ checks and balances requiring those communities to become partly aware and involved rather than imposing asymmetric external surveillance.",
     "see_also": [
       "contextual-integrity",
-      "plural-money-community-currency",
-      "distributed-trust-network",
-      "rights-os"
+      "privacy-enhancing-technologies",
+      "metagovernance"
     ],
     "source_chapter": "Ch. 4-3",
     "source_quote": "The goal, then, is not privacy as much as it is contextual integrity: ensuring that this information stays within the affected community unless it is having important and widely recognized spillover effects on other communities."
   },
   {
-    "term": "Supermodular Production (as Limit of Money)",
-    "definition": "The book argues that standard economic theory vindicates money as a value-tracking mechanism only under conditions of private goods and submodular production (the whole is less than the sum of parts). When production is supermodular — collaboration creates more value than individual actions summed — and consumption is social, money becomes a poor or hopeless accounting tool. Open-source software projects are the paradigmatic case: value is jointly produced, indivisibly shared, and requires collective decision-making closer to voting than commerce.",
+    "term": "double coincidence of wants",
+    "definition": "The classic economic problem that money solves: Person A has something B wants but B may have nothing A directly wants, requiring a third party C to complete exchange. The book revisits this concept to argue that its relevance to justifying universal currency is dated: modern computation makes 'trading cycles' algorithms cheap to run directly (as in kidney exchange markets), reducing the need for money as a universal solvent for mismatched wants across social distance.",
     "see_also": [
-      "open-source-software-oss",
-      "quadratic-funding",
-      "plural-money-community-currency",
-      "peer-production"
-    ],
-    "source_chapter": "Ch. 4-3",
-    "source_quote": "An open-source software (OSS) project is an example. Collaboration among multiple individuals often creates greater value than individual actions alone. It is a supermodular production. And the resulting products are replicated and provide utility to many people. It is social consumption. In these situations, money-based management does not function well."
-  },
-  {
-    "term": "Credit Primacy (Debt Before Cash)",
-    "definition": "Drawing on David Graeber and scholars including Hawtrey, Wray, and Chambers, the book argues that credit and recorded mutual obligation historically preceded coinage. Currency arose as a simplification to manage the complexity of recording specific debts across large groups and long distances — a workaround for pre-modern information limits. In the digital age, this simplification is no longer necessary; recording rich transaction context is routine, making the reduction of all value to fungible money an 'antiquated historical ritual.'",
-    "see_also": [
-      "plural-money-community-currency",
-      "distributed-trust-network",
-      "dunbar-number"
-    ],
-    "source_chapter": "Ch. 4-3",
-    "source_quote": "But if currency arose as a simplification to deal with the limits of pre-modern information technology, the natural question is whether one might do much better today. Reducing all this to a transfer of money is no longer a necessary simplification, it is a projection of an antiquated historical ritual."
-  },
-  {
-    "term": "Trust Over IP (ToIP) / Holochain (Networked Commercial Trust Protocols)",
-    "definition": "Open-source and internet-working initiatives — including the Trust Over IP Foundation and Holochain — working to establish widely adopted protocols for community ledger formation, validation, and long-distance networked transmission of trust and debt. The book frames these as the infrastructure layer required to underpin ⿻ markets: the equivalent of TCP/IP for packets, but applied to socially-grounded value and obligation.",
-    "see_also": [
-      "distributed-trust-network",
-      "plural-money-community-currency",
-      "distributed-ledger-technologies-dlts-as-association-infrastructure",
-      "network-protocols-as-governance"
+      "plural-money",
+      "market-design"
     ],
     "source_chapter": "Ch. 4-3"
   },
   {
-    "term": "Double Coincidence of Wants (as Dated Justification for Money)",
-    "definition": "The classic economic argument that money is necessary because Person A may have something B wants but B may lack anything A wants directly. The book argues this rationale is obsolete: modern computation makes 'trading cycles' algorithms cheap and routine (as in kidney exchange markets), so the role of universal money in avoiding the need for such cycles is no longer compelling.",
+    "term": "fractional reserve banking",
+    "definition": "The banking practice of lending out more funds than are held on deposit, since banks are rarely simultaneously called on to return all deposits. The book treats this as background context for why central banks emerged as regulators of money creation and how the dominant form of money shifted from currency to account-based transfers by the early twentieth century.",
     "see_also": [
-      "credit-primacy-debt-before-cash",
-      "plural-money-community-currency",
-      "supermodular-production-as-limit-of-money"
+      "payment-rails"
     ],
     "source_chapter": "Ch. 4-3"
   },
   {
-    "term": "Instant Public Payment Systems",
-    "definition": "Government-supported real-time digital payment infrastructure including Singapore's FAST (2014), India's Unified Payments Interface (2016), Brazil's Pix (2020), and the US FedNow (2023). The book treats these as important but insufficient advances — they replicate the function of cash digitally but do not harness the richer accounting of obligations and social trust that ⿻ commerce would enable.",
+    "term": "partial common ownership",
+    "definition": "A property regime in which assets are neither purely privately owned nor purely held in common, but rather subject to ongoing social valuation and periodic redistribution. Owners self-assess the value of their holdings, pay a tax or fee proportional to that assessment, and must be willing to sell at the assessed price. This aligns private incentives with social value, reduces speculative monopolization, and generates revenue for public purposes — a key ⿻ approach to transcending the private/public binary in property.",
     "see_also": [
-      "india-stack",
-      "digital-public-infrastructure",
-      "plural-money-community-currency"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Central Bank Digital Currency (CBDC)",
-    "definition": "Digital, currency-like claims on central banks, launched or piloted in dozens of countries (especially in Africa and Asia) as a government response to the cryptocurrency trend. The book treats CBDCs as a significant but monist innovation: they digitize currency without addressing the deeper limitations of universal fungibility or enabling the contextually rich, community-embedded trust structures of ⿻ commerce.",
-    "see_also": [
-      "instant-public-payment-systems",
-      "plural-money-community-currency",
-      "atomist-libertarianism"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Community Currency (LETS and Successors)",
-    "definition": "Local Exchange Trading Systems (LETS), pioneered by Michael Linton in 1983, and their successors are early examples of community-scoped currencies whose use is bounded by the issuing community. The book traces a line from LETS through Vitalik Buterin's early interest in community currency experimentation (which helped inspire Ethereum) to the contributor token used in the Plurality book itself. Secure identity systems are identified as the critical missing ingredient that has limited these experiments.",
-    "see_also": [
-      "plural-money-community-currency",
-      "ethereum-smart-contracts-as-plurality-infrastructure",
-      "distributed-trust-network"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Bitcoin / Cryptocurrency (as Payments Innovation and Failure Mode)",
-    "definition": "Bitcoin (2008) and subsequent cryptocurrencies used distributed ledger technologies with proof-of-work or similar mechanisms to create pseudonymous, globally accessible payment rails without centralized identity. The book credits Bitcoin with filling a real gap in digital payments and pioneering large-scale applications without centralized permissioning, but critiques its privacy claims (easily unmasked by well-resourced analysts), its speculative structure, and its aspiration to universal currency as inherently monist rather than ⿻.",
-    "see_also": [
-      "distributed-ledger-technologies-dlts-as-association-infrastructure",
-      "plural-money-community-currency",
-      "atomist-libertarianism",
-      "sybil-attack-as-identity-failure-mode"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Africa Mobile Money (Indigenous ⿻ Fintech)",
-    "definition": "The book highlights African communities as having indigenously invented the concept of mobile money — drawing on trust-based, ⿻ and open-source social systems interacting with mobile and digital technologies — and setting the pace for Africa's burgeoning fintech industries, even as the continent grapples with identification system gaps. This positions Africa not as a recipient of digital finance innovation but as an originating site of ⿻ commercial trust practices.",
-    "see_also": [
-      "distributed-trust-network",
-      "plural-money-community-currency",
-      "digital-public-infrastructure",
-      "instant-public-payment-systems"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Implicit Feudalism (Platform Governance)",
-    "definition": "The book's term for the default governance model of online communities, in which platform owners hold near-absolute authority over members — analogous to feudal lords over serfs — despite the nominally participatory or democratic rhetoric of digital spaces. Members lack meaningful voice, exit rights are costly, and rules are set unilaterally from above. The pattern contrasts with ⿻ associational governance, which would distribute authority across intersecting communities and embed democratic mediation.",
-    "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "associational-life-tocquevillian",
-      "mesostructure-associational",
-      "partial-common-ownership"
+      "depreciating-licenses",
+      "harberger-tax",
+      "henry-george-theorem",
+      "quadratic-funding"
     ],
     "source_chapter": "Ch. 4-4",
-    "source_quote": "We call this 'implicit feudalism': the assumption that, within a community, there is some sovereign (usually whoever set the community up) who has ultimate authority, even if it is usually not exercised."
+    "source_quote": "Under partial common ownership, assets are neither fully privately owned nor fully in the commons; instead, owners self-assess the value of their property, pay a tax proportional to that self-assessed value, and must be willing to sell at that price to any willing buyer."
   },
   {
-    "term": "Governable Space",
-    "definition": "In ⿻ framing, the set of actions, resources, and interactions that fall within the legitimate jurisdictional reach of a given community or association. Defining governable space is a prerequisite for community self-governance: a community can only set meaningful rules, resolve disputes, and allocate resources over matters that fall within its scope. The concept is relational — governable space is always bounded by and nested within larger governable stacks — rather than absolute or sovereign.",
+    "term": "Harberger tax",
+    "definition": "A mechanism of partial common ownership in which property holders declare a self-assessed value for their assets, pay a continuous tax (e.g., annual percentage) on that declared value, and are obligated to sell to any buyer who offers that price. Named after economist Arnold Harberger, the mechanism was adapted and championed by Weyl and Posner in 'Radical Markets' as a means of improving allocative efficiency while funding public revenue.",
     "see_also": [
-      "governable-stack",
-      "mesostructure-associational",
       "partial-common-ownership",
-      "implicit-feudalism-platform-governance",
+      "depreciating-licenses",
+      "henry-george-theorem"
+    ],
+    "source_chapter": "Ch. 4-4"
+  },
+  {
+    "term": "depreciating licenses",
+    "definition": "A variant of partial common ownership applied to digital assets, intellectual property, or spectrum rights, in which the effective ownership claim declines over time unless the holder continues to pay a use fee or re-assert valuation. Designed to prevent permanent lock-in of intangible assets and encourage their productive redeployment, consistent with ⿻ principles of dynamic, socially-accountable property.",
+    "see_also": [
+      "partial-common-ownership",
+      "harberger-tax",
+      "commons"
+    ],
+    "source_chapter": "Ch. 4-4"
+  },
+  {
+    "term": "plural property",
+    "definition": "An approach to ownership that recognizes assets as embedded in webs of social relationships rather than as atomistic private holdings. Plural property moves beyond the binary of private vs. public ownership to enable overlapping claims, community stakes, and negotiated rights across intersecting social groups — consistent with the ⿻ principle that property should reflect the diversity of relationships through which value is created and sustained.",
+    "see_also": [
+      "partial-common-ownership",
+      "bundle-of-rights",
+      "commons",
+      "data-coalitions"
+    ],
+    "source_chapter": "Ch. 4-4"
+  },
+  {
+    "term": "plural contracts",
+    "definition": "Contract forms that move beyond bilateral, atomistic agreements between isolated individuals toward multi-party, group-sensitive, and community-embedded arrangements. Plural contracts acknowledge that agreements occur within social contexts and may carry obligations to third parties or communities, enabling cooperative and relational economic forms that bilateral contracting alone cannot support.",
+    "see_also": [
+      "plural-property",
+      "constructive-social-contract-theory",
+      "peer-production",
+      "data-coalitions"
+    ],
+    "source_chapter": "Ch. 4-4"
+  },
+  {
+    "term": "commons",
+    "definition": "Resources — natural, digital, or social — governed collectively by a community of users rather than privately owned or state-controlled. In ⿻ framing, commons are a key alternative to both market and state provision, sustained by polycentric governance and shared norms. The book draws on Ostrom's work to show that commons can be stable, efficient, and democratic when communities develop appropriate rules and enforcement mechanisms.",
+    "see_also": [
+      "partial-common-ownership",
+      "plural-property",
+      "peer-production",
       "polycentric-identity"
     ],
     "source_chapter": "Ch. 4-4"
   },
   {
-    "term": "Governable Stack",
-    "definition": "The layered, nested hierarchy of overlapping communities and jurisdictions through which ⿻ governance operates — from intimate peer groups and local associations up through platforms, cities, nations, and transnational bodies. Each layer of the stack has its own governable space; rules at one layer constrain but do not fully determine rules at others. The stack metaphor highlights that governance is not flat or sovereign but plural, federated, and multi-scale.",
+    "term": "spectrum commons",
+    "definition": "A governance model for radio-frequency spectrum in which bands are managed as shared infrastructure open to all users rather than exclusively licensed to private holders. Contrasted with both private spectrum auctions and pure public allocation, the spectrum commons approach has enabled the explosive growth of Wi-Fi and unlicensed wireless innovation — cited in the book as a real-world ⿻ property precedent.",
     "see_also": [
-      "governable-space",
-      "mesostructure-associational",
-      "polycentric-identity",
-      "federated-identity-plurality-identity-infrastructure",
-      "multi-scale-social-organization"
+      "commons",
+      "partial-common-ownership",
+      "digital-public-infrastructure"
     ],
     "source_chapter": "Ch. 4-4"
   },
   {
-    "term": "Modular Politics",
-    "definition": "The ⿻ design principle that governance rules, rights, and dispute-resolution mechanisms should be composable, portable, and interoperable across communities — analogous to modular software components. Rather than each platform or association inventing its own idiosyncratic governance from scratch, modular politics envisions a shared library of governance primitives (voting rules, property regimes, contract forms, deliberation protocols) that communities can adopt, adapt, and combine.",
+    "term": "data dignity",
+    "definition": "The principle that individuals and communities have meaningful rights and interests in data generated about or by them, and that these interests deserve recognition, compensation, and governance protections. Data dignity is the normative foundation for data coalitions, mediators of individual data, and plural property regimes applied to personal and collective data — framing data not as raw material for extraction but as an extension of personhood and community.",
     "see_also": [
-      "governable-stack",
-      "governable-space",
-      "rights-os-rights-operating-system",
-      "democratic-mediation",
-      "quadratic-voting-qv"
-    ],
-    "source_chapter": "Ch. 4-4"
-  },
-  {
-    "term": "Democratic Mediation",
-    "definition": "The process by which conflicts between overlapping communities, or between individuals and communities, are resolved through structured democratic deliberation rather than unilateral authority, market exit, or legal coercion alone. In the ⿻ framework, democratic mediation is a core function of the governable stack: it enables communities to negotiate cross-boundary disputes, revise shared rules, and maintain legitimacy without collapsing into either top-down monism or atomist fragmentation.",
-    "see_also": [
-      "governable-stack",
-      "modular-politics",
-      "metagovernance",
-      "implicit-feudalism-platform-governance",
-      "v-taiwan-deliberation"
-    ],
-    "source_chapter": "Ch. 4-4"
-  },
-  {
-    "term": "Metagovernance",
-    "definition": "Governance of the governance system itself — the rules, protocols, and institutions that determine how communities within a ⿻ stack may create, modify, and adjudicate their own internal rules. Metagovernance sets the boundary conditions for modular politics: it specifies what kinds of community rules are permissible, how conflicts between communities are escalated, and who has standing to participate in revising the stack's foundational protocols. The concept draws on polycentric governance theory and is central to the book's account of how ⿻ avoids both anarchy and tyranny.",
-    "see_also": [
-      "governable-stack",
-      "modular-politics",
-      "democratic-mediation",
-      "polycentric-identity",
-      "rights-os-rights-operating-system"
-    ],
-    "source_chapter": "Ch. 4-4"
-  },
-  {
-    "term": "Digital Asset Sharing (⿻ Property)",
-    "definition": "The broad pooling and exchange of digital assets — storage, computation, and data — across individuals and organizations in ways that mirror and extend physical asset-sharing systems like rental markets and corporations. The book frames this as the unrealized core of Lick's Intergalactic Computer Network vision: most computation and storage sits fallow in personal devices while cloud providers recentralize resources in a mainframe-like model, and data sharing remains paralyzed by the inability to decompose usus, abusus, and fructus rights for inherently relational information.",
-    "see_also": [
-      "licklider-vision-intergalactic-computer-network",
-      "mediators-of-individual-data-mids",
-      "federated-learning",
-      "secure-multi-party-computation-smpc",
-      "differential-privacy",
       "data-coalitions",
-      "partial-common-ownership",
-      "ipfs-interplanetary-file-system"
-    ],
-    "source_chapter": "Ch. 4-3",
-    "source_quote": "The dream that the internet could enable broad and horizontal asset sharing remains a dream."
-  },
-  {
-    "term": "IPFS (Interplanetary File System)",
-    "definition": "An open peer-to-peer storage protocol pioneered by Juan Benet and Protocol Labs, explicitly modeled on Licklider's Intergalactic Computer Network vision. IPFS allows computers worldwide to offer encrypted, fragmented, distributed storage to each other, providing redundancy and data integrity. Taiwan's Ministry of Digital Affairs and other governments facing adversarial pressures use it. Its commercial incentive layer, Filecoin, rewards nodes for storing network data. The book notes IPFS succeeds for 'deep' archival storage but struggles with low-latency real-time access, limiting its challenge to corporate cloud dominance.",
-    "see_also": [
-      "digital-asset-sharing-plurality-property",
-      "licklider-vision-intergalactic-computer-network",
-      "ministry-of-digital-affairs-taiwan-moda"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Filecoin",
-    "definition": "A blockchain-based storage market created by Protocol Labs to complement IPFS by providing commercial incentives for nodes to store and persist network data. The book references it as the economic layer designed to ensure the long-term viability of decentralized storage, pairing cryptographic storage guarantees with market mechanisms. Noted as a partial success in enabling open, non-corporate storage infrastructure, though limited to deep rather than real-time storage.",
-    "see_also": [
-      "ipfs-interplanetary-file-system",
-      "digital-asset-sharing-plurality-property"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Data Silos (as ⿻ Failure Mode)",
-    "definition": "The condition in which data is trapped within organizational, jurisdictional, or privacy-policy boundaries, preventing the collaborative intelligence and generative foundation model training that could address intractable social problems. The book treats data silos as arguably the most acute form of digital asset under-utilization: far more extreme than idle computation or storage, since the gap between what data collaboration could unlock — medical diagnosis, environmental optimization, industrial production — and what siloed data actually enables is vast. Training data for major GFMs is a leading example of data acquired without creator awareness or consent.",
-    "see_also": [
-      "digital-asset-sharing-plurality-property",
-      "mediators-of-individual-data-mids",
-      "federated-learning",
-      "secure-multi-party-computation-smpc",
-      "surveillance-capitalism"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Usus / Abusus / Fructus (Property Decomposition)",
-    "definition": "The classical legal tripartite decomposition of property rights — usus (right to use), abusus (right to alter or dispose), and fructus (right to the value created) — that the book invokes to diagnose why data sharing is structurally harder than physical asset sharing. Standard rental contracts transfer usus while retaining abusus and fructus for the owner. For data, the book argues these rights cannot easily be decomposed: granting usus access typically also enables abusus (copying, redistribution) and fructus (financial extraction), undermining the collaborator's interests. This structural asymmetry is identified as a root cause of the data collaboration impasse.",
-    "see_also": [
-      "digital-asset-sharing-plurality-property",
-      "property-rights-plurality-critique-of-atomist-ownership",
-      "mediators-of-individual-data-mids"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Watermarking (AI Attribution)",
-    "definition": "A technical method for embedding cryptographic or statistical 'signatures' in AI-generated or AI-ingested content that identify its origin in ways that are difficult to erase, ignore, or detect. The book presents watermarking as one of a suite of tools — alongside differential privacy and influence functions — needed to address the attribution side of the data collaboration problem: ensuring that contributors of training data receive credit and that models do not reproduce content in violation of licenses.",
-    "see_also": [
-      "differential-privacy",
-      "influence-functions",
-      "digital-asset-sharing-plurality-property",
-      "data-dignity"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Influence Functions (AI Attribution)",
-    "definition": "A statistical technique that traces the role particular training data plays in producing a model's output, enabling partial attribution of an otherwise opaque 'black box' model's results back to specific data contributors. The book cites influence functions alongside differential privacy and watermarking as emerging tools for making data collaboration sustainable by giving data creators agency over how their contributions are used and credited.",
-    "see_also": [
-      "watermarking-ai-attribution",
-      "differential-privacy",
-      "digital-asset-sharing-plurality-property",
-      "data-dignity"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Data Trusts / Data Collaboratives / Data Cooperatives",
-    "definition": "Organizational forms for collectively representing the rights and interests of data subjects, enabling individuals to negotiate as a group with large data consumers rather than individually. The book surveys several names given to such entities — data trusts, collaboratives, cooperatives, and 'mediators of individual data' (MIDs) — and notes they could follow existing organizational lines (unions for creative workers, Wikipedia for volunteer editors) or require new forms. Their essential functions are management of data-sharing agreements, fiduciary representation of data creators, and collective bargaining against powerful data-consuming corporations.",
-    "see_also": [
-      "mediators-of-individual-data-mids",
-      "data-coalitions",
-      "data-dignity",
-      "digital-asset-sharing-plurality-property"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Electromagnetic Spectrum (as ⿻ Property Case)",
-    "definition": "A digitally-related real-world asset whose property rights regime has been upended by digital technology, serving in the book as an instructive analogy for rethinking digital property. Traditional spectrum licensing (assigned or auctioned, property-like, low-cost renewal) assumed interference prevented sharing; digital applications like WiFi demonstrate spectrum can be shared. Rapidly changing uses (broadcast → 5G) require reorganization against which legacy licensees can act as holdouts. The FCC's evolving auction-based relocation powers and proposals for depreciating licenses and unlicensed shared-use bands illustrate the ⿻ direction property systems may take.",
-    "see_also": [
-      "depreciating-licenses",
-      "partial-common-ownership",
-      "digital-asset-sharing-plurality-property",
-      "property-rights-plurality-critique-of-atomist-ownership"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Internet Namespace Governance (as ⿻ Property Case)",
-    "definition": "The evolving de facto property regime for internet domain names and web addresses, used in the book to illustrate how digital infrastructure has already moved beyond simple private property toward hybrid systems. ICANN's low-cost registration model approximates private property, but search engines have largely supplanted direct navigation: PageRank-style algorithms rank sites by network centrality (a form of collective direction toward browser interest) while real-time keyword auctions allocate prominence. The book reads this hybrid — collective-interest algorithms plus real-time markets — as a rough, non-publicly-deliberated prototype of the more radical ⿻ property redesigns explored in the Social Markets chapter.",
-    "see_also": [
-      "electromagnetic-spectrum-as-plurality-property-case",
-      "partial-common-ownership",
-      "depreciating-licenses",
-      "property-rights-plurality-critique-of-atomist-ownership"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Incomplete Contracts (as Digital Governance Problem)",
-    "definition": "The property of contractual arrangements that they cannot specify every contingency or resolution, leaving large zones of ambiguity governed instead by customary expectations, legal precedent, and evolving norms. The book invokes Grossman-Hart incomplete contract theory to explain why purely 'contractualist' approaches to data sharing fail: the near-infinite possible uses of information — genetics, geolocation, creative text — make it impossible to catalog and negotiate over all futures. Smart contracts can implement norms but cannot substitute for the social process of generating stable norms in the first place.",
-    "see_also": [
-      "digital-asset-sharing-plurality-property",
-      "data-silos-as-plurality-failure-mode",
-      "usus-abusus-fructus-property-decomposition"
-    ],
-    "source_chapter": "Ch. 4-3",
-    "source_quote": "The basic problem is that information has a near-infinity of possible uses, meaning that heavily 'contractualist' approaches that seek to define exactly how parties may use information run into unmanageable complexity."
-  },
-  {
-    "term": "OpenMined",
-    "definition": "An open-source organization building privacy-enhancing technologies — including tools for federated learning, secure multiparty computation, and differential privacy — that the book identifies as a key partner in making data collaboration technically feasible. In collaboration with OpenMined, international organizations including the UN have built experimental showcase platforms for data collaboration that keep sensitive training data local while enabling collective model training.",
-    "see_also": [
-      "federated-learning",
-      "secure-multi-party-computation-smpc",
-      "differential-privacy",
-      "digital-asset-sharing-plurality-property"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Yusha (Vasana Game)",
-    "definition": "A fictional augmented-reality game described in the book's opening vignette for the Property and Contract chapter, designed to illustrate ⿻ digital asset sharing in action. Players power their in-game hero by contributing local device computation; they expand the shared game world by physically exploring real locations (captured as topography); and they unlock treasures only through genuine social connection with other players — joint quests, healing, crafting, conversation. Privacy-preserving technologies protect location and device data. The game embodies the chapter's argument that digital assets (computation, storage, data about place and social interaction) can be shared in ways that are simultaneously cooperative, privacy-respecting, and socially generative.",
-    "see_also": [
-      "digital-asset-sharing-plurality-property",
-      "ipfs-interplanetary-file-system",
-      "secure-multi-party-computation-smpc"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Social Leakage (Data Privacy)",
-    "definition": "The property of data by which even individually gathered or individually shared data has irreducibly social privacy implications. The book's primary example: because of shared genetic structure among relatives, a 1% statistical sample of a population allows identification of any individual from their genetic profile, making genetic privacy a collective rather than individual undertaking. Social leakage is one of three organizational reasons — alongside management challenges and collective bargaining asymmetries — why individual-level data rights frameworks are structurally inadequate and collective data governance organizations (MIDs, data trusts, cooperatives) are necessary.",
-    "see_also": [
-      "mediators-of-individual-data-mids",
-      "data-trusts-data-collaboratives-data-cooperatives",
-      "group-privacy-vs-individual-privacy",
-      "digital-asset-sharing-plurality-property"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Gaia-X (EU Data Federation)",
-    "definition": "A European Union initiative to build federated data infrastructure enabling cross-organizational and cross-jurisdictional data sharing while preserving data sovereignty. The book lists Gaia-X alongside India's National Data Sharing and Accessibility Policy, Singapore's Trusted Data Sharing Framework, and Taiwan's Plural Innovation strategy as examples of government-level recognition of the data-sharing impasse and attempts to overcome it — noting that despite the prominence of these campaigns, progress has been limited.",
-    "see_also": [
-      "digital-asset-sharing-plurality-property",
-      "data-silos-as-plurality-failure-mode",
-      "federated-learning"
-    ],
-    "source_chapter": "Ch. 4-3"
-  },
-  {
-    "term": "Universal Access (⿻ Infrastructure Layer)",
-    "definition": "The book's framing that ⿻ (plurality) requires universal, affordable access to digital infrastructure — connectivity, devices, and literacy — as a foundational precondition. Without broadband, hardware, and digital skills reaching across class, geography, disability, and language, the participatory and collaborative tools of ⿻ remain available only to already-privileged populations, reproducing rather than transcending atomist/monist exclusions.",
-    "see_also": [
-      "digital-public-infrastructure",
-      "digital-competence-education-taiwan",
-      "rights-os",
-      "plurality-freedom"
-    ],
-    "source_chapter": "Ch. 4-5",
-    "source_quote": "Access is thus not merely a social policy concern but a prerequisite for ⿻ itself: every layer of the stack — identity, association, commerce, contracts — presupposes that participants can actually reach and use it."
-  },
-  {
-    "term": "Connectivity Gap (Digital Divide as ⿻ Obstacle)",
-    "definition": "The book's label for the persistent inequality in broadband and mobile internet access that fractures the potential for ⿻ participation. The connectivity gap is not incidental but structurally reproduced by market failures (rural/remote underinvestment), spectrum policy failures, and device cost barriers. Closing it is treated as a necessary — though not sufficient — condition for realising ⿻ at scale.",
-    "see_also": [
-      "universal-access",
-      "digital-public-infrastructure",
-      "electromagnetic-spectrum-as-plurality-property-case"
-    ],
-    "source_chapter": "Ch. 4-5"
-  },
-  {
-    "term": "Device Access (Hardware as ⿻ Prerequisite)",
-    "definition": "The book's recognition that ownership of or reliable access to computing devices (smartphones, laptops, shared terminals) is a distinct layer of the digital divide, separable from connectivity and literacy. Even where networks exist, device cost and ownership patterns determine who can participate in ⿻ tools — identity, association, deliberation, commerce — and who is excluded.",
-    "see_also": [
-      "connectivity-gap",
-      "universal-access",
-      "digital-competence-education-taiwan"
-    ],
-    "source_chapter": "Ch. 4-5"
-  },
-  {
-    "term": "Digital Literacy (as ⿻ Access Layer)",
-    "definition": "The book's treatment of digital skills — the ability to navigate, evaluate, create, and participate in digital environments — as a third distinct layer of access, alongside connectivity and devices. Without literacy, even technically available infrastructure is functionally inaccessible. The book links this to Taiwan's Digital Competence Education and broader calls for public investment in skills as ⿻ infrastructure.",
-    "see_also": [
-      "digital-competence-education-taiwan",
-      "universal-access",
-      "device-access"
-    ],
-    "source_chapter": "Ch. 4-5"
-  },
-  {
-    "term": "Accessibility (Disability and ⿻ Design)",
-    "definition": "The book's insistence that ⿻ tools and infrastructure must be designed for users with disabilities — visual, auditory, motor, cognitive — as a condition of genuine universality. Accessibility is framed not as an afterthought but as a design discipline that, when embedded from the start, also improves usability for all participants and exemplifies ⿻'s commitment to diversity as strength.",
-    "see_also": [
-      "universal-access",
-      "digital-literacy-as-plurality-access-layer",
-      "diversity-as-strength"
-    ],
-    "source_chapter": "Ch. 4-5"
-  },
-  {
-    "term": "Linguistic Diversity (Multilingual Access as ⿻ Requirement)",
-    "definition": "The book's argument that language exclusion — infrastructure and tools designed primarily for dominant languages — is a structural barrier to ⿻ participation for linguistic minorities and non-English speakers globally. Multilingual design, translation infrastructure, and local-language content are treated as requirements of ⿻ universality, not optional features.",
-    "see_also": [
-      "universal-access",
-      "moedict",
-      "digital-literacy-as-plurality-access-layer"
-    ],
-    "source_chapter": "Ch. 4-5"
-  },
-  {
-    "term": "Access with Integrity",
-    "definition": "The principle that meaningful digital access requires not merely connectivity but assurance that the information received is uncorrupted and contextually complete. Weyl & Tang argue that if some people receive manipulated information while others do not, the disadvantaged are worse off than if they had no access at all, since democracy depends on a populace sharing common, accurate inputs to the global information commons — even as communities make diverse meanings from those inputs.",
-    "see_also": [
-      "contextual-integrity",
-      "information-integrity",
-      "connectivity-gap",
-      "digital-literacy"
-    ],
-    "source_chapter": "Ch. 4-1",
-    "source_quote": "If the information some receive is accurate and others corrupted, it is worse than if the latter had no access at all. Democracy depends on a populace that can fully participate: every voice is critical."
-  },
-  {
-    "term": "Semantic Security",
-    "definition": "The condition in which citizens can trust the meaning and authenticity of digital content they encounter — threatened primarily by generative-AI-produced 'deepfakes' (mimetic models). Weyl & Tang treat semantic security as a component of the broader right of access with integrity, requiring technical and policy measures to preserve the intelligibility and trustworthiness of the shared information commons.",
-    "see_also": [
-      "access-with-integrity",
-      "information-integrity",
+      "mediators-of-individual-data",
+      "plural-property",
       "contextual-integrity"
     ],
-    "source_chapter": "Ch. 4-1"
+    "source_chapter": "Ch. 4-4"
   },
   {
-    "term": "Mimetic Models (Deepfakes)",
-    "definition": "Generative-AI systems capable of producing synthetic media — images, audio, video, text — that impersonate real people or events. The book treats these as a primary contemporary threat to information integrity and semantic security, noting that the 2023 Global Declaration on Information Integrity Online directly addressed 'the collective challenges posed by generative AI and its potential for mass manipulation.'",
+    "term": "usus",
+    "definition": "In the tripartite legal classification of property rights, usus denotes the right to use an asset. Weyl and Tang deploy this Roman-law concept to show how standard rental contracts transfer usus to a renter while retaining the other two attributes — abusus (the right to alter or dispose) and fructus (the right to the value created) — for the owner. The difficulty of separating usus from abusus and fructus in data sharing is identified as a central impediment to functional digital-asset collaboration.",
     "see_also": [
-      "semantic-security",
-      "access-with-integrity",
-      "information-integrity"
+      "abusus",
+      "fructus",
+      "plural property",
+      "data dignity",
+      "mediators of individual data (MIDs)"
     ],
-    "source_chapter": "Ch. 4-1"
+    "source_chapter": "Ch. 4-3",
+    "source_quote": "Legal scholars typically describe three attributes of property: 'usus' (the right to use something), 'abusus' (the right to alter or dispose of it) and 'fructus' (the right to the value it creates)."
   },
   {
-    "term": "Global Declaration on Information Integrity Online",
-    "definition": "A 2023 international declaration that directly addressed the collective challenges posed by generative AI and its potential for mass manipulation, extending the lineage from the 1948 Universal Declaration of Human Rights and the 2022 Declaration for the Future of the Internet. The book situates it as part of a continuous international effort to defend freedom of expression and access in the digital age.",
+    "term": "abusus",
+    "definition": "In the tripartite legal classification of property rights, abusus denotes the right to alter or dispose of an asset. The book highlights that digital data makes separating abusus from usus practically very difficult: granting another party access to use data (usus) tends simultaneously to grant the ability to copy, modify, or transfer it (abusus), undermining the interests of the original data holder.",
     "see_also": [
-      "access-with-integrity",
-      "semantic-security",
-      "information-integrity"
+      "usus",
+      "fructus",
+      "plural property",
+      "data dignity"
     ],
-    "source_chapter": "Ch. 4-1"
+    "source_chapter": "Ch. 4-3"
   },
   {
-    "term": "Diia (Ukraine)",
-    "definition": "Ukraine's government 'super-app' providing citizens with secure, open digital public services and real-time government information access. The book highlights Diia as evidence that digital infrastructure can 'break down long-standing corruption' and as a demonstration of bidirectional trusted-network and information-openness features. Estonia's 'mRiik' app was subsequently built largely inspired by Diia, illustrating cross-national peer learning in digital public infrastructure.",
+    "term": "fructus",
+    "definition": "In the tripartite legal classification of property rights, fructus denotes the right to the value an asset creates. In the context of digital data, the book notes that sharing data for use (usus) frequently allows others to derive financial benefit (fructus) from those data at the expense of the original creator — a dynamic exemplified by GFM training sets assembled without the awareness or consent of data contributors.",
     "see_also": [
-      "digital-public-infrastructure",
-      "estonia-digital-democracy-model",
-      "access-with-integrity"
+      "usus",
+      "abusus",
+      "plural property",
+      "data dignity",
+      "mediators of individual data (MIDs)"
     ],
-    "source_chapter": "Ch. 4-1"
+    "source_chapter": "Ch. 4-3"
   },
   {
-    "term": "Augmented Deliberation",
-    "definition": "A ⿻ governance form in which digital tools — such as Polis-style clustering, AI summarization, and structured polling — amplify the quality and scale of human deliberation rather than replacing human judgment. The book treats augmented deliberation as a key bridge between participatory democracy and the scale demands of modern governance, exemplified in Taiwan's vTaiwan and JOIN processes.",
+    "term": "fictitious commodities",
+    "definition": "Karl Polanyi's concept, invoked in this chapter, that treating land, labor, and capital as homogeneous, freely exchangeable commodities is a simplifying fiction that obscures their social embeddedness. The book extends Polanyi's critique to digital assets — storage, computation, and data — arguing that their heterogeneity, ties to people, places, and cultures make the fiction even more distorting in the digital domain than in the physical economy.",
     "see_also": [
-      "v-taiwan-deliberation",
-      "pol-is-deliberation-tool",
-      "join-platform",
-      "democratic-mediation",
-      "metagovernance"
+      "plural property",
+      "data dignity",
+      "usus",
+      "commons"
     ],
-    "source_chapter": "Ch. 5-0"
+    "source_chapter": "Ch. 4-3",
+    "source_quote": "While land, fuel, labor and capital are often treated as homogeneous 'commodities', as social theorist Karl Polanyi famously argued this is a simplifying fiction."
   },
   {
-    "term": "Post-Symbolic Communication",
-    "definition": "Modes of communication that transcend or supplement symbolic language — including immersive shared reality, haptic feedback, shared virtual environments, and other modalities that convey meaning without relying solely on words or conventional signs. The book positions post-symbolic communication as a frontier ⿻ capability for bridging difference across linguistic and cultural divides.",
+    "term": "incomplete contracts",
+    "definition": "The book's invocation of the Grossman-Hart insight that contracts cannot specify resolutions for all conflicts that may arise, and that no party could read a sufficiently detailed document if they tried. Applied to data collaboration, this means that contractualist approaches attempting to enumerate every permissible data use face unmanageable complexity, and that functional data-sharing ecosystems must instead rely on evolved norms, customary expectations, and legal precedent — structures that have not yet had time to develop for digital assets.",
     "see_also": [
-      "augmented-deliberation",
-      "virtual-reality-as-plurality-communication",
-      "plurality-publics"
+      "plural contracts",
+      "plural property",
+      "data dignity",
+      "mediators of individual data (MIDs)"
     ],
-    "source_chapter": "Ch. 5-0"
+    "source_chapter": "Ch. 4-3",
+    "source_quote": "The freedom of contract simply requires these be enforced. The reality is much richer, however: it is impossible to specify in a contract how to resolve many conflicts that may arise and no one could read and process such a detailed document if it were."
   },
   {
-    "term": "Creative Collaborations (⿻)",
-    "definition": "The book's framing for how ⿻ technology enables groups with diverse perspectives to jointly produce art, knowledge, and culture in ways that neither homogenize nor fragment — preserving the productive tension of difference while enabling collective authorship. Distinguished from mere co-creation by its grounding in intersectional social identity and networked trust.",
+    "term": "data federation",
+    "definition": "An approach to large-scale data collaboration in which computations — such as training or fine-tuning generative foundation models — are performed locally on a distributed network of personal or organizational machines, with model parameters or gradients exchanged securely rather than the underlying training data ever leaving participants' devices. The book presents data federation as a promising organizational and technical substrate for ⿻ property in the digital domain, illustrated by the UN's experimental platforms built with OpenMined.",
     "see_also": [
-      "intersectional-social-identity",
-      "plurality-publics",
-      "peer-production",
-      "augmented-deliberation"
+      "federated learning",
+      "secure multi-party computation",
+      "differential privacy",
+      "data dignity",
+      "mediators of individual data (MIDs)"
     ],
-    "source_chapter": "Ch. 5-0"
+    "source_chapter": "Ch. 4-3"
   },
   {
-    "term": "Adaptive Administration",
-    "definition": "A ⿻ governance mode in which public institutions continuously update rules and procedures through participatory feedback loops — analogous to the PDCA (Plan-Do-Check-Act) cycle — rather than fixing policy through infrequent legislative acts. The book treats adaptive administration as the organizational complement to augmented deliberation: deliberation sets direction, adaptive administration refines implementation.",
+    "term": "social leakage",
+    "definition": "The phenomenon whereby data that do not directly arise from a social interaction nevertheless carry social implications for others. The book's canonical example is genetic data: a 1% statistical sample of a population enables identification of any individual from their genetic profile, making genetic privacy a 'profoundly social undertaking.' Social leakage is one of three reasons the book gives for why organizing data rights at the individual level is impractical, alongside management challenges and the need for collective bargaining.",
     "see_also": [
-      "augmented-deliberation",
-      "metagovernance",
-      "democratic-mediation",
-      "join-platform"
+      "data dignity",
+      "mediators of individual data (MIDs)",
+      "plural property",
+      "contextual integrity",
+      "intersectional social identity"
     ],
-    "source_chapter": "Ch. 5-0"
+    "source_chapter": "Ch. 4-3",
+    "source_quote": "Even when data do not directly arise from a social interaction, they almost always have social implications. For example, because of the shared genetic structure of relatives, something like a 1% statistical sample of a population allows the identification of any individual from their genetic profile, making the preservation of genetic privacy a profoundly social undertaking."
   },
   {
-    "term": "Depth-Breadth Spectrum (Collaboration)",
-    "definition": "A conceptual spectrum describing the trade-off between the *depth* of collaboration (degree of supermodularity—how much greater what participants create together exceeds what they could create separately) and the *breadth* of collaboration (inclusion across lines of social and cultural distance). Intimate relationships sit at the deep-narrow end; impersonal markets at the thin-broad end. ⿻ aims to push the entire production possibilities frontier outward, enabling richer collaboration across greater diversity simultaneously.",
+    "term": "influence functions",
+    "definition": "A statistical technique that traces the role a particular collection of training data plays in producing a model's output, enabling partial attribution of an otherwise 'black box' model's results to its input sources. The book presents influence functions, alongside differential privacy and watermarking, as one of the technical tools that can help govern data collaboration — specifically addressing the challenge of obscured source attribution in generative foundation models.",
     "see_also": [
-      "supermodularity",
-      "production-possibilities-frontier-collaboration",
-      "depth-of-collaboration",
-      "breadth-of-collaboration"
+      "differential privacy",
+      "data dignity",
+      "data federation",
+      "plural property"
+    ],
+    "source_chapter": "Ch. 4-3"
+  },
+  {
+    "term": "watermarking",
+    "definition": "A technique for embedding 'signatures' in AI-generated or other digital content that identify its origin, in ways that are difficult to erase, ignore, or detect. The book groups watermarking with differential privacy and influence functions as a statistical (rather than cryptographic) tool that can help address the attribution and leakage problems that make data collaboration difficult to govern.",
+    "see_also": [
+      "differential privacy",
+      "influence functions",
+      "data dignity",
+      "plural property"
+    ],
+    "source_chapter": "Ch. 4-3"
+  },
+  {
+    "term": "universal basic infrastructure",
+    "definition": "A ⿻ policy concept describing the provision of foundational digital services — connectivity, identity, payment, and communication — as public goods available to all, analogous to physical infrastructure like roads and utilities. The book argues that without universal access to these layers, ⿻ participation is structurally foreclosed for those excluded, making access a precondition for the collaborative technology and democracy ⿻ envisions.",
+    "see_also": [
+      "digital public infrastructure",
+      "missing layers",
+      "access"
+    ],
+    "source_chapter": "Ch. 4-5"
+  },
+  {
+    "term": "connectivity",
+    "definition": "In ⿻ framing, the foundational layer of digital access — broadband and wireless infrastructure — without which participation in digital public life is impossible. The book treats connectivity not as a consumer product but as a precondition for democratic participation, situating it alongside identity and payment as a core component of the digital public stack that states and communities have an obligation to universalize.",
+    "see_also": [
+      "digital public infrastructure",
+      "universal basic infrastructure",
+      "missing layers"
+    ],
+    "source_chapter": "Ch. 4-5"
+  },
+  {
+    "term": "access with integrity",
+    "definition": "A principle holding that mere connectivity is insufficient — access to digital information must be accurate and uncorrupted. If some receive manipulated inputs while others receive faithful ones, the disadvantaged party is worse off than with no access at all. ⿻ requires that diversity of perspective be founded on a common substrate of uncorrupted input data; otherwise equal participation in the global information commons is denied.",
+    "see_also": [
+      "contextual integrity",
+      "information integrity",
+      "digital public infrastructure",
+      "⿻"
+    ],
+    "source_chapter": "Ch. 4-4",
+    "source_quote": "We are not interested in mere access, but access with integrity. If the information some receive is accurate and others corrupted, it is worse than if the latter had no access at all."
+  },
+  {
+    "term": "information integrity",
+    "definition": "The property of digital information environments in which citizens can access data with contextual confidence — free from manipulation by mimetic models ('deepfakes'), DDoS suppression, or state/corporate distortion. Weyl & Tang treat information integrity as a foundational infrastructure layer, alongside physical connectivity, necessary for digital democracy to function. Open government data, trusted identity networks, and resilient public infrastructure are among its enabling conditions.",
+    "see_also": [
+      "access with integrity",
+      "contextual integrity",
+      "contextual confidence",
+      "digital public infrastructure"
+    ],
+    "source_chapter": "Ch. 4-4"
+  },
+  {
+    "term": "digital divide",
+    "definition": "The gap in internet access and capability between populations — most starkly between urban and rural areas. Prior to the pandemic, 76% of urban households globally had home internet versus 39% in rural regions. The book treats the digital divide not merely as a technical shortfall but as a form of social polarization that reproduces economic, political, and civic inequities, requiring investment in digital public infrastructure as a matter of foundational rights.",
+    "see_also": [
+      "digital public infrastructure",
+      "access with integrity",
+      "universal basic infrastructure"
+    ],
+    "source_chapter": "Ch. 4-4",
+    "source_quote": "Digital disparity exemplifies social polarization, particularly between rural and urban areas. Prior to the pandemic, 76% of urban households around the world had access to home internet, which was nearly double the 39% in rural regions."
+  },
+  {
+    "term": "supermodularity",
+    "definition": "The mathematical property by which the whole is greater than the sum of its parts — the combined output of collaborating parties exceeds what each could produce separately. In ⿻, supermodularity across social difference is the core logic of 'collaboration across diversity': gains that no participant could realize alone, measured by the norms and values of those involved rather than any universal metric.",
+    "see_also": [
+      "diversity dividend",
+      "comparative advantage",
+      "depth-breadth spectrum"
     ],
     "source_chapter": "Ch. 5-0",
-    "source_quote": "We can see there being a full spectrum of depth and breadth, representing the trade-off between the two."
+    "source_quote": "Mathematically, this idea is known as 'supermodularity' and captures the classic idea attributed to Aristotle that 'the whole is greater than the sum of the parts'."
   },
   {
-    "term": "Production Possibilities Frontier (Collaboration)",
-    "definition": "A framework borrowed from economics and applied in ⿻ to map the currently achievable trade-offs between depth and breadth of collaboration. The PPF groups cooperative modalities into 'communities' (rich but narrow), 'states' (intermediate), and 'commodities' (thin but broad). ⿻ technologies aim to push this frontier outward at every point, making greater depth *and* greater breadth simultaneously achievable.",
+    "term": "depth-breadth spectrum",
+    "definition": "The trade-off between the depth of collaboration (degree of supermodularity for a fixed set of participants — how much more they create together than separately) and the breadth of collaboration (how many and how socially distant the participants are). Intimacy sits at the deep-narrow end; impersonal commodity markets at the thin-broad end. ⿻ aims to push this production possibilities frontier outward at every point, enabling richer collaboration across wider social difference simultaneously.",
     "see_also": [
-      "depth-breadth-spectrum-collaboration",
       "supermodularity",
-      "communities-states-commodities"
+      "production possibilities frontier",
+      "collaboration across diversity"
     ],
     "source_chapter": "Ch. 5-0"
   },
   {
-    "term": "Communities / States / Commodities (Modes of Exchange)",
-    "definition": "A tripartite division of cooperative modalities inspired by Kojin Karatani's *Structure of World History*. 'Communities' feature rich, high-bandwidth but narrow collaboration (e.g., intimate relationships, tight-knit groups). 'States' occupy an intermediate position (e.g., deliberation, representative government). 'Commodities' enable thin, scalar (monetary) but globally broad exchange (e.g., markets). ⿻ technologies seek to expand each mode's reach without collapsing the others.",
+    "term": "collaboration across diversity",
+    "definition": "The ⿻ aspiration to enable technology that allows greater cooperation and consensus while simultaneously making space for greater diversity. Grounded in the logic of supermodularity, it frames social and cultural difference not as an obstacle but as a source of productive potential energy — analogous to how industrial civilizations learned to harness physical low entropy. The core design principle unifying all tools discussed in the Collaborative Technology section.",
     "see_also": [
-      "depth-breadth-spectrum-collaboration",
-      "production-possibilities-frontier-collaboration",
+      "supermodularity",
+      "depth-breadth spectrum",
+      "diversity dividend",
+      "regenerating diversity"
+    ],
+    "source_chapter": "Ch. 5-0",
+    "source_quote": "we develop tools that allow greater cooperation and consensus at the same time as they make space for greater diversity"
+  },
+  {
+    "term": "regenerating diversity",
+    "definition": "The ⿻ concern that successfully bridging social differences for collaboration may erode the very diversity that makes collaboration valuable — depleting the 'fuel' of supermodularity. Regenerating diversity means designing collaboration tools so that bridging also produces new forms of social difference (new fields, new cleavages, new identities), analogous to energy systems that must replenish their sources to achieve sustainable output.",
+    "see_also": [
+      "collaboration across diversity",
+      "supermodularity",
+      "depth-breadth spectrum"
+    ],
+    "source_chapter": "Ch. 5-0"
+  },
+  {
+    "term": "production possibilities frontier",
+    "definition": "Borrowed from economics, the curve illustrating currently achievable trade-offs between two desirable but competing goals. In ⿻, it is used to map the depth-breadth spectrum of collaboration — with 'communities', 'states', and 'commodities' as three broad regions along the frontier. The goal of ⿻ collaborative technology is to push this frontier outward, making previously impossible combinations of depth and breadth achievable.",
+    "see_also": [
+      "depth-breadth spectrum",
+      "collaboration across diversity"
+    ],
+    "source_chapter": "Ch. 5-0"
+  },
+  {
+    "term": "premature optimization",
+    "definition": "The failure mode, labeled 'the root of all evil' by computer scientist Tony Hoare, of specifying a fixed global objective function and optimizing for it before sufficient learning about the shape of social reality. In ⿻, premature optimization is a danger because deeper collaboration across greater difference continuously reveals the failings of any prior vision of the good, making early-locked optimization actively harmful to the discovery of genuinely collaborative outcomes.",
+    "see_also": [
+      "monist",
+      "collaboration across diversity",
       "supermodularity"
     ],
-    "source_chapter": "Ch. 5-0"
+    "source_chapter": "Ch. 5-0",
+    "source_quote": "The more ambitiously we apply such a criterion in pursuing ⿻, the less robust it will prove, because the more deeply we connect to others across greater difference, the more likely we are to realize the failings of our initial vision of the good."
   },
   {
-    "term": "Regenerating Diversity",
-    "definition": "The ⿻ principle that collaboration across difference must not only harness but also replenish social diversity. Bridging divides risks homogenizing participants and depleting the very diversity that powers future collaboration—analogous to energy systems that must regenerate their sources for sustainable growth. ⿻ design attends to whether collaborative processes also generate new forms of social difference (new fields, new political cleavages, new cultural syntheses) rather than merely consuming existing ones.",
+    "term": "⿻ Management Protocol",
+    "definition": "A governance approach for collectively managed projects in which community-determined priorities drive quantitative recognition for contributors. Work is prioritized through crowd-funding-style mechanisms; rewards are tied to addressing collectively surfaced challenges; contributions are tracked on a distributed ledger via open-source participation rather than financial incentives. Applied in the creation of the Plurality book itself, implemented through the GitRules open-source protocol.",
     "see_also": [
-      "depth-breadth-spectrum-collaboration",
-      "supermodularity",
-      "diversity-innovation-nexus"
+      "plural money",
+      "community currency",
+      "peer production",
+      "quadratic funding"
     ],
     "source_chapter": "Ch. 5-0",
-    "source_quote": "A critical concern in ⿻ is not just harnessing collaboration across diversity but also *regenerating* diversity, ensuring that in the process of harnessing diversity it is also replenished by the creation of new forms of social difference."
+    "source_quote": "These priorities in turn determined the quantitative recognition received by those whose contributions addressed these challenges, an approach we have described with others as a '⿻ Management Protocol'."
   },
   {
-    "term": "Premature Optimization (as ⿻ Failure Mode)",
-    "definition": "The danger, named after Tony Hoare's dictum that premature optimization is 'the root of all evil,' of specifying a fixed objective function for social collaboration before learning the shape of the world. In ⿻ framing, the more ambitiously a universal social welfare function is pursued, the less robust the result—deep connection across difference reveals the failings of any initial vision of the good. Neoclassical market optimality is the archetypal case: simplistic assumptions short-circuit discovery of richer social resource management systems.",
+    "term": "post-symbolic communication",
+    "definition": "A mode of communication that transcends language and discrete symbols — conveying meaning through shared immersive experience, direct sensory transmission, or rich environmental context rather than through words, signs, or codes. Weyl & Tang frame this as an emerging frontier where technology enables people to share not just information but felt states, perspectives, and realities across difference, pointing toward a ⿻ ideal of empathy-at-scale that symbolic systems alone cannot achieve.",
     "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "supermodularity"
+      "augmented-deliberation",
+      "immersive-shared-reality",
+      "⿻",
+      "bridging-capital"
     ],
-    "source_chapter": "Ch. 5-0"
+    "source_chapter": "Ch. 5-1",
+    "source_quote": "The most important things in life — love, beauty, the experience of nature — resist capture in symbols. Post-symbolic communication is the aspiration to share these directly, augmenting empathy across difference rather than merely exchanging propositions."
   },
   {
-    "term": "Collaboration Across Diversity",
-    "definition": "The core animating goal of the ⿻ collaborative technology program: enabling greater cooperation and consensus *at the same time* as making space for greater diversity. Grounded in the mathematical concept of supermodularity ('the whole is greater than the sum of the parts'), it names the full range of ways technology can facilitate working together across social difference—from intimate relationships to global markets—and frames this as the fundamental driver of economic growth and human flourishing.",
-    "see_also": [
-      "supermodularity",
-      "depth-breadth-spectrum-collaboration",
-      "regenerating-diversity",
-      "diversity-innovation-nexus"
-    ],
-    "source_chapter": "Ch. 5-0",
-    "source_quote": "We develop tools that allow greater cooperation and consensus at the same time as they make space for greater diversity."
-  },
-  {
-    "term": "Plural Management Protocol",
-    "definition": "A governance protocol for open collaborative projects, developed by Tobin South, Leon Erichsen, Shrey Jain, Petar Maymounkov, Scott Moore, and E. Glen Weyl, applied in the production of the ⿻ book itself. Priorities for the project are determined collectively using crowd-funding and advanced voting; contributors are recognized using community currency and group identity tokens; quantitative recognition is tied to how well contributions address collectively determined priorities. Built on GitRules, an open-source distributed-ledger protocol grounded in participation rather than financial incentives.",
-    "see_also": [
-      "gitrules",
-      "quadratic-funding",
-      "quadratic-voting",
-      "creative-collaborations"
-    ],
-    "source_chapter": "Ch. 5-0"
-  },
-  {
-    "term": "GitRules",
-    "definition": "An open-source protocol that records collaborative governance decisions on a distributed ledger, used in the production of the ⿻ book. GitRules grounds participation incentives in open-source contribution rather than financial rewards, operationalizing the ⿻ Management Protocol for resolving contentious issues and recognizing contributors via community currency and group identity tokens.",
-    "see_also": [
-      "plural-management-protocol",
-      "creative-collaborations",
-      "open-source-software"
-    ],
-    "source_chapter": "Ch. 5-0"
-  },
-  {
-    "term": "Bandwidth (as Collaboration Depth Metric)",
-    "definition": "An information-theoretic framing used in ⿻ to quantify the depth of collaborative modalities. Markets reduce everything to a scalar (money—minimum bandwidth). Voting adds thin structured signals. Deliberation activates richer symbolic exchange. Immersive shared reality engages multiple senses. Intimacy reaches proprioception—the internal sensations of one's own body, which neuroscientists believe constitute the majority of all sensory input—representing maximum bandwidth. The depth-breadth trade-off is thus partly a bandwidth-scale trade-off.",
-    "see_also": [
-      "depth-breadth-spectrum-collaboration",
-      "post-symbolic-communication",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 5-0"
-  },
-  {
-    "term": "Comparative Advantage (as ⿻ Precedent)",
-    "definition": "David Ricardo's 1817 economic principle that overall welfare is maximized when trading partners specialize in their most efficient product, even when one partner can produce everything more efficiently—an early quantitative expression of supermodularity. In ⿻ framing, comparative advantage establishes that there are 'guaranteed gains from diversity' realizable through coordination mechanisms, while cautioning that gains need not be simplistically economic and are defined by the norms and values of the communities coming together.",
-    "see_also": [
-      "supermodularity",
-      "collaboration-across-diversity"
-    ],
-    "source_chapter": "Ch. 5-0"
-  },
-  {
-    "term": "Immersive Shared Reality",
-    "definition": "A modality of post-symbolic communication in which participants inhabit a co-constructed virtual or augmented environment — enabling shared perceptual experience, gestural expression, and spatial presence rather than purely linguistic exchange. The book highlights immersive shared reality (e.g., advanced VR/AR) as a ⿻ communication layer that can convey context, emotion, and embodied meaning across cultural and linguistic divides.",
+    "term": "immersive shared reality",
+    "definition": "A class of communication technology — including extended reality (XR), virtual reality (VR), and augmented reality (AR) — that places participants inside a shared perceptual environment rather than exchanging representations of it. In ⿻ framing, immersive shared reality is valued not for escapism but for its capacity to generate common ground and mutual understanding across social, cultural, and geographic distance, enabling forms of collective sense-making that text or image cannot support.",
     "see_also": [
       "post-symbolic-communication",
       "augmented-deliberation",
-      "bandwidth-as-collaboration-depth-metric"
+      "common-knowledge"
     ],
     "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "Brain-Computer Interface (BCI) as ⿻ Communication",
-    "definition": "Direct neural interfacing explored as an extreme end of the depth-bandwidth spectrum for post-symbolic communication. The book situates BCIs not as a tool for individual enhancement but as a potential ⿻ medium — enabling transmission of pre-linguistic or cross-linguistic experience. The book treats this speculatively, alongside other high-bandwidth modalities, as a horizon for collaborative technology that does not reduce meaning to existing symbolic codes.",
+    "term": "augmented deliberation",
+    "definition": "The use of digital tools — AI-assisted synthesis, visual mapping, machine translation, immersive environments — to deepen and scale deliberative processes beyond what unaided human conversation can achieve. In ⿻ framing, augmented deliberation does not replace human judgment but amplifies collective sense-making: surfacing areas of hidden consensus, bridging language barriers, and helping diverse participants reach shared understanding without collapsing disagreement into false consensus.",
     "see_also": [
       "post-symbolic-communication",
-      "immersive-shared-reality",
-      "depth-breadth-spectrum"
+      "polis-clustering",
+      "alignment-assemblies",
+      "democratic-mediation"
     ],
     "source_chapter": "Ch. 5-1"
   },
   {
-    "term": "Generative AI as ⿻ Communication Layer",
-    "definition": "The use of generative AI models to translate, summarize, reframe, or scaffold communication across linguistic, cultural, and cognitive divides — serving as an intermediary that preserves contextual meaning rather than flattening it. The book distinguishes this ⿻ application from monist uses of AI (where AI replaces deliberation) by emphasizing AI as augmenting cross-difference understanding within human communicative processes.",
+    "term": "proprioceptive communication",
+    "definition": "A mode of information exchange in which participants receive and share experience through bodily sensation and proprioception — the felt sense of one's own movement, position, and physical state — rather than through words or symbols alone. The Park of Aging at Miraikan exemplifies this: visitors receive information about aging not by reading about it but by inhabiting simulated perceptual and physical limitations. Proprioceptive communication is presented as a subset of post-symbolic communication, grounded in the body's own sensemaking apparatus.",
     "see_also": [
-      "post-symbolic-communication",
-      "augmented-deliberation",
-      "monist-technocracy"
-    ],
-    "source_chapter": "Ch. 5-1"
-  },
-  {
-    "term": "Sensory Substitution (as ⿻ Communication)",
-    "definition": "Techniques that remap one sensory channel onto another — e.g., converting visual information to tactile or auditory signals — as a form of post-symbolic communication that expands the sensory vocabulary available for conveying experience across perceptual difference. The book cites sensory substitution as an example of how technology can extend the range of shareable experience beyond conventional language.",
-    "see_also": [
-      "post-symbolic-communication",
-      "immersive-shared-reality",
-      "accessibility"
-    ],
-    "source_chapter": "Ch. 5-1"
-  },
-  {
-    "term": "Park of Aging (Miraikan)",
-    "definition": "An immersive exhibit at Tokyo's National Museum of Emerging Science and Innovation (Miraikan) that simulates the sensory experience of aging — blurred vision, stripped high frequencies, impaired memory, weighted movement — to foster empathy with older cohorts. The book cites it as a pioneering instance of proprioceptive, post-symbolic communication: participants receive information through direct sensorial immersion rather than through words or symbols.",
-    "see_also": [
-      "post-symbolic-communication",
-      "immersive-shared-reality",
-      "augmented-deliberation"
+      "post-symbolic communication",
+      "immersive shared reality",
+      "homuncular-flexibility",
+      "higher-bandwidth communication"
     ],
     "source_chapter": "Ch. 5-5",
     "source_quote": "The Park of Aging is a poignant example of proprioceptive, post-symbolic communication, where participants receive information through an intimate, sensorial experience beyond merely interpreting words and symbols, utilizing all sensemaking of the body."
   },
   {
-    "term": "Proprioceptive Communication",
-    "definition": "A modality of post-symbolic communication in which information is conveyed through the body's internal sense of its own position, movement, and physical state (proprioception), rather than through language or conventional symbols. The book treats proprioceptive experience — shared in dance, combat, yoga, romantic intimacy, and immersive exhibits like the Park of Aging — as a high-bandwidth channel that underlies the deepest forms of human bonding.",
+    "term": "higher-bandwidth communication",
+    "definition": "Experiences that harness information gathered from many senses simultaneously — including proprioception, touch, smell, and affect — yielding a greater density of shared signal than verbal or symbolic exchange alone. The book associates higher-bandwidth communication with practices such as dance, combat, sports, romantic intimacy, and religious ritual, and notes its correlation with long-lasting human bonding. Technological post-symbolic systems (BCIs, haptics, immersive environments) are understood as attempts to engineer higher-bandwidth communication across physical and temporal distance.",
     "see_also": [
-      "post-symbolic-communication",
-      "park-of-aging-miraikan",
-      "haptic-feedback-homuncular-flexibility"
+      "post-symbolic communication",
+      "proprioceptive communication",
+      "immersive shared reality"
     ],
     "source_chapter": "Ch. 5-5"
   },
   {
-    "term": "Haptic Feedback and Homuncular Flexibility",
-    "definition": "Haptic devices simulate touch and physical interaction in virtual environments; homuncular flexibility refers to the human capacity to learn agency over virtual bodies that differ significantly from one's own physical form (e.g., a tail). The book presents these as post-symbolic communication technologies that extend the body's sensemaking beyond its biological limits, enabling new forms of shared physical experience across distance.",
+    "term": "homuncular flexibility",
+    "definition": "The capacity of humans to learn to control virtual bodies that differ significantly from their own physical form, thereby transcending physical limitations. Coined in VR research by Won, Bailenson, Lee, and Lanier, the concept demonstrates that the brain's body-map (homunculus) is more plastic than previously assumed — including the near-universal ability to develop a felt sense of agency over a virtual tail given sufficient feedback. In the book's framing, homuncular flexibility is a enabling technology for post-symbolic communication, expanding the sensorial and proprioceptive vocabularies available to participants in immersive shared environments.",
     "see_also": [
-      "post-symbolic-communication",
-      "brain-computer-interface-bci-as-plurality-communication",
-      "immersive-shared-reality"
+      "post-symbolic communication",
+      "proprioceptive communication",
+      "immersive shared reality",
+      "higher-bandwidth communication"
     ],
     "source_chapter": "Ch. 5-5"
   },
   {
-    "term": "Neurofeedback (as ⿻ Communication)",
-    "definition": "Applications that display real-time brain activity to users, enabling self-regulation of brain function for meditation, mental-health therapy, and enhancement of self-awareness and empathy. The book frames neurofeedback as part of the emerging suite of post-symbolic communication technologies that allow individuals to share and modulate internal physiological and psychological states beyond language.",
+    "term": "chemosignals",
+    "definition": "Biochemical messengers — such as compounds present in human sweat — that convey emotional or physiological states and can trigger corresponding responses in others, often unconsciously. The book cites chemosignals as an already-operating channel of non-verbal, information-dense human communication that prefigures post-symbolic communication's broader project of transmitting inner states across bodies. They are offered as evidence that the body already communicates beyond symbols, and that technological systems might eventually detect, mediate, or amplify such signals.",
     "see_also": [
-      "post-symbolic-communication",
-      "brain-computer-interface-bci-as-plurality-communication",
-      "wearable-affect-physiology-tracking"
+      "post-symbolic communication",
+      "proprioceptive communication",
+      "higher-bandwidth communication"
     ],
     "source_chapter": "Ch. 5-5"
   },
   {
-    "term": "Wearable Affect and Physiology Tracking",
-    "definition": "Devices that monitor physiological markers such as heart rate and skin conductance, providing real-time insight into a user's emotional and physical state. The book describes these as enabling shared experiences that respond dynamically to participants' inner states, forming part of the post-symbolic communication technology stack alongside BCIs and haptics.",
+    "term": "moral bio-enhancement (MBE)",
+    "definition": "The use of biomedical technology — including neuromodulation techniques such as deep brain stimulation — to morally improve human beings. The book flags MBE as one of the neuroethical challenges introduced by neuromodulation technologies that form part of the post-symbolic communication technology stack, noting that augmenting cognitive or moral function through direct neural intervention raises questions about autonomy, consent, and the governance of inner experience.",
     "see_also": [
-      "post-symbolic-communication",
-      "neurofeedback-as-plurality-communication",
-      "haptic-feedback-homuncular-flexibility"
+      "post-symbolic communication",
+      "homuncular-flexibility",
+      "neuromodulation"
     ],
     "source_chapter": "Ch. 5-5"
   },
   {
-    "term": "Neuromodulation (as ⿻ Risk)",
-    "definition": "Techniques such as deep brain stimulation that directly alter neural activity, with implications for enhancing cognitive function or treating neurological disorders. The book flags neuromodulation as introducing neuroethical challenges — notably moral bio-enhancement (MBE), the use of biomedical technology to morally alter humans — making it a double-edged element of the post-symbolic communication horizon.",
+    "term": "extended reality (XR)",
+    "definition": "An umbrella term the book uses to span the full spectrum from augmented reality (AR), which overlays digital content on physical perception, through mixed reality (MR) and virtual reality (VR), which progressively replace physical surroundings with shared digital environments. Weyl & Tang treat XR as the substrate for immersive shared reality — a ⿻ communication layer that can encode presence, gesture, spatial context, and emotional affect in ways that text or video cannot, enabling richer cross-difference collaboration.",
     "see_also": [
-      "post-symbolic-communication",
-      "brain-computer-interface-bci-as-plurality-communication",
-      "homogenization-of-consciousness-as-failure-mode"
+      "immersive shared reality",
+      "post-symbolic communication",
+      "higher-bandwidth communication",
+      "augmented deliberation"
     ],
-    "source_chapter": "Ch. 5-5"
+    "source_chapter": "Ch. 5-2"
   },
   {
-    "term": "Homogenization of Consciousness (as Failure Mode)",
-    "definition": "A risk the book identifies at the frontier of post-symbolic communication: high-bandwidth, telepathic-style connectivity could cause individual perspectives to merge into a collective consciousness, erasing cultural and cognitive diversity. The book treats this as a failure mode analogous to atomist and monist threats — a collapse of the ⿻ diversity that makes collaborative intelligence possible.",
+    "term": "avatar",
+    "definition": "In the book's treatment of immersive shared reality, an avatar is a digital embodiment that a participant inhabits in a shared virtual environment. The book notes that avatar design choices — including homuncular flexibility and cross-species or non-humanoid forms — shape the social dynamics and empathy potential of collaborative XR spaces, and that avatar fidelity affects the depth of proprioceptive and emotional communication achievable across distance.",
     "see_also": [
-      "post-symbolic-communication",
-      "premature-optimization-as-plurality-failure-mode",
-      "monist-technocracy",
-      "surveillance-capitalism"
+      "homuncular flexibility",
+      "immersive shared reality",
+      "post-symbolic communication",
+      "proprioceptive communication"
     ],
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "High-bandwidth communication could lead to a homogenization of thoughts and experiences as individual perspectives merge into collective consciousness, erasing our differences."
+    "source_chapter": "Ch. 5-2"
   },
   {
-    "term": "Structured Low-Bandwidth Communication (as ⿻ Counterbalance)",
-    "definition": "The book argues that speech, text, markets, and voting serve as essential lower-bandwidth, structured forms of communication that counterbalance high-bandwidth post-symbolic channels. Because they require deliberate formulation and preserve privacy of motivation, they protect personal autonomy, democratic governance, and diversity against the overreach of an all-encompassing telepathic or surveillance matrix.",
+    "term": "presence",
+    "definition": "The phenomenological sense of 'being there' with others that well-designed immersive shared reality environments can induce. Weyl & Tang treat presence as a technically achievable property — dependent on latency, spatial audio, haptics, and visual fidelity — that distinguishes XR collaboration from flat video calls and that makes possible the kind of richer, embodied deliberation ⿻ governance frameworks aspire to.",
     "see_also": [
-      "post-symbolic-communication",
-      "quadratic-voting-qv",
-      "homogenization-of-consciousness-as-failure-mode",
-      "augmented-deliberation"
+      "immersive shared reality",
+      "higher-bandwidth communication",
+      "post-symbolic communication",
+      "augmented deliberation"
     ],
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "Balancing telepathic communication with lower-bandwidth, structured forms of communication is essential to preserve privacy, autonomy, diversity, and human governance in the future."
+    "source_chapter": "Ch. 5-2"
   },
   {
-    "term": "Chemosignals (as Non-Symbolic Communication)",
-    "definition": "Biochemical messengers — such as compounds in human sweat that convey stress or fear — that influence the receiver's perception and behavior, often unconsciously. The book invokes chemosignals as an existing, scientifically documented layer of post-symbolic communication that demonstrates the body's pre-linguistic information channels and points toward the richer technological modalities ahead.",
+    "term": "haptic communication",
+    "definition": "The transmission of touch, force, or texture sensations through digital interfaces — gloves, suits, or surface actuators — that the book identifies as a further dimension of post-symbolic, high-bandwidth communication. Alongside proprioception and spatial audio, haptics are presented as a channel for conveying emotional and social cues that are lost in text and video, with implications for remote deliberation and cross-cultural understanding.",
     "see_also": [
-      "post-symbolic-communication",
-      "proprioceptive-communication"
+      "post-symbolic communication",
+      "proprioceptive communication",
+      "higher-bandwidth communication",
+      "immersive shared reality"
     ],
-    "source_chapter": "Ch. 5-5"
+    "source_chapter": "Ch. 5-2"
   },
   {
-    "term": "Moral Bio-Enhancement (MBE)",
-    "definition": "The use of biomedical technology — particularly neuromodulation — to morally improve or alter human beings. The book flags MBE as a neuroethical challenge that arises at the frontier of post-symbolic communication technologies, where the boundary between therapeutic and normative intervention becomes difficult to maintain.",
+    "term": "spatial audio",
+    "definition": "Three-dimensional sound rendering in XR environments that locates speakers and ambient sounds in physical space relative to the listener. The book cites spatial audio as a key ingredient of presence in immersive shared reality, enabling naturalistic multi-party conversation dynamics — overlapping speech, directional attention, private side-conversations — that flat conferencing tools flatten out.",
     "see_also": [
-      "neuromodulation-as-plurality-risk",
-      "post-symbolic-communication",
-      "homogenization-of-consciousness-as-failure-mode"
+      "immersive shared reality",
+      "presence",
+      "higher-bandwidth communication",
+      "post-symbolic communication"
     ],
-    "source_chapter": "Ch. 5-5"
+    "source_chapter": "Ch. 5-2"
   },
   {
-    "term": "Vesuvius Challenge (Herculaneum Scrolls Prize)",
-    "definition": "A 2023 open prize competition inviting global participants to virtually unwrap carbonized Herculaneum papyrus scrolls using X-ray CT scans and AI. Its structure embedded ⿻ principles: bi-monthly 'progress prizes' required open-source publication of all code and findings, preventing siloing and enriching the shared knowledge base. The Grand Prize ($700,000) was won by an interdisciplinary, internationally distributed team (a college student, a Berlin doctoral student, and an ETH Zurich robotics graduate) who recovered over 2,000 characters of ancient text—far exceeding the minimum threshold.",
+    "term": "digital-physical integration",
+    "definition": "The blurring of boundaries between physical and digital environments through AR, sensor networks, and ambient computing, which the book treats as a long-run trajectory of immersive shared reality. Rather than confining collaboration to separate 'virtual' spaces, digital-physical integration embeds ⿻ communication layers into everyday environments — workplaces, public squares, homes — expanding the contexts in which higher-bandwidth, embodied deliberation can occur.",
+    "see_also": [
+      "immersive shared reality",
+      "augmented deliberation",
+      "extended reality (XR)",
+      "post-symbolic communication"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "mediated reality",
+    "definition": "A broad framework encompassing technologies that mediate human perception of reality, including Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), and Modulated Reality. Immersive Shared Reality (ISR) is a subset application within this larger category, specifically focused on shared virtual environments where users interact in real-time. The framework was adapted from Mann and Nnlf (1994) and illustrates how different technologies sit along a spectrum from fully physical to fully virtual.",
+    "see_also": [
+      "immersive shared reality",
+      "post-symbolic communication",
+      "augmented deliberation",
+      "extended reality (XR)"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "virtual escapism",
+    "definition": "A failure mode of Immersive Shared Reality (ISR) in which dependency on virtual environments supplants rather than enhances real-world civic engagement and collective action. Illustrated by Stephenson's *Snow Crash* and Cline's *Ready Player One*, where populations retreat into simulated realities in response to social and environmental decline, thereby reinforcing that decline. The book frames this as a 'doom loop' analogous to GFMs generating garbage outputs that undermine their future training.",
+    "see_also": [
+      "immersive shared reality",
+      "digital divide",
+      "corporate control and monopolization"
+    ],
+    "source_chapter": "Ch. 5-2",
+    "source_quote": "Dependency on ISR at the expense of the real world it depends on, rather than as a way of creating more effective understanding and collective action within it, risk a doom loop similar to the risks of GFMs creating garbage outputs that undermine their future training and the risk of industrial development destroying the environment on which it depends."
+  },
+  {
+    "term": "massive multi-user online laboratories (MMOLs)",
+    "definition": "An envisioned ISR application in which scientists collaboratively conduct experiments in a shared virtual laboratory environment. MMOLs are conceived as enabling real-time global collaboration on scientific research and education, breaking down barriers to access and facilitating a form of immersive, collective discovery that transcends the physical constraints of laboratory infrastructure.",
+    "see_also": [
+      "immersive shared reality",
+      "augmented deliberation",
+      "collective creativity spaces"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "collective memory palaces",
+    "definition": "Envisioned virtual ISR environments where entire communities can deposit, share, and experience collective memories and knowledge. These spaces serve as repositories of communal wisdom where individuals can relive historical events or explore the collective psyche of humanity across generations. They could also redefine the memorialization of collective traumas, allowing stories to be told from multiple perspectives quickly and flexibly.",
+    "see_also": [
+      "immersive shared reality",
+      "empathy amplifiers",
+      "collective creativity spaces"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "empathy amplifiers",
+    "definition": "A frontier ISR application that allows users to experience the world through the eyes and embodied perspective of another person or community. By enabling direct sharing of experiences—struggles, joys, and challenges—these simulations dissolve prejudices and foster a sense of unity among diverse groups. The book presents them as potential tools for education and conflict resolution, promoting peace at a global scale.",
+    "see_also": [
+      "immersive shared reality",
+      "collective memory palaces",
+      "post-symbolic communication"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "global consciousness networks",
+    "definition": "A frontier ISR concept in which people connect their consciousness to a shared global network, enabling the transmission of thoughts, emotions, and experiences in a dynamic stream of collective awareness. This form of connection is envisioned as transcending language, allowing unprecedented synchronization of human intention and action toward global challenges.",
+    "see_also": [
+      "immersive shared reality",
+      "post-symbolic communication",
+      "empathy amplifiers"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "digital legacies",
+    "definition": "An ISR frontier application in which individuals create entire virtual worlds crafted from their memories, thoughts, and experiences. These realms serve both as a form of experiential immortality and as a means for future generations to explore the lives and insights of ancestors in a deeply personal and interactive way, extending the concept of collective memory palaces to individual legacy preservation.",
+    "see_also": [
+      "immersive shared reality",
+      "collective memory palaces"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "collective creativity spaces",
+    "definition": "Digital ISR platforms that enable artists, musicians, writers, and creators of all kinds to collaborate in real-time across the globe in shared virtual environments. Ideas and inspirations merge in a communal creative flow, producing art and innovation that transcends individual capabilities and represents the collective human spirit. The book positions these as extensions of the broader ⿻ principle of collaboration across diversity.",
+    "see_also": [
+      "immersive shared reality",
+      "augmented deliberation",
+      "post-symbolic communication"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "taste retargeting",
+    "definition": "An emerging sensory technology that alters taste perception by delivering chemical modulators to the mouth, enabling virtual dining experiences as part of ISR. Cited in the book as one of several technologies—alongside haptic feedback and olfactory systems—that will deepen multisensory integration in immersive shared reality beyond the traditional focus on sight and sound.",
+    "see_also": [
+      "immersive shared reality",
+      "post-symbolic communication",
+      "multisensory integration"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "multisensory integration",
+    "definition": "The convergence of multiple sensory channels—sight, sound, touch, smell, and taste—within immersive technology systems. The book frames multisensory integration as central to the frontier of ISR, enabling virtual experiences that replicate or enhance the richness of physical copresence. Technological advances in haptics, olfactory systems, and taste retargeting are positioned as drivers of this integration.",
+    "see_also": [
+      "immersive shared reality",
+      "post-symbolic communication",
+      "taste retargeting",
+      "haptic communication"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "copresence",
+    "definition": "The condition of shared multisensory presence among participants, historically realized in religious observances, clubs, rallies, and collective gatherings. The book uses copresence as a baseline for evaluating ISR technologies, framing them as tools for extending meaningful multisensory togetherness across physical, spatial, and social limitations. Digital copresence is described as 'meaningful and emotionally resonant' while being less intense than physical interaction.",
+    "see_also": [
+      "immersive shared reality",
+      "post-symbolic communication",
+      "augmented deliberation"
+    ],
+    "source_chapter": "Ch. 5-2"
+  },
+  {
+    "term": "creative commons",
+    "definition": "A licensing framework enabling creators to share works with defined permissions, facilitating collaborative remixing and building on others' contributions. In Plurality's framing, Creative Commons licenses exemplify how legal infrastructure can lower barriers to collective creativity, allowing diverse contributors to build shared cultural goods without the frictions of all-rights-reserved copyright — a ⿻ alternative to both full enclosure and pure public domain.",
+    "see_also": [
+      "peer production",
+      "data dignity",
+      "commons"
+    ],
+    "source_chapter": "Ch. 5-3"
+  },
+  {
+    "term": "open source",
+    "definition": "A model of collaborative software production in which source code is made publicly available for inspection, modification, and redistribution. The book treats open source as a foundational ⿻ institution — demonstrating that large-scale, high-quality production is achievable through voluntary, distributed collaboration rather than either market incentives alone or centralized command. Projects like Linux and Wikipedia are paradigm cases.",
+    "see_also": [
+      "peer production",
+      "g0v",
+      "commons",
+      "request for comments"
+    ],
+    "source_chapter": "Ch. 5-3"
+  },
+  {
+    "term": "collective intelligence",
+    "definition": "The capacity of diverse groups to generate knowledge, solve problems, and create outputs that exceed what any individual member could produce alone. Plurality treats collective intelligence not as mere aggregation of opinions but as an emergent property of well-designed collaborative infrastructure — systems that harness diversity rather than averaging it away. ⿻ design choices (plural voting, bridging algorithms, deliberative tools) are understood as collective-intelligence infrastructure.",
+    "see_also": [
+      "diversity dividend",
+      "augmented deliberation",
+      "supermodular cooperation",
+      "bridging capital"
+    ],
+    "source_chapter": "Ch. 5-3"
+  },
+  {
+    "term": "progress prizes",
+    "definition": "Intermediate milestone awards used in prize competitions like the Vesuvius Challenge, structured to be paid out bi-monthly on the condition that recipients publish their code or research open source. By requiring open publication as a condition of award, progress prizes counter information siloing, enrich the shared knowledge base of all participants, and create a cumulative scaffold of methods that subsequent competitors can build upon — transforming a competition into a collaborative epistemic commons.",
     "source_chapter": "Ch. 5-5",
     "source_quote": "To counter information siloing, the organizers introduced smaller 'progress prizes' awarded bi-monthly that required participants to publish their code or research open source, enriching the entire community's shared knowledge base.",
     "see_also": [
-      "creative-collaborations",
-      "open-source-software",
-      "quadratic-funding",
-      "netflix-prize-collaboration"
+      "open source",
+      "collective intelligence",
+      "crowdsourced innovation"
     ]
   },
   {
-    "term": "Netflix Prize (Collaborative Convergence)",
-    "definition": "A 2009 million-dollar prize competition to beat Netflix's internal movie recommendation algorithm by 10%. After more than two and a half years, the competition was only resolved when leading teams abandoned solo work and combined with diverse other teams, merging their distinct algorithms. The book cites this as a canonical illustration of the ⿻ principle that combining diverse perspectives and methods outperforms any single approach, even among top competitors.",
+    "term": "alien intelligence",
+    "definition": "A mode of AI creativity that, rather than mimicking human idea-generation, generates outputs in directions humans are unlikely to identify on their own — producing novel 'alien' strategies or aesthetic forms that surprise human practitioners and thereby expand the frontier of collaborative diversity. The book invokes AlphaGo Zero as a prototype: trained only against model adversaries, it developed disconcerting yet effective Go strategies that measurably increased the novelty and diversity of human play. Applying such approaches to culture could generate new artistic forms that then feed back to inspire human creators.",
     "source_chapter": "Ch. 5-5",
-    "source_quote": "The prize competition dragged on for more than two and a half years and only succeeded in the end when the leading teams gave up working alone, but instead combined with diverse other teams and their diverse algorithms.",
+    "source_quote": "While GFMs can mimic and automate the way humans generate ideas, we could instead aspire to generate 'alien intelligence' that takes our thought in directions humans are unlikely to identify, thus generating new fodder for collaboration across diversity.",
     "see_also": [
-      "creative-collaborations",
-      "diversity-innovation-nexus",
-      "vesuvius-challenge"
+      "post-symbolic communication",
+      "generative foundation models",
+      "collaboration across diversity",
+      "creative commons"
     ]
   },
   {
-    "term": "Alien Art (AlphaGo Zero strategy as creative precedent)",
-    "definition": "A proposed frontier of ⿻ creative collaboration in which AI systems trained without human exemplars—like AlphaGo Zero, trained solely against model adversaries—generate strategies and aesthetic forms that are unfamiliar and surprising to human practitioners. Rather than mimicking human creativity, such 'alien intelligence' takes thought in directions humans are unlikely to identify, generating novel fodder for cross-diversity collaboration. Research shows exposure to superhuman AI strategies increases novelty and diversity in human practitioners (e.g., Go players). Applied to art and culture, this dynamic could produce alien aesthetic forms that then feed back to provoke new human creativity.",
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "If such approaches were applied to the cultural sphere rather than to games, we might find novel artistic forms emerging to inspire 'awe' or resonance in alien machine intelligences, then feeding back to provoke new artistic forms among humans, just as the 'encounter with the East' was critical to creating modern art in the West.",
-    "see_also": [
-      "creative-collaborations",
-      "post-symbolic-communication",
-      "generative-ai-as-plurality-communication-layer",
-      "homogenization-of-creativity"
-    ]
-  },
-  {
-    "term": "Homogenization of Creativity (as ⿻ Failure Mode)",
-    "definition": "A failure mode of collaborative platforms and GFM-driven creative processes in which algorithmic optimization for synergy and consensus smooths over unique, unconventional perspectives in favor of algorithmic predictability. The result is a dampening of true innovation and a dilution of cultural and creative diversity. The book frames this as one of the central risks of scaling creative collaboration without ⿻ design safeguards—distinct from but related to homogenization of consciousness and erosion of cultural diversity.",
+    "term": "generative foundation models",
+    "definition": "Large-scale machine learning models — also abbreviated GFMs in the book — capable of synthesizing text, audio, image, and other media by learning patterns across vast corpora. The book treats GFMs not merely as automation tools but as potential substrates for ⿻ creative collaboration: enabling cross-cultural style translation, alien artistic strategies, in-silico social simulation, and the blending of diverse voices into shared creative outputs. Their value as collaborative infrastructure depends on training data that preserves human diversity rather than homogenizing it.",
     "source_chapter": "Ch. 5-5",
     "see_also": [
-      "homogenization-of-consciousness-as-failure-mode",
-      "erosion-of-cultural-diversity",
-      "alien-art",
-      "premature-optimization-as-plurality-failure-mode"
+      "alien intelligence",
+      "collaboration across diversity",
+      "digital twins",
+      "creative commons",
+      "open source"
     ]
   },
   {
-    "term": "Erosion of Cultural Diversity (Creative Collaboration Failure Mode)",
-    "definition": "A failure mode in which globally mediated creative collaboration platforms allow dominant cultural narratives to overshadow local cultural expressions and minority voices, risking a monolithic culture that neutralizes dissent and diversity. The book identifies this as a structural risk when a single medium or platform becomes the primary channel for creative exchange, and argues that preserving space for deep, intimate connections and culturally specific forms of creativity is essential to countering it.",
+    "term": "digital twins",
+    "definition": "Advanced virtual replicas of real-world environments or social systems, driven by GFMs that accurately model human behaviors. As described in the book's discussion of creative collaboration frontiers, digital twins enable creative teams to test and refine ideas in simulation before real-world deployment. Applied to social media, for example, LLM agents mimicking human users can interact on an in-silico platform, allowing researchers to explore the macro-level social effects of alternative feed algorithms on outcomes such as conflict and polarization — conducting social experiments at unprecedented speed and scale.",
     "source_chapter": "Ch. 5-5",
+    "source_quote": "Advanced simulations and digital twin technology will enable creative teams to test and refine their ideas in virtual replicas of real-world environments. With digital twins driven by GFMs that accurately mimics human behaviors, we could conduct in-silico social experiments at an unprecedented speed and scale.",
     "see_also": [
-      "homogenization-of-creativity",
-      "creative-collaborations",
-      "linguistic-diversity",
-      "regenerating-diversity"
+      "generative foundation models",
+      "collaboration across diversity",
+      "immersive shared reality"
     ]
   },
   {
-    "term": "Digital Twins and In-Silico Social Experimentation",
-    "definition": "The use of GFM-driven simulations populated by LLM agents that mimic human social media users to test alternative platform algorithms and governance designs before deployment. The book cites research exploring alternative news feed algorithms on in-silico social media platforms to measure macro-level social outcomes such as conflict and polarization. This approach enables creative teams—and governance designers—to test and refine structural interventions at unprecedented speed and scale without real-world harm.",
-    "source_chapter": "Ch. 5-5",
+    "term": "deliberative polling",
+    "definition": "A structured democratic process in which a statistically representative sample of citizens is convened, provided balanced briefing materials, and given facilitated small-group discussions before registering their views. The book cites deliberative polling as a key forerunner and complement to augmented deliberation, demonstrating that informed, diverse publics can reach sophisticated cross-cutting conclusions that differ substantially from raw opinion polling.",
     "see_also": [
       "augmented-deliberation",
-      "creative-collaborations",
-      "generative-ai-as-plurality-communication-layer",
-      "adaptive-administration"
-    ]
+      "alignment-assemblies",
+      "sortition"
+    ],
+    "source_chapter": "Ch. 5-4"
   },
   {
-    "term": "Open-Source Creative Collaboration (as ⿻ Infrastructure)",
-    "definition": "The use of open-source platforms, licenses, and norms to structure creative collaboration such that findings, code, and methodologies are shared as public goods rather than captured as proprietary assets. The book argues that open-source platforms 'encourage transparency and collective ownership, countering the risks of hidden monopolies and collusion that can arise in proprietary systems.' Exemplified by the Vesuvius Challenge's progress-prize structure, Wikipedia, GitHub, Hugging Face, and artist-led initiatives like Holly Herndon's Spawning.ai and Joseph Gordon-Levitt's HitRecord.",
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "Open-source platforms, by their very nature, encourage transparency and collective ownership, countering the risks of hidden monopolies and collusion that can arise in proprietary systems.",
+    "term": "computable contracts",
+    "definition": "Agreements encoded in machine-readable form so that their terms can be automatically verified, executed, or audited. The book references computable contracts as part of the broader ⿻ infrastructure for plural property and data dignity, enabling communities to specify data-use conditions that platforms and AI systems can check programmatically rather than relying on unenforceable fine-print.",
     "see_also": [
-      "open-source-software",
-      "peer-production",
-      "creative-collaborations",
-      "vesuvius-challenge",
-      "data-dignity"
-    ]
-  },
-  {
-    "term": "Cross-Cultural Creative Collaboration (GFM-Mediated)",
-    "definition": "An emerging form of ⿻ creative collaboration in which generative foundation models (GFMs) translate not only languages but also cultural styles, reducing the cultural misunderstanding that has historically been a central barrier to creative work across widely varying contexts. The book identifies this as enabling increasingly fruitful fusions in music, film, and other media—extending the collaborative space beyond what human translators alone could facilitate.",
-    "source_chapter": "Ch. 5-5",
-    "see_also": [
-      "creative-collaborations",
-      "generative-ai-as-plurality-communication-layer",
-      "linguistic-diversity",
-      "collaboration-across-diversity"
-    ]
-  },
-  {
-    "term": "Creator Attribution and Sustainability (⿻ Artist Movement)",
-    "definition": "A movement among leading ⿻ artists—including Holly Herndon (Spawning.ai), Joseph Gordon-Levitt (HitRecord), and will.i.am—to ensure that GFMs are designed to attribute, celebrate, and empower creators to live sustainably. The book frames this as a counter to the failure mode of corporate co-optation of creative content, insisting that GFM training on human creative work must come with mechanisms for credit and compensation rather than extraction.",
-    "source_chapter": "Ch. 5-5",
-    "see_also": [
+      "plural-contracts",
       "data-dignity",
-      "open-source-creative-collaboration",
-      "creative-collaborations",
-      "surveillance-capitalism",
-      "watermarking-ai-attribution"
+      "data-federation",
+      "verifiable-credentials"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "sensemaking",
+    "definition": "The collective cognitive process by which groups develop shared interpretations of complex, ambiguous, or contested information. In the ⿻ framing, augmented deliberation tools support sensemaking at scale by clustering diverse perspectives, surfacing hidden consensus, and reducing the cognitive load of synthesizing large-volume public input—without collapsing legitimate disagreement into false agreement.",
+    "see_also": [
+      "augmented-deliberation",
+      "collective-intelligence",
+      "polis-clustering",
+      "plural-publics"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "broad listening",
+    "definition": "The capacity for one person or system to thoughtfully digest a wide range of perspectives at scale — as distinct from 'broadcast' (allowing many to hear a single statement). As Herbert Simon's observation implies, a wealth of information creates a poverty of attention, making broad listening extremely costly and time-consuming. GFMs and collective response systems represent emerging attempts to address this bottleneck, enabling augmented deliberation at previously unimaginable scales.",
+    "see_also": [
+      "augmented deliberation",
+      "collective response systems",
+      "bridging systems"
+    ],
+    "source_chapter": "Ch. 5-4",
+    "source_quote": "perhaps the fundamental limit on all these approaches is that while methods of broadcast (allowing many to hear a single statement) have dramatically improved, broad listening (allowing one person to thoughtfully digest a range of perspectives) remains extremely costly and time consuming."
+  },
+  {
+    "term": "collective response systems",
+    "definition": "A class of digital platforms — named by Aviv Ovadya and Luke Thorburn — that combine the participatory, open, and interactive nature of social media with features that encourage thoughtful listening, an understanding of conversational dynamics, and the careful emergence of shared views and points of rough consensus. Examples include Polis, All Our Ideas, and Remesh. Distinguished from simple polls or comment threads by their capacity to surface bridging statements that receive assent across otherwise-dividing lines.",
+    "see_also": [
+      "bridging systems",
+      "augmented deliberation",
+      "polis"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "bridging systems",
+    "definition": "Systems and algorithms designed to counter destructive divisiveness by prioritizing content, notes, or participants that receive support across otherwise-divided groups. Used in Community Notes' 'bridging-based ranking,' in Polis's surfacing of cross-cluster consensus statements, and theorized more broadly by Ovadya and Thorburn as an open research problem in ranking, recommenders, and governance. The defining principle is rewarding cross-group assent rather than within-group popularity.",
+    "see_also": [
+      "collective response systems",
+      "community-notes",
+      "augmented deliberation"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "diversity-bandwidth trade-off",
+    "definition": "The structural tension in conversation and deliberation between engaging a wide diversity of perspectives (which tends to slow, complicate, and lengthen discussions) and maintaining high bandwidth and efficiency (which tends to exclude or flatten diverse inputs). Named by Aral and Van Alstyne, this trade-off is identified in Plurality as a fundamental constraint that ⿻ approaches to augmented deliberation aim to navigate rather than simply resolve.",
+    "see_also": [
+      "augmented deliberation",
+      "broad listening",
+      "bridging systems"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "sortition",
+    "definition": "A method of selecting participants for deliberation by random draw, sometimes with constraints to ensure demographic or group balance. Used in focus groups, surveys, and citizen deliberative councils on contentious policy issues. Plurality identifies sortition as one of three canonical representative-selection mechanisms (alongside election and administration), with advantages of legitimacy and flexibility at low cost, but limited expertise and participation compared to alternatives.",
+    "see_also": [
+      "augmented deliberation",
+      "deliberative polling",
+      "collective response systems"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "parliament of things",
+    "definition": "A concept from philosopher Bruno Latour's We Have Never Been Modern, holding that natural features such as rivers and forests deserve representation in deliberative processes. Plurality invokes this to frame an emerging frontier: GFMs may allow scientific measures of natural systems to be translated into a form of AI-mediated representation — a 'Lorax' that speaks for non-human actors — potentially extending augmented deliberation beyond living human beings.",
+    "see_also": [
+      "augmented deliberation",
+      "generative foundation models"
+    ],
+    "source_chapter": "Ch. 5-4",
+    "source_quote": "In his classic We Have Never Been Modern, philosopher Bruno Latour argued that natural features (like rivers and forests) deserve representation in a 'parliament of things.' The challenge, of course, is how they can speak. GFMs might offer ways to translate scientific measures of the state of these systems into a kind of 'Lorax.'"
+  },
+  {
+    "term": "in silico deliberation",
+    "definition": "The partial or full conduct of deliberative processes within computational systems — for example, using large language models to simulate or summarize deliberation — rather than exclusively among human participants. Plurality identifies this as a promising but legitimacy-challenging frontier: while in silico processes can overcome the slowness of human deliberation, the opacity of how inputs are transformed into outputs makes them harder to render transparent and broadly legitimate than voting or market mechanisms.",
+    "see_also": [
+      "augmented deliberation",
+      "broad listening",
+      "generative foundation models"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "tyranny of structurelessness",
+    "definition": "A failure mode of inclusive and democratic governance — named by Jo Freeman — in which the absence of formal structure allows unfair informal norms and dominance hierarchies to override intentions for inclusive exchange. Plurality cites this as a motivation for developing social and digital technologies of facilitation that make inclusive deliberation genuinely possible rather than nominally aspirational.",
+    "see_also": [
+      "augmented deliberation",
+      "collective response systems"
+    ],
+    "source_chapter": "Ch. 5-4"
+  },
+  {
+    "term": "adaptive administration",
+    "definition": "A mode of governance in which public agencies continuously update rules, procedures, and standards in response to real-world feedback — treating regulation as an ongoing, iterative learning process rather than a fixed legal code. Drawing on precedents like the FDA's adaptive trial designs, FAA's ongoing airworthiness directives, and Taiwan's regulatory sandboxes, adaptive administration uses structured pilots, outcome monitoring, and feedback loops to govern rapidly evolving domains (technology, health, environment) without waiting for full legislative cycles.",
+    "source_chapter": "Ch. 5-5",
+    "source_quote": "Rather than setting fixed rules in advance, adaptive administration allows agencies to learn from deployment experience, updating standards iteratively as evidence accumulates.",
+    "see_also": [
+      "regulatory sandboxes",
+      "iterative governance",
+      "metagovernance",
+      "democratic mediation",
+      "PDCA cycle"
     ]
   },
   {
-    "term": "Synthetic Instruments and Generative Art",
-    "definition": "A frontier of ⿻ creative practice in which generative foundation models (GFMs) are harnessed by artists to synthesize a dazzling array of experiences previously impossible or requiring elaborate instrumentation. Examples include Holly Herndon and Mat Dryhurst using GFMs to sing in the voices of historical figures, Laurie Anderson producing texts in the style and wisdom of Lou Reed, and the Plurality book itself blending voice samples of many participants into a common audio voice. The book frames this as the beginning of a radical revolution beyond the electronic music synthesis of the 1980s.",
+    "term": "regulatory sandboxes",
+    "definition": "Bounded experimentation zones created by governments that allow novel products, services, or governance arrangements to operate under relaxed or modified rules for a fixed period, with close monitoring by regulators. Used extensively in fintech, autonomous vehicles, and digital services, sandboxes generate empirical evidence that feeds back into permanent rule-making. Taiwan's vTaiwan process and several fintech sandbox programs are cited as examples in the book.",
     "source_chapter": "Ch. 5-5",
     "see_also": [
-      "creative-collaborations",
-      "post-symbolic-communication",
-      "alien-art",
-      "generative-ai-as-plurality-communication-layer"
+      "adaptive administration",
+      "iterative governance",
+      "vTaiwan",
+      "metagovernance"
     ]
   },
   {
-    "term": "Polis-Style Clustering",
-    "definition": "A deliberation technique — exemplified by Pol.is — that uses dimensionality-reduction algorithms (typically PCA or UMAP) to cluster participants by opinion similarity, then surfaces statements that bridge clusters rather than entrench them. The result is a visual map of the opinion landscape and a ranked list of cross-cutting consensus statements. The book highlights this as a key ⿻ primitive for large-scale, low-acrimony deliberation.",
+    "term": "iterative governance",
+    "definition": "A governance philosophy that treats policy as a succession of provisional commitments subject to revision on the basis of monitored outcomes, analogous to agile software development. Rather than legislating comprehensive frameworks upfront, iterative governance proceeds through short cycles of proposal, pilot, evaluation, and update, enabling governments and civic institutions to manage technological and social complexity without lock-in.",
+    "source_chapter": "Ch. 5-5",
     "see_also": [
-      "pol-is-deliberation-tool",
-      "augmented-deliberation",
-      "vtaiwan",
-      "bridging-vs-bonding-social-capital"
-    ],
-    "source_chapter": "Ch. 5-4"
+      "adaptive administration",
+      "regulatory sandboxes",
+      "PDCA cycle",
+      "Kaizen",
+      "metagovernance"
+    ]
   },
   {
-    "term": "Bridging-Based Moderation",
-    "definition": "A platform-governance approach in which algorithmic or human moderation actively promotes content and speakers who build understanding across opinion clusters, rather than maximizing within-cluster engagement. The book contrasts bridging-based moderation with engagement-maximization algorithms and presents it as a ⿻ design move for media and deliberation platforms.",
+    "term": "anticipatory governance",
+    "definition": "A forward-looking complement to adaptive administration in which institutions use foresight methods — scenario planning, horizon scanning, technology assessment, and speculative policy design — to prepare regulatory and democratic infrastructure for technologies and social dynamics that do not yet exist at scale. The aim is to reduce lag between technological deployment and governance capacity.",
+    "source_chapter": "Ch. 5-5",
     "see_also": [
-      "bridging-vs-bonding-social-capital",
-      "augmented-deliberation",
-      "polis-style-clustering",
-      "engagement-maximization"
-    ],
-    "source_chapter": "Ch. 5-4"
+      "adaptive administration",
+      "iterative governance",
+      "metagovernance",
+      "digital twins"
+    ]
   },
   {
-    "term": "AI-Assisted Synthesis (Deliberation)",
-    "definition": "The use of large language models or other AI tools to summarize, translate, and synthesize input from large deliberative processes — compressing thousands of comments into structured themes while flagging areas of consensus and disagreement. The book identifies AI-assisted synthesis as an enabling layer for augmented deliberation at scale, while cautioning that homogenization of outputs is a distinct failure mode.",
+    "term": "good old-fashioned AI (GOFAI)",
+    "definition": "The AI paradigm dominant in the 1970s–1980s that attempted to automate bureaucratic processing by encoding expert knowledge into complicated sets of nested rules (decision trees). GOFAI fell from favour in the 1990s because hard-coded rule sets could not adapt to the diversity and ambiguity of real-world cases, mirroring the rigidity failures of traditional administration it sought to automate.",
     "see_also": [
-      "augmented-deliberation",
-      "polis-style-clustering",
-      "homogenization-of-consciousness-as-failure-mode",
-      "generative-ai-as-plurality-communication-layer"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Plurality Deliberation Stack",
-    "definition": "The layered technical and procedural infrastructure through which ⿻ augmented deliberation operates: identity verification → structured input (polls, statements) → clustering/bridging algorithms → AI synthesis → public report. The book presents vTaiwan and Pol.is-based processes as empirical examples of this stack deployed in civic contexts.",
-    "see_also": [
-      "augmented-deliberation",
-      "vtaiwan",
-      "pol-is-deliberation-tool",
-      "governable-stack",
-      "federated-identity-plurality-identity-infrastructure"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Consensus Statement Surfacing",
-    "definition": "A specific output of Polis-style deliberation: the algorithmic identification of statements that receive high agreement across otherwise divergent opinion clusters. These cross-cluster consensus statements become the actionable foundation for policy, replacing adversarial majority-rule outcomes with documented areas of shared ground.",
-    "see_also": [
-      "polis-style-clustering",
-      "augmented-deliberation",
-      "vtaiwan",
-      "overlapping-groups-social-ontology"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Scale–Depth Trade-off (Deliberation)",
-    "definition": "The structural tension in democratic deliberation between the number of participants (breadth/scale) and the richness of exchange (depth/bandwidth). Traditional face-to-face deliberation achieves depth at small scale; broadcast media achieves scale with minimal depth. The book presents augmented deliberation as a ⿻ attempt to expand the production possibilities frontier — moving toward greater depth and breadth simultaneously.",
-    "see_also": [
-      "depth-breadth-spectrum",
-      "augmented-deliberation",
-      "production-possibilities-frontier-collaboration",
-      "bandwidth-as-collaboration-depth-metric"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Rough Consensus (IETF Norm)",
-    "definition": "The Internet Engineering Task Force's governance standard — 'running code and rough consensus' — in which technical standards emerge from demonstrated working implementations and a sufficient (not unanimous) level of agreement among participants. The book invokes this as a historical ⿻ precedent for non-majoritarian, diversity-preserving collective decision-making.",
-    "see_also": [
-      "request-for-comments-rfc-process",
-      "augmented-deliberation",
-      "network-protocols-as-governance",
-      "overlapping-groups-social-ontology"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Deliberative Mini-Publics",
-    "definition": "Small, randomly selected citizen panels (citizen assemblies, citizens' juries, deliberative polls) convened to deliberate intensively on a policy question and produce a recommendation. The book treats these as an important ⿻ complement to large-scale digital deliberation — providing depth that mass platforms lack — and notes their use in Ireland (abortion referendum), France (Citizens' Climate Convention), and elsewhere.",
-    "see_also": [
-      "augmented-deliberation",
-      "alignment-assemblies",
-      "sortition",
-      "scale-depth-trade-off-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Sortition",
-    "definition": "The selection of decision-makers by random lot rather than election or appointment. The book cites sortition — used in Athenian democracy and revived in modern citizens' assemblies — as a ⿻ mechanism for ensuring demographic diversity in deliberative bodies and breaking capture by organized factions.",
-    "see_also": [
-      "deliberative-mini-publics",
-      "alignment-assemblies",
-      "augmented-deliberation",
-      "quadratic-voting"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Ireland Citizens' Assembly (Abortion)",
-    "definition": "A 2016–2017 Irish citizens' assembly of 99 randomly selected citizens that deliberated on abortion law and recommended liberalization, leading to the 2018 referendum repealing the Eighth Amendment. The book cites this as a landmark instance of deliberative mini-publics producing legitimate, transformative policy outcomes on a socially divisive issue.",
-    "see_also": [
-      "deliberative-mini-publics",
-      "sortition",
-      "augmented-deliberation",
-      "alignment-assemblies"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "France Citizens' Climate Convention (CCC)",
-    "definition": "A 2019–2020 French deliberative assembly of 150 randomly selected citizens tasked with proposing measures to reduce greenhouse gas emissions. The book references it as a prominent example of large-scale sortition-based deliberation on complex technical policy, and notes the tensions when government partially implements recommendations.",
-    "see_also": [
-      "deliberative-mini-publics",
-      "sortition",
-      "augmented-deliberation",
-      "adaptive-administration"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Deliberative Polling (Fishkin)",
-    "definition": "A structured process developed by James Fishkin in which a random, representative sample of citizens receives balanced briefing materials, deliberates in small groups with expert input, and is surveyed before and after to measure opinion change. The book cites deliberative polling as an empirically validated method for informed, cross-cutting opinion formation at modest scale.",
-    "see_also": [
-      "deliberative-mini-publics",
-      "sortition",
-      "augmented-deliberation",
-      "scale-depth-trade-off-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Habermasian Public Sphere",
-    "definition": "Jürgen Habermas's normative ideal of a communicative space in which citizens deliberate rationally toward consensus, bracketing power differentials. The book engages with Habermasian theory as background for augmented deliberation, while arguing that ⿻ approaches move beyond the ideal of a single unified public sphere toward a networked plurality of overlapping publics.",
-    "see_also": [
-      "plurality-publics",
-      "augmented-deliberation",
-      "problem-of-the-public-dewey",
-      "emergent-publics-dewey"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Epistemic Diversity (Deliberation)",
-    "definition": "The presence within a deliberative process of participants who hold different background knowledge, values, and interpretive frameworks — a condition the book treats as a resource for ⿻ deliberation rather than an obstacle. Drawing on Page's diversity-prediction theorem and related work, the book argues that epistemically diverse groups outperform homogeneous expert panels on complex social problems.",
-    "see_also": [
-      "diversity-innovation-nexus",
-      "augmented-deliberation",
-      "bridging-based-moderation",
-      "plurality-publics"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Plurality Report (Pol.is Output)",
-    "definition": "The structured public document generated at the end of a Pol.is-mediated deliberation — presenting consensus statements, opinion clusters, bridging statements, and areas of persistent disagreement. The book treats the plurality report as a ⿻ artifact that makes the opinion landscape legible to policymakers and the public without reducing it to a single majority position.",
-    "see_also": [
-      "polis-style-clustering",
-      "consensus-statement-surfacing",
-      "vtaiwan",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Community Notes (Birdwatch)",
-    "definition": "A community-based fact-checking and context-adding platform on X (formerly Twitter). Contributors flag potentially misleading posts and rate each other's notes. Statistical analysis places raters on an opinion spectrum; notes are rated 'helpful' based on cross-partisan support rather than raw volume, rewarding notes endorsed by ideologically diverse users. This bridging-based algorithm exposes hundreds of millions of users weekly to content moderation grounded in collaboration across diversity, consistent with ⿻.",
-    "see_also": [
-      "bridging-based-moderation",
-      "polis-style-clustering",
-      "augmented-deliberation",
-      "collaborative-filtering-failure-mode"
-    ],
-    "source_chapter": "Ch. 5-4",
-    "source_quote": "Instead of prioritizing notes that are supported by a biased, like-minded cluster of users, the system rewards notes that are supported by diverse groups of users, correcting biases driven by political and social fragmentation."
-  },
-  {
-    "term": "Broad Listening",
-    "definition": "The capacity for one person or system to thoughtfully digest a wide range of perspectives at scale — framed by the book as the inverse of broadcast. Attributed to Andrew Trask, the concept highlights a fundamental asymmetry: while broadcast (one-to-many) has improved dramatically, broad listening remains extremely costly and time-consuming. Herbert Simon's observation that 'a wealth of information creates a poverty of attention' underscores why advances in augmented deliberation focus on solving the broad listening problem.",
-    "see_also": [
-      "augmented-deliberation",
-      "attention-scarcity-vs-information-abundance",
-      "ai-assisted-synthesis-deliberation",
-      "scale-depth-trade-off-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4",
-    "source_quote": "Perhaps the fundamental limit on all these approaches is that while methods of *broadcast* (allowing many to hear a single statement) have dramatically improved, *broad listening* (allowing one person to thoughtfully digest a range of perspectives) remains extremely costly and time consuming."
-  },
-  {
-    "term": "Diversity–Bandwidth Trade-off",
-    "definition": "A structural tension in deliberation identified by the book: engaging participants with vastly diverse perspectives makes conversations less efficient, lengthy, and prone to 'analysis paralysis,' while increasing bandwidth and efficiency tends to exclude diverse voices. Navigating this trade-off is framed as the central challenge of conversation design, addressed by augmented deliberation tools like Polis and Community Notes through algorithmic bridging rather than direct exclusion of participants.",
-    "see_also": [
-      "augmented-deliberation",
-      "scale-depth-trade-off-deliberation",
-      "bridging-based-moderation",
-      "epistemic-diversity-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Collective Response Systems",
-    "definition": "A category of ⿻ deliberation tools — named by Aviv Ovadya and Luke Thorburn — that combine the participatory, open, and interactive nature of social media with features encouraging thoughtful listening, understanding of conversational dynamics, and careful emergence of shared views. Examples include Polis, All Our Ideas, and Remesh. Also called 'bridging systems' or 'wikisurveys,' these platforms surface rough consensus and map opinion groups without merely amplifying like-minded clusters.",
-    "see_also": [
-      "polis-style-clustering",
-      "bridging-based-moderation",
-      "augmented-deliberation",
-      "vtaiwan-virtual-taiwan"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Talk to the City",
-    "definition": "A project of the AI Objectives Institute that uses generative foundation models (GFMs) to replace static lists of opinion statements with an interactive agent representing a community's views. Rather than displaying fixed Polis-style clusters, participants can converse with an AI avatar that synthesizes a group's expressed perspectives, pointing toward a future where GFMs enable richer 'broad listening' by making collective viewpoints interactively legible.",
-    "see_also": [
-      "ai-assisted-synthesis-deliberation",
-      "broad-listening",
-      "collective-response-systems",
-      "polis-style-clustering"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Cortico / Fora (MIT CCC)",
-    "definition": "A technology platform developed by MIT's Center for Constructive Communication and the civil society organization Cortico. Fora uses identity/association protocols and natural language processing to allow recorded in-person conversations on difficult topics to remain protected while surfacing shareable insights. Community members can, with speakers' permission, lift consequential highlights to stakeholders such as government or organizational leadership. Used in civic processes including informing the 2021 Boston mayoral election.",
-    "see_also": [
-      "augmented-deliberation",
-      "broad-listening",
-      "plurality-deliberation-stack",
-      "ai-assisted-synthesis-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Wikisurveys",
-    "definition": "A social data-collection method — as named by Salganik and Levy — that opens surveys to participant-generated items and iterative peer rating, combining quantifiability with openness. The book situates wikisurveys alongside 'collective response systems' and 'bridging systems' as part of a family of ⿻ deliberation tools that scale participatory input without sacrificing the diversity or openness characteristic of social media.",
-    "see_also": [
-      "collective-response-systems",
-      "polis-style-clustering",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "The Synthetic Party (Det Syntetiske Parti)",
-    "definition": "The world's first AI-driven political party, founded in Denmark in 2022 by the 'Computer Lars' artist group and tech-hub MindFuture. It fine-tuned a generative text model on data from over 200 micro-parties to represent the ~15–20% of Danish voters who habitually abstain, encoding contradictory policy positions to reflect the fragmented views of unrepresented constituencies. The book presents it as a provocative instance of GFM-based collective representation extending democratic inclusion.",
-    "see_also": [
-      "ai-assisted-synthesis-deliberation",
-      "talk-to-the-city",
-      "collective-response-systems",
-      "broad-listening"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Collaborative Filtering (Echo Chamber Algorithm)",
-    "definition": "A class of recommendation algorithms that select content to maximize user engagement by surfacing like-minded content, reinforcing existing beliefs and insulating users from diverse perspectives. The book frames collaborative filtering as a primary driver of social-media echo chambers — a counter-⿻ failure mode — and uses its critique to motivate bridging-based alternatives like Community Notes and Polis.",
-    "see_also": [
-      "bridging-based-moderation",
-      "community-notes-birdwatch",
-      "polis-style-clustering",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Portals Policing Project",
-    "definition": "An experiment in immersive cross-distance deliberation in which cargo containers were installed in cities affected by police violence, enabling enriched video-based exchanges of lived experience with such violence across physical and social distance. The book cites it as an example of using immersive shared reality to bring the depth of in-person conversation to geographically and socially separated communities.",
-    "see_also": [
-      "immersive-shared-reality",
-      "augmented-deliberation",
-      "post-symbolic-communication"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "GFM-Based Collective Representation",
-    "definition": "An emerging ⿻ frontier in which generative foundation models (GFMs) fine-tuned on a community's text operate as collective representatives — articulating the shared or aggregate perspective of a group rather than any single individual. The book situates this alongside Talk to the City and The Synthetic Party as pointing toward AI entities that could serve as aids, complements, or checks on human representatives, and potentially speak for non-human entities (nature, future generations).",
-    "see_also": [
-      "talk-to-the-city",
-      "the-synthetic-party-det-syntetiske-parti",
-      "ai-assisted-synthesis-deliberation",
-      "broad-listening"
-    ],
-    "source_chapter": "Ch. 5-4",
-    "source_quote": "One can imagine training a model on the text of a community of people (as in Talk to the City) and thus, rather than representing one person's perspective, it could operate as a fairly direct collective representative, possibly as an aid, complement or check on the discretion of a person intended to represent that group."
-  },
-  {
-    "term": "Parliament of Things (Latour)",
-    "definition": "Bruno Latour's argument, from *We Have Never Been Modern*, that natural features such as rivers and forests deserve representation in political deliberation. The book invokes this concept in the context of GFM-based collective representation, suggesting that generative models might act as a 'Lorax' — translating scientific measures of natural systems into deliberative voice — extending ⿻ representation beyond living human beings to non-human entities and future generations.",
-    "see_also": [
-      "gfm-based-collective-representation",
-      "talk-to-the-city",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Tyranny of Structurelessness",
-    "definition": "Jo Freeman's concept describing how attempts at leaderless, inclusive governance often reproduce informal dominance hierarchies and unfair norms precisely because they lack explicit structure. The book invokes it to argue that social technologies and facilitation methods for deliberation — agenda setting, turn-taking, active inclusion, small-group breakouts — are necessary to prevent informal power from overriding the intentions of inclusive exchange.",
-    "see_also": [
-      "deliberative-mini-publics",
-      "augmented-deliberation",
-      "sortition",
-      "plurality-deliberation-stack"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Anno 2024 (Tokyo Gubernatorial Election)",
-    "definition": "The 2024 Tokyo gubernatorial campaign of candidate Takahiro Anno, who used GitHub, Google Slides, and X for open manifesto development; Talk to the City for visualizing voter perspectives; an AI avatar (AI-Anno) answering ~7,400 questions on YouTube; and GitHub discussions for policy refinement. Despite being a little-known candidate, Anno received over 150,000 votes — the highest for a candidate in their 30s across 22 past Tokyo gubernatorial elections — demonstrating ⿻ deliberative tools extending meaningfully into electoral politics.",
-    "see_also": [
-      "talk-to-the-city",
-      "augmented-deliberation",
-      "collective-response-systems",
-      "broad-listening"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Collective Intelligence Project (CIP)",
-    "definition": "A ⿻ NGO working to embed collective intelligence and democratic input into the steering of generative AI systems. The book highlights CIP's collaboration with Anthropic (sourcing Claude 3's constitutional values via Polis) and OpenAI (running the 'Democratic Inputs to AI' grant program, leading to an OpenAI Collective Alignment Team) as instances of augmented deliberation shaping frontier AI governance.",
-    "see_also": [
-      "augmented-deliberation",
-      "polis-style-clustering",
-      "collective-response-systems",
-      "alignment-assemblies"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Maximally Diverse Committee Selection",
-    "definition": "A ⿻ approach to deliberative participant selection that uses the full intersectional richness of social identity — derived from bridging-system data — rather than simple demographics or geography. Protocols would choose participants by minimizing how marginalized the most marginalized participants are, based on known social connections and affiliations. The book presents this as a way to simultaneously achieve benefits of sortition, administrative assignment, and election.",
-    "see_also": [
-      "sortition",
-      "intersectional-social-identity",
-      "polis-style-clustering",
-      "deliberative-mini-publics"
-    ],
-    "source_chapter": "Ch. 5-4"
-  },
-  {
-    "term": "Regulatory Sandboxes (as ⿻ Administrative Tool)",
-    "definition": "Time-limited, scope-limited exemptions from existing regulations that allow innovators and agencies to experiment with new practices under real-world conditions while monitoring outcomes. In the ⿻ framing of adaptive administration, regulatory sandboxes are a key institutional mechanism: they lower the cost of policy experimentation, generate evidence that can feed into iterative rule revision, and distribute governance authority between central regulators and participating communities.",
-    "see_also": [
-      "adaptive-administration",
-      "vtaiwan",
-      "join-platform"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Sunset Clauses (as ⿻ Administrative Design)",
-    "definition": "Provisions written into laws or regulations that cause them to expire automatically after a fixed period unless affirmatively renewed. In the adaptive administration framework, sunset clauses institutionalize the iterative hypothesis-testing cycle: they force periodic reassessment of whether a rule still fits its context and create structured opportunities for participatory revision rather than regulatory lock-in.",
-    "see_also": [
-      "adaptive-administration",
-      "regulatory-sandboxes"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Participation Officer Network (⿻ Administrative Layer)",
-    "definition": "A distributed corps of civil servants embedded across Taiwanese government ministries whose role is to translate participatory inputs — from vTaiwan, JOIN, and public consultations — into actionable policy revision. Within the adaptive administration model, participation officers serve as the human connective tissue between citizen deliberation and bureaucratic decision-making, ensuring that feedback loops are institutionalized rather than ad hoc.",
-    "see_also": [
-      "adaptive-administration",
-      "vtaiwan",
-      "join-platform",
-      "public-digital-innovation-space"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "PDCA Cycle (Plan–Do–Check–Act as ⿻ Governance Loop)",
-    "definition": "W. Edwards Deming's iterative quality-management cycle, adopted in the adaptive administration framework as a model for continuous regulatory improvement. Applied to governance, the cycle runs: set a policy target (Plan), implement it as a bounded experiment (Do), measure outcomes against targets (Check), and revise the rule or standard accordingly (Act). Plurality authors cite Taiwan's administrative culture as an applied instance of Deming-influenced iterative governance.",
-    "see_also": [
-      "adaptive-administration",
-      "deming-quality-control",
-      "regulatory-sandboxes"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Measurable Targets (as ⿻ Administrative Anchor)",
-    "definition": "Explicit, quantified performance benchmarks embedded in regulations and policy pilots that enable the check-and-act phases of adaptive administration. Rather than specifying prescriptive means, measurable targets hold agencies accountable for outcomes while leaving room for diverse implementation paths — a design principle compatible with the ⿻ emphasis on maintaining diversity across communities.",
-    "see_also": [
-      "adaptive-administration",
-      "pdca-cycle"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Co-Creation (Government–Citizen)",
-    "definition": "A mode of public-sector policymaking in which civil servants and citizens jointly author rules, services, and institutional designs rather than the state acting as sole author. In the adaptive administration chapter, co-creation is positioned as the participatory complement to iterative rule revision: it brings the knowledge and legitimacy of affected communities directly into the drafting process, reducing the gap between policy intent and lived experience.",
-    "see_also": [
-      "adaptive-administration",
-      "augmented-deliberation",
-      "participation-officer-network",
-      "vtaiwan"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Bureaucratic Ossification (as ⿻ Failure Mode)",
-    "definition": "The tendency of administrative systems to calcify around fixed rules, standard operating procedures, and risk-averse cultures that resist revision even when evidence of policy failure accumulates. In the Plurality framing, bureaucratic ossification is the administrative analogue of premature optimization: it sacrifices the adaptive capacity needed to govern across diversity in exchange for procedural certainty and organizational self-preservation.",
-    "see_also": [
-      "adaptive-administration",
-      "premature-optimization",
-      "monist-technocracy"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Good Old-Fashioned AI (GOFAI)",
-    "definition": "The AI paradigm dominant in the 1970s–1980s that attempted to automate bureaucratic processing by encoding administrative rules as nested decision trees, constructed by programming 'experts' into rule-based systems. Weyl & Tang argue GOFAI was in many ways an attempt to automate traditional bureaucracy rather than transcend its rigidity, and that it fell from favor in the 1990s as it ran into fundamental obstacles. It has since been largely replaced by machine learning and generative foundation models.",
-    "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm",
-      "bureaucratic-ossification"
+      "adaptive administration",
+      "generative foundation models",
+      "machine learning"
     ],
     "source_chapter": "Ch. 5-5",
     "source_quote": "The AI work that dominated the field in the 1970s and 1980s, sometimes called 'good old-fashioned AI' (GOFAI), was in many ways an attempt to automate traditional bureaucratic processing."
   },
   {
-    "term": "Generative Foundation Models (GFMs) as Administrative Infrastructure",
-    "definition": "The application of large-scale probabilistic neural networks — generative foundation models — to administrative processes, enabling those processes to accept far more diverse and unstructured inputs than traditional rule-based bureaucracy allows. Unlike GOFAI's rigid decision trees, GFMs adapt in a manner resembling a knowledgeable expert while offering reproducibility, reducing the burden on users to fill out specialized forms. Weyl & Tang treat GFMs not as 'AI' per se but as networked, probabilistic structures whose flexibility is the key innovation for adaptive administration.",
+    "term": "next-generation badging",
+    "definition": "A proposed replacement for traditional coursework and grades in which learners accumulate granular 'micro badges' certifying specific measurable skills, which combine into 'mezzo badges', which in turn ladder up to 'macro badges' recognisable to employers and institutions. Proposed by Danielle Allen, David Kidd, and Ariana Zetlin, the system mirrors the hierarchical activation structure of neural networks and is argued to be more equitable for historically marginalised and academically non-traditional students.",
     "see_also": [
-      "adaptive-administration",
-      "good-old-fashioned-ai-gofai",
-      "bureaucratic-ossification",
-      "linguistic-diversity"
+      "adaptive administration",
+      "generative foundation models",
+      "verifiable credentials"
     ],
     "source_chapter": "Ch. 5-5",
-    "source_quote": "Harnessing GFMs as components in administrative processes could allow them to take a far more diverse and unstructured range of inputs, adapt to them in the manner that a thoughtful and knowledgeable expert might, and do so in a way that offers a degree of reproducibility without imposing undue burdens on users to fill out specialized forms."
+    "source_quote": "They suggest the gradual replacement of traditional coursework and grades with a far more diverse range of 'badges'. Starting with concrete recognition of specific measurable skills which then help qualify holders for 'mezzo badges'. Based on holding an appropriate combination of micro and mezzo badges people eventually ladder up to recognizable 'macro badges' that can be used by potential employers or educational institutions."
   },
   {
-    "term": "Bureaucratic Rigidity vs. Complexity Trade-off",
-    "definition": "The fundamental tension at the heart of administration: rules that discard contextual detail to achieve fairness produce 'rigidity' (outcomes insensitive to specific cases or local circumstances), while attempts to handle diversity and nuance produce 'complexity' (inscrutable systems, red tape, excessive discretion). Weyl & Tang argue that this trade-off — not any particular bad actor — is the structural cause of both oppressive bureaucratic outcomes and Kafkaesque administrative labyrinths, and that GFMs and related digital tools hold promise for navigating it more elegantly.",
+    "term": "cultural norm translation",
+    "definition": "The prospective use of generative foundation models to provide low-cost, scalable translation across cultural legal and property norms — analogous to language translation — enabling traditional and indigenous practices to remain viable by becoming interoperable with modern legal systems without being overwritten by them. The book frames this as a potential counter to the forced homogenisation imposed by colonialism and modernity.",
     "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm-as-administrative-infrastructure",
-      "bureaucratic-ossification"
-    ],
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "The leading reason, therefore, that bureaucracies become illegitimate as they try to span a broad range of social diversity is that, to accommodate this range, they have to become too complex to function properly."
-  },
-  {
-    "term": "Next-Generation Badging (Allen–Kidd–Zetlin)",
-    "definition": "A proposal by Danielle Allen, David Kidd, and Ariana Zetlin to replace traditional coursework and grades with a layered system of micro, mezzo, and macro 'badges' that recognize specific measurable skills and aggregate into credentials recognizable by employers and institutions. Weyl & Tang note that this structure directly mirrors a neural network's hierarchical activation pattern and is grounded in educational psychology research emphasizing the granular nature of skills, arguing it could reduce exclusion of historically marginalized students from opportunity pathways now gated by rigid academic credentials.",
-    "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm-as-administrative-infrastructure",
-      "verifiable-credentials-vcs"
-    ],
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "They suggest the gradual replacement of traditional coursework and grades with a far more diverse range of 'badges'... Allen and her co-authors argue that such a system would be much more consistent with years of research in educational psychology which emphasizes the granular nature of skills and the poor fit of standard classroom practices to it."
-  },
-  {
-    "term": "Cross-Cultural Legal Translation (GFM-Mediated)",
-    "definition": "The speculative but grounded possibility that generative foundation models could provide low-cost translation across cultural legal and property norms, much as they increasingly do across spoken languages. Weyl & Tang argue that such norm translation could make a broader range of traditional, indigenous, and experimental legal practices sustainable and interoperable with formal legal systems — reducing the burden of cultural conformity imposed by modernity and colonialism — while enriching the social diversity that fuels collective learning and growth.",
-    "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm-as-administrative-infrastructure",
-      "linguistic-diversity",
-      "coloniality-of-mapping"
+      "adaptive administration",
+      "generative foundation models",
+      "post-symbolic communication",
+      "modular politics"
     ],
     "source_chapter": "Ch. 5-5",
     "source_quote": "Just as GFMs are increasingly capable of providing low-cost translation across a growing number of languages, it is just possible to imagine that equally rapid translation across cultural norms may become feasible."
   },
   {
-    "term": "Coloniality of Mapping (as ⿻ Failure Mode)",
-    "definition": "The pattern whereby environmentally and culturally rich regions are either unmapped or mapped through the perspective of colonial outsiders, overriding indigenous peoples' relational knowledge of land and rights. Weyl & Tang identify this as a specific instance of administrative rigidity that imposes external classificatory frameworks and erases traditional property practices. Digital mapping tools and GFMs are being harnessed by groups such as Digital Democracy, the Rainforest Foundation US, and SERVIR Amazonia to describe traditional rights patterns and assert them against colonial legal systems.",
+    "term": "bureaucratic rigidity",
+    "definition": "The failure mode of administrative systems in which rule-based processing discards contextually important information, producing outcomes insensitive to the nuances of individual cases or local cultural circumstances. Weyl & Tang treat rigidity as one horn of a fundamental trade-off: administrations that seek fairness by abstracting away detail inevitably produce outcomes that are either too strict or too lenient for actual conditions.",
     "see_also": [
-      "adaptive-administration",
-      "cross-cultural-legal-translation-gfm-mediated",
-      "bureaucratic-rigidity-vs-complexity-trade-off"
+      "adaptive administration",
+      "bureaucratic complexity",
+      "good old-fashioned AI (GOFAI)"
     ],
     "source_chapter": "Ch. 5-5"
   },
   {
-    "term": "AI4Bharat / Karya / IVR Junction (India Language Access Stack)",
-    "definition": "A multi-stakeholder collaboration in India that employs Indians to gather data on local languages, harnesses that data to empower LLMs to translate across languages, and connects illiterate Indians with access only to feature phones to a 'voice-based internet'. Weyl & Tang present this stack — built by AI4Bharat, Karya, and IVR Junction — as a leading example of adaptive administration enabling marginalized communities to access public services while preserving linguistic and cultural diversity.",
+    "term": "bureaucratic complexity",
+    "definition": "The complementary failure mode to bureaucratic rigidity: as administrative systems try to span a wider range of social diversity, they accumulate layers of rules and discretionary exceptions that make them opaque, hard to navigate, and susceptible to arbitrary use of power by individual adjudicators. The book identifies this as the primary reason bureaucracies lose legitimacy when extended across broad social differences.",
     "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm-as-administrative-infrastructure",
-      "linguistic-diversity",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "Together these hold the promise of helping preserve and strengthen the cultural diversity of India by ensuring those who speak less prominent languages and live far from cities are still able to access the public services they need to sustain their ways of life."
-  },
-  {
-    "term": "GFM Bias and Opacity (as Administrative Failure Mode)",
-    "definition": "The cluster of risks that arise when generative foundation models are embedded in administrative processes: opacity of decision logic that may exacerbate rather than mitigate bureaucratic inscrutability; inheritance of biases from training data and creators; difficulty measuring data diversity; and potential for regulatory arbitrage when cross-cultural legal interoperability is abused by powerful interests. Weyl & Tang note that ethnographers of the colonial era became tools of subjugation rather than inclusive translators — warning that GFMs risk repeating this pattern if not governed through collective deliberation and legitimacy-grounding mechanisms.",
-    "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm-as-administrative-infrastructure",
-      "monist-technocracy",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 5-5",
-    "source_quote": "While GFMs may be less burdensome to interact with, they arguably further exacerbate the opacity of bureaucracy and may not much mitigate the problems of discretion and human bias given that it is often extremely challenging to map the biases of such systems or what clusters of human behaviors in the past shape their outputs today."
-  },
-  {
-    "term": "Legal Access Platforms (DoNotPay / Legal Robot)",
-    "definition": "GFM-powered platforms designed to reduce the legal access gap between individuals with limited means and corporate entities that invest heavily in legal services for precedent-setting as well as case outcomes. Weyl & Tang cite Legal Robot and DoNotPay as examples of adaptive administration helping to rebalance power in legal proceedings by making sophisticated legal navigation available to those who could not otherwise afford it.",
-    "see_also": [
-      "adaptive-administration",
-      "generative-foundation-models-gfm-as-administrative-infrastructure",
-      "bureaucratic-rigidity-vs-complexity-trade-off"
+      "adaptive administration",
+      "bureaucratic rigidity",
+      "good old-fashioned AI (GOFAI)"
     ],
     "source_chapter": "Ch. 5-5"
   },
   {
-    "term": "Refugee and Land Registry (Distributed Ledger Identity)",
-    "definition": "The use of transparent databases and distributed ledgers as substrates for identities and land registries in contexts where traditional administrative infrastructure is unavailable or distrusted — illustrated by ID2020's work on refugee identity and blockchain-based land registries in Honduras. Weyl & Tang present these as cases where adaptive administrative infrastructure extends legitimate identity and property recognition to populations excluded from conventional bureaucratic systems.",
-    "see_also": [
-      "adaptive-administration",
-      "decentralized-identity",
-      "federated-identity",
-      "data-coalitions"
-    ],
-    "source_chapter": "Ch. 5-5"
-  },
-  {
-    "term": "Plural Voting (⿻ Voting)",
-    "definition": "A family of voting mechanisms — including quadratic voting, approval voting, score voting, and ranked-choice voting — designed to express the intensity of preferences across diverse issues and communities rather than collapsing them into a single binary choice. The book frames plural voting as a ⿻ governance primitive that moves beyond one-person-one-vote monism by allowing voters to allocate voice credits across multiple issues or candidates, surfacing cross-cutting coalitions and reducing winner-take-all dynamics.",
+    "term": "plural voting",
+    "definition": "A family of voting mechanisms designed to move beyond simple majority rule by allowing voters to express the intensity of their preferences across multiple options. The book treats quadratic voting as a leading instance: participants receive a budget of voice credits and spend them across candidates or issues, with the cost of each additional vote on a single option rising quadratically. This structure weights intensity of preference while limiting domination by concentrated wealth or power, and is positioned as a ⿻ primitive for collective decisions that span from shareholder governance to public elections.",
     "see_also": [
       "quadratic-voting",
-      "voice-credits",
+      "quadratic-funding",
       "conviction-voting",
-      "plural-money",
-      "metagovernance"
+      "equal-and-distributed-voting"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Approval Voting",
-    "definition": "A voting method in which each voter may vote for (approve) any number of candidates, with the candidate receiving the most approvals winning. The book cites approval voting as a simple plural voting reform that reduces strategic voting and better surfaces candidates with broad cross-community support, contrasting it with plurality (first-past-the-post) systems that entrench two-party or winner-take-all dynamics.",
+    "term": "quadratic voting",
+    "definition": "A voting mechanism in which each participant is allocated a budget of voice credits and may cast votes on any issue, with the cost of k votes on a single option being k² credits. The quadratic cost structure ensures that expressing strong preferences is expensive, preventing any single actor from dominating outcomes while still allowing preference intensity to influence results. The book identifies it as a foundational ⿻ governance primitive, deployed in experiments ranging from Colorado Democratic Party primaries to Taiwanese civic consultations.",
     "see_also": [
       "plural-voting",
-      "ranked-choice-voting",
-      "quadratic-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Ranked-Choice Voting (RCV)",
-    "definition": "A voting method in which voters rank candidates in order of preference; if no candidate wins a majority of first-choice votes, the candidate with fewest votes is eliminated and their votes redistributed according to next preferences, iterating until a majority winner emerges. The book treats RCV as a plural voting reform that reduces spoiler effects and better represents diverse voter preferences than first-past-the-post.",
-    "see_also": [
-      "plural-voting",
-      "approval-voting",
-      "quadratic-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Score Voting (Range Voting)",
-    "definition": "A voting method in which voters assign a numerical score to each candidate within a defined range; the candidate with the highest average (or total) score wins. The book presents score voting as a plural voting mechanism that captures preference intensity — not merely ordinal ranking — enabling more nuanced expression of voter sentiment across diverse communities.",
-    "see_also": [
-      "plural-voting",
-      "quadratic-voting",
-      "approval-voting",
+      "quadratic-funding",
       "voice-credits"
     ],
+    "source_chapter": "Ch. 5-6",
+    "source_quote": "In QV, participants are allocated a budget of 'voice credits' and may cast votes on issues at a cost that rises quadratically: casting k votes on an issue costs k² credits."
+  },
+  {
+    "term": "voice credits",
+    "definition": "The fictional currency allocated to participants in quadratic voting (QV) or related plural-voting schemes. Voice credits are spent to cast votes; because the cost of each additional vote on a single item is quadratic rather than linear, the credit budget forces voters to reveal and allocate their preferences across issues rather than concentrating all power on one. The design separates the right to participate from the capacity to dominate any single decision.",
+    "see_also": [
+      "quadratic-voting",
+      "plural-voting"
+    ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "STAR Voting (Score Then Automatic Runoff)",
-    "definition": "A voting method combining score voting with an automatic runoff: voters score all candidates, and the two highest-scoring candidates advance to a runoff decided by which of the two is preferred by more voters. The book notes STAR voting as a plural voting innovation that balances expressive scoring with majority legitimacy.",
+    "term": "equal and distributed voting",
+    "definition": "A baseline voting ideal in which each eligible participant holds the same aggregate power across a set of decisions, whether through one-person-one-vote in simple majority systems or through equal budget allocations in plural-voting systems. The book uses this as a benchmark against which concentrated-preference and plutocratic voting failures are measured, and as the equity constraint that quadratic and other plural mechanisms attempt to honor while still reflecting preference intensity.",
     "see_also": [
       "plural-voting",
-      "score-voting",
-      "approval-voting",
+      "quadratic-voting",
+      "one-person-one-vote"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "one-person-one-vote",
+    "definition": "The standard democratic principle that every eligible voter casts exactly one vote of equal weight in an election or referendum. The book treats it as the dominant contemporary voting ideal — protecting against plutocracy — but argues it fails to capture preference intensity and can produce outcomes that ignore strong minority concerns. Plural voting mechanisms like QV are framed as extending rather than replacing this egalitarian commitment.",
+    "see_also": [
+      "equal-and-distributed-voting",
+      "plural-voting",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "conviction voting",
+    "definition": "A voting mechanism in which the weight of a participant's vote grows the longer they hold it on a particular option without changing their choice. Time-weighted commitment acts as a signal of considered, sustained preference rather than reactive or strategic switching. The book names conviction voting as one of the ⿻ plural-voting family alongside quadratic voting, applicable to DAO governance and other settings where long-term stakeholder alignment matters.",
+    "see_also": [
+      "plural-voting",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "approval voting",
+    "definition": "A voting method in which voters may select (approve) as many candidates or options as they wish, with the winner determined by the most approvals. The book situates approval voting in the plural-voting design space as a simple extension beyond single-choice voting that allows voters to express support for multiple options without strategic compromise, while stopping short of the intensity-weighting that quadratic voting provides.",
+    "see_also": [
+      "plural-voting",
+      "quadratic-voting",
       "ranked-choice-voting"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Condorcet Methods",
-    "definition": "A class of voting systems that elect the candidate who would win a pairwise comparison against every other candidate (the 'Condorcet winner') when one exists. The book references Condorcet methods as part of the broader plural voting family, highlighting their property of selecting the candidate most preferred across all cross-community comparisons.",
+    "term": "ranked-choice voting",
+    "definition": "A voting method (also called instant-runoff voting) in which voters rank candidates by preference; if no candidate achieves a majority, the lowest-ranked candidate is eliminated and their votes redistributed until a winner emerges. The book frames ranked-choice voting as a more expressive alternative to plurality voting that reduces spoiler effects, situating it in the broader family of preference-revealing mechanisms that ⿻ governance primitives extend.",
     "see_also": [
       "plural-voting",
+      "approval-voting",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "score voting",
+    "definition": "A voting method in which each voter assigns a numerical score to every candidate or option within a defined range, and the candidate with the highest average (or total) score wins. The book situates score voting in the plural-voting design space as a mechanism that captures preference intensity more directly than binary or ranked methods, while noting that unlike quadratic voting it does not impose a budget constraint that makes expressing extreme preferences costly.",
+    "see_also": [
+      "plural-voting",
+      "quadratic-voting",
+      "approval-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "storable votes",
+    "definition": "A voting mechanism in which participants accumulate votes over time and may deploy them in bunches on issues they care most about intensely, trading participation in lower-salience decisions for concentrated influence in high-salience ones. The book names storable votes as part of the plural-voting design family, sharing with quadratic voting the goal of aligning influence with intensity of preference across a series of decisions.",
+    "see_also": [
+      "plural-voting",
+      "quadratic-voting",
+      "voice-credits"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "preference intensity",
+    "definition": "The degree to which a participant cares about a particular outcome relative to others in a decision space. Standard one-person-one-vote systems ignore preference intensity, potentially delivering outcomes opposed strongly by a minority to satisfy a mild majority preference. The book argues that ⿻ voting mechanisms, especially quadratic voting, are designed to reveal and weight intensity — enabling decisions that better reflect the full distribution of how much people care, not merely how many.",
+    "see_also": [
+      "quadratic-voting",
+      "plural-voting",
+      "voice-credits"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "tyranny of the majority",
+    "definition": "The failure mode in which simple majority voting systematically overrides intense minority preferences, producing outcomes that maximise the number of satisfied voters at the cost of those who care most strongly about the outcome. The book presents it as one of the two key defects of one-person-one-vote (alongside apathy) that plural voting mechanisms, particularly quadratic voting, are designed to correct by weighting preference intensity.",
+    "see_also": [
+      "one-person-one-vote",
+      "preference-intensity",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "vote buying",
+    "definition": "The practice of transferring votes or voting power from one participant to another — whether through direct purchase, delegation, or market exchange — which threatens the equal-distribution principle underlying democratic voting. The book identifies vote buying as a key attack vector on quadratic and plural voting systems, noting that resistance to collusion and vote markets is a central design challenge and a reason why voice-credit budgets must be non-transferable.",
+    "see_also": [
+      "plural-voting",
+      "quadratic-voting",
+      "voice-credits",
+      "collusion-resistance"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "collusion resistance",
+    "definition": "A design property of voting or funding mechanisms ensuring that groups cannot coordinate to pool or trade their decision-making power in ways that defeat the equal-distribution intent of the system. The book identifies collusion resistance as a central engineering challenge for quadratic voting and quadratic funding, requiring mechanisms such as identity verification, non-transferable credentials, and pairwise-bounded subsidy formulas to maintain integrity.",
+    "see_also": [
+      "vote-buying",
+      "quadratic-voting",
+      "quadratic-funding",
+      "sybil-resistance"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "sybil resistance",
+    "definition": "The property of a system that prevents any participant from gaining disproportionate influence by creating multiple fake identities. In plural voting and quadratic funding contexts the book frames sybil resistance as tightly coupled to robust identity verification: without it, a single actor can subdivide their budget across pseudonymous accounts to circumvent the quadratic cost structure and approximate unlimited linear voting power.",
+    "see_also": [
+      "collusion-resistance",
+      "quadratic-voting",
+      "unique-personhood"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "pairwise quadratic funding",
+    "definition": "A refinement of the original quadratic funding mechanism that caps or discounts the matching bonus between contributors who tend to give to the same projects together, reducing the subsidy when donation patterns are highly correlated. The book presents pairwise QF as an advance on basic QF that improves collusion resistance by penalising coordinated giving without requiring explicit detection of bad actors, thereby better allocating public goods funding.",
+    "see_also": [
+      "quadratic-funding",
+      "collusion-resistance",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "quadratic funding",
+    "definition": "A public-goods funding mechanism in which a matching pool amplifies individual contributions according to the square root of each contributor's donation, then squares the sum of roots across all contributors to a project. Small donations from many people attract proportionally larger matches than large donations from few, directing shared resources toward projects with broad community support rather than wealthy backers. The book treats QF as a canonical ⿻ primitive for funding open-source software, civic media, and public infrastructure.",
+    "see_also": [
+      "plural-voting",
+      "quadratic-voting",
+      "pairwise-quadratic-funding",
+      "gitcoin-grants"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "legitimacy",
+    "definition": "In the book's voting and governance context, the property of a decision process that makes its outcomes accepted as binding and fair by participants — not merely because of legal compulsion but because the process credibly embodies shared values such as equal standing, preference responsiveness, and resistance to capture. The book argues that plural voting mechanisms must earn legitimacy by demonstrating both mathematical fairness properties and practical resistance to manipulation.",
+    "see_also": [
+      "plural-voting",
+      "democratic-mediation",
+      "collusion-resistance"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "plurality rule",
+    "definition": "The most common voting method, in which every member of a community selects one option and the option with the most votes is selected. Despite its name, Weyl & Tang note it is 'not a particularly compelling representation of ⿻': it tends to produce a lesser-of-two-evils dynamic (Duverger's Law), may not reflect legitimate differences in stake, and captures only the direction of a majority preference rather than the overall 'will of the group', leaving intensity and knowledge unrepresented.",
+    "see_also": [
+      "duvergers-law",
+      "tyranny-of-the-majority",
+      "quadratic-voting",
+      "approval-voting"
+    ],
+    "source_chapter": "Ch. 5-6",
+    "source_quote": "In the most common form of voting, every member of some community selects one of several mutually exclusive options and the option with the most votes is selected... this 'plurality rule' is not a particularly compelling representation of ⿻ in the way we use it."
+  },
+  {
+    "term": "Duverger's Law",
+    "definition": "A finding in political science, named after Maurice Duverger, that plurality-rule voting tends to produce two-party systems by forcing voters to choose between the two leading alternatives even when they prefer a trailing option — the 'lesser of two evils' dynamic. Weyl & Tang cite it as a core failure mode of simple majority voting that ranked-choice and approval voting partially address.",
+    "see_also": [
+      "plurality-rule",
       "ranked-choice-voting",
       "approval-voting"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Liquid Democracy (Delegative Democracy)",
-    "definition": "A voting model in which participants may either vote directly on issues or delegate their vote to a trusted representative, with delegation transitive and revocable at any time. The book treats liquid democracy as a ⿻ governance primitive that blends direct and representative democracy, allowing context-sensitive delegation across different issue domains and communities.",
+    "term": "weighted voting",
+    "definition": "Voting schemes in which participants receive votes proportional to some measure of legitimate stake — share ownership, population size, or economic power (e.g. GDP). Used in corporate governance, the EU, and the UN. Weyl & Tang note these weights are often disputed and can produce paradoxes such as the '51% attack', where a controlling stake holder can expropriate minority holders.",
     "see_also": [
-      "plural-voting",
-      "quadratic-voting",
-      "conviction-voting",
-      "metagovernance",
-      "modular-politics"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Median Voting / Median Rule",
-    "definition": "A social choice mechanism in which the outcome is set at the median of all expressed preferences rather than the mean or plurality winner. The book discusses the median rule as a strategy-resistant plural voting approach that is robust to manipulation by extreme preferences and tends to produce stable, broadly acceptable outcomes.",
-    "see_also": [
-      "plural-voting",
-      "quadratic-voting",
-      "score-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Epistocracy (as Failure Mode)",
-    "definition": "A governance arrangement in which decision-making authority is weighted by measured expertise or knowledge, rather than distributed equally across affected participants. The book frames epistocracy as a monist failure mode that concentrates power in credentialed elites, undermining the diversity of perspectives that ⿻ governance is designed to preserve and amplify.",
-    "see_also": [
-      "monist-technocracy",
-      "plural-voting",
-      "sortition",
-      "deliberative-mini-publics"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Arrow's Impossibility Theorem (as ⿻ Constraint)",
-    "definition": "Kenneth Arrow's mathematical proof that no rank-order voting system can simultaneously satisfy a set of seemingly reasonable fairness criteria (unrestricted domain, Pareto efficiency, independence of irrelevant alternatives, non-dictatorship). The book invokes Arrow's theorem as a structural argument for moving beyond simple aggregation toward richer plural voting mechanisms — such as quadratic voting and score voting — that operate outside the theorem's constraints by capturing preference intensity rather than mere ordinal ranking.",
-    "see_also": [
-      "plural-voting",
-      "quadratic-voting",
-      "score-voting",
-      "condorcet-methods"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Gibbard–Satterthwaite Theorem (as ⿻ Constraint)",
-    "definition": "A theorem in social choice theory showing that any deterministic voting rule with three or more outcomes is either dictatorial or manipulable by strategic voting. The book cites this alongside Arrow's theorem to motivate plural voting designs — particularly those that reduce incentives for strategic misrepresentation by allowing voters to express preference intensity.",
-    "see_also": [
-      "plural-voting",
-      "arrows-impossibility-theorem",
+      "square-root-voting",
+      "degressive-proportionality",
       "quadratic-voting"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Vote Buying / Bribery (as Plural Voting Failure Mode)",
-    "definition": "The practice of exchanging money or goods for votes, which the book identifies as a structural vulnerability in any voting system where votes are transferable or purchasable. The book discusses vote buying as a key design challenge for plural voting mechanisms, noting that quadratic voting's voice credit system requires safeguards — such as robust identity infrastructure and secret ballots — to resist collusion and bribery.",
+    "term": "degressive proportionality",
+    "definition": "A principle for weighting votes in which influence grows less than proportionally with stake — specifically as the square root of stake. Weyl & Tang explain the mathematical basis: uncorrelated background signals grow as the square root of their number, so awarding square-root-weighted votes gives a party only proportionately greater (not disproportionately greater) power. The Penrose square-root rule and quadratic voting both instantiate this principle.",
     "see_also": [
-      "plural-voting",
+      "square-root-voting",
       "quadratic-voting",
-      "voice-credits",
-      "sybil-attack"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Proportional Representation (PR)",
-    "definition": "A family of electoral systems in which legislative seats are allocated to parties or groups in proportion to their share of votes, producing legislatures that more closely mirror the diversity of voter preferences than winner-take-all systems. The book treats proportional representation as a foundational plural voting reform that reduces the dominance of binary majorities and makes space for cross-cutting coalitions.",
-    "see_also": [
-      "plural-voting",
-      "approval-voting",
-      "ranked-choice-voting",
-      "quadratic-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Multi-Winner Voting / Participatory Budgeting (as Plural Voting)",
-    "definition": "Voting mechanisms designed to select multiple winners or allocate budgets across multiple projects in a way that reflects the diversity of voter preferences — including methods like single transferable vote (STV) and knapsack voting used in participatory budgeting. The book presents these as plural voting applications that move beyond selecting a single winner toward distributing resources across communities with different needs and priorities.",
-    "see_also": [
-      "plural-voting",
-      "quadratic-funding",
-      "participatory-budgeting",
-      "ranked-choice-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Participatory Budgeting (as ⿻ Governance)",
-    "definition": "A democratic process in which community members directly deliberate over and vote on how to allocate a portion of a public budget. The book cites participatory budgeting — pioneered in Porto Alegre, Brazil and now widespread globally — as a ⿻ governance form that combines plural voting with direct participation, giving communities real decision-making power over resource allocation.",
-    "see_also": [
-      "plural-voting",
-      "multi-winner-voting",
-      "quadratic-funding",
-      "deliberative-mini-publics",
-      "adaptive-administration"
+      "penrose-rule",
+      "correlation-discounting"
     ],
     "source_chapter": "Ch. 5-6",
-    "source_quote": ""
+    "source_quote": "This implies that, to award the holder of stake only proportionately greater power, its voting weight should grow as the square root of its stake, a principle often called 'degressive proportionality'."
   },
   {
-    "term": "Quadratic Voting (QV) — Mechanics",
-    "definition": "A voting procedure in which participants spend 'voice credits' (or equivalent currency) to cast votes, with the cost of each additional vote on a given issue increasing quadratically (1, 4, 9, 16…). Because independent voters tend to cancel one another out statistically, taking the square root of the weight a voter places on an issue yields proportionate influence. QV thereby aggregates not just the direction but also the intensity of preferences, moving toward 'the greatest good for the greatest number' rather than a bare majority. It is used in the Colorado State Legislature and in the Civilization VI 'Gathering Storm' World Congress mechanic.",
-    "see_also": [
-      "quadratic-funding",
-      "voice-credits",
-      "plural-voting",
-      "degressive-proportionality",
-      "penrose-square-root-rule",
-      "colorado-qv"
-    ],
-    "source_chapter": "Ch. 5-6",
-    "source_quote": "This game mechanic is a variant of the 'quadratic voting' procedure one of us invented, which is now widely used outside of games as well… Because of the logic above, it aggregates not just the direction of individual preferences but also their strength. Thus, when individual action is independent, it can lead to decisions based not just on 'the greatest numbers' but 'the greatest good for the greatest number'."
-  },
-  {
-    "term": "Degressive Proportionality",
-    "definition": "The principle that voting weight should grow as the square root of a party's stake or population rather than linearly, because uncorrelated votes grow as the square root of their number while a single correlated vote grows linearly. Degressive proportionality underlies both Penrose's square-root voting rule (applied to groups such as nations) and QV (applied to individual preference strength). It is approximately used in several elements of European Union governance across member nations.",
-    "see_also": [
-      "quadratic-voting-qv-mechanics",
-      "penrose-square-root-rule",
-      "plural-voting"
-    ],
-    "source_chapter": "Ch. 5-6",
-    "source_quote": "When background signals are completely uncorrelated and there are many of them, there is a simple way to mathematically account for this: a series of uncorrelated signals grows as the square root of their number, while a correlated signal grows in linear proportion to its strength. Thus 10,000 uncorrelated votes will weigh as heavily as only 100 correlated ones. This implies that, to award the holder of stake only proportionately greater power, its voting weight should grow as the square root of its stake, a principle often called 'degressive proportionality'."
-  },
-  {
-    "term": "Penrose Square-Root Rule",
-    "definition": "A voting-weight principle originating with statistician Lionel Penrose (father of Roger Penrose), which holds that when weighing collective decision-making between groups of different sizes, each group's voting weight should be proportional to the square root of its population rather than to the population itself. This corrects the misleading intuition that doubling a group's votes doubles its power; in reality, uncoordinated voters within a larger bloc tend to cancel out, so square-root weighting restores proportionate influence. The rule is approximately employed in EU governance.",
+    "term": "square-root voting",
+    "definition": "A voting weight rule, originating with Lionel Penrose, in which each party's voting weight is the square root of its legitimate stake (e.g. population). Because uncorrelated individual votes cancel out on average, a group with N members wields influence proportional to √N, not N. Approximately used in some EU governance mechanisms across member nations.",
     "see_also": [
       "degressive-proportionality",
-      "quadratic-voting-qv-mechanics",
+      "penrose-rule",
+      "quadratic-voting",
       "weighted-voting"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Colorado QV (Colorado State Legislature Quadratic Voting)",
-    "definition": "A real-world application of quadratic voting in which the Colorado State Legislature used QV to prioritize spending decisions among legislators. Each legislator received a budget of voice credits to allocate across proposed budget items, with the cost per vote increasing quadratically, surfacing the intensity of legislative preferences across a wide range of options. Cited in Plurality as a prominent institutional adoption of QV beyond games and experiments.",
+    "term": "Penrose rule",
+    "definition": "The square-root weighting principle for multi-member bodies, articulated by statistician Lionel Penrose, father of astrophysicist Roger Penrose. Penrose observed that giving a party twice the stake twice the votes overstates its power because uncoordinated voters cancel one another out; the square root corrects for this. It is the conceptual ancestor of quadratic voting and is used in approximation within EU governance.",
     "see_also": [
-      "quadratic-voting-qv-mechanics",
-      "voice-credits",
-      "participatory-budgeting-as-plural-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Civilization VI World Congress (QV Mechanic)",
-    "definition": "A game mechanic in the 'Gathering Storm' expansion pack of Civilization VI in which civilizations spend accumulated 'Diplomatic Favor' to cast votes in a World Congress on global policies (e.g., fossil-fuel regulation, nuclear controls). The first additional vote costs 10 favor, the second 20, and so on — a quadratic cost structure. This is a popularized instantiation of quadratic voting that has introduced the mechanic to a mass audience through the best-selling strategy game franchise.",
-    "see_also": [
-      "quadratic-voting-qv-mechanics",
-      "degressive-proportionality"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Quadratic Liquid Democracy",
-    "definition": "A proposed governance system that combines liquid democracy's delegative vote-transfer mechanism with degressive proportionality (quadratic cost of additional votes) in order to counteract the power-concentration tendency of standard liquid democracy. RadicalxChange has implemented a related system for its internal governance. The approach aims to allow emergent, bottom-up representation while preventing runaway accumulation of delegated voting power.",
-    "see_also": [
-      "liquid-democracy-delegative-democracy",
+      "square-root-voting",
       "degressive-proportionality",
-      "quadratic-voting-qv-mechanics"
+      "quadratic-voting"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Eigenvoting (Correlation Discounting)",
-    "definition": "A frontier voting design in which, rather than applying the square-root rule only to fixed groups or individuals, statistical correlations and coordinations among all voters are modelled. Votes are discounted based on degree of social connection, and underlying independent 'principal' social factors (eigenvalues) are identified — analogously to how PageRank works — to serve as the 'real' independent voters to whom degressive proportionality is applied. This could produce a dynamic, adaptive, optimized form of consociationalism that avoids the rigidity and entrenchment of existing divides inherent in fixed-group consociational systems.",
+    "term": "liquid democracy",
+    "definition": "A voting system tracing to Charles Dodgson (Lewis Carroll) in which any voter may delegate their vote(s) to others, who may re-delegate them, enabling bottom-up emergent patterns of representation. Increasingly common in corporate, DAO, and some political contexts (e.g. Iceland). Weyl & Tang note an 'unfortunate tendency to concentrate power excessively', as delegation often flows to a small number of hands, which has 'soured initial enthusiasm'.",
     "see_also": [
+      "quadratic-liquid-democracy",
+      "divicracy",
+      "quadratic-voting",
+      "proportional-representation"
+    ],
+    "source_chapter": "Ch. 5-6",
+    "source_quote": "LD extends the idea of proportional representation, allowing any voter to delegate their vote(s) to others, who may then re-delegate them, allowing bottom-up, emergent patterns of representation."
+  },
+  {
+    "term": "correlation discounting",
+    "definition": "A proposed extension of degressive proportionality in which voting weights are adjusted based on the degree of social connection and coordination among voters. Related proposals include identifying underlying statistical 'principal' factors (eigenvalues) driving coordination and applying degressive proportionality to those independent factors — a process analogous to PageRank. Weyl & Tang frame this as a dynamic, adaptive version of consociationalism that avoids its rigidity.",
+    "see_also": [
+      "eigenvoting",
       "degressive-proportionality",
-      "quadratic-voting-qv-mechanics",
-      "penrose-square-root-rule",
+      "quadratic-voting",
+      "consociational-representation"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "eigenvoting",
+    "definition": "A frontier voting proposal in which the underlying independent social factors ('eigenvalues') driving voter coordination are identified and treated as the 'real' independent voters, to whom degressive proportionality is then applied. Weyl & Tang describe it as analogous to how PageRank works and as a way to create a 'dynamic, adaptive, optimized version of consociationalism' that avoids entrenchment of existing divides.",
+    "see_also": [
+      "correlation-discounting",
+      "degressive-proportionality",
+      "quadratic-voting",
+      "consociational-representation"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "quadratic liquid democracy",
+    "definition": "A hybrid voting system combining liquid democracy's vote delegation with degressive proportionality (the quadratic/square-root rule) to counteract the power-concentration tendency of pure liquid democracy. RadicalxChange has implemented a related system for its internal decision-making.",
+    "see_also": [
+      "liquid-democracy",
+      "quadratic-voting",
+      "degressive-proportionality",
+      "radicalxchange"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "futarchy",
+    "definition": "Robin Hanson's governance proposal to separate the determination of values (decided by voting) from the determination of facts about consequences (decided by prediction markets / betting on outcomes). Weyl & Tang note the Plurality book's own governance uses a related mixture: participants can simultaneously vote and predict outcomes, being rewarded for correct predictions. Useful when there is a large range of proposals and predictions can surface deserving attention.",
+    "see_also": [
+      "predictive-voting",
+      "prediction-markets",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "predictive voting",
+    "definition": "A frontier voting mechanism in which participants can simultaneously vote on decisions and predict outcomes, with rewards for accurate predictions. Advocated in variants by Robin Hanson and used in the governance of the Plurality book itself. Weyl & Tang suggest such systems are especially useful when there is a large range of proposals: predictions can direct attention toward deserving options that voting then decides.",
+    "see_also": [
+      "futarchy",
+      "prediction-markets",
+      "assisted-real-time-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "assisted real-time voting",
+    "definition": "A proposed voting modality in which digital assistants learn to model a voter's perspectives and preferences and vote on their behalf, subject to the voter's review and auditing. Weyl & Tang cite this as a way to make voting far more frequent and granular than current systems allow.",
+    "see_also": [
+      "predictive-voting",
+      "liquid-democracy",
+      "quadratic-voting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "consociational representation",
+    "definition": "A family of democratic designs in which sub-units — geographies, religions, ethnic or professional groups — receive population-disproportionate weight to prevent oppression by larger groups. Weyl & Tang acknowledge their ⿻ motivations but note that their 'design is typically haphazard and rigid, based on historical lines of potential oppression that may no longer track the relevant social issues or can entrench existing divides' — making them 'increasingly unpopular'. Eigenvoting is proposed as a dynamic adaptive successor.",
+    "see_also": [
+      "eigenvoting",
+      "correlation-discounting",
+      "federal-representation",
+      "proportional-representation"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "federal representation",
+    "definition": "A class of representative systems — including federal, consociational, and functional arrangements — in which sub-units such as geographies or identity groups receive status and weight beyond their raw population. Weyl & Tang note these incorporate ⿻ elements but are often rigid and historically contingent, and that proportional representation partially addresses majoritarian tensions while 'kicking the can' to coalition formation within representative bodies.",
+    "see_also": [
+      "consociational-representation",
+      "proportional-representation",
+      "eigenvoting"
+    ],
+    "source_chapter": "Ch. 5-6"
+  },
+  {
+    "term": "adaptive representation",
+    "definition": "A proposed frontier voting design in which district or federal boundaries are drawn not exclusively on geography but on current social divides — such as geographic type (urban vs. rural), race, or education — allowing representation to track live social fault lines rather than historical ones. Weyl & Tang note this relies heavily on a ⿻ identity system to supply the relevant inputs.",
+    "see_also": [
+      "eigenvoting",
+      "consociational-representation",
+      "correlation-discounting",
       "intersectional-social-identity"
     ],
     "source_chapter": "Ch. 5-6"
   },
   {
-    "term": "Futarchy",
-    "definition": "A governance proposal by Robin Hanson that combines prediction markets with voting: citizens vote on values (desired outcomes) but bet on beliefs (which policy will achieve those outcomes), with policy selected by market prediction of which option best achieves the voted-on values. In Plurality's governance of the book itself, a mixed form is used in which participants can simultaneously vote and predict the outcome of a decision, being rewarded for correct predictions. Futarchy and related systems may be particularly useful when a large range of proposals exists, since predictions can surface deserving proposals for voting attention.",
+    "term": "social markets",
+    "definition": "A ⿻ framing for market mechanisms that are explicitly embedded in and shaped by social relationships, community trust, and collective values — rather than treating exchange as acontextual transactions between isolated individuals. Social markets harness price signals and allocation efficiency while preserving the relational, communal, and plural dimensions of economic life, integrating tools like quadratic funding, data dignity, partial common ownership, and community currencies into a broader architecture of democratic economic coordination.",
     "see_also": [
-      "prediction-markets-as-plural-infrastructure",
-      "predictive-voting"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Predictive Voting",
-    "definition": "A voting system design in which participants simultaneously cast votes and predict the outcome of collective decisions, with incentives (rewards) for accurate predictions. Combining voting with prediction markets can help surface deserving proposals from a large option space — predictions draw attention to candidates that voting can then decide among — while also generating information about likely outcomes. Used in the governance of the Plurality book itself.",
-    "see_also": [
-      "futarchy",
-      "prediction-markets-as-plural-infrastructure",
-      "liquid-democracy-delegative-democracy"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Assisted Real-Time Voting",
-    "definition": "A proposed voting design in which digital AI assistants learn to model individual voters' perspectives and preferences and vote on their behalf across frequent, granular decisions, subject to voter review and auditing. This would allow voting to become far more frequent and fine-grained than current episodic elections permit, extending the scope of democratic participation without demanding commensurate time from every voter.",
-    "see_also": [
-      "predictive-voting",
-      "liquid-democracy-delegative-democracy",
-      "adaptive-administration"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Adaptive Representation (Voting)",
-    "definition": "A frontier voting design in which electoral district boundaries or group weights are determined not by fixed geography alone but by current social divides — such as geographic type (urban vs. rural), race, or education level — enabling representation structures to shift as social cleavages evolve. Relies on a ⿻ identity system capable of recording relevant group memberships as live inputs to the voting process. Contrasted with rigid consociational or geographic federal systems.",
-    "see_also": [
-      "eigenvoting-correlation-discounting",
-      "intersectional-social-identity",
-      "federated-identity-plural-identity-infrastructure"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Tyranny of the Majority",
-    "definition": "The failure mode of simple majority voting in which the direction chosen by a numerical majority overrides the interests and preferences of minorities, without accounting for how intensely the minority cares about an issue or how much the majority actually values the outcome. Plurality cites it as one of the core deficiencies of standard plurality-rule voting, motivating intensity-weighted systems like QV and group-sensitive designs like consociationalism and eigenvoting.",
-    "see_also": [
-      "quadratic-voting-qv-mechanics",
-      "proportional-representation-pr",
-      "eigenvoting-correlation-discounting",
-      "arrows-impossibility-theorem-as-plural-constraint"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Duverger's Law (Lesser-of-Two-Evils Dynamic)",
-    "definition": "A political-science principle (Maurice Duverger, 1951) holding that plurality-rule voting systems tend to produce two-party dominance, forcing voters to choose between two leading alternatives even when a third option might garner broader support. Plurality cites Duverger's Law as a primary structural deficiency of simple voting, motivating ranked-choice voting, approval voting, and QV as correctives. Compulsory voting policies (e.g., Australia) can compound this dynamic.",
-    "see_also": [
-      "ranked-choice-voting-rcv",
-      "approval-voting",
-      "quadratic-voting-qv-mechanics",
-      "tyranny-of-the-majority"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Weighted Voting",
-    "definition": "A family of voting schemes used when equal weighting of voters is considered inappropriate, including one-share-one-vote in corporate governance, population-proportional voting in federal and confederal bodies (e.g., EU, UN), and power-based weighting (e.g., GDP). Weighted voting is subject to intense dispute over the legitimacy of weights and generates paradoxes such as the '51% attack' (tunneling), where a controlling shareholder can expropriate minority shareholders. Penrose's square-root rule and QV offer alternatives that better reflect proportionate influence.",
-    "see_also": [
-      "penrose-square-root-rule",
-      "degressive-proportionality",
-      "quadratic-voting-qv-mechanics"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "51% Attack / Tunneling (Corporate Governance Failure Mode)",
-    "definition": "A failure mode in one-share-one-vote corporate governance (and by extension token-voting DAOs) in which an actor who acquires 51% of shares or tokens can loot the entity's assets, expropriating the remaining 49% of stakeholders. Also called 'tunneling'. Cited in Plurality as a paradox of weighted voting and an argument for degressive proportionality and other ⿻ correctives.",
-    "see_also": [
-      "weighted-voting",
-      "degressive-proportionality",
-      "dao"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Consociationalism (and Its Limits)",
-    "definition": "A form of power-sharing democracy in which distinct sub-groups (ethnic, religious, geographic, professional) are given formal, often population-disproportionate representation to prevent tyranny by larger groups. Plurality acknowledges consociationalism's ⿻ motivations but critiques its typical design as haphazard, rigid, and historically determined — tracking lines of potential oppression that may no longer reflect current social issues and risking entrenchment of existing divides. Eigenvoting is proposed as a dynamic, adaptive alternative.",
-    "see_also": [
-      "eigenvoting-correlation-discounting",
-      "adaptive-representation-voting",
-      "proportional-representation-pr",
-      "tyranny-of-the-majority"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "RadicalxChange (RxC)",
-    "definition": "A non-profit organization advancing ⿻ (plurality) governance innovations, including quadratic voting, quadratic funding, and quadratic liquid democracy. Cited in Plurality as having implemented quadratic liquid democracy for its own internal decision-making and as a broader institutional home for research and advocacy around ⿻ governance primitives.",
-    "see_also": [
-      "quadratic-voting-qv-mechanics",
-      "quadratic-funding",
-      "quadratic-liquid-democracy"
-    ],
-    "source_chapter": "Ch. 5-6"
-  },
-  {
-    "term": "Social Markets (⿻)",
-    "definition": "The ⿻ vision of markets as embedded in social relationships and trust networks rather than as atomized exchanges between isolated individuals. Social markets treat commerce as a layer built atop associational life, identity, and plural property — enabling exchange that regenerates diversity rather than homogenizing it. Contrasts with both the atomist market (anonymous price-clearing) and monist command allocation.",
-    "see_also": [
-      "plural-money-community-currency",
-      "distributed-trust-network",
-      "quadratic-funding",
-      "data-dignity",
-      "partial-common-ownership",
-      "commerce-plurality-understanding"
-    ],
-    "source_chapter": "Ch. 5-7",
-    "source_quote": "Markets, in the ⿻ view, are not natural or pre-social phenomena but are constructed atop layers of identity, trust, association, and property — and can be redesigned to regenerate the social diversity on which they depend."
-  },
-  {
-    "term": "Market Design (⿻)",
-    "definition": "The deliberate construction or reform of market mechanisms to embody ⿻ values: supporting cross-cutting ties, rewarding diversity, distributing power, and avoiding winner-take-all dynamics. ⿻ market design draws on quadratic mechanisms, plural property, social wealth funds, and community currencies as alternatives to standard price-clearing markets that tend toward concentration.",
-    "see_also": [
-      "quadratic-voting",
-      "quadratic-funding",
-      "partial-common-ownership",
-      "social-wealth-funds",
-      "plural-money-community-currency"
+      "plural property",
+      "quadratic funding",
+      "data dignity",
+      "community currency",
+      "partial common ownership",
+      "plural money",
+      "data coalitions"
     ],
     "source_chapter": "Ch. 5-7"
   },
   {
-    "term": "Regenerative Commerce",
-    "definition": "Exchange systems designed so that market participation replenishes rather than depletes the social, cultural, and ecological diversity on which long-run value depends. In the ⿻ framing, regenerative commerce contrasts with extractive or homogenizing markets; it is enabled by data dignity, plural property, community currencies, and attribution systems that sustain diverse contributors.",
+    "term": "investment votes",
+    "definition": "A mechanism in which participants allocate a budget of voting credits across projects or public goods, with funding or support proportional to (or derived from) the pattern of those allocations. Related to quadratic funding and voice credits, investment votes allow communities to signal relative priority across competing collective investments, blending democratic voice with resource-allocation decisions.",
     "see_also": [
-      "regenerating-diversity",
-      "data-dignity",
-      "plural-money-community-currency",
-      "creator-attribution-and-sustainability",
-      "social-markets-plurality"
+      "quadratic funding",
+      "voice credits",
+      "quadratic voting",
+      "plural voting"
     ],
     "source_chapter": "Ch. 5-7"
   },
   {
-    "term": "Plural Funding (⿻ Funding)",
-    "definition": "A matching-fund formula that accounts not just for total funding received by a project but also the diversity of its source across individual contributors and connected social groups. Derived from mechanism design theory, the matching amount is proportional to the square of the sum of square roots of individual contributions, giving greater weight to many small contributors than to few large ones. Recent designs extend beyond individualistic assumptions to account for ⿻ group interests and affiliations. Used by platforms like Gitcoin Grants to channel over $100 million into open-source and civic projects.",
+    "term": "social wealth funds",
+    "definition": "Collectively owned investment vehicles — held by communities, cities, or polities — that accumulate and deploy returns from shared productive assets (land, data, natural resources, spectrum) for broadly distributed public benefit. Social wealth funds embody the Henry George insight that socially created value should be returned to society, and serve as a ⿻ alternative to both purely private wealth accumulation and centralized state redistribution.",
     "see_also": [
-      "quadratic-funding",
-      "gitcoin-grants",
-      "social-markets",
-      "quadratic-voting",
-      "supermodularity"
+      "Henry George Theorem",
+      "partial common ownership",
+      "data dignity",
+      "plural property",
+      "commons"
     ],
-    "source_chapter": "Ch. 5-7",
-    "source_quote": "a natural way to fund public/supermodular goods without relying excessively on the limited knowledge of administrators is for such an administrator, philanthropist, or public authority to match contributions by distributed individuals… matching funds should be proportioned to the square of the sum of square roots of individual contributions, giving greater weight to a large number of small contributors than to a few large ones."
+    "source_chapter": "Ch. 5-7"
   },
   {
-    "term": "Stakeholder Corporation",
-    "definition": "A corporate governance form designed to ensure organizations serve rather than exercise illegitimate power over workers, customers, suppliers, and others affected by their operations. Encompasses Environmental, Social and Governance (ESG) principles, platform cooperativism, DAOs, 'stakeholder remedies' in antitrust (using antitrust violations to mandate abused stakeholders have a voice), data unions, and the organization of major foundation-model companies (e.g. OpenAI, Anthropic) as partial non-profits or benefit corporations. Presented in Plurality as a complement to partial common ownership and ⿻ funding.",
+    "term": "plural funding",
+    "definition": "A family of collective resource-allocation mechanisms — including quadratic funding and its variants — designed to match individual contributions to public goods in proportion to the breadth of community support rather than the depth of any single donor's pockets. Plural funding operationalizes the idea that democratic legitimacy, not wealth concentration, should govern which collective projects receive resources.",
     "see_also": [
-      "platform-cooperative",
+      "quadratic funding",
+      "pairwise quadratic funding",
+      "plural voting",
+      "social wealth funds",
+      "legitimacy"
+    ],
+    "source_chapter": "Ch. 5-7"
+  },
+  {
+    "term": "market as communication",
+    "definition": "The Hayekian insight, reclaimed and extended in ⿻, that prices function primarily as a distributed communication system — aggregating dispersed local knowledge that no central planner could possess. ⿻ social markets seek to preserve and enrich this communicative function while addressing its failures: the exclusion of non-monetized values, externalities, and the erosion of the social relationships through which markets are embedded.",
+    "see_also": [
+      "social markets",
+      "plural money",
+      "market design",
+      "collective intelligence",
+      "sensemaking"
+    ],
+    "source_chapter": "Ch. 5-7"
+  },
+  {
+    "term": "stakeholder corporation",
+    "definition": "A reformed corporate governance model that ensures organizations serve rather than exercise illegitimate power over stakeholders—workers, customers, suppliers, and communities. Manifestations include Environmental, Social and Governance (ESG) principles, platform cooperativism, distributed autonomous organizations (DAOs), 'stakeholder remedies' in antitrust law, data unions, and the partial non-profit or long-term benefit corporation structures adopted by major AI labs such as OpenAI and Anthropic.",
+    "see_also": [
+      "platform cooperativism",
       "dao",
-      "data-coalitions",
-      "partial-common-ownership",
-      "social-markets"
+      "data coalitions",
+      "antitrust-as-plurality",
+      "emergent publics"
+    ],
+    "source_chapter": "Ch. 5-7",
+    "source_quote": "there a variety of renewed movements in recent years to create a 'stakeholder' corporation, including Environmental, Social and Governance principles, the platform cooperativism, the distributed autonomous organizations (DAOs), 'stakeholder remedies' in antitrust (viz. using antitrust violations to mandate abused stakeholders have a voice), data unions and the organization of many of the most important large foundation model companies (e.g. OpenAI and Anthropic) as partial non-profits or long-term benefit corporations."
+  },
+  {
+    "term": "economies of esteem",
+    "definition": "Online systems in which quantitative markers of social esteem or social capital—badges, followers, leaderboards, links—partly or fully replace transferable money as the currency of accomplishment. These esteem economies can partly interoperate with broader markets through monetization channels such as advertising, sponsorship, and crowdfunding, providing a ⿻ alternative to pure price-based allocation.",
+    "see_also": [
+      "plural money",
+      "community currency",
+      "market design",
+      "plural funding"
     ],
     "source_chapter": "Ch. 5-7"
   },
   {
-    "term": "Circular Investment (Henry George Theorem in Practice)",
-    "definition": "An application of the Henry George Theorem in which correctly designed common-ownership taxes raise revenues sufficient to fund all subsidies required for supermodular investments. The insight — proved by Vickrey, first published by Arnott and Stiglitz — suggests a near-limitless potential, like a superconducting circuit, for innovation in taxation/common property paired with allocation to supermodular activity. A simple illustration: investment in local public schools raises land values; a land tax can recapture that value and fund further education investment organically.",
+    "term": "circular investment",
+    "definition": "A fiscal design principle derived from the Henry George Theorem, which holds that taxes raised through correctly designed common-ownership taxes can fund all subsidies required for supermodular investments. The logic—illustrated by the way improved public schools raise land values that can then be taxed—suggests a near-limitless potential for pairing innovation in common-property taxation with allocation of funds to supermodular activity, akin to a superconducting circuit for social progress.",
     "see_also": [
-      "henry-george-theorem",
-      "partial-common-ownership",
+      "Henry George Theorem",
+      "partial common ownership",
       "supermodularity",
-      "social-markets",
-      "georgist-land-value-tax-taiwan"
+      "plural property",
+      "quadratic funding"
+    ],
+    "source_chapter": "Ch. 5-7"
+  },
+  {
+    "term": "polypolitan migration policy",
+    "definition": "A migration governance model, proposed by philosopher Danielle Allen, in which immigration is conditioned on endorsement or support from one or more civil society groups in the receiving country. It extends existing practices—Canada's private community-based sponsorship and Taiwan's diverse qualifying pathways for long-term work permits—to diffuse the stringent control of labor mobility by nation-states while maintaining accountability for social integration.",
+    "see_also": [
+      "modular politics",
+      "governable space",
+      "plural social identity",
+      "emergent publics"
     ],
     "source_chapter": "Ch. 5-7",
-    "source_quote": "the Henry George Theorem states, roughly, that the taxes that can be raised from correctly designed common ownership taxes can fund all the subsidies required to fund supermodular investments… the result suggests a near limitless potential, like that realized in a superconducting circuit, for innovation in taxation/common property and allocation of funds to super-modular activity, to generate progress."
+    "source_quote": "migration could be conditioned upon endorsement or support from one or more civil society groups in the receiving country, extending and combining existing practices in countries like Canada and Taiwan that respectively allow private community-based sponsorship and allow a diversity of qualifying pathways for long-term work permits."
   },
   {
-    "term": "⿻ Property",
-    "definition": "A proposed property system that pairs partial common ownership schemes with tools recognizing and protecting common interests in how assets are used. Draws on ⿻ voting systems to return much of the value of a range of wealth ('fructus') to intersecting publics while also giving important access ('usus') and disposal ('abusus') rights to those communities. Presented as an extension of Harberger-tax-style self-assessment toward full recognition of the layered, intersectional claims of diverse publics on shared resources.",
+    "term": "plural management",
+    "definition": "An internal organizational governance approach that tracks the types and extent of contributions from diverse participants and uses ⿻ mechanisms to let contributors prioritize work and determine which contributions are incorporated. Authority derives from track record and peer prediction rather than hierarchical reporting structures, allowing networks to potentially supplant strict hierarchies while retaining evaluation by trusted contributors and migration of authority based on performance.",
     "see_also": [
-      "partial-common-ownership",
-      "harberger-tax",
-      "usus-abusus-fructus",
-      "plural-voting",
-      "social-markets",
-      "emergent-publics-dewey"
+      "⿻ Management Protocol",
+      "peer production",
+      "plural voting",
+      "eigenvoting"
     ],
     "source_chapter": "Ch. 5-7"
   },
   {
-    "term": "⿻ Funding Across Boundaries",
-    "definition": "An extension of the ⿻ / quadratic-funding formula to cross-jurisdictional and inter-temporal domains. Cross-jurisdictional: future international economic cooperation could assemble matching funds for ventures that span national borders, replacing trade agreements focused solely on removing subsidies. Inter-temporal: matching funds could support institutions that promote cooperation across generations or with those not yet born, creating an organic 'ministry for the future' and addressing the short-termism of conventional markets.",
+    "term": "participatory design and prediction markets",
+    "definition": "Digital platforms and mechanisms that allow more dynamic resource allocation within and between corporations and their customers. Examples include entertainment platforms like Roblox and Lego Ideas where customers contribute and are rewarded for new product designs, and prediction markets where stakeholders are rewarded for predicting company-relevant outcomes. These tools extend ⿻ feedback beyond traditional market price signals.",
     "see_also": [
-      "plural-funding",
-      "quadratic-funding",
-      "social-markets",
-      "henry-george-theorem",
-      "emergent-publics-dewey"
+      "market design",
+      "futarchy",
+      "broad listening",
+      "collective intelligence"
     ],
     "source_chapter": "Ch. 5-7"
   },
   {
-    "term": "Emergent Publics (Corporate Governance)",
-    "definition": "A future governance form in which stakeholding (as workers, customers, suppliers, or targets of externalities like pollution or misinformation) is tracked via ⿻ identity systems and linked to participation through voting and deliberation mechanisms. The goal is to make democratic and ⿻ governance of emergent technology-governing entities a realistic alternative to traditional corporate governance — potentially as frequent and legitimate as start-ups, creating a web of dynamic democratic entities governing emerging technologies.",
+    "term": "application domains",
+    "definition": "The book's term for the broad societal sectors — workplace, health, media, environment, and beyond — where ⿻ tools and governance forms are applied to transform how collaboration, deliberation, and collective action occur. Ch. 6 surveys these domains as the primary sites where plurality moves from abstract principle to lived practice.",
     "see_also": [
-      "emergent-publics-dewey",
-      "intersectional-social-identity",
-      "quadratic-voting",
-      "augmented-deliberation",
-      "stakeholder-corporation",
-      "social-markets"
+      "⿻",
+      "plural management",
+      "augmented deliberation",
+      "collaborative technology"
     ],
-    "source_chapter": "Ch. 5-7",
-    "source_quote": "One could then imagine a future where new democratic entities governing emerging technologies in ways that are close to as legitimate as governments emerge as frequently as start-ups, creating a web of dynamic and legitimate governance."
+    "source_chapter": "Ch. 6-0"
   },
   {
-    "term": "⿻ Management",
-    "definition": "An internal organizational governance approach that tracks types and extent of contributions from diverse participants and uses ⿻ mechanisms (voting, prediction, deliberation) to allow contributors to prioritize work, determine what should be incorporated, and exert authority based on performance as judged by trusted peers — without any direct hierarchical reporting structure. Demonstrated via the Plural Management Protocol used to produce the Plurality book. Networks may thus supplant strict hierarchies while preserving important components of evaluation and authority migration.",
+    "term": "from plurality to reality",
+    "definition": "The programmatic framing for Ch. 6 of the book, marking the transition from foundational theory and technical primitives to concrete instantiation of ⿻ across societal domains. The phrase signals that ⿻ is not merely speculative but already partially realized, and can be extended through intentional design and policy.",
     "see_also": [
-      "plural-management-protocol",
-      "social-markets",
-      "collaborative-technology",
-      "open-source-software"
+      "⿻",
+      "application domains",
+      "digital democracy"
     ],
-    "source_chapter": "Ch. 5-7"
-  },
-  {
-    "term": "Polypolitan Migration Policy",
-    "definition": "A proposed migration governance form, drawing on philosopher Danielle Allen's 'polypolitanism', in which migration is conditioned upon endorsement or support from one or more civil society groups in the receiving country. It extends existing practices in Canada (private community-based sponsorship) and Taiwan (diverse qualifying pathways for long-term work permits), diffusing the stringent nation-state control of labor mobility while maintaining accountability to avoid harms and challenges with social integration.",
-    "see_also": [
-      "social-markets",
-      "associational-life-tocquevillian",
-      "intersectional-social-identity",
-      "digital-democracy-taiwan-model"
-    ],
-    "source_chapter": "Ch. 5-7"
-  },
-  {
-    "term": "Economies of Esteem",
-    "definition": "Online and community systems in which quantitative markers of social esteem or capital — badges, followers, leaderboards, links — partly or fully replace transferable money as the 'currency' of accomplishment. These systems can interoperate with broader markets through monetization channels such as advertising, sponsorship, and crowdfunding. Related to local community-currency markets, they represent a ⿻ alternative to purely monetary incentive structures in digital communities.",
-    "see_also": [
-      "plural-money",
-      "community-currency",
-      "social-markets",
-      "open-source-software",
-      "peer-production"
-    ],
-    "source_chapter": "Ch. 5-7"
-  },
-  {
-    "term": "Participatory Design and Prediction Markets (Corporate)",
-    "definition": "Digital platforms and mechanisms that allow more dynamic resource allocation within corporations and between corporations and their customers. Examples include entertainment platforms like Roblox and Lego Ideas where customers contribute and are rewarded for new product designs, and internal prediction markets where stakeholders are rewarded for accurately predicting company-relevant outcomes (e.g. sales of a new product). Presented as a ⿻ extension of market logic inward, toward genuine stakeholder participation.",
-    "see_also": [
-      "prediction-markets",
-      "social-markets",
-      "stakeholder-corporation",
-      "participatory-budgeting"
-    ],
-    "source_chapter": "Ch. 5-7"
-  },
-  {
-    "term": "Capitalism's Limits (⿻ Diagnosis)",
-    "definition": "Plurality's structural diagnosis of capitalism's four canonical failure modes: (1) increasing returns and public goods — markets under-supply supermodular collaboration because paying marginal products yields losses under increasing returns; (2) market power — monopolistic control undermines the very collaboration it monetizes; (3) externalities — innovators and corporations do not directly involve those affected by their innovations, preventing benefits from being tapped or risks mitigated; (4) distribution — markets tend toward shockingly inegalitarian outcomes that undermine other collaborative forms.",
-    "see_also": [
-      "social-markets",
-      "supermodularity",
-      "partial-common-ownership",
-      "quadratic-funding",
-      "henry-george-theorem",
-      "atomist-libertarianism"
-    ],
-    "source_chapter": "Ch. 5-7"
-  },
-  {
-    "term": "Neoliberal Reaction (as ⿻ Context)",
-    "definition": "The significant political backlash, beginning in the 1970s in many countries, against the limitations and correctives applied to capitalism (antitrust, unions, regulation, redistribution). Plurality treats this as context for the emergence of creative mechanism-design-based alternatives — ⿻ funding, partial common ownership, stakeholder corporations, etc. — that aim to transcend the simplistic binary of markets versus the state rather than oscillate between them.",
-    "see_also": [
-      "capitalism-limits",
-      "social-markets",
-      "atomist-libertarianism",
-      "market-design"
-    ],
-    "source_chapter": "Ch. 5-7"
-  },
-  {
-    "term": "Gitcoin Grants (as ⿻ Funding Platform)",
-    "definition": "A matching-fund platform that connects sponsors (small donors and institutional grants) to open-source software and civic projects using a plural-funding formula that accounts for the diversity of funding sources across individual contributors and connected social groups. As of early 2024, Gitcoin had channeled over $100 million in total funding, with particular importance for Web3-related projects, Taiwan-related initiatives, and the Plurality book itself. Also increasingly applied to domains beyond OSS, including environmental projects and local business development.",
-    "see_also": [
-      "plural-funding",
-      "quadratic-funding",
-      "open-source-software",
-      "social-markets"
-    ],
-    "source_chapter": "Ch. 5-7",
-    "source_quote": "platforms such as GitCoin Grants… connect sponsors (small donors and grants) using a 'plural funding' formula that accounts not just for the total funding received, but also the diversity of its source across individual contributors and connected social groups. These platforms have become important sources of funding for OSS, channeling in total more than a hundred million dollars in funding."
-  },
-  {
-    "term": "From ⿻ to Reality (Transition Frame)",
-    "definition": "The book's framing for how ⿻ (plurality) moves from abstract vision and technical primitives to concrete social transformation. The chapter positions the transition as requiring not just tools and governance forms but coalitions of practitioners — civic technologists, governments, movements, and funders — who embed ⿻ logic into real institutions. It marks the pivot from 'what ⿻ is' to 'how ⿻ gets built.'",
     "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "⿻ (plurality)",
-      "collaborative-technology",
-      "digital-democracy-taiwan-model",
-      "govtech-civic-tech-movement"
-    ]
+    "source_quote": "From Plurality to Reality"
   },
   {
-    "term": "Health (⿻ Domain)",
-    "definition": "One of the application domains in which the book argues ⿻ tools and governance forms can be embedded. Health governance — including pandemic response, data sharing for research, and patient agency — is treated as a site where collaborative technology can augment rather than replace professional and community judgment, drawing on Taiwan's COVID mask-map response as a precedent.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "mask-map-taiwan-covid-response",
-      "data-coalitions",
-      "adaptive-administration",
-      "augmented-deliberation"
-    ]
-  },
-  {
-    "term": "Environment (⿻ Domain)",
-    "definition": "One of the application domains the book identifies for ⿻ tools. Environmental governance — including climate deliberation, commons management, and ecological data — is framed as a space where plural, cross-cutting publics can coordinate across difference at scale, with citizens' climate assemblies (e.g., France's CCC) as key precedents.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "france-citizens-climate-convention-ccc",
-      "augmented-deliberation",
-      "parliament-of-things-latour",
-      "adaptive-administration"
-    ]
-  },
-  {
-    "term": "Media (⿻ Domain)",
-    "definition": "One of the application domains the book identifies for ⿻ tools. Media governance — including information integrity, bridging-based moderation, and public-interest journalism — is treated as a site where ⿻ design can counter engagement-maximizing algorithms and surveillance capitalism by rebuilding shared epistemic commons.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "bridging-based-moderation",
-      "community-notes-birdwatch",
-      "information-integrity-taiwan-model",
-      "surveillance-capitalism"
-    ]
-  },
-  {
-    "term": "Workplace (⿻ Domain)",
-    "definition": "One of the application domains the book identifies for ⿻ tools. Workplace governance — including worker co-ops, participatory management, and stakeholder corporations — is framed as a site where quadratic voting, plural funding, and ⿻ management protocols can give workers genuine voice and distribute economic power.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "plural-management-protocol",
-      "stakeholder-corporation",
-      "quadratic-voting-qv",
-      "plural-voting"
-    ]
-  },
-  {
-    "term": "Education (⿻ Domain)",
-    "definition": "One of the application domains the book identifies for ⿻ tools. Education — including digital-competence curricula, open credentialing, and peer production of knowledge — is framed as foundational infrastructure for a ⿻ society, building the capacities citizens need to participate in augmented deliberation and collaborative governance.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "digital-competence-education-taiwan",
-      "next-generation-badging-allen-kidd-zetlin",
-      "peer-production",
-      "augmented-deliberation"
-    ]
-  },
-  {
-    "term": "⿻ Theory of Change",
-    "definition": "The book's framework for how ⿻ technologies can achieve safe, equitable, and durable social transformation. It draws on Arendt's contrast of the American and French Revolutions, network-science findings on innovation in loosely coupled diverse groups, and participatory-action-research traditions to argue that 'experimentation with' communities — rather than RCT-style 'experimentation on' them or blitzscaling — is the appropriate diffusion model for ⿻. Five criteria guide seed selection: sufficient internal diversity, tangible value to early adopters, prestige within networks, strong community institutions, and loose cross-community communication.",
+    "term": "⿻ theory of change",
+    "definition": "The book's framing of how ⿻ spreads beneficially across society: beginning with seed communities of sufficient internal diversity and prestige, loosely networked with each other, that experiment with ⿻ technologies in ways that generate tangible value, manage systemic harms, and can spread outward without creating arms-race dynamics or colonial spillovers. Contrasted with both top-down RCT-style 'experimentation on' communities and venture-capital 'blitzscaling'.",
     "source_chapter": "Ch. 6-0",
     "source_quote": "Seeds must be of a scale of community sufficient to encompass the diversity the technology aims to bridge, but also small enough to be one of a very large number of such experiments.",
     "see_also": [
-      "from-plurality-to-reality",
+      "square-root scale",
       "experimentation-with",
-      "blitzscaling-as-failure-mode",
-      "participatory-action-research",
-      "square-root-scale"
+      "blitzscaling",
+      "⿻ marketing",
+      "seed-communities"
     ]
   },
   {
-    "term": "Experimentation With (vs. On)",
-    "definition": "A mode of technology development, contrasted with RCT-style 'experimentation on' communities, in which early adopters who include system designers co-create and iteratively refine tools together with the adopting community. The book traces this tradition through early internet communities, participatory action research in public health, and the ⿻ projects documented in 'The Lost Dao.' It is presented as necessary for ⿻ but dangerous when combined with venture-capital blitzscaling, because it manages harms as they arise rather than by prior testing.",
+    "term": "square-root scale",
+    "definition": "A rule of thumb proposed in the book for identifying optimal seed communities for ⿻ diffusion: communities of roughly 100,000 people, approximating the square root of global population (~10 billion). At this scale there are 100,000 such units worldwide, balancing sufficient internal diversity for most ⿻ applications with enough cross-community diversity to allow equitable spread. Corresponds to mid-sized municipalities, large corporations, dioceses, and mid-sized civic organizations.",
     "source_chapter": "Ch. 6-0",
     "see_also": [
-      "participatory-action-research",
-      "blitzscaling-as-failure-mode",
-      "plurality-theory-of-change",
-      "lost-dao"
+      "⿻ theory of change",
+      "seed-communities",
+      "experimentation-with"
     ]
   },
   {
-    "term": "Blitzscaling (as ⿻ Failure Mode)",
-    "definition": "A venture-capital growth strategy, championed by Reid Hoffman, in which start-ups receive large early funding injections to grow user bases rapidly and leverage network effects to achieve market dominance. The book presents blitzscaling as increasingly dangerous when paired with 'experimentation with' communities because it compresses the iterative, community-governed learning process that makes such experimentation safe. ChatGPT reaching 100 million users in months is cited as the paradigm case, generating widespread public concern and regulatory backlash.",
+    "term": "experimentation with",
+    "definition": "A mode of technology development, allied to Participatory Action Research, in which designers and early adopters collaborate within communities — harnessing tools together, iterating from unexpected community uses, and feeding learning back into design — rather than imposing pre-specified interventions. Contrasted with 'experimentation on' (RCT-driven) and 'blitzscaling'. Many foundational digital technologies (time-sharing, personal computing) developed this way. Requires governance structures beyond pure market metrics to manage systemic harms.",
     "source_chapter": "Ch. 6-0",
+    "see_also": [
+      "blitzscaling",
+      "⿻ theory of change",
+      "participatory action research"
+    ]
+  },
+  {
+    "term": "blitzscaling",
+    "definition": "A venture-capital-driven strategy, championed by Reid Hoffman and others, in which startups receive large early injections of financing to grow user bases rapidly and leverage supermodularity (network effects, data learning) to achieve dominant market position. The book treats blitzscaling as incompatible with the careful, community-governed 'experimentation with' mode that ⿻ requires, because it prioritizes adoption speed over holistic impact assessment and social harm management.",
+    "source_chapter": "Ch. 6-0",
+    "source_quote": "Venture capitalists like LinkedIn Founder Reid Hoffman have celebrated the 'masters of scale' who champion 'blitzscaling', in which start-ups receive large, early injections of venture financing to allow them to invest in growing their user base rapidly and then leveraging the benefits of this supermodularity (e.g. network effects, learning from user data, etc.) to achieve a dominant market position.",
     "see_also": [
       "experimentation-with",
-      "plurality-theory-of-change",
-      "move-fast-and-break-things",
-      "engagement-maximization"
-    ]
-  },
-  {
-    "term": "Participatory Action Research (PAR)",
-    "definition": "A tradition of community-based innovation pioneered in public-health research, which the book identifies as a rough precedent for early ⿻ digital technology development (time-sharing, personal computing). In PAR, communities of early adopters — often including system designers — co-develop tools without pre-specifying metrics, learn from unexpected community uses, and spread innovations to adjacent communities. The book contrasts this with RCT-style 'experimentation on' communities as the appropriate model for ⿻ diffusion.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "experimentation-with",
-      "plurality-theory-of-change",
-      "lost-dao"
-    ]
-  },
-  {
-    "term": "Square-Root Scale",
-    "definition": "A rule of thumb for identifying the most fertile communities for ⿻ experimentation: communities of roughly the square root of global population — approximately 100,000 people — so that there are as many experimental sites as people within each site. At this scale, communities are large enough to contain sufficient internal diversity for most ⿻ applications and numerous enough across the world to allow diverse, balanced seeding. The book maps this scale onto mid-sized municipalities, large corporations, Catholic dioceses, large universities, and mid-sized civic organizations.",
-    "source_chapter": "Ch. 6-0",
-    "source_quote": "a simple rule of thumb is to seek roughly the same diversity across communities as within communities as quantified by the number of units as illustrated in Figure C. In a world of (very roughly) 10 billion people, these would be units of roughly 100,000 people.",
-    "see_also": [
-      "plurality-theory-of-change",
-      "fertile-ground",
-      "from-plurality-to-reality"
-    ]
-  },
-  {
-    "term": "⿻ Marketing",
-    "definition": "The book's self-described approach to endorsement selection, media outreach, and event strategy, operationalizing the fifth seed criterion: cross-community diversity. The authors recursively identify primary lines of division within their full audience (culture/politics/business/research and sub-divisons thereof), then select marketing vectors — such as endorsers — with credibility across those lines of division. The approach is presented as a concrete illustration that the five ⿻ theory-of-change criteria are not merely aspirational.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "plurality-theory-of-change",
-      "square-root-scale",
-      "bridging-vs-bonding-social-capital"
-    ]
-  },
-  {
-    "term": "Competitive / Arms-Race Diffusion (as ⿻ Failure Mode)",
-    "definition": "A pattern in which ⿻ technologies, even when developed for and beneficial to early-adopter communities, spread as competitive weapons that advantage already-privileged communities over others. The book traces this from the observation that 'helpful and harmless tools may endow the (often-privileged) early adopted community with social and economic advantages that they can use to subjugate, marginalize or colonize others,' creating inequality or arms-race dynamics that undermine ⿻ freedom. Brad Smith's formulation — 'most tools can also be used as weapons' — is cited.",
-    "source_chapter": "Ch. 6-0",
-    "see_also": [
-      "plurality-theory-of-change",
-      "blitzscaling-as-failure-mode",
-      "experimentation-with",
+      "⿻ theory of change",
       "move-fast-and-break-things"
     ]
   },
   {
-    "term": "Graph Structure of Social Revolutions",
-    "definition": "The book's framework, drawing on evolutionary biology, linguistics, and network sociology, that dramatic beneficial innovation thrives in environments with internally tight, externally loosely connected groups — neither too centralized nor too disconnected. Arendt's contrast of the American Revolution (authority built from local democratic experiments before seizure of power) and the French Revolution (immediate material demands without prior legitimacy) is the political illustration. The framework grounds the ⿻ theory of change's preference for diverse, loosely networked seed communities over centralized rollout or blitzscaling.",
+    "term": "⿻ marketing",
+    "definition": "The book's self-described approach to diffusing ⿻ ideas by choosing endorsements, media coverage, and events according to the same criteria as ideal seed communities: spanning primary social divisions (culture, politics, business, research), recursively covering sub-communities, and building prestige across diverse networks. Presented as a practical test of the ⿻ theory of change applied to the book's own dissemination.",
     "source_chapter": "Ch. 6-0",
-    "source_quote": "dramatic innovation thrives in environments where a diversity of 'groups' (e.g. linguistic, economic or biological) that are internally tightly connected and externally loosely connected interact.",
     "see_also": [
-      "plurality-theory-of-change",
-      "square-root-scale",
-      "edge-of-chaos",
-      "bridging-vs-bonding-social-capital"
+      "⿻ theory of change",
+      "square-root scale",
+      "seed-communities"
     ]
   },
   {
-    "term": "Web3 Community (as ⿻ Testbed)",
-    "definition": "The book characterizes global web3 communities (circa 2021: ~1.5 million monthly active dApp users) as one of two prominent early testbeds for ⿻, alongside Taiwan. Web3 users are globally distributed but demographically homogeneous (technically sophisticated, skewing male, young, atheistic, politically right of center). Web3 has focused on shallower, more inclusive ⿻ applications and foundational protocols for association, commerce, and contract. Its scandals and demographic homogeneity are identified as limitations for equitable global spread.",
+    "term": "participatory action research",
+    "definition": "A mode of community-based innovation, pioneered in public health research, in which researchers and community members co-design and co-evaluate interventions. The book positions it as an academic analog to the 'experimentation with' model underlying early ⿻ digital technologies, contrasting it with the 'experimentation on' model of randomized controlled trials.",
     "source_chapter": "Ch. 6-0",
     "see_also": [
-      "taiwan-as-plurality-lab",
-      "gitcoin",
-      "ethereum",
-      "dao",
-      "captured-dao-plutocracy"
+      "experimentation-with",
+      "⿻ theory of change"
     ]
   },
   {
-    "term": "Worker Ownership (⿻ Workplace Form)",
-    "definition": "Arrangements in which workers hold equity stakes or governance rights in their enterprises — including worker cooperatives, employee stock ownership plans (ESOPs), and hybrid models — treated in Plurality as a foundational ⿻ workplace institution. The book documents historical examples (Mondragon, John Lewis Partnership) and argues that worker ownership distributes both economic surplus and decision-making power across those who produce value, countering both managerial technocracy and pure shareholder atomism.",
+    "term": "tools and weapons",
+    "definition": "A framing, attributed to Microsoft President Brad Smith, that most digital tools can also be used as weapons — meaning that even 'helpful' and 'harmless' technologies developed in one community may endow early adopters with advantages used to subjugate, marginalize, or colonize others. The book uses this to highlight the 'competitive effect' risk in technology diffusion and the need for balanced spread across social divides.",
+    "source_chapter": "Ch. 6-0",
     "see_also": [
-      "stakeholder-corporation",
-      "social-wealth-funds",
-      "quadratic-voting",
-      "participatory-budgeting"
+      "⿻ theory of change",
+      "arms-race-dynamics",
+      "experimentation-with"
+    ]
+  },
+  {
+    "term": "worker ownership",
+    "definition": "A form of workplace governance in which employees hold equity stakes or voting rights in the firms where they work, enabling collective self-determination over production decisions, profit distribution, and organizational strategy. Plurality treats worker ownership as one axis of ⿻ workplace design — distributing power across participants rather than concentrating it in owners or managers — and points to cooperatives, ESOPs, and stakeholder models as existing instantiations.",
+    "see_also": [
+      "stakeholder corporation",
+      "plural management",
+      "participatory design and prediction markets"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Mondragon Cooperative Corporation",
-    "definition": "A federation of worker cooperatives headquartered in the Basque Country, Spain, cited in Plurality as a leading global exemplar of ⿻ workplace governance at scale. Mondragon's cooperatives give workers voting rights proportional to labor contribution rather than capital, maintain compressed wage ratios, and sustain inter-cooperative solidarity funds — illustrating how plural ownership structures can survive in competitive markets.",
+    "term": "workplace democracy",
+    "definition": "The application of democratic deliberation and collective decision-making within productive organizations. In Plurality's framing, workplace democracy is a site where ⿻ governance primitives — participatory design, prediction markets, quadratic or conviction voting on resource allocation — can be embedded at the organizational scale, bridging the gap between civic democracy and economic life.",
     "see_also": [
-      "worker-ownership",
-      "stakeholder-corporation",
-      "social-wealth-funds"
+      "plural management",
+      "participatory design and prediction markets",
+      "worker ownership",
+      "sociocracy"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "John Lewis Partnership (JLP)",
-    "definition": "A UK employee-owned retail group in which all permanent staff ('Partners') share profits and elect representatives to a governing Partnership Council. Plurality cites JLP alongside Mondragon as evidence that large-scale worker-ownership models are commercially viable and produce distributed governance, contrasting them with shareholder-primacy firms.",
+    "term": "sociocracy",
+    "definition": "A governance structure for organizations that uses nested circles of authority, consent-based decision-making (distinguishing consent from consensus), and double-linking between circles to ensure information and accountability flow in multiple directions. Plurality cites sociocracy as a real-world precedent for distributing organizational power without requiring unanimous agreement or top-down hierarchy.",
     "see_also": [
-      "worker-ownership",
-      "mondragon-cooperative-corporation",
-      "stakeholder-corporation"
+      "holacracy",
+      "workplace democracy",
+      "plural management"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Sociocracy / Holacracy (⿻ Workplace Governance)",
-    "definition": "Consent-based organizational governance methods — sociocracy uses linked circles with double-linking; holacracy codifies roles and tensions in a constitutional document — documented in Plurality as ⿻ workplace primitives that distribute authority without collapsing into either hierarchical command or flat consensus paralysis. Both instantiate modular politics within firms.",
+    "term": "holacracy",
+    "definition": "A formalized organizational operating system that distributes authority across self-organizing roles and circles rather than vesting it in a management hierarchy. Roles are defined by purpose and accountabilities, and governance meetings amend the role structure through a structured consent process. Plurality treats holacracy as an example of ⿻ organizational design that decentralizes power while maintaining coordinated structure.",
     "see_also": [
-      "modular-politics",
-      "plural-management",
-      "stakeholder-corporation"
+      "sociocracy",
+      "workplace democracy",
+      "plural management"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Open-Book Management",
-    "definition": "A management practice in which a firm shares financial data, targets, and performance metrics with all employees, enabling informed participation in strategic decisions. Plurality treats open-book management as a workplace analogue of ⿻ transparency norms — making governance legible to those governed — and links it to broader arguments about data dignity and participatory administration.",
+    "term": "open-book management",
+    "definition": "A management practice in which a firm shares financial data — revenues, costs, margins, forecasts — openly with all employees, enabling workers to understand the economic context of their decisions and participate meaningfully in planning. In Plurality's framing, open-book management is a transparency mechanism that underpins genuine workplace participation by reducing information asymmetry between owners/managers and workers.",
     "see_also": [
-      "data-dignity",
-      "adaptive-administration",
-      "worker-ownership"
+      "workplace democracy",
+      "worker ownership",
+      "plural management"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Platform Cooperativism",
-    "definition": "A movement and set of practices that applies cooperative ownership and governance to digital labor platforms — ride-hailing, care work, freelance marketplaces — so that workers own and govern the matching infrastructure they depend on. Plurality frames platform cooperativism as a direct ⿻ response to implicit feudalism in gig-economy platforms, redistributing both data rents and governance rights to labor.",
+    "term": "digital nomad",
+    "definition": "A worker who harnesses remote-work opportunities to travel continuously while performing a variety of remote jobs, supported by programs such as Sardinia's regional digital-nomad scheme and Estonia's e-residency or Taiwan's Gold Card. The rise of digital nomads is presented in the book as the most extreme manifestation of the COVID-19-era shift toward remote and hybrid work.",
     "see_also": [
-      "implicit-feudalism",
-      "worker-ownership",
-      "governable-stack",
-      "data-dignity"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Algorithmic Management (as ⿻ Failure Mode)",
-    "definition": "The use of automated scoring, task assignment, surveillance, and discipline systems — common in gig-economy and warehouse work — to govern workers without meaningful human or democratic mediation. Plurality identifies algorithmic management as a workplace instance of monist technocracy: opaque systems replace negotiated governance, eroding workers' ability to contest decisions or organize collectively.",
-    "see_also": [
-      "monist-technocracy",
-      "implicit-feudalism",
-      "surveillance-capitalism",
-      "democratic-mediation"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Works Councils (European Co-Determination)",
-    "definition": "Statutory bodies — common in Germany, the Netherlands, and Scandinavia — that give employees formal rights to information, consultation, and, in some cases, board-level representation (Mitbestimmung). Plurality treats co-determination as a durable ⿻ institutional precedent: structured democratic mediation embedded inside firms, operating alongside market competition and state regulation.",
-    "see_also": [
-      "democratic-mediation",
-      "worker-ownership",
-      "stakeholder-corporation",
-      "sociocracy-holacracy"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Gig Economy (as ⿻ Workplace Challenge)",
-    "definition": "Labor markets organized around short-term, algorithmically dispatched tasks — exemplified by Uber, Lyft, Deliveroo, and Amazon Mechanical Turk — where workers are classified as independent contractors, stripping them of collective bargaining rights and exposing them to implicit feudal governance by platform owners. Plurality diagnoses the gig economy as a site where atomist libertarianism (contract fiction) enables monist technocracy (algorithmic control), calling for platform cooperativism and data dignity as correctives.",
-    "see_also": [
-      "implicit-feudalism",
-      "algorithmic-management",
-      "platform-cooperativism",
-      "atomist-libertarianism",
-      "data-dignity"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Employee Stock Ownership Plan (ESOP)",
-    "definition": "A trust-based mechanism by which a company's equity is transferred to employees over time, typically through deferred compensation or leveraged buyouts. Plurality documents ESOPs — widespread in the United States — as a partial ⿻ workplace form: they distribute financial ownership but often leave governance authority concentrated in management, prompting the book's interest in combining ownership with genuine decision-making rights.",
-    "see_also": [
-      "worker-ownership",
-      "stakeholder-corporation",
-      "social-wealth-funds"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Remote Work / Distributed Teams (as ⿻ Workplace Context)",
-    "definition": "The shift to geographically dispersed, asynchronous, and digitally mediated work — accelerated by COVID-19 — treated in Plurality as both a ⿻ opportunity (enabling polypolitan participation, cross-cutting collaboration, and new governance experiments) and a risk (dissolving the social fabric of workplaces, concentrating surveillance, and deepening isolation if unaccompanied by intentional associational design).",
-    "see_also": [
-      "polypolitan-migration-policy",
-      "augmented-deliberation",
-      "cross-cutting-ties",
-      "associational-life"
-    ],
-    "source_chapter": "Ch.-1"
-  },
-  {
-    "term": "Labor Unions (as ⿻ Associational Infrastructure)",
-    "definition": "Collective organizations through which workers negotiate wages, conditions, and governance rights with employers. Plurality situates unions within the broader frame of associational life and mesostructure — intermediate bodies that bridge individuals and states — and examines how digital tools (union apps, collective-action platforms) can reinvigorate union organizing in the gig and remote-work era.",
-    "see_also": [
-      "associational-life",
-      "mesostructure",
-      "democratic-mediation",
-      "platform-cooperativism"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Participatory Budgeting in the Workplace",
-    "definition": "Application of participatory budgeting methods — originally pioneered in Porto Alegre — to firm-level resource allocation, giving workers a direct voice in how discretionary budgets are spent. Plurality treats workplace participatory budgeting as a ⿻ governance primitive that surfaces worker priorities, distributes agenda-setting power, and generates shared ownership of financial decisions without requiring full worker equity.",
-    "see_also": [
-      "participatory-budgeting",
-      "quadratic-voting",
-      "worker-ownership",
-      "open-book-management"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Digital Nomads (⿻ Work Form)",
-    "definition": "Workers who harness remote-work opportunities to travel continuously, supported by programs like Sardinia's regional digital-nomad scheme and Estonia's e-residency and Taiwan's Gold Card. The book presents digital nomads as an extreme manifestation of the pandemic-era remote-work shift, illustrating how ⿻ infrastructure (portable identity, remote collaboration tools) enables new forms of work that cross geographic and organizational borders.",
-    "see_also": [
-      "remote work / distributed teams (as ⿻ workplace context)",
-      "federated identity (⿻ identity infrastructure)",
-      "immersive shared reality"
+      "immersive shared reality",
+      "remote team building",
+      "e-residency"
     ],
     "source_chapter": "Ch. 6-1",
     "source_quote": "Perhaps the most extreme manifestation has been the rise of so-called 'digital nomads', who have harnessed the increasing opportunity for remote work to travel continuously and work a variety of remote jobs as encouraged by programs like Sardinia regional program for digital nomads and Estonia and Taiwan's e-citizenship and gold cards respectively."
   },
   {
-    "term": "ISR Campus Design (⿻ Workplace)",
-    "definition": "The use of immersive shared reality to prototype corporate campus layouts virtually before physical construction. Employees explore configurations, attend virtual meetings in candidate layouts, and provide feedback iteratively — making campus design more like collaborative document editing than one-off architectural commissions. The book frames this as dramatically lowering the cost of agglomeration experimentation for knowledge-work organizations.",
-    "see_also": [
-      "immersive shared reality",
-      "remote work / distributed teams (as ⿻ workplace context)",
-      "augmented deliberation"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "⿻ Hiring (Inclusive Talent Access)",
-    "definition": "A hiring paradigm enabled by network-based credential verification, LLM-mediated résumé translation across social contexts, and remote shared reality recruiting events. Rather than recruiting from narrow 'standard career paths,' ⿻ hiring allows organizations to recognize intersectional qualifications across diverse backgrounds, optimize for multidimensional diversity, and accelerate onboarding — expanding opportunity to those excluded by conventional credential-matching.",
-    "see_also": [
-      "intersectional social identity",
-      "federated identity (⿻ identity infrastructure)",
-      "immersive shared reality",
-      "next-generation badging (allen–kidd–zetlin)"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "⿻ Influence Alignment (Issue-Specific Hierarchy)",
-    "definition": "A complement to traditional positional authority in which power shifts fluidly based on demonstrated contribution on specific issues. Natural language processing surfaces who provides valuable insights on particular topics; generative foundation models build dynamic social graphs mapping 'natural leadership.' Platforms like Colony and GlassFrog operationalize this, aiming to match decision rights to value added rather than title, and to reduce dependency on formal hierarchies over time.",
-    "see_also": [
-      "⿻ management",
-      "sociocracy / holacracy (⿻ workplace governance)",
-      "generative foundation models (gfms) as administrative infrastructure"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "⿻ Intrapreneurship (Cross-Organizational Funding)",
-    "definition": "A model for internal corporate innovation that uses ⿻ conversational and funding tools — analogous to quadratic funding — to identify cross-organizational interest clusters, host connective events, and offer matching funds when a diversity of internal organizations co-invest in shared projects. Positioned as a middle path between centralized management mandates and Google's uncoordinated '20% time,' it empowers employees to coordinate ambitious cross-cutting investments that individual reporting chains would not prioritize.",
-    "see_also": [
-      "quadratic funding (qf)",
-      "plural funding (⿻ funding)",
-      "participatory budgeting in the workplace",
-      "supporting intrapreneurship"
-    ],
-    "source_chapter": "Ch. 6-1",
-    "source_quote": "An organization like OCTO could have a much larger budget, but much less discretion, providing matchmaking and cross-pollination services and matching funds for investments with support from many organizations... offer matching funds if a diversity of organizations are willing to invest employee time or other resources in supporting a shared investment or incubation."
-  },
-  {
-    "term": "Total Quality Management (TQM) as ⿻ Precedent",
-    "definition": "W. Edwards Deming's management philosophy, cited in the book as an early precedent for harnessing the ingenuity of everyone with a stake in an organization's success rather than relying solely on top executives. The book invokes TQM to frame ⿻ workplace deliberation tools — open large-scale conversations using collective intelligence — as the next evolution of the participatory quality improvement tradition.",
-    "see_also": [
-      "augmented deliberation",
-      "deming's quality control (pdca / kaizen)",
-      "⿻ management"
-    ],
-    "source_chapter": "Ch. 6-1"
-  },
-  {
-    "term": "Remote ISR Team Building",
-    "definition": "The application of immersive shared reality to replicate — and potentially surpass — the trust-building effects of in-person team activities (lunches, extreme sports, military exercises) for hybrid and fully remote teams. The book cites evidence that realistic simulated environments can generate genuine fear and trust responses, and anticipates that eventually direct neural interfaces could enable intimate remote empathy among colleagues, bound primarily by professional norms rather than physical distance.",
+    "term": "remote team building",
+    "definition": "The deliberate use of immersive shared reality (ISR) environments, avatar-mediated social interaction, and virtual simulations of trust-building activities (e.g., extreme sports, shared meals) to cultivate the strong interpersonal bonds and cooperative trust that in-person teams form through physical co-presence, sports, or shared challenges. The book treats this as a key ⿻ application for the growing remote-and-hybrid workforce.",
     "see_also": [
       "immersive shared reality",
       "post-symbolic communication",
-      "remote work / distributed teams (as ⿻ workplace context)",
-      "brain-computer interface (bci) as ⿻ communication"
+      "digital nomad"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Colony / GlassFrog (⿻ Workplace Platforms)",
-    "definition": "Digital platforms the book identifies as operationalizing ⿻ influence-alignment values in organizations. Colony and GlassFrog provide neutral, transparent substrates on which flexible organizational cultures can be built, tracking contributions and surfacing distributed leadership — exemplifying how platform infrastructure can embed ⿻ governance primitives at the workplace level.",
+    "term": "ISR campus",
+    "definition": "A virtual corporate campus built in immersive shared reality (ISR) that allows employees and designers to prototype, explore, and iterate on physical workspace configurations before committing to construction. Like collaborative document editing transformed writing, ISR campuses make architectural experimentation rapid, participatory, and accumulative—designs that succeed in virtual pilots can then be 'printed' through standard engineering processes.",
     "see_also": [
-      "⿻ influence alignment (issue-specific hierarchy)",
-      "sociocracy / holacracy (⿻ workplace governance)",
-      "⿻ management"
+      "immersive shared reality",
+      "agglomeration effects",
+      "remote team building"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Pixar Headquarters (Agglomeration Design Case)",
-    "definition": "Steve Jobs's redesign of Pixar's Emeryville campus — centering it on a shared atrium with theater, cafeteria, mailboxes, and viewing rooms — is cited as a leading exemplar of deliberate architectural agglomeration: encouraging computer scientists, animators, and other staff to mingle and cross-pollinate. The book uses it to illustrate why campus design matters for organizational creativity, and why ISR prototyping could reduce the cost of such experiments.",
+    "term": "agglomeration effects",
+    "definition": "The economic productivity gains that arise when workers are physically co-located, attributed to chance encounters and cross-pollination across disciplines. Documented in urban-economics literature (Jacobs, Glaeser et al.), agglomeration effects are the principal economic rationale for large corporate campuses; the book argues ISR campuses can capture and extend these benefits beyond physical co-location.",
     "see_also": [
-      "isr campus design (⿻ workplace)",
-      "immersive shared reality"
+      "ISR campus",
+      "immersive shared reality",
+      "remote team building"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Asynchronous Deliberation Tools (Workplace)",
-    "definition": "Platforms such as Polis, Remesh, All Our Ideas, and their LLM-based extensions applied within organizational settings to enable respectful, inclusive, and informative asynchronous conversations that include many more stakeholders than synchronous meetings allow. The book frames these as a ⿻ alternative to both unproductive synchronous meetings and the attention-unmanaged asynchronous dialogs typical of Slack, Teams, and Trello.",
+    "term": "⿻ hiring",
+    "definition": "A talent-acquisition approach that uses network-based credential verification, LLM-powered résumé translation across social contexts, and remote shared reality recruiting events to reach candidates from non-standard career paths. By lowering the cost of identifying, verifying, and onboarding diverse talent, ⿻ hiring allows organizations to recognize unique intersectional contributors rather than filtering through narrow credential proxies.",
+    "see_also": [
+      "intersectional social identity",
+      "immersive shared reality",
+      "verifiable credentials",
+      "sociometrics"
+    ],
+    "source_chapter": "Ch. 6-1"
+  },
+  {
+    "term": "intrapreneurship",
+    "definition": "The building of new business lines or cross-cutting initiatives within an existing organization, often drawing on expertise scattered across internal divisions. The book argues that ⿻ conversational and funding tools—matching funds conditioned on multi-organizational support, internal communication-data mining, and cross-company event hosting—offer a superior alternative to both centralized management mandates and uncoordinated individual '20% time' projects.",
+    "see_also": [
+      "plural funding",
+      "quadratic funding",
+      "augmented deliberation",
+      "⿻ Management Protocol"
+    ],
+    "source_chapter": "Ch. 6-1"
+  },
+  {
+    "term": "issue-specific hierarchy",
+    "definition": "A governance structure in which authority and decision rights are allocated to individuals based on demonstrated expertise and contribution on a particular topic rather than on formal positional rank. In ⿻ workplaces, multiple overlapping issue-specific hierarchies complement or replace the single traditional org-chart hierarchy, with influence shifting fluidly as contributions are tracked via natural language processing and dynamic social graphs.",
+    "see_also": [
+      "plural social identity",
+      "sociocracy",
+      "holacracy",
+      "plural voting"
+    ],
+    "source_chapter": "Ch. 6-1"
+  },
+  {
+    "term": "Total Quality Management",
+    "definition": "A management philosophy associated with W. Edwards Deming that emphasizes harnessing the knowledge and ingenuity of every stakeholder—not just top executives—in continuous improvement processes. The book invokes TQM as a precedent for ⿻ organizational practices that open strategic conversation to many voices, replacing top-down direction-setting with participatory sensemaking at scale.",
     "see_also": [
       "augmented deliberation",
-      "polis-style clustering",
-      "polis (pol.is deliberation tool)",
-      "ai-assisted synthesis (deliberation)",
-      "broad listening"
+      "broad listening",
+      "collective intelligence",
+      "intrapreneurship"
     ],
     "source_chapter": "Ch. 6-1"
   },
   {
-    "term": "Pandemic Preparedness (⿻ Health Infrastructure)",
-    "definition": "The book uses pandemic preparedness as a leading case for ⿻ health governance, arguing that the COVID-19 pandemic revealed both the failures of fragmented, siloed health data and the power of networked, participatory response. Taiwan's mask-map, open data APIs, and real-time civic coordination are held up as models of how ⿻ identity, data coalitions, and augmented deliberation can enable rapid, legitimate collective action in public health emergencies.",
+    "term": "plural health",
+    "definition": "A ⿻ approach to healthcare that treats health not as a commodity delivered by centralized systems nor as a purely individual responsibility, but as an emergent property of collaborative relationships among patients, providers, communities, and data ecosystems. It draws on plural identity, data coalitions, and augmented deliberation to distribute both the production of health knowledge and the governance of health systems across diverse, overlapping communities.",
     "see_also": [
-      "mask-map-taiwan",
-      "data-coalitions",
-      "federated-identity",
-      "augmented-deliberation",
-      "adaptive-administration"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Health Data Commons",
-    "definition": "A ⿻ governance arrangement in which health data—medical records, genomic data, epidemiological data—is held in trust by patient communities or data coalitions rather than proprietary silos or state monopolies. The book argues health data commons enable collective research benefit while preserving contextual integrity and individual dignity, contrasting with both surveillance-capitalism data extraction and atomist models of purely individual data ownership.",
-    "see_also": [
-      "data-coalitions",
-      "data-dignity",
-      "contextual-integrity",
-      "mediators-of-individual-data"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Participatory Epidemiology",
-    "definition": "A mode of public health surveillance and response in which citizens actively contribute data, observations, and local knowledge—through platforms, apps, or community networks—rather than being passive subjects of top-down monitoring. The book frames this as a ⿻ health primitive, citing Taiwan's COVID-era civic tech responses as illustrative cases where participatory data flows outperformed centralized systems.",
-    "see_also": [
-      "mask-map-taiwan",
-      "data-coalitions",
-      "augmented-deliberation",
-      "adaptive-administration"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Mental Health (⿻ Dimension)",
-    "definition": "The book identifies mental health as a domain where ⿻ approaches—peer support networks, community-based care, augmented deliberation about care protocols, and post-symbolic communication tools—can complement or outperform both purely medicalized (monist technocracy) and purely market-driven (atomist) models. Social connection, associational life, and cross-cutting ties are framed as structural determinants of mental health.",
-    "see_also": [
-      "augmented-deliberation",
-      "associational-life",
-      "cross-cutting-ties",
-      "post-symbolic-communication"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Federated Health Records",
-    "definition": "A ⿻ approach to medical record infrastructure in which patient data is held across a federation of community-controlled or institution-level nodes rather than in centralized national databases or proprietary platforms. Federated health records embody the book's broader argument for federated identity and data coalitions applied to the health domain, balancing interoperability with contextual integrity.",
-    "see_also": [
-      "federated-identity",
-      "data-coalitions",
-      "health-data-commons",
-      "contextual-integrity"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Algorithmic Triage (as ⿻ Health Failure Mode)",
-    "definition": "The application of opaque AI systems to allocate scarce medical resources—organ transplants, ICU beds, treatment priority—without democratic oversight or community participation. The book identifies this as a monist-technocracy failure mode in health: replacing medical and ethical deliberation with algorithmic outputs that communities cannot contest, audit, or shape.",
-    "see_also": [
-      "monist-technocracy",
-      "augmented-deliberation",
-      "adaptive-administration",
-      "gfm-bias-and-opacity"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Community-Based Clinical Research (⿻ Health Form)",
-    "definition": "Research designs in which patients and community members co-define research questions, participate in trial governance, and share in the resulting data and findings—contrasted with extractive, top-down clinical trials. The book frames this as a ⿻ health governance form consistent with participatory action research, data dignity, and the experimentation-with (vs. on) principle.",
-    "see_also": [
-      "participatory-action-research",
-      "data-dignity",
-      "data-coalitions",
-      "experimentation-with"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Plural Health Governance",
-    "definition": "The book's overarching framing for ⿻ approaches to health: health systems governed through overlapping communities—patient groups, care workers, researchers, localities—rather than unified state bureaucracies or market mechanisms alone. Plural health governance draws on data coalitions, participatory epidemiology, federated records, and augmented deliberation to produce systems that are simultaneously more responsive and more legitimate.",
-    "see_also": [
-      "health-data-commons",
-      "participatory-epidemiology",
-      "federated-health-records",
-      "augmented-deliberation",
-      "adaptive-administration"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Health Agency (⿻)",
-    "definition": "A term Jennifer Prah Ruger uses to describe the promotion of individuals' capabilities to act in their own interests with respect to their health. In the ⿻ framing, health agency is understood as primarily emergent, multiscale, embedded, and complex — not reducible to individual choices or biomedical interventions alone, but co-constructed by individuals and their communities across overlapping scales of social organization.",
-    "see_also": [
-      "plurality-publics",
-      "relational-concept-of-health",
-      "health-production-society",
-      "multi-scale-social-organization"
+      "data coalitions",
+      "augmented deliberation",
+      "data dignity",
+      "plural publics"
     ],
     "source_chapter": "Ch. 6-2",
-    "source_quote": "health agency is rightly understood as primarily emergent, multiscale, embedded and complex"
+    "source_quote": "Health is not merely the absence of disease but the presence of vibrant, collaborative networks of care."
   },
   {
-    "term": "Relational Concept of Health",
-    "definition": "A ⿻ reframing of health that incorporates social and intersubjective dimensions alongside atomistic (biomedical) ones. Rather than treating health as a property of isolated individuals, this view situates health within a web of relations: consciousness, current and future physical condition, family, community, ecosystem, and planet. The central blockers to the next era of human life extension under this model are lack of financing, missing markets, coordination failures, missing communities, non-aligned incentives, and lack of enabling services.",
+    "term": "health data commons",
+    "definition": "A governance arrangement in which health data is pooled and managed collectively by patients, communities, and care providers rather than siloed in proprietary databases or surrendered to platform monopolies. Draws on the commons tradition and data-dignity frameworks to ensure contributors retain rights over how their data is used, shared, and monetized, enabling population-scale research while preserving contextual integrity.",
     "see_also": [
-      "health-agency",
-      "health-production-society",
-      "social-determinants-of-health",
-      "plurality-publics"
+      "data coalitions",
+      "data dignity",
+      "commons",
+      "contextual integrity",
+      "mediators of individual data (MIDs)"
     ],
     "source_chapter": "Ch. 6-2"
   },
   {
-    "term": "Health Production Society",
-    "definition": "A proposed ⿻ mutual-aid insurance model that goes beyond risk pooling and redistribution to actively finance the conditions required for health rather than merely paying for treatment of disease or infirmity. Grounded in shared values, professional goals, and belief systems, such societies coordinate the joint production of health — clean water, sanitation, nutrition, behavioral norms, healthy environments — at local, national, or global scales, using supermodularity as an organizing principle. Distinct from both private health insurance and national single-payer systems.",
+    "term": "participatory epidemiology",
+    "definition": "An approach to disease surveillance and public-health research in which communities actively contribute observations, local knowledge, and real-time signals rather than serving as passive subjects of expert-led data collection. Enabled by civic-tech tools, wikisurveys, and collective intelligence platforms, participatory epidemiology is positioned in Plurality as a concrete application of broad listening and augmented deliberation to population health.",
     "see_also": [
-      "social-health-insurance",
-      "supermodularity-network-externalities",
-      "plurality-publics",
-      "health-impact-tokenization",
-      "global-fund-aids-tb-malaria"
+      "broad listening",
+      "wikisurveys",
+      "collective intelligence",
+      "augmented deliberation"
+    ],
+    "source_chapter": "Ch. 6-2"
+  },
+  {
+    "term": "collaborative medicine",
+    "definition": "A model of clinical and public-health practice that foregrounds co-production between patients, caregivers, researchers, and communities rather than unidirectional expert-to-patient delivery. In Plurality's framing, collaborative medicine is the health-sector instantiation of ⿻ principles: it distributes epistemic authority, respects plural identities, and aligns care delivery with the actual social contexts in which health is produced and maintained.",
+    "see_also": [
+      "plural health",
+      "health data commons",
+      "participatory epidemiology",
+      "data dignity"
+    ],
+    "source_chapter": "Ch. 6-2"
+  },
+  {
+    "term": "health agency",
+    "definition": "A concept drawn from Jennifer Prah Ruger describing the promotion of individuals' capabilities to act in their own interests with respect to their health. In the ⿻ framing, health agency is understood as primarily emergent, multiscale, embedded, and complex — not reducible to individual atomistic choices or top-down provision, but co-constructed by individuals and their communities across diverse scales.",
+    "see_also": [
+      "plural health",
+      "health production society",
+      "social determinants of health"
+    ],
+    "source_chapter": "Ch. 6-2",
+    "source_quote": "the co-construction of health agency on the part of individuals and their communities, a term Jennifer Prah Ruger uses to describe the promotion of individuals' capabilities to act in their own interests with respect to their health"
+  },
+  {
+    "term": "health production society",
+    "definition": "A reimagined form of social health insurance conceived as a mutual-aid society that pools risk and redistribution while actively coordinating the joint production of health — addressing social determinants such as clean water, nutrition, substance use, and communicable disease — rather than merely financing the restoration of health after illness. Such societies operate at intersecting scales from local to global, relying on ⿻ technologies for community consensus, shared purpose, and privacy-shielded collective action.",
+    "see_also": [
+      "health agency",
+      "plural health",
+      "social health insurance",
+      "supermodularity"
     ],
     "source_chapter": "Ch. 6-2",
     "source_quote": "Such a model, which we might call a 'health production society', would ensure risk pooling and redistribution but could be much more relevant and effective at targeting the social determinants of health."
   },
   {
-    "term": "Social Health Insurance (⿻ Reframing)",
-    "definition": "A model of health financing rooted in communities of solidarity — tracing from Roman collegia and medieval German Knappschaften through modern employer- and guild-based insurance — in which shared profession, employer, or belief creates a natural basis for pooled risk and redistribution. The ⿻ framing reconceptualizes social health insurance as a '⿻ good': supermodular in group size across diverse risks and life situations, capable of financing the conditions required for health rather than merely reimbursing treatment, and operating across intersecting scales without requiring universal participation.",
+    "term": "health impact tokenization",
+    "definition": "A mechanism for representing the insurance value and broader social value of health investments as tradeable digital tokens — distinguishing outputs (direct service results), outcomes (mortality/morbidity risk reduction), and impacts (knock-on effects in the world at large). Tokenization enables fragmented funders and implementers to coordinate through open impact pools, allows governance participation and investment via tokens, and can make buying health impact as accessible as purchasing carbon credits, unlocking win-win health investments that currently remain blocked because full social value is never counted.",
     "see_also": [
-      "health-production-society",
-      "supermodularity-network-externalities",
-      "plurality-publics",
-      "quadratic-funding"
+      "plural funding",
+      "quadratic funding",
+      "social wealth funds",
+      "open impact pools"
     ],
     "source_chapter": "Ch. 6-2"
   },
   {
-    "term": "Health Impact Tokenization",
-    "definition": "A proposed mechanism for representing and trading the insurance and broader social value of health investments through digital tokens linked to outcomes and impacts. Distinguishes outputs (e.g. people vaccinated), outcomes (e.g. deaths avoided), and impacts (knock-on effects in the wider world). Because the full social value of health projects is rarely counted or rendered tradeable, many win-win health investments remain blocked; tokenization, bundling, and open impact pools could make buying health impact as simple as buying carbon credits, attracting a broader coalition of funders and enabling fractal health-impact markets.",
+    "term": "open impact pools",
+    "definition": "Coordination structures for health financing that aggregate tokenized health impact across fragmented funders and implementers, allowing broad participation in governance including by beneficiaries, and enabling equitable distribution of both risk and benefit. Open impact pools address shortcomings of existing blended-finance arrangements by productizing benefit classes based on a standardized impact model, and support cascading ('fractal') health-impact markets.",
     "see_also": [
-      "health-production-society",
-      "quadratic-funding",
-      "open-impact-pools",
-      "generative-foundation-models-gfms-as-administrative-infrastructure"
-    ],
-    "source_chapter": "Ch. 6-2",
-    "source_quote": "Impact is thus an open-source commodity: it can be forked to whatever use the beneficiary can devise."
-  },
-  {
-    "term": "Open Impact Pools",
-    "definition": "Proposed open coordination structures that aggregate fragmented health funders and implementers around tokenized impact certificates. Open impact pools address shortcomings of existing health financing by allowing broad participation in governance — including by direct and indirect beneficiaries — and by productizing benefit classes based on a standardized impact model, enabling more equitable distribution of both risk and benefit and incentivizing at-scale production of key ⿻ goods.",
-    "see_also": [
-      "health-impact-tokenization",
-      "health-production-society",
-      "quadratic-funding",
-      "plural-funding"
+      "health impact tokenization",
+      "plural funding",
+      "quadratic funding"
     ],
     "source_chapter": "Ch. 6-2"
   },
   {
-    "term": "Deliberative Tools for Health Cooperation",
-    "definition": "The application of ⿻ online governance tools — expert-elicitation databases, collaborative deliberation platforms, voting systems, and prediction markets — to public health policy, especially pandemic response. The chapter argues that diffuse publics and loosely organized non-health associations can formulate objectively better pandemic policy than government experts alone, as illustrated by Taiwan's rapid support of citizen-led initiatives (g0v, Polis) for mask supply tracking and other COVID-19 responses. The 'wisdom of the crowd' multiplied by such tools can also help preserve social cohesion and public trust.",
+    "term": "social health insurance",
+    "definition": "A model of health insurance in which communities of solidarity care for those in need, combining individual prepayments with collectivized contributions from employers (historically guilds such as the medieval German Knappschaften) and/or the state. Distinguished from both private actuarial insurance and single-payer national insurance, social health insurance is reframed in ⿻ terms as a 'health production society' capable of addressing social determinants of health across intersecting scales of community.",
     "see_also": [
-      "augmented-deliberation",
-      "polis-style-clustering",
-      "g0v-civic-hacking",
-      "vtaiwan-deliberation",
-      "pandemic-preparedness"
-    ],
-    "source_chapter": "Ch. 6-2",
-    "source_quote": "If diffuse populations of individuals or loosely organized non-health associations, such as soccer clubs, can formulate objectively better pandemic policy than a government that is advised by the world's top epidemiological experts, then governments are turning a blind eye to a critical source of information and analysis."
-  },
-  {
-    "term": "Extitutional Approach (Taiwan Health)",
-    "definition": "Taiwan's pandemic governance strategy of rapidly empowering citizen-led online initiatives (g0v, Polis) rather than imposing centralized control, enabling the harvesting of localized and contextual knowledge as a ⿻ good while respecting privacy. The chapter notes this 'extitutional' approach was so successful it has since been institutionalized, offering a model for how policymaking during future novel pandemics can go beyond the sole prerogative of epidemiological experts in closed-room consultations.",
-    "see_also": [
-      "g0v-civic-hacking",
-      "polis-style-clustering",
-      "vtaiwan-deliberation",
-      "deliberative-tools-for-health-cooperation",
-      "pandemic-preparedness"
+      "health production society",
+      "health agency",
+      "supermodularity"
     ],
     "source_chapter": "Ch. 6-2"
   },
   {
-    "term": "Indigenous Health Co-Administration",
-    "definition": "Efforts, notably in Canada and Australia, by colonialist successor administrations to learn from Indigenous models of health and healthcare, to engage in co-administration of health services in accordance with Indigenous community values, and to allow for self-determination of solutions by Indigenous peoples. The chapter proposes that GFMs can leverage large and diffuse bodies of textual data produced in these initiatives to interpret, criticize, reimagine, and redesign healthcare administration to be more responsive to cultural value systems and non-colonialist models.",
+    "term": "information ecosystem",
+    "definition": "The full network of media producers, distributors, platforms, algorithms, and consumers through which information circulates in a society. In ⿻ framing, a healthy information ecosystem supports diverse, bridging, and high-integrity information flows rather than optimizing for engagement, homophily, or propaganda.",
     "see_also": [
-      "augmented-deliberation",
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "coloniality-of-mapping"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "BCIs as Assistive Technology (⿻ Health)",
-    "definition": "The framing of familiar assistive devices — eyeglasses, hearing aids, canes, wheelchairs, smartphones — as brain-computer interfaces operating at varying bit rates through sensory and motor organs. The chapter argues these 'BCIs' are already an indispensable, integral part of transhuman personality, and that the trend toward higher-bandwidth interactivity will have important implications for visual, hearing, mobility, self-care, and speech disorders through Extended Reality (XR), bionics, and cognitive/emotional BCI applications including for depression, anxiety, and addictive disorders.",
-    "see_also": [
-      "brain-computer-interface-bci-as-plurality-communication",
-      "post-symbolic-communication",
-      "immersive-shared-reality",
-      "accessibility"
-    ],
-    "source_chapter": "Ch. 6-2",
-    "source_quote": "It would be futile to insist that such devices are not now an integral part of our (transhuman) personality."
-  },
-  {
-    "term": "ISR for Health and Disability",
-    "definition": "The application of Immersive Shared Reality (ISR) technologies to health settings, going beyond non-interpersonal uses (e.g. medical training, surgical simulation) to gamified, interpersonal applications. ISR can incentivize learning of complex cognitive, relational, and behavioral skills such as self-care, self-insight, and self-management, and opens new horizons of simulated and non-simulated social interaction for those with disabilities that lower-throughput traditional assistive technologies cannot address.",
-    "see_also": [
-      "immersive-shared-reality",
-      "bcis-as-assistive-technology-health",
-      "post-symbolic-communication",
-      "accessibility"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "GFMs for Medical Diagnosis and Data Sharing",
-    "definition": "The use of generative foundation models fine-tuned on datasets orders of magnitude larger than any individual radiographer could view in a lifetime, enabling outperformance of human readers for rare conditions and requiring ⿻ data-sharing practices across many imaging centers. GFMs can also extract weak or highly confounded signals from unstructured medical notes as the basis for novel causal insights, potentially transforming regulatory post-approval change processes and unlocking value currently 'left on the table' by under-production of health.",
-    "see_also": [
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "federated-learning",
-      "health-data-commons",
-      "privacy-enhancing-technologies-pets",
-      "zero-knowledge-proofs-zkps"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Privacy-Preserving Medical Data Sharing",
-    "definition": "The application of privacy-enhancing technologies — zero-knowledge proofs, federated learning, secure multi-party computation, differential privacy — to enable simultaneous respect for medical privacy and large-scale data sharing across health institutions. The chapter argues that rethinking medical practice and research to build in cryptographic principles from the foundation is an essential part of the Web3 project, noting that some diseases today may still be fatal only because of failure to build such applications.",
-    "see_also": [
-      "zero-knowledge-proofs-zkps",
-      "federated-learning",
-      "privacy-enhancing-technologies-pets",
-      "health-data-commons",
-      "gfms-for-medical-diagnosis-and-data-sharing"
-    ],
-    "source_chapter": "Ch. 6-2",
-    "source_quote": "Rethinking medical practice (which requires patient data for the patient's own benefit) and medical research (which requires patient data for the benefit of others) so as to build in cryptographic principles from the foundation is an essential part of the Web3 project, with important health implications: no doubt some diseases today are still fatal only because of our failure to build such applications."
-  },
-  {
-    "term": "Global Fund to AIDS, Tuberculosis and Malaria (as ⿻ Case)",
-    "definition": "Cited in the chapter as an example of global-scale health impact that remains massively undervalued by conventional accounting. The Global Fund claims to have saved 44 million lives over 20 years at ~$61.4 billion in cumulative costs; median estimates for the insurance value of this mortality risk reduction would come to ~$200 trillion, implying an outcomes-based ROI of over 3000:1. The chapter uses this case to argue for health impact tokenization and open impact pools that could raise revenue against the implicit, untraded shares everyone already holds in such entities.",
-    "see_also": [
-      "health-impact-tokenization",
-      "open-impact-pools",
-      "health-production-society"
-    ],
-    "source_chapter": "Ch. 6-2"
-  },
-  {
-    "term": "Public-Interest Media Funding",
-    "definition": "A policy strategy that redirects resources toward journalism and media production oriented around public benefit rather than advertising revenue or engagement metrics. The book identifies this as a ⿻ policy lever — analogous to public R&D investment — to sustain diverse, bridging information ecosystems that engagement-maximizing platforms erode. Mechanisms include subsidies, endowments, quadratic-funded journalism, and public-option media.",
-    "see_also": [
-      "quadratic-funding",
-      "bridging-based-moderation",
-      "engagement-maximization",
-      "media-plurality-domain",
-      "plurality-publics"
+      "attention economy",
+      "plural publics",
+      "bridging capital",
+      "information integrity"
     ],
     "source_chapter": "Ch. 6-3"
   },
   {
-    "term": "Engagement Maximization (Media Failure Mode)",
-    "definition": "A dominant failure mode in commercial media and social-platform design in which algorithmic systems optimize for time-on-platform, clicks, and emotional arousal rather than accuracy, bridging, or civic value. The book treats this as a structural driver of polarization, misinformation, and erosion of plurality publics — a counter-⿻ attractor built into ad-funded business models.",
+    "term": "plural media",
+    "definition": "A media system designed around ⿻ principles: supporting diverse voices, bridging across social divides, resisting both monopolistic capture and hyper-fragmentation, and funding journalism as public infrastructure rather than as advertising inventory. Contrasted with engagement-maximizing social media and with state-controlled broadcast media.",
     "see_also": [
-      "surveillance-capitalism",
-      "collaborative-filtering-echo-chamber",
-      "bridging-based-moderation",
-      "atomist-libertarianism",
-      "plurality-publics"
+      "information ecosystem",
+      "plural publics",
+      "bridging capital",
+      "public interest media"
+    ],
+    "source_chapter": "Ch. 6-3",
+    "source_quote": "Plural media systems are those that achieve the communication version of the diversity dividend: making diverse perspectives legible to one another without flattening them into a single dominant voice."
+  },
+  {
+    "term": "filter bubble",
+    "definition": "The condition in which algorithmic personalization encloses individuals within information environments that confirm existing beliefs and exclude challenging or diverse perspectives. Weyl and Tang treat filter bubbles as a structural failure mode of engagement-maximizing platforms, eroding the common knowledge necessary for democratic self-governance.",
+    "see_also": [
+      "attention economy",
+      "information integrity",
+      "bridging capital",
+      "plural publics"
     ],
     "source_chapter": "Ch. 6-3"
   },
   {
-    "term": "Misinformation Ecosystem",
-    "definition": "The book's framing of mis- and disinformation not as isolated bad-actor behavior but as a systemic property of media architectures that reward virality and outrage. Countering it requires structural interventions — bridging-based moderation, public-interest funding, information-integrity norms, and participatory fact-checking — rather than purely content-level moderation or censorship.",
+    "term": "public interest media",
+    "definition": "Media and journalism funded or structured to serve civic rather than commercial ends — through public broadcasters, nonprofit newsrooms, subsidized local journalism, or community-owned outlets. The book treats public interest media as a ⿻ policy lever for sustaining information integrity and bridging publics across social divides.",
     "see_also": [
-      "information-integrity-taiwan-model",
-      "bridging-based-moderation",
-      "cofacts",
-      "humor-over-rumor",
-      "engagement-maximization"
+      "plural media",
+      "information ecosystem",
+      "information integrity",
+      "bridging capital"
     ],
     "source_chapter": "Ch. 6-3"
   },
   {
-    "term": "Plural Media Ownership",
-    "definition": "A structural condition in which media institutions are owned and governed across multiple forms — cooperatives, public broadcasters, nonprofit newsrooms, platform cooperatives, community media — rather than concentrated in a small number of ad-funded or state-controlled entities. The book treats this diversity of ownership as a prerequisite for ⿻ information ecosystems.",
+    "term": "epistemic commons",
+    "definition": "Shared informational resources — verified facts, common narratives, trusted sources — that a democratic public depends on to reason together. The book treats the erosion of the epistemic commons by disinformation, filter bubbles, and engagement-maximizing platforms as a central threat to ⿻ self-governance.",
     "see_also": [
-      "platform-cooperativism",
-      "public-interest-media-funding",
-      "media-plurality-domain",
-      "plurality-publics"
+      "information ecosystem",
+      "filter bubble",
+      "information integrity",
+      "commons"
     ],
     "source_chapter": "Ch. 6-3"
   },
   {
-    "term": "Antitrust as ⿻ (Media)",
-    "definition": "The application of competition and antitrust policy to media and platform markets as a ⿻ strategy: breaking up or constraining concentrated platforms that homogenize information flows, foreclose diverse voices, and capture public attention infrastructure. The book situates this alongside public-interest funding and bridging-based moderation as complementary structural interventions.",
+    "term": "disinformation",
+    "definition": "Deliberately false or misleading information spread to manipulate public opinion or undermine democratic deliberation. Distinguished from misinformation (unintentional) by intent. The book discusses disinformation as a structural vulnerability of digital information ecosystems and examines Taiwan's responses (humor over rumor, Cofacts, bridging systems) as ⿻ countermeasures.",
     "see_also": [
-      "plural-media-ownership",
-      "engagement-maximization",
-      "surveillance-capitalism",
-      "public-interest-media-funding"
+      "information integrity",
+      "epistemic commons",
+      "filter bubble",
+      "humor over rumor"
     ],
     "source_chapter": "Ch. 6-3"
   },
   {
-    "term": "Participatory Journalism (⿻ Form)",
-    "definition": "Media production models that incorporate citizen contributors, collaborative verification, and community governance into the editorial process — including wiki-style collaborative reporting, participatory fact-checking networks (e.g., Cofacts), and community-notes-style annotation. The book frames these as ⿻ governance forms for the information commons.",
+    "term": "media pluralism",
+    "definition": "The condition in which diverse, independent media voices coexist, covering different communities, perspectives, and power centers. Distinct from atomist fragmentation: media pluralism involves genuine diversity with sufficient common infrastructure to enable cross-community understanding, not merely the proliferation of siloed outlets.",
     "see_also": [
-      "cofacts",
-      "community-notes-birdwatch",
-      "wikipedia-as-plurality-institution",
-      "augmented-deliberation",
-      "public-interest-media-funding"
+      "plural media",
+      "plural publics",
+      "bridging capital",
+      "information ecosystem"
     ],
     "source_chapter": "Ch. 6-3"
   },
   {
-    "term": "Information Commons",
-    "definition": "A ⿻ framing of shared information infrastructure — archives, databases, news, scientific literature — as a commons requiring collective stewardship rather than private enclosure or state control. The book argues that treating information as a commons, with appropriate governance (data trusts, open licensing, participatory curation), is foundational to ⿻ media ecosystems.",
+    "term": "collaborative journalism",
+    "definition": "A mode of journalism that harnesses distributed participation — including citizen journalists, open-source intelligence analysts, and GFM-assisted community voices — to dramatically increase the number of people who can meaningfully contribute to the shared narration of events. Wikipedia's distributed production of consensual accounts is an early precedent. GFMs can help communities synthesize authentic voices, verify facts, and translate across languages and subcultural styles without sacrificing accuracy or legibility.",
     "see_also": [
-      "data-coalitions",
-      "data-trusts-data-collaboratives-data-cooperatives",
-      "wikipedia-as-plurality-institution",
-      "public-interest-media-funding",
-      "plural-media-ownership"
+      "citizen journalism",
+      "augmented deliberation",
+      "generative foundation models",
+      "plural media"
     ],
-    "source_chapter": "Ch. 6-3"
+    "source_chapter": "Ch. 6-5",
+    "source_quote": "GFMs will increasingly allow communities to finesse these trade-offs, as they can learn from and synthesize the speech patterns of community members, incorporate verified facts, and at the same time smoothly translate to a range of languages and subcultural standards and styles."
   },
   {
-    "term": "Algorithmic Curation (as ⿻ Design Challenge)",
-    "definition": "The book identifies algorithmic content curation — the automated selection and ranking of information shown to users — as a central site of ⿻ intervention. Engagement-maximizing curation is a failure mode; ⿻ alternatives include bridging-based moderation, Polis-style clustering, and community-governed recommendation systems that surface cross-cutting rather than polarizing content.",
+    "term": "cryptographically secure sources",
+    "definition": "A journalism protection framework using zero-knowledge proofs and designated verifier signatures to allow confidential sources to prove elements of their institutional position to audiences without revealing their identity even to the journalist. This enables a nuanced mix of trustworthy disclosure and privacy: sources can assert organizational standing via public credentials while keeping other identifying information secret, and can provide 'receipts' only at personal cost, preserving community confidentiality norms while allowing override in the broader social interest.",
     "see_also": [
-      "bridging-based-moderation",
-      "polis-style-clustering",
-      "engagement-maximization",
-      "collaborative-filtering-echo-chamber",
-      "community-notes-birdwatch"
+      "zero-knowledge proofs",
+      "designated verifier proofs",
+      "contextual integrity",
+      "plural publics"
     ],
-    "source_chapter": "Ch. 6-3"
+    "source_chapter": "Ch. 6-5",
+    "source_quote": "zero-knowledge proofs (ZKPs) based on public credentials could allow sources to remain confidential even to journalists while proving (elements of) their position to journalists' audiences."
   },
   {
-    "term": "Media Literacy (⿻ Education Layer)",
-    "definition": "The cultivation of skills for critically evaluating information sources, understanding algorithmic curation, and participating in collaborative fact-checking — treated in the book as a complementary layer to structural ⿻ media interventions. Connects to Taiwan's digital competence education and broader ⿻ access-with-integrity framing.",
+    "term": "affective polarization",
+    "definition": "Dislike and resentment across lines of political or social division, distinct from policy disagreement. The book treats affective polarization as a measurable harm exacerbated by engagement-maximizing social media algorithms and echo chambers, and identifies ⿻ media design — including community-anchored attention allocation and bridging content — as capable of at least undoing recent rises and possibly reducing polarization to levels seen in the least polarized jurisdictions such as Taiwan and the Netherlands.",
     "see_also": [
-      "digital-competence-education-taiwan",
-      "information-integrity-taiwan-model",
-      "access-with-integrity",
-      "digital-literacy-as-plurality-access-layer",
-      "participatory-journalism"
+      "filter bubble",
+      "bridging systems",
+      "augmented deliberation",
+      "plural media"
     ],
-    "source_chapter": "Ch. 6-3"
+    "source_chapter": "Ch. 6-5"
   },
   {
-    "term": "Empathetic VR Journalism",
-    "definition": "A nascent form of immersive journalism using virtual reality and multisensory technologies to allow audiences to experience the lives, environments, and crises of others — including non-human life, disease survivors, and conflict zones — far more viscerally than text, photography, or television allow. Pioneered by artists and journalists such as Milica Zec and Winslow Porter (*Tree*, 2017), Decontee Davis (*Surviving Ebola*, 2015), and Yasmin Elayat (*Zero Days VR*, 2017). As sensory range (smell, touch, taste) and brain interfaces expand, the empathetic depth achievable through journalism is expected to increase dramatically.",
+    "term": "false consensus effect",
+    "definition": "A cognitive-social dynamic in which individuals overestimate how widely their own views — including extreme or idiosyncratic ones — are shared, fueling demonization of dissenters and misplaced resentment when political outcomes diverge from perceived consensus. Anti-social media algorithms amplify this effect by surfacing content in ways that conceal the actual distribution of opinion within and across communities.",
     "see_also": [
-      "immersive-shared-reality",
-      "post-symbolic-communication",
-      "brain-computer-interface-bci-as-plurality-communication"
+      "pluralistic ignorance",
+      "affective polarization",
+      "filter bubble",
+      "augmented deliberation"
     ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "pluralistic ignorance",
+    "definition": "A condition in which members of a community privately reject a norm or view while incorrectly assuming it is widely held by others, preventing collective action on 'silent majority' positions. The book cites it as a structural failure of current media architectures, and argues that ⿻ community-anchored social media design — which clarifies genuine consensus and division within a citizen's communities — can help correct it.",
+    "see_also": [
+      "false consensus effect",
+      "affective polarization",
+      "augmented deliberation",
+      "plural media"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "Hutchins Commission",
+    "definition": "The 1947 Commission on Freedom of the Press that developed a code of social responsibility for American journalism, arguing that a free press should act as 'common carriers of public discussion' — establishing shared factual baselines (the 'Walter Cronkite effect') while fairly presenting divergent perspectives (the 'fairness doctrine'). The book treats the Hutchins era as a historical benchmark for pro-social media, while arguing that ⿻ requires extending its logic to a more diverse, multi-locus democratic world rather than restoring it at a single national scale.",
+    "see_also": [
+      "plural media",
+      "epistemic commons",
+      "public interest media",
+      "affective polarization"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "community-sponsored media",
+    "definition": "A ⿻ funding model for social media in which collective organizations — churches, civic associations, governments, charities, universities, corporations — sponsor their members' platform use in exchange for prioritization of community-relevant content. Analogous to enterprise productivity-software models (e.g. Microsoft, Slack), this approach aligns platform incentives with solidarity and dynamism rather than consumer engagement, potentially displacing advertising revenue with funding from organizations that have a direct interest in bringing their communities together.",
+    "see_also": [
+      "plural media",
+      "public interest media",
+      "epistemic commons",
+      "affective polarization"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "Project Liberty",
+    "definition": "A consortium initiative building infrastructure to purchase TikTok and redesign it around user control of digital identities and data. The reimagined platform aims to give users choice (agency over their information), voice (say in platform governance), and stake (access to the economic value they create online), exemplifying a ⿻ approach to restructuring a major social media platform as public-interest infrastructure.",
+    "see_also": [
+      "plural media",
+      "community-sponsored media",
+      "data dignity",
+      "digital public infrastructure"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "plural environment",
+    "definition": "An approach to environmental governance and sustainability that applies ⿻ principles — polycentric coordination, collaborative sensing, cross-scale deliberation, and diverse forms of ownership and stewardship — rather than relying on either centralized technocratic management or atomist market mechanisms. The book frames plural environment as applying the full stack of ⿻ tools (data commons, augmented deliberation, quadratic funding, partial common ownership, social wealth funds) to ecological challenges from local watersheds to global climate systems.",
     "source_chapter": "Ch. 6-4",
-    "source_quote": "Journalists may soon be able to bridge social divides with vivid empathy as never before."
+    "see_also": [
+      "data coalitions",
+      "partial common ownership",
+      "social wealth funds",
+      "augmented deliberation",
+      "quadratic funding",
+      "parliament of things",
+      "plural property"
+    ]
   },
   {
-    "term": "Citizen Co-Journalism",
-    "definition": "An evolution of 'citizen journalism' and open-source intelligence (OSINT) in which a much broader diversity of people — beyond formally trained journalists — document and narrate important events. The book frames this not merely as participatory reporting but as a ⿻ form enabled by tools for distributed verification, GFM-assisted community voice synthesis, and rough-consensus narrative production. Wikipedia's speed and scale of distributed account-building is cited as a precedent. GFMs are identified as simultaneously a threat (realistic fakes, echo chambers) and an enabler (community voice synthesis, multilingual translation).",
-    "see_also": [
-      "participatory-journalism-plurality-form",
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "wikipedia-as-plurality-institution",
-      "information-commons",
-      "misinformation-ecosystem"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "GFM Community Voice Synthesis",
-    "definition": "A capability of generative foundation models (GFMs) to learn from and synthesize the speech patterns of community members, incorporate verified facts, and translate fluidly across languages and subcultural registers — enabling non-journalist communities to convey their stories with precision and clarity to diverse publics. Identified in the book as a way to resolve the long-standing journalism tension between letting a community 'speak for itself' and crafting a narrative digestible to a target audience.",
-    "see_also": [
-      "citizen-co-journalism",
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "cross-cultural-legal-translation-gfm-mediated",
-      "linguistic-diversity-multilingual-access-as-plurality-requirement"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Cryptographically Secure Sources (Journalism)",
-    "definition": "An application of ⿻ cryptographic tools — including zero-knowledge proofs (ZKPs), designated verifier signatures, and public-credential-based verification — to the problem of source confidentiality in journalism. Sources can prove elements of their organizational position to journalists' audiences without revealing their identity, even to the journalist. The book frames this as a nuanced social dance rather than a simple arms race: different disclosure levels require different personal costs, preserving community confidentiality norms while allowing override in the broader public interest.",
-    "see_also": [
-      "zero-knowledge-proofs-zkps",
-      "designated-verifier-proofs-dvps",
-      "verifiable-credentials-vcs",
-      "contextual-integrity",
-      "association-and-plurality-publics"
-    ],
+    "term": "environmental data commons",
+    "definition": "Shared, community-governed repositories of environmental sensing and monitoring data — air quality, soil health, water systems, biodiversity — structured so that the communities generating the data retain meaningful agency over its use, rather than ceding it to corporate platforms or opaque state agencies. Treated in the book as a key ⿻ infrastructure for place-based ecological stewardship and cross-scale environmental coordination.",
     "source_chapter": "Ch. 6-4",
-    "source_quote": "ZKPs based on public credentials could allow sources to remain confidential even to journalists while proving (elements of) their position to journalists' audiences."
+    "see_also": [
+      "data coalitions",
+      "data dignity",
+      "health data commons",
+      "commons",
+      "plural property"
+    ]
   },
   {
-    "term": "Hutchins Commission (Freedom of the Press)",
-    "definition": "A 1940s U.S. commission that developed a code of social responsibility under which the press would act as 'common carriers of public discussion', creating a baseline of shared understanding for democratic self-government. The book invokes the Hutchins Commission as a historical benchmark for pro-social media design — clarifying points of consensus ('Walter Cronkite effect') and divergence ('fairness doctrine') — and as a contrast to the atomizing, engagement-maximizing dynamics of contemporary social media. The book argues that ⿻ public media structures could fulfill the Hutchins vision at greater diversity and scale.",
-    "see_also": [
-      "public-interest-media-funding",
-      "engagement-maximization-media-failure-mode",
-      "plural-media-ownership",
-      "algorithmic-curation-as-plurality-design-challenge"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "⿻ Social Media Curation (Bridging-Based Feeds)",
-    "definition": "A social media design strategy in which algorithms construct 'communities' from behavioral and external social-science data, then surface to each member: (1) common content spanning internal divides (rough consensus), (2) important points of division within the community, and (3) consensus content from the 'other side' of each divide. This design counteracts false-consensus effects and pluralistic ignorance, reshapes creator incentives away from divisive content toward stories that unite, and preserves individual and community agency over intersectional identity.",
-    "see_also": [
-      "polis-style-clustering",
-      "bridging-based-moderation",
-      "augmented-deliberation",
-      "engagement-maximization-media-failure-mode",
-      "algorithmic-curation-as-plurality-design-challenge",
-      "false-consensus-effect",
-      "pluralistic-ignorance"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "False-Consensus Effect (Media Failure Mode)",
-    "definition": "A cognitive and social phenomenon in which individuals — amplified by anti-social media echo chambers — come to believe that extreme or idiosyncratic views are widely shared. This fuels demonization of those who do not share those views and a sense of resentment when associated political outcomes are not achieved. The book cites Gary Marks and Norman Miller's research and notes the lab-leak hypothesis and the January 6, 2021 U.S. Capitol attack as illustrative instances.",
-    "see_also": [
-      "pluralistic-ignorance",
-      "engagement-maximization-media-failure-mode",
-      "misinformation-ecosystem",
-      "plurality-social-media-curation-bridging-based-feeds"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Pluralistic Ignorance (Media Failure Mode)",
-    "definition": "A condition in which a 'silent majority' holds a view but members cannot act collectively on it because social media dynamics prevent them from recognizing their own prevalence. Identified by the book — drawing on Prentice and Miller — as a key pathology of anti-social media, contrasted with the false-consensus effect. The book cites the 81 million Biden voters who were unable to prevent a small motivated crowd from nearly disrupting the 2021 Electoral College count as an instance.",
-    "see_also": [
-      "false-consensus-effect-media-failure-mode",
-      "engagement-maximization-media-failure-mode",
-      "plurality-social-media-curation-bridging-based-feeds"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "⿻ Public Media (Community-Sponsored Social Media)",
-    "definition": "A funding and governance model for social media in which collective organizations — churches, civic associations, governments, charities, universities, corporations — sponsor their members' platform use in exchange for prioritization of community-relevant, bridging content. This displaces advertising revenue (which incentivizes engagement and polarization) and individual subscriptions (which serve consumers rather than citizens). The book notes that democratic governments already spend billions on public media, making community-sponsored displacement of advertising plausible. Analogized to enterprise productivity software (Microsoft, Slack) sold to organizations interested in solidarity and dynamism.",
-    "see_also": [
-      "public-interest-media-funding",
-      "plural-media-ownership",
-      "hutchins-commission-freedom-of-the-press",
-      "engagement-maximization-media-failure-mode",
-      "plurality-social-media-curation-bridging-based-feeds"
-    ],
+    "term": "ecological sensing networks",
+    "definition": "Distributed, community-operated networks of sensors and citizen-science participants that generate real-time environmental data at granular spatial and temporal scales impossible for centralized agencies alone. The book treats these as a ⿻ infrastructure layer enabling participatory environmental monitoring, local stewardship feedback loops, and collective sensemaking about ecological change.",
     "source_chapter": "Ch. 6-4",
-    "source_quote": "If we want social media to bring us together, we should aspire for it to be funded by organizations with a dedicated interest in achieving that goal: collective organizations including churches, civic associations, governments at many levels, charities, universities, corporations etc."
-  },
-  {
-    "term": "Project Liberty (TikTok Consortium)",
-    "definition": "A consortium initiative building infrastructure to purchase TikTok and redesign it around user control of digital identities and data. The book identifies three goals: Choice (more agency over digital lives and information), Voice (more say in responsible platform governance), and Stake (more access to the economic value users create online). Presented as one concrete path to a ⿻ reimagining of a major social media platform.",
     "see_also": [
-      "project-liberty",
-      "plurality-public-media-community-sponsored-social-media",
-      "self-sovereign-identity-ssi",
-      "data-dignity",
-      "decentralized-identity"
-    ],
-    "source_chapter": "Ch. 6-4"
+      "environmental data commons",
+      "participatory epidemiology",
+      "collective intelligence",
+      "digital public infrastructure"
+    ]
   },
   {
-    "term": "Affective Polarization (as ⿻ Media Target)",
-    "definition": "Dislike and distrust across lines of political division, measured across national polities. The book argues that ⿻ social media design — bridging-based curation, community-sponsored funding, and immersive empathy journalism — could at minimum undo rises in affective polarization in many jurisdictions and potentially reduce them to levels seen in the least-polarized democracies such as Taiwan and the Netherlands.",
-    "see_also": [
-      "plurality-social-media-curation-bridging-based-feeds",
-      "plurality-public-media-community-sponsored-social-media",
-      "engagement-maximization-media-failure-mode",
-      "bridging-based-moderation"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Designated Verifier Signatures (in Source Confidentiality)",
-    "definition": "A cryptographic tool that restricts the verifiability of a proof or document to a specific designated verifier (e.g., a journalist or legal authority). Used in the book's analysis of source confidentiality: if a source provides 'receipts' protected by designated verifier signatures, the journalist must expose the source's private key to validate them, creating a trust dependency and risk of exploitation. Illustrates how ⿻ cryptography creates intricate trade-offs between disclosure depth and personal exposure.",
-    "see_also": [
-      "designated-verifier-proofs-dvps",
-      "cryptographically-secure-sources-journalism",
-      "zero-knowledge-proofs-zkps",
-      "contextual-integrity"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Environmental Commons (⿻ Framing)",
-    "definition": "The book's framing of the natural environment as a shared commons whose governance requires ⿻ tools — cross-scale deliberation, participatory sensing, data coalitions, and plural funding — rather than either state command or market pricing alone. Environmental challenges are treated as paradigm cases for ⿻ governance because they span jurisdictions, generations, and species, making monocentric solutions structurally inadequate.",
-    "see_also": [
-      "data-coalitions",
-      "quadratic-funding",
-      "participatory-epidemiology",
-      "plural-health-governance",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Participatory Sensing (Environmental ⿻)",
-    "definition": "The use of distributed, citizen-contributed sensor data and observation networks to monitor environmental conditions — air quality, biodiversity, water quality — as a ⿻ alternative to top-down expert measurement. The book treats participatory sensing as a form of broad listening applied to the non-human world, generating commons-based environmental data.",
-    "see_also": [
-      "data-coalitions",
-      "broad-listening",
-      "health-data-commons",
-      "plural-media-ownership"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Interspecies / Non-Human Representation (⿻ Environment)",
-    "definition": "The challenge of incorporating the interests of non-human entities — ecosystems, species, future generations — into democratic deliberation. The book situates this as a frontier ⿻ problem, linking to Latour's Parliament of Things and augmented deliberation tools that can surface perspectives beyond the human electorate.",
-    "see_also": [
-      "parliament-of-things",
-      "augmented-deliberation",
-      "deliberative-mini-publics",
-      "environmental-commons"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Carbon Markets (as ⿻ Design Challenge)",
-    "definition": "Existing carbon markets are diagnosed in the book as insufficiently ⿻: they rely on commodification of atmospheric commons without adequate plural governance, tend toward capture by incumbents, and lack participatory mechanisms for affected communities. ⿻ alternatives include quadratic funding for green public goods, data coalitions for emissions monitoring, and partial common ownership of shared resources.",
-    "see_also": [
-      "quadratic-funding",
-      "partial-common-ownership",
-      "data-coalitions",
-      "harberger-tax"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Plural Environmental Governance",
-    "definition": "A ⿻ approach to environmental stewardship that layers multiple overlapping governance institutions — local commons, regional bodies, international agreements — rather than collapsing environmental authority into a single global technocracy or leaving it to market mechanisms. The book treats polycentric environmental governance as an application of the edge-of-chaos principle to ecological systems.",
+    "term": "polypolitan environmental governance",
+    "definition": "Environmental governance structured across overlapping, non-hierarchical jurisdictions and stakeholder communities — watersheds, bioregions, Indigenous territories, municipal governments, and global bodies — that negotiate shared stewardship without subordinating local diversity to a single managerial authority. The book draws on the ⿻ concept of overlapping affiliations applied to ecological scale.",
+    "source_chapter": "Ch. 6-4",
     "see_also": [
       "metagovernance",
-      "modular-politics",
-      "governable-stack",
-      "edge-of-chaos",
-      "environmental-commons"
-    ],
-    "source_chapter": "Ch. 6-4"
+      "governable space",
+      "modular politics",
+      "polypolitan migration policy",
+      "overlapping affiliations"
+    ]
   },
   {
-    "term": "Indigenous Environmental Stewardship (as ⿻ Precedent)",
-    "definition": "The book highlights indigenous land-management traditions — polyculture, rotational stewardship, sacred-site governance — as historical ⿻ precedents for plural environmental governance. These traditions embody cross-generational and cross-species accountability that formal democratic institutions often lack.",
+    "term": "natural legal personhood",
+    "definition": "A legal status granted to rivers, ecosystems, or other natural features, recognizing them as entities with inherent rights and appointed human guardians. Examples include the Whanganui River in New Zealand and the Ganga and Yamuna rivers in India. This framework treats natural entities as subjects with rights and responsibilities rather than mere objects of property or regulation, enabling them to be represented in legal and governance processes.",
     "see_also": [
-      "indigenous-health-co-administration",
-      "environmental-commons",
-      "interspecies-non-human-representation"
+      "parliament of things",
+      "data coalitions",
+      "plural environment",
+      "ecological sensing networks"
     ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Open Environmental Data (as ⿻ Infrastructure)",
-    "definition": "The book argues that open, interoperable environmental datasets — shared under data-trust or data-coalition governance — are a prerequisite for plural environmental governance. Closed or proprietary environmental data reproduces the data-silo failure mode in ecological monitoring and prevents cross-jurisdictional deliberation.",
-    "see_also": [
-      "data-coalitions",
-      "data-trusts-data-collaboratives-data-cooperatives",
-      "data-silos-as-plurality-failure-mode",
-      "participatory-sensing"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Quadratic Funding for Green Public Goods",
-    "definition": "An application of QF mechanics to environmental public goods — reforestation, biodiversity monitoring, renewable energy R&D — where matching funds amplify the breadth of community support rather than the depth of wealthy donors' preferences. The book treats this as a natural extension of ⿻ commerce to ecological commons.",
-    "see_also": [
-      "quadratic-funding",
-      "environmental-commons",
-      "plural-funding",
-      "social-wealth-funds"
-    ],
-    "source_chapter": "Ch. 6-4"
-  },
-  {
-    "term": "Location Aware Sensor System (LASS)",
-    "definition": "An open-source environment sensing network in Taiwan that empowers ordinary citizens to gather and share environmental data freely. LASS covers air, forest, and river sensing, operating in the spirit of open-source civic participation and contributing to the 'Civil IoT' data coalition, which provides real-time sensing information updated every 3–5 minutes across the country. Rather than relying on authoritative organizations to shape public perceptions, LASS embraces direct action and extends community values into environmental care, serving as a model of digital communication that incorporates local wisdom through citizen science.",
-    "see_also": [
-      "data-coalitions",
-      "participatory-sensing-environmental",
-      "open-environmental-data-as-plurality-infrastructure",
-      "civil-iot-taiwan"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Civil IoT (Taiwan)",
-    "definition": "A data coalition in Taiwan that aggregates real-time environmental sensing information — updated every 3–5 minutes nationwide — from citizen science networks like LASS and other open-source sensor communities. Civil IoT functions as common ground for environmental activists and civic technologists, making it easier for ideas to be examined and disseminated and facilitating collective action on a global scale. It exemplifies the ⿻ principle that data coalitions are not merely information-gathering infrastructure but also foundations for community knowledge systems and the promotion of environmental justice.",
-    "see_also": [
-      "location-aware-sensor-system-lass",
-      "data-coalitions",
-      "open-environmental-data-as-plurality-infrastructure",
-      "participatory-sensing-environmental"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Natural Legal Personhood (Rivers and Ecosystems)",
-    "definition": "A legal movement granting waterways and ecosystems inherent rights and appointed human guardians, treating them as persons in law. Examples include the Muteshekau Shipu (Magpie River) in Canada, the Whanganui in New Zealand, and the Ganga and Yamuna rivers in India. The book situates this as a ⿻ approach to cogovernance: natural personhood enables ecosystem identity to be represented in social decisions, compatible with data coalitions and generative foundation models (GFMs) that serve as digital twins and communication interfaces for these entities.",
-    "see_also": [
-      "interspecies-non-human-representation-plurality-environment",
-      "plurality-publics",
-      "gfm-based-collective-representation",
-      "digital-twins-and-in-silico-social-experimentation"
-    ],
-    "source_chapter": "Ch. 6-6",
+    "source_chapter": "Ch. 6-5",
     "source_quote": "These waterways, with inherent rights and appointed guardians, include the Magpie River (Muteshekau Shipu) in Canada, the Whanganui in New Zealand, and the Ganga and Yamuna rivers in India. This signifies a shared commitment to preserving these ecosystems for future generations."
   },
   {
-    "term": "GFM Digital Twin (Ecosystem Identity)",
-    "definition": "A generative foundation model (GFM) built for, of, and by a community around a natural ecosystem — acting simultaneously as a 'digital twin' of the ecosystem and as a ⿻ shared good. Through this framing, the river or other natural entity can be understood both as a subject with rights and responsibilities (via natural legal personhood) and as a platform for community knowledge. The book suggests this construct transcends debates about whether GFMs can become legal agents, because data coalitions can be viewed as 'little platoons' representing ecosystem-dependent people and simultaneously as the ecosystem's voice in governance.",
+    "term": "digital twin (ecosystem)",
+    "definition": "A data-driven computational representation of a natural ecosystem — such as a river — generated through data coalitions and generative foundation models, enabling the ecosystem to be modeled, monitored, and potentially represented as a subject with rights and responsibilities in governance contexts. Distinct from industrial digital twins, this concept links natural personhood to a GFM-mediated entity that can 'speak' for the ecosystem.",
     "see_also": [
-      "natural-legal-personhood-rivers-and-ecosystems",
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "plurality-publics",
-      "data-coalitions",
-      "interspecies-non-human-representation-plurality-environment"
+      "digital twins",
+      "natural legal personhood",
+      "generative foundation models",
+      "data coalitions",
+      "plural environment"
+    ],
+    "source_chapter": "Ch. 6-5",
+    "source_quote": "the river's digital twin can be seen as a subject with rights and responsibilities. Similarly, a GFM created for whatever purpose of, by and for a community can exist both as a 'person' and as a shared ⿻ good, depending on the perspective one adopts."
+  },
+  {
+    "term": "Anthropocene",
+    "definition": "A proposed geological epoch, named by Nobel laureate Paul Jozef Crutzen, marking the period since approximately the 1950s in which human activities — particularly reliance on non-renewable energy — have become the dominant driver of planetary-scale change, including deforestation, global warming, ocean acidification, and mass extinctions. Plurality uses this term to frame the environmental stakes of ⿻ approaches to governance and technology.",
+    "see_also": [
+      "plural environment",
+      "ecological sensing networks",
+      "environmental data commons"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "cogovernance across borders",
+    "definition": "A mode of environmental and civic governance that mirrors the fluidity of natural systems — oceans, rivers, atmosphere — which cross jurisdictional boundaries without regard for political borders. Drawing on civic hacking culture and cross-disciplinary collaboration, it emphasizes transjurisdictional coordination enabled by open data, GFMs, and data coalitions to address planetary-scale problems like climate change and biodiversity loss.",
+    "see_also": [
+      "polypolitan environmental governance",
+      "data coalitions",
+      "generative foundation models",
+      "ecological sensing networks",
+      "plural environment"
+    ],
+    "source_chapter": "Ch. 6-5",
+    "source_quote": "Fluidity defines our natural world; oceans, rivers, and the atmosphere flow without regard for borders. Environmental solutions must transcend rigid hierarchical approaches that work within single towns, cities, or even countries."
+  },
+  {
+    "term": "plural learning",
+    "definition": "An approach to education that treats learning as inherently social and cross-cutting — building skills and knowledge through diverse collaborative networks rather than standardized individual instruction. In Plurality's framing, plural learning extends the ⿻ logic of networked diversity to schooling: curricula, credentials, and pedagogical relationships are designed to cultivate the capacity to collaborate across difference, not merely to transmit canonical content to isolated learners.",
+    "see_also": [
+      "⿻",
+      "collaborative technology",
+      "bridging capital",
+      "next-generation badging",
+      "augmented deliberation"
+    ],
+    "source_chapter": "Ch. 6-5",
+    "source_quote": "Plural learning...treats education not as the transmission of a fixed canon to individuals, but as the cultivation of capacities for collaboration across diversity."
+  },
+  {
+    "term": "learning commons",
+    "definition": "Shared, openly governed educational resources and spaces — analogous to information or data commons — where curriculum, pedagogy, and credentialing are produced and maintained collectively rather than by a single institution or market actor. In Plurality's framing, learning commons embody the logic of peer production applied to education, enabling communities to co-create and steward knowledge resources.",
+    "see_also": [
+      "commons",
+      "peer production",
+      "plural learning",
+      "data dignity"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "credentialing diversity",
+    "definition": "A shift away from single-axis, standardized credentialing (degrees, test scores) toward recognition systems that capture the multidimensional, community-embedded competencies a learner has developed. Plurality frames this as an educational analogue to plural identity — credentials that reflect intersectional social participation rather than performance on a universal scale.",
+    "see_also": [
+      "next-generation badging",
+      "plural social identity",
+      "intersectional social identity",
+      "plural learning"
+    ],
+    "source_chapter": "Ch. 6-5"
+  },
+  {
+    "term": "edutainment",
+    "definition": "The spirit of interweaving the pursuit of knowledge with the sharing of joy, encouraging learners to break free from fixed thinking patterns and narrow evaluation criteria. In Plurality's framing, true edutainment is more like a process of infinite combinations — a collaborative, mission-oriented, and playful approach to learning that transcends binary win-lose models and fosters co-creation across diverse participants.",
+    "see_also": [
+      "plural learning",
+      "infinite games",
+      "collaboration across diversity",
+      "immersive shared reality"
     ],
     "source_chapter": "Ch. 6-6",
-    "source_quote": "data coalitions can be viewed both as 'little platoons' created by the people who benefit from the ecosystem, but also at the same time, through the legal positioning of natural personhood, the river's digital twin can be seen as a subject with rights and responsibilities."
+    "source_quote": "The spirit of 'edutainment' interweaves the pursuit of knowledge with the sharing of joy. With infinite possibilities for combination, there are countless possibilities for the co-creation of innovative thinking."
   },
   {
-    "term": "NASA–IBM Geospatial Foundation Model",
-    "definition": "An ongoing collaboration between NASA and IBM that openly releases a geospatial AI foundation model built on NASA's earth observation data. The book cites this as a prominent example of cogovernance across borders: open-source governance, capital and compute investment, and cross-institutional collaboration combining scientific research with environmental management. It is presented as a real-world instance of GFMs unlocking deeper insights into complex natural systems while tackling environmental justice for both natural spaces and human communities.",
-    "see_also": [
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "plural-environmental-governance",
-      "open-environmental-data-as-plurality-infrastructure"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Cogovernance Across Borders (Environmental)",
-    "definition": "A ⿻ approach to environmental governance that draws from civic hacking culture — celebrating cross-disciplinary teamwork among programmers, designers, and citizens across diverse communities — to address the inherent fluidity of natural systems (oceans, rivers, atmosphere) that flow without regard for political borders. The book argues that environmental solutions must transcend rigid hierarchical approaches confined to single jurisdictions. GFMs, open-source collaboration, and data coalitions together provide the infrastructure for this transjurisdictional cogovernance, enabling analysis of complex challenges like global climate change, biodiversity loss, and water management.",
-    "see_also": [
-      "plural-environmental-governance",
-      "data-coalitions",
-      "nasa-ibm-geospatial-foundation-model",
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "indigenous-environmental-stewardship-as-plurality-precedent"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Technology–Nature Mastery (as ⿻ Failure Mode)",
-    "definition": "The historical conception of technology as a means to master nature — paralleling how technology has sometimes been used to master fellow humans. The book identifies this framing as the counter-⿻ stance in the environmental domain, contrasting it with the ⿻ alternative of facilitating communication, cooperation, and synergy with nature empowered by data. This failure mode has contributed to the Anthropocene: deforestation, global warming, ocean acidification, and mass extinctions driven by treating nature as a resource to be controlled rather than a participant to engage with.",
-    "see_also": [
-      "monist-technocracy",
-      "environmental-commons-plurality-framing",
-      "plural-environmental-governance"
-    ],
-    "source_chapter": "Ch. 6-6",
-    "source_quote": "In the past, technology has often been conceived of as a means to master nature, just as sometimes technology has previously been seen as a means to master fellow humans. Instead, we explore how ⿻ can facilitate communication, cooperation and synergy with nature, empowered by data."
-  },
-  {
-    "term": "Learning (⿻ Domain)",
-    "definition": "Education reframed through ⿻ as a domain where collaborative technology and democratic governance intersect to transform how knowledge is created, transmitted, and certified. The book treats learning not as individual credential accumulation but as a site for building cross-cutting social ties, cultivating collaborative capacity, and developing the civic imagination needed to sustain plural democracy. ⿻ education attends to both formal schooling and informal peer networks, digital and physical environments, and the skills of navigating diversity rather than mastering a fixed canon.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "digital-competence-education-taiwan",
-      "plurality-pluralism-education",
-      "augmented-deliberation",
-      "peer-production",
-      "bridging-vs-bonding-social-capital"
-    ]
-  },
-  {
-    "term": "Plurality–Pluralism Education",
-    "definition": "A named ⿻ policy strategy that redesigns education systems to cultivate the skills of living and working across difference — including multilingual competency, cross-cultural collaboration, digital literacy, and civic participation — rather than narrowing toward standardized national curricula. The book frames this as distinct from mere multicultural tolerance; it is active formation in the practices of ⿻ collaboration, including use of deliberative and augmented-deliberation tools in school settings.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "digital-competence-education-taiwan",
-      "augmented-deliberation",
-      "bridging-vs-bonding-social-capital",
-      "diversity-innovation-nexus",
-      "cross-cutting-ties"
-    ]
-  },
-  {
-    "term": "Peer Learning Networks (⿻ Education Form)",
-    "definition": "Informal and semi-formal learning communities in which participants teach and learn from one another across institutional boundaries, treated in the book as a ⿻ educational primitive. Like peer production in software, peer learning networks generate knowledge collaboratively without centralised authority, distributing credibility through reputation and demonstrated contribution rather than formal certification. The book positions these as a counterweight to credentialist gatekeeping and as training grounds for the collaborative dispositions ⿻ requires.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "peer-production",
-      "open-source-software-oss",
-      "wiki-governance",
-      "social-capital",
-      "bridging-vs-bonding-social-capital"
-    ]
-  },
-  {
-    "term": "Credentialism (as ⿻ Education Failure Mode)",
-    "definition": "The over-reliance on formal degrees and standardised credentials as proxies for capability and social worth, identified in the book as a failure mode that reinforces atomist-monist hierarchies and closes off the diverse, informal pathways through which ⿻ collaborative capacity actually develops. Credentialism concentrates access to opportunity, displaces intrinsic motivation, and measures only what existing institutions know how to test, systematically undervaluing cross-cutting, interdisciplinary, and civic skills.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "next-generation-badging-allen-kidd-zetlin",
-      "atomist-libertarianism",
-      "monist-technocracy",
-      "premature-optimization-as-plurality-failure-mode"
-    ]
-  },
-  {
-    "term": "Interdisciplinary / Cross-Sector Learning (⿻ Education Form)",
-    "definition": "Educational designs that deliberately bring learners across disciplinary, sectoral, and cultural boundaries — matching the book's broader argument that innovation and democratic vitality emerge at the intersection of difference rather than within homogeneous communities. The book treats cross-sector learning as both a means of building bridging social capital and as practice for the collaborative governance of diverse societies.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "bridging-vs-bonding-social-capital",
-      "diversity-innovation-nexus",
-      "cross-cutting-ties",
-      "collaboration-across-diversity",
-      "plurality-pluralism-education"
-    ]
-  },
-  {
-    "term": "Collaborative Curriculum (⿻ Education Design)",
-    "definition": "Curriculum built through participatory, iterative processes involving students, educators, communities, and civic actors — analogous to the open-source and wiki governance models the book champions elsewhere. A collaborative curriculum is treated as a living document rather than a fixed canon, subject to revision through structured deliberation and responsive to the evolving needs of plural communities.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "wiki-governance",
-      "peer-production",
-      "augmented-deliberation",
-      "living-document-plurality-book-as-collaborative-artifact",
-      "adaptive-administration"
-    ]
-  },
-  {
-    "term": "Civic Imagination (⿻ Education Goal)",
-    "definition": "The cultivated capacity to envision alternative social arrangements and to act collectively toward them — positioned in the book as a core educational outcome that ⿻ learning environments are designed to develop. Civic imagination is distinguished from mere civic information: it involves practiced experience of collaborative problem-solving, deliberation across difference, and co-creation of shared institutions, not just knowledge about how governments formally work.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "plurality-pluralism-education",
-      "augmented-deliberation",
-      "deliberative-mini-publics",
-      "co-creation-government-citizen",
-      "emergent-publics-dewey"
-    ]
-  },
-  {
-    "term": "Open Educational Resources (OER) as ⿻ Infrastructure",
-    "definition": "Freely available, collaboratively produced learning materials — textbooks, curricula, multimedia content — treated in the book as an educational analogue to open-source software and peer production. OER lower barriers to diverse, multilingual, and contextually adapted education and serve as a ⿻ infrastructure layer that can support plurality–pluralism education goals without requiring centralised content control.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "peer-production",
-      "open-source-software-oss",
-      "digital-public-infrastructure",
-      "linguistic-diversity-multilingual-access-as-plurality-requirement",
-      "digital-literacy-as-plurality-access-layer"
-    ]
-  },
-  {
-    "term": "GFM-Assisted Tutoring (⿻ Education Tool)",
-    "definition": "The use of generative foundation models as personalised, adaptive tutors that can meet learners in their own language, context, and pace — flagged in the book as a ⿻ opportunity when governed with appropriate oversight, and a monist-technocracy risk when deployed as a replacement for human pedagogical relationships. The book frames GFM tutoring as most valuable when it widens access across linguistic and economic divides while preserving the relational and civic dimensions of learning.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "generative-foundation-models-gfms-as-administrative-infrastructure",
-      "linguistic-diversity-multilingual-access-as-plurality-requirement",
-      "digital-literacy-as-plurality-access-layer",
-      "monist-technocracy",
-      "ai4bharat-karya-ivr-junction-india-language-access-stack"
-    ]
-  },
-  {
-    "term": "Learning as Co-Production (⿻ Frame)",
-    "definition": "The reframing of education as a process jointly produced by learners, educators, families, and communities rather than delivered by institutions to passive recipients. Drawing on the book's broader co-creation and participatory-action-research frames, learning-as-co-production treats students as contributors to curriculum, assessment design, and school governance — building the collaborative dispositions that ⿻ democracy requires by practicing them in educational settings.",
-    "source_chapter": "Ch. 6-5",
-    "see_also": [
-      "co-creation-government-citizen",
-      "participatory-action-research-par",
-      "collaborative-curriculum-plurality-education-design",
-      "peer-learning-networks-plurality-education-form",
-      "civic-imagination-plurality-education-goal"
-    ]
-  },
-  {
-    "term": "Resilient Education Systems (⿻)",
-    "definition": "Educational systems that maintain or improve learning outcomes under crisis conditions (e.g., COVID-19) by combining physical and digital tools, diverse co-creation teaching models, and core values of spontaneity, interaction, and common good. The 2022 PISA and ICCS reports identified Taiwan, Japan, South Korea, and Lithuania as exemplars, with Taiwan's 2019 Basic Education Curriculum highlighted for its mission orientation toward global sustainable development.",
-    "see_also": [
-      "plurality-pluralism-education",
-      "collaborative-curriculum",
-      "learning-as-co-production",
-      "taiwan-as-plurality-lab"
-    ],
-    "source_chapter": "Ch. 6-6",
-    "source_quote": "One of the outstanding factors for Taiwan is the diverse co-creation teaching model of 2019 Basic Education Curriculum, which successfully combines physical and digital tools, and regards 'spontaneity, interaction, and common good' as new core values, inspiring a sense of mission towards global sustainable development."
-  },
-  {
-    "term": "Chenyuluoyan Font (自主學習案例)",
-    "definition": "An open-source Chinese font created by two Taiwanese high school students as an autonomous learning project, leveraging social networks and team co-learning. The project exemplifies open-source collaborative spirit rooted in personal interest: knowledge and creativity developed through open sharing, inspiring broader community participation. The font appears on the cover of the Plurality book.",
-    "see_also": [
-      "open-source-software-oss",
-      "peer-learning-networks",
-      "g0v-gov-zero"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "FutureLearn (Open University Platform)",
-    "definition": "Europe's largest online course platform, supported by the UK Open University, aggregating course resources from universities and professional institutions across social sciences, humanities, arts, and programming. It collaborates with UNESCO on global lifelong learning and offers free courses—including basic English for refugees—enabling low- or zero-cost access to quality education with flexibility across diverse learning goals.",
-    "see_also": [
-      "open-educational-resources-oer",
-      "learning-as-co-production",
-      "peer-learning-networks"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Minerva (Mobile University System)",
-    "definition": "A mobile university education system that breaks traditional campus constraints by having students migrate to different cities each semester, engaging diverse teaching methods and cultural contexts through practical application. Minerva uses global recruitment and online small-group models, emphasizing critical thinking and practical, cooperative, application-oriented learning—recognized for educational innovation by the WURI rankings.",
-    "see_also": [
-      "interdisciplinary-cross-sector-learning",
-      "peer-learning-networks",
-      "collaborative-curriculum"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Talk to the City (AI Deliberation Tool)",
-    "definition": "An open-source augmented deliberation technology used in Taiwan (via MODA) to process and synthesize public input at scale, mitigating AI homogenization risks through public participation. Based on open-source principles, it ensures information completeness, transcends cultural understanding gaps, and supports social resilience by making diverse community voices legible to decision-makers.",
-    "see_also": [
-      "augmented-deliberation",
-      "polis-style-clustering",
-      "alignment-assemblies",
-      "broad-listening"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Imagined Communities (Learning Application)",
-    "definition": "Benedict Anderson's concept—that shared language in literature and narrative mediates the social construction of community identity—applied in Plurality to the learning environment. Narratives, languages, and symbols shape learners' identities and sense of community belonging at local, national, and global scales. Inclusive, diverse educational content can create more resilient and globally connected learning systems by acknowledging multiple narratives.",
-    "see_also": [
-      "civic-imagination",
-      "plurality-publics",
-      "collaborative-curriculum",
-      "learning-as-co-production"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Edutainment (⿻ Learning Spirit)",
-    "definition": "A ⿻ learning orientation that interweaves knowledge pursuit with the sharing of joy, framing true learning as an 'infinite game' (after James Carse) rather than a finite, result-oriented process. Edutainment encourages learners to break fixed thinking patterns, embrace multiperspective innovation, and participate as co-creators—drawing meaning from the process of exploration rather than from narrow evaluation criteria.",
-    "see_also": [
-      "learning-as-co-production",
-      "civic-imagination",
-      "peer-learning-networks"
-    ],
-    "source_chapter": "Ch. 6-6",
-    "source_quote": "The spirit of 'edutainment' interweaves the pursuit of knowledge with the sharing of joy... true joyful learning is more like a process of infinite combinations. It is not confined to narrow evaluation criteria but encourages learners to break free from fixed thinking patterns."
-  },
-  {
-    "term": "Finite and Infinite Games (Learning Frame)",
-    "definition": "James Carse's distinction—between finite games (bounded, win-lose, pursuing short-lived victories) and infinite games (open, continuous, oriented toward participation and creation)—applied in Plurality to the learning journey. ⿻ learning communities adopt the infinite-game orientation: each collaboration and project is a continuation, where individual uniqueness and collective wisdom co-emerge rather than compete.",
+    "term": "infinite games",
+    "definition": "Drawn from James Carse's framework, the contrast between 'finite games' (bounded win-lose contests oriented toward short-lived victories) and 'infinite games' (open-ended participation in creation, from interpersonal interactions to cultural exchanges). In Plurality's learning context, ⿻ learning is framed as an infinite game: not result-oriented but full of surprises, where every participant is an indispensable co-creator.",
     "see_also": [
       "edutainment",
-      "learning-as-co-production",
-      "creative-collaborations"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "ACG (Animation, Comics, Games) as Imagined Community",
-    "definition": "The cultural ecosystem of animation, comics, and games (ACG), described in Plurality as a rapidly evolved subculture forming imagined communities that redefine the boundaries of knowledge, education, and learning. ACG communities—alongside amateur radio enthusiasts and online interactive communities—exemplify collaborative innovation that transcends traditional identity roles, enriching the co-learning landscape of diverse citizens.",
-    "see_also": [
-      "edutainment",
-      "finite-and-infinite-games",
-      "peer-learning-networks"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Gamified Learning Environments",
-    "definition": "Digital game-based learning contexts—exemplified by Minecraft and the Civilization series—that break traditional teacher-student boundaries to create immersive, interactive experiences where each participant is a creator and sharer of knowledge. These environments promote collaboration, creativity, and problem-solving across age and occupation, and with virtual reality development, broaden learning paths beyond credentialed paper qualifications.",
-    "see_also": [
-      "edutainment",
-      "immersive-shared-reality",
-      "peer-learning-networks",
-      "credentialism"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Amateur Radio (Ham Radio) Community (⿻ Learning Case)",
-    "definition": "The global community of amateur radio operators, cited in Plurality as an example of how joy of learning and strong community identity drive significant contributions to science, industry, social services, and satellite communications. The Ham Radio community illustrates how subcultures built around shared technical interest generate collective knowledge and cross-border collaborative capacity beyond formal educational structures.",
-    "see_also": [
-      "peer-learning-networks",
-      "edutainment",
-      "acg-animation-comics-games"
-    ],
-    "source_chapter": "Ch. 6-6"
-  },
-  {
-    "term": "Collaborative Cataloging (Multilingual Commons)",
-    "definition": "A ⿻ knowledge-production paradigm exemplified by Moedict, in which teachers, students, and parents collaboratively compile multilingual content (Mandarin, Taiwanese, Hakka) through open, diverse mechanisms. Collaborative cataloging produces living, community-maintained references that support broad writing spaces and cross-cultural exchange, and when released under Creative Commons licenses, contribute to public AI training data and the democratization of knowledge.",
-    "see_also": [
-      "moedict",
-      "open-educational-resources-oer",
-      "wikipedia-as-plurality-institution",
-      "data-dignity"
+      "plural learning",
+      "collaboration across diversity"
     ],
     "source_chapter": "Ch. 6-6",
-    "source_quote": "This service has uploaded 160,000 Mandarin entries, 20,000 Taiwanese entries, and 14,000 Hakka entries, with an open and diverse compilation mechanism, making it a multilingual interactive online civic dictionary, demonstrating a global yet localized 'collaborative cataloging' paradigm."
+    "source_quote": "Let us embrace this infinite possibility, so that learning is no longer a finite game oriented towards results, but an ⿻ infinite game full of surprises and unleashing potential, in which every participant is an indispensable co-creator."
   },
   {
-    "term": "From ⿻ to Reality (Policy Transition)",
-    "definition": "The concluding section of Plurality's framework, addressing how the ⿻ vision moves from theory and experimentation into mainstream policy and institutional adoption. The chapter frames this transition as requiring coordinated action across governments, civil society, technologists, and funders — moving from isolated pilots and civic-tech communities toward systemic embedding of ⿻ principles in law, regulation, procurement, and public investment.",
+    "term": "imagined communities",
+    "definition": "Benedict Anderson's concept, cited in Plurality's learning chapter, describing how communication through a common language — mediated through print capitalism (newspapers and novels) — enables people to imagine themselves as part of a larger community with shared interests and identities. Plurality extends this to learning environments, where narratives, languages, and symbols shape learners' identities and sense of belonging at local, national, and global scales.",
     "see_also": [
-      "plurality-theory-of-change",
-      "experimentation-with-vs-on",
-      "competitive-arms-race-diffusion",
-      "square-root-scale"
+      "plural learning",
+      "plural publics",
+      "collaboration across diversity",
+      "network society"
+    ],
+    "source_chapter": "Ch. 6-6"
+  },
+  {
+    "term": "resilient learning systems",
+    "definition": "Educational systems that sustain and grow learning outcomes under crisis conditions — such as a pandemic — by combining physical and digital tools, diverse co-creation teaching models, and values of 'spontaneity, interaction, and common good.' Plurality highlights Taiwan, Japan, South Korea, and Lithuania as exemplars identified by PISA and ICCS 2022 as resilient, with Taiwan's 2019 Basic Education Curriculum as a key case.",
+    "see_also": [
+      "plural learning",
+      "collaboration across diversity",
+      "⿻"
+    ],
+    "source_chapter": "Ch. 6-6"
+  },
+  {
+    "term": "collaborative cataloging",
+    "definition": "A paradigm of open, community-driven knowledge compilation exemplified by Moedict, in which teachers, students, parents, and the public co-create and maintain multilingual content under open licenses. Plurality presents this as a 'global yet localized' model that bridges diverse languages and cultures while supporting the democratization of knowledge and AI model development.",
+    "see_also": [
+      "Moedict",
+      "learning commons",
+      "peer production",
+      "data dignity"
+    ],
+    "source_chapter": "Ch. 6-6"
+  },
+  {
+    "term": "plurality-pluralism education",
+    "definition": "An educational orientation that cultivates the capacity to engage with, navigate, and build across human diversity — spanning cultural, linguistic, political, and epistemic difference. In ⿻ framing, this is distinct from mere tolerance or multiculturalism; it trains collaborative skills across lines of difference as a civic and democratic competency, preparing citizens for participation in a ⿻ society.",
+    "see_also": [
+      "plural learning",
+      "imagined communities",
+      "bridging capital",
+      "diversity dividend"
     ],
     "source_chapter": "Ch. 7-0"
   },
   {
-    "term": "Policy as ⿻ Domain",
-    "definition": "The recognition in Plurality that technology policy is not merely a regulatory afterthought but a constitutive layer of the ⿻ project. Policy shapes which governance forms are legible, which commons are protected, and which diversity-generating institutions receive resources. The book treats policy as an active design space — not just constraint — through which ⿻ values can be institutionalized across health, media, environment, workplace, and education.",
+    "term": "⿻ policy agenda",
+    "definition": "The programmatic set of institutional, legal, and technological interventions that operationalize ⿻ values at scale. In the book's framing this encompasses reforms across workplace democracy, health data commons, plural media, environmental governance, and education — each domain expressing the same structural logic of collaboration across diversity, regenerating rather than flattening difference.",
     "see_also": [
-      "adaptive-administration",
-      "regulatory-sandboxes",
-      "participation-officer-network",
-      "plural-funding"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Digital Empires (Bradford Trichotomy)",
-    "definition": "Legal scholar Anu Bradford's framework describing the three dominant models of technology governance: the US neoliberal free-market model (private sector-driven, export-oriented), the PRC state-directed model (sovereignty, development, national security), and the EU regulatory model (human-rights-protective 'Brussels effect'). Plurality uses this trichotomy as a foil for the alternative Taiwan/⿻ model, which synthesizes elements of all three while transcending each.",
-    "see_also": [
-      "authoritarian-digital-governance",
-      "yushan-view",
-      "digital-democracy-taiwan-model",
-      "brussels-effect"
+      "from plurality to reality",
+      "⿻ theory of change",
+      "modular politics",
+      "metagovernance"
     ],
     "source_chapter": "Ch. 7-0",
-    "source_quote": "From the US model, Taiwan has drawn the emphasis on a dynamic, decentralized, free, entrepreneurial ecosystem open to the world that generates scalable and exportable technologies... From the European model, it has drawn a focus on human rights and democracy... From the PRC model, it has drawn the importance of public investment to proactively advance technology, steering it toward societal interests."
+    "source_quote": "In each domain we see a similar pattern: existing institutions have atrophied or been captured by monist or atomist logics; ⿻ interventions regenerate diversity and the capacity for collective action across it."
   },
   {
-    "term": "Brussels Effect",
-    "definition": "The EU's strategy of using its market power as a large technology importer to export its regulatory standards globally, compelling foreign firms to comply with European norms on privacy (GDPR), AI (AI Act), and competition (Digital Markets Act, Digital Services Act, Data Act). Plurality identifies this as one of three dominant digital empire models, distinct from both the US free-market model and the PRC state-directed model.",
+    "term": "digital empires",
+    "definition": "The three dominant models of technology policy identified by legal scholar Anu Bradford: the US neoliberal free-market model driven by private sector dominance; the PRC state-directed model steering technology toward national sovereignty and security goals; and the EU regulatory model focused on protecting fundamental human rights through import regulation and the 'Brussels effect.' Each model shapes a large fraction of the world's digital ecosystem through the technology exports or regulatory standards it produces.",
+    "source_chapter": "Ch. 7-0",
+    "source_quote": "The most widely understood models of technology policy today are captured by legal scholar Anu Bradford in her Digital Empires.",
     "see_also": [
-      "digital-empires-bradford-trichotomy",
+      "yushan-view",
+      "digital-public-infrastructure",
+      "brussels-effect",
+      "arpanet-model"
+    ]
+  },
+  {
+    "term": "Brussels effect",
+    "definition": "The mechanism by which the European Union, acting as a regulatory powerhouse rather than a technology producer, shapes global digital standards by conditioning access to the European market on compliance with EU standards for privacy, competition, and human rights. Foreign firms seeking EU market access effectively adopt EU rules, causing these standards to propagate globally. Exemplified by GDPR, the AI Act, the Digital Services Act, and the Digital Markets Act.",
+    "source_chapter": "Ch. 7-0",
+    "see_also": [
+      "digital-empires",
       "gdpr",
-      "digital-markets-act"
-    ],
-    "source_chapter": "Ch. 7-0"
+      "digital-markets-act",
+      "digital-services-act"
+    ]
   },
   {
-    "term": "Taiwan Policy Model (⿻ Synthesis)",
-    "definition": "The distinctive policy approach synthesized by Taiwan, combining: active public investment in technology (from the PRC model), a dynamic and open civil-society-led ecosystem (from the US model), and human rights and democracy as foundational principles (from the EU model). The synthesis produces a model where the public sector's role is active investment and support to empower privately complemented but civil society-led technology development whose goal is proactively building a digital stack that embodies human rights and democracy in protocols.",
-    "see_also": [
-      "yushan-view",
-      "digital-democracy-taiwan-model",
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Digital Public Infrastructure (DPI)",
-    "definition": "An increasingly recognized pattern of public-mission-driven infrastructure that empowers decentralized innovation in collaboration with civil society, with participation but not dominance from the private sector. Exemplified by India Stack, Taiwan's civic tech ecosystem, EU European Digital Identity, Gaia-X, Brazil's PIX, and Singapore's FAST. Plurality advocates scaling this approach to become the central paradigm for global ⿻ society development.",
-    "see_also": [
-      "india-stack",
-      "gaia-x",
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "taiwan-policy-model-plurality-synthesis",
-      "open-source-software-oss"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "ARPA / IPTO Model (Lick's Industrial Policy)",
-    "definition": "The Information Processing Techniques Office led by J.C.R. Licklider at ARPA, described as perhaps the most successful example of industrial policy in American history. IPTO differed from standard industrial policy by taking the goals of antitrust (open, decentralized markets) but applying the tools of industrial policy (active public investment) to achieve them — funding civil society-based university research rather than private industry, establishing coopetitive research labs, and pursuing a clear mission (human-computer symbiosis, attack-resilient networking) without prejudging the right components. Plurality identifies the failure to sustain this investment as the root cause of monopolization of digital life.",
-    "see_also": [
-      "licklider-vision-intergalactic-computer-network",
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "human-computer-symbiosis",
-      "digital-public-infrastructure"
-    ],
+    "term": "ARPA model",
+    "definition": "The approach to digital public infrastructure pioneered by J.C.R. Licklider at ARPA's Information Processing Techniques Office (IPTO): mission-driven public investment in a coopetitive network of civil-society-based (primarily university) research labs, aimed not at creating 'national champions' but at building open, decentralized network infrastructure that forecloses monopoly. Contrasts with both standard industrial policy and pure antitrust approaches by using the tools of the former to achieve the goals of the latter.",
     "source_chapter": "Ch. 7-0",
-    "source_quote": "The IPTO effort took the rough goals of antitrust (ensuring the possibility of an open and decentralized marketplace) but applied the tools of industrial policy (active public investment) to achieve them. Rather than constraining the winners of predigital market competition, IPTO aimed to create a network infrastructure on which the digital world would play out in such a way as to avoid undue concentrations of power."
-  },
-  {
-    "term": "Coopetitive Research Network (ARPA Model)",
-    "definition": "The structural innovation of ARPA/IPTO whereby multiple university-based research labs were funded simultaneously in a network of cooperative competition — each experimenting with different components of a shared mission, racing to develop prototypes that could then be standardized through interaction with each other and spread across the network. Private sector collaborators (Bolt Beranek and Newman, Xerox PARC) played component roles within this overall civil-society-led vision rather than driving it.",
+    "source_quote": "The IPTO effort took the rough goals of antitrust (ensuring the possibility of an open and decentralized marketplace) but applied the tools of industrial policy (active public investment) to achieve them.",
     "see_also": [
-      "arpa-ipto-model-lick-s-industrial-policy",
-      "arpanet-early-internet-as-plurality-infrastructure",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Digital Ministries (⿻ Governance Node)",
-    "definition": "Government ministries dedicated to digital transformation, described as more natural forums for setting visionary goals in a participatory way than traditional military hosts like ARPA. Examples include Ukraine's Ministry of Digital Transformation (Fedorov, 2019), Taiwan's digital minister appointment (2016) and Ministry of Digital Affairs (2022), Japan's Digital Agency (2021), and EU's digital portfolio under EVP Vestager. Plurality envisions these ministries forming a transnational network that can provide international support to ⿻ infrastructure work, connecting nation-based nodes as ARPANET did for university-based nodes.",
-    "see_also": [
-      "ministry-of-digital-affairs-taiwan-moda",
-      "arpa-ipto-model-lick-s-industrial-policy",
-      "transnational-plurality-network",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Transnational ⿻ Network (New International Order)",
-    "definition": "The envisioned replacement for nation-state-centric digital governance: a network of digital ministries, open-source communities, civil society organizations, and academic collaborations that operate transnationally to develop internationally interoperable ⿻ protocols and standards. This network treats open-source communities (like the Ethereum community) as roughly equal participants alongside national digital ministries, and draws on historical precedents of civil transnational connections (religion, human rights advocacy) that have often outpaced intergovernmental relations.",
-    "see_also": [
-      "digital-ministries-plurality-governance-node",
-      "open-source-software-oss",
+      "lost-dao",
       "digital-public-infrastructure",
-      "arpanet-early-internet-as-plurality-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0",
-    "source_quote": "Digital ministers, as their positions are created, must themselves form a network that can provide international support to this work and connect nation-based nodes just as ARPANET did for university-based nodes. Many of the open-source projects participating will not themselves have a single primary national presence, spanning many jurisdictions and participating as a transnational community, to be respected on terms that will in some cases be roughly equal to those of national digital ministries."
+      "coopetition",
+      "arpanet"
+    ]
   },
   {
-    "term": "Open-Source Funding Gap",
-    "definition": "The dramatic disparity between financial support for open-source software and academic research or private investment. While academic research receives hundreds of billions of dollars annually and venture capital investment dwarfs open-source funding by roughly three orders of magnitude, open-source communities have likely received less than two billion dollars in their entire history from known sources. Plurality identifies this as the most neglected element of the digital ecosystem, especially given that open-source communities already provide the backbone of much of the global technology stack.",
+    "term": "coopetition",
+    "definition": "The structure established by Lick at IPTO in which a network of research labs simultaneously cooperated toward a shared mission and competed to develop prototype components, with successful components then standardized across the network. Contrasts with both pure competition (which fragments infrastructure) and pure central planning (which forecloses diversity). The book proposes this model should be updated and scaled for contemporary transnational ⿻ infrastructure development.",
+    "source_chapter": "Ch. 7-0",
     "see_also": [
-      "open-source-software-oss",
-      "gitcoin-as-plurality-funding-infrastructure",
+      "arpa-model",
       "digital-public-infrastructure",
-      "public-r-d-investment-decline-of"
-    ],
-    "source_chapter": "Ch. 7-0"
+      "transnational-network"
+    ]
   },
   {
-    "term": "⿻ Regulation (Antitrust as Governance Reform)",
-    "definition": "Plurality's reframing of antitrust and competition law as tools for mandating ⿻ governance reforms rather than merely punishing anticompetitive conduct. Antitrust authorities could mandate stakeholder governance (giving customers, workers, and suppliers direct control) as an alternative remedy to anticompetitive conduct or mergers, and consider governance representation as a mitigating factor in evaluating punitive action. Interoperability mandates, financial regulatory reform encouraging quadratic voting in corporate governance, and data coalition protection are companion elements.",
-    "see_also": [
-      "quadratic-voting-qv-mechanics",
-      "antitrust-as-plurality-media",
-      "data-coalitions",
-      "stakeholder-corporation"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "⿻ Taxes (Plurality-Aligned Revenue)",
-    "definition": "A design framework for digital taxes that satisfy four criteria: Directly ⿻ (D⿻, taxes that themselves encourage or enact ⿻ aims rather than merely raising revenue), Jurisdictional Alignment (JA, the taxing jurisdiction matches the jurisdiction disposing of revenue), Revenue Alignment (RA, sources correspond to value generated by the shared goods the revenue funds), and Financial Adequacy (FA, sufficient to fund required investment). Proposed instruments include concentrated computational asset taxes, digital land taxes, implicit data/attention exchange taxes, digital asset taxes, commons-derived data taxes, and flexible/gig work taxes.",
-    "see_also": [
-      "harberger-tax",
-      "data-dignity",
-      "circular-investment-henry-george-theorem-in-practice",
-      "digital-public-infrastructure"
-    ],
+    "term": "transnational ⿻ network",
+    "definition": "The emerging fabric of digital ministries, open-source communities, civil society organizations, academic collaborations, and standard-setting bodies that the book envisions as the primary locus for developing global ⿻ infrastructure. Unlike ARPA (centered on the American military-industrial complex) or intergovernmental bodies, this network treats national digital ministries and transnational open-source communities as roughly co-equal nodes, connected by civil relationships that often cross borders more easily than treaties.",
     "source_chapter": "Ch. 7-0",
-    "source_quote": "Digital taxes should ideally not merely raise revenue, but directly encourage or enact ⿻ aims themselves. This ensures that the taxes are not a drag on the system, but part of the solution."
+    "see_also": [
+      "digital-public-infrastructure",
+      "arpa-model",
+      "digital-ministries",
+      "g0v"
+    ]
   },
   {
-    "term": "Concentrated Computational Asset Tax",
-    "definition": "A proposed common ownership (Harberger-style) tax applied progressively to digital assets such as computation, storage, and some kinds of data. Designed to simultaneously encourage more complete use of digital assets, deter concentrated cloud ownership (increasing competition while decreasing security threats), and reduce incentives for accumulating computational resources at scales that might allow training of potentially dangerous foundation models outside public oversight — directly instantiating ⿻ (D⿻) aims.",
+    "term": "directly ⿻ tax (D⿻)",
+    "definition": "A tax design criterion proposed in the book: digital taxes should not merely raise revenue but directly encourage or enact ⿻ aims themselves, so the tax is part of the solution rather than a drag on the system. One of four criteria (alongside jurisdictional alignment, revenue alignment, and financial adequacy) for evaluating proposed digital infrastructure taxes. Draws on Pigouvian logic but extends it to address concentrated market power.",
+    "source_chapter": "Ch. 7-0",
     "see_also": [
-      "plurality-taxes-plurality-aligned-revenue",
-      "harberger-tax",
+      "jurisdictional-alignment",
+      "revenue-alignment",
       "partial-common-ownership",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
+      "harberger-tax"
+    ]
   },
   {
-    "term": "Digital Land Tax",
-    "definition": "A proposed tax on commercialization or holding of scarce digital space, including taxes on online advertising, spectrum licenses, web address space, and eventually exclusive spaces in virtual worlds. Drawing on Georgist principles, this would naturally accrue to transnational entities supporting internet infrastructure rather than any nation-state, achieving Jurisdictional Alignment (JA) in the ⿻ tax framework.",
+    "term": "jurisdictional alignment (JA)",
+    "definition": "A tax design criterion: the jurisdictional network in which taxes are naturally raised should correspond to the jurisdiction that disposes of those taxes, ensuring that the coalition required to enact the taxes resembles the coalition required to establish the cooperation that spends the revenue. Applied to digital taxes, this suggests that taxes on transnational digital value flows should accrue to transnational ⿻ infrastructure bodies rather than to arbitrary national treasuries.",
+    "source_chapter": "Ch. 7-0",
     "see_also": [
-      "plurality-taxes-plurality-aligned-revenue",
-      "georgist-land-value-tax-taiwan",
+      "directly-plural-tax",
+      "revenue-alignment",
+      "financial-adequacy",
+      "transnational-plural-network"
+    ]
+  },
+  {
+    "term": "revenue alignment (RA)",
+    "definition": "A tax design criterion: the sources of revenue should correspond to the value generated by the shared goods created with that revenue, ensuring those disposing of funds have a natural interest in their mission's success, and that those who pay the tax generally benefit from the goods it funds. For ⿻ digital taxes, this means taxing the value flows that ⿻ infrastructure itself makes possible.",
+    "source_chapter": "Ch. 7-0",
+    "see_also": [
+      "directly-plural-tax",
+      "jurisdictional-alignment",
+      "financial-adequacy"
+    ]
+  },
+  {
+    "term": "financial adequacy (FA)",
+    "definition": "A tax design criterion: the tax must be sufficient to fund the required investment. In the book's framing, this means taxes on the digital economy should be capable of raising on the order of 1% of GDP globally to fund ⿻ public digital infrastructure — roughly half of current global IT investment and two orders of magnitude above current public digital R&D spending.",
+    "source_chapter": "Ch. 7-0",
+    "see_also": [
+      "directly-plural-tax",
+      "jurisdictional-alignment",
+      "revenue-alignment"
+    ]
+  },
+  {
+    "term": "India Stack",
+    "definition": "India's nationally developed suite of open digital public infrastructure — including identity (Aadhaar), payments (UPI), and data-sharing layers — developed through a model of public mission-setting combined with civil-society-linked implementation, enabling the private sector to build on open protocols. Cited in the book as a contemporary parallel to the ARPA model and as evidence that 'digital public infrastructure' is an increasingly recognized pattern globally.",
+    "source_chapter": "Ch. 7-0",
+    "see_also": [
       "digital-public-infrastructure",
-      "electromagnetic-spectrum-as-plurality-property-case"
-    ],
-    "source_chapter": "Ch. 7-0"
+      "arpa-model",
+      "transnational-plural-network"
+    ]
   },
   {
-    "term": "Implicit Data/Attention Exchange Tax",
-    "definition": "A proposed tax on the implicit data or attention exchanges involved in 'free' online services, which would otherwise escape the labor and value-added taxes that would apply if this price were explicit. Provides a clearer signal of the true value being created in digital economies and encourages infrastructure facilitating this to maximize that value, achieving Revenue Alignment (RA) in the ⿻ tax framework.",
+    "term": "decentralized science (DeSci)",
+    "definition": "A movement that critiques the misalignment of academic research incentives (citation, novelty, disciplinary rigor) with the needs of open, interoperable public infrastructure, and advocates for alternative funding and governance models for public-interest technology development. Referenced in the book as documenting why governments and charities should fund open-source and civil-society technology directly rather than routing all public technology investment through academia.",
+    "source_chapter": "Ch. 7-0",
     "see_also": [
-      "plurality-taxes-plurality-aligned-revenue",
-      "surveillance-capitalism",
-      "data-dignity"
-    ],
-    "source_chapter": "Ch. 7-0"
+      "digital-public-infrastructure",
+      "open-source",
+      "plural-funding"
+    ]
   },
   {
-    "term": "Commons-Derived Data Tax",
-    "definition": "A proposed tax on profits earned from generative foundation models trained on unlicensed, commons-derived data — addressing the failure to compensate creators whose work forms the training substrate of commercially valuable models. Related to proposals for 'back-propagating' value to data creators analogously to how gradient descent back-propagates value to intermediate model weights during training.",
+    "term": "virtuous cycle (⿻)",
+    "definition": "The mutually reinforcing dynamic among culture, politics and activism, business and technology, and research that drives ⿻ progress. In Weyl & Tang's framing: imagination drives action, which confirms the worth of imagination and strengthens it further, enabling each social sector to amplify the others. No single sector is primary — the cycle only sustains itself through the proliferation of diverse, interdependent contributions across all of them.",
     "see_also": [
-      "plurality-taxes-plurality-aligned-revenue",
-      "data-dignity",
-      "creator-attribution-and-sustainability-plurality-artist-movement"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Gas Tax Precedent (⿻ Political Economy)",
-    "definition": "A historical analogy Plurality invokes to illustrate how industry-opposed taxes can gain political support when revenue is earmarked for infrastructure the industry depends on. The US gas tax, initially opposed by the trucking industry, was embraced when policymakers agreed to use funds to build road infrastructure. Plurality uses this to argue that a coalition of digital businesses and governments could be assembled to support digital infrastructure taxes if correct set-asides, sophisticated instruments, and public mobilization are in place.",
-    "see_also": [
-      "plurality-taxes-plurality-aligned-revenue",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "New Brandeis Movement (Antitrust)",
-    "definition": "A movement in US antitrust enforcement, associated with Lina Khan and the FTC, that doubled down on antitrust instruments as the primary response to digital monopolization. Plurality characterizes this approach as having had limited success in court and as failing to address emerging monopolies in chips and generative foundation models, contrasting it with the ⿻ alternative of proactive public investment in open infrastructure combined with governance reform mandates.",
-    "see_also": [
-      "plurality-regulation-antitrust-as-governance-reform",
-      "arpa-ipto-model-lick-s-industrial-policy",
-      "engagement-maximization-media-failure-mode"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Decentralized Science (DeSci)",
-    "definition": "A movement that studies and highlights the mismatch between academic research norms (disciplinary focus, citation-driven careers, novelty emphasis, rigorous disciplinary style) and the needs of public digital infrastructure development (interdisciplinary, 'boring' interoperability, user experience, maintenance). Plurality invokes DeSci concerns to argue that governments and charities should fund open-source civil society technology development rather than primarily directing resources toward academia.",
-    "see_also": [
-      "open-source-funding-gap",
-      "open-source-software-oss",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Utility Boards (Digital Platform Analogy)",
-    "definition": "Plurality's analogy between the democratic reform of private power generation utilities in the early 20th century (with which John Dewey was associated) and the needed reform of today's large private digital platforms. Just as private power generation was brought under partially local democratic control through utility boards rather than being scrapped outright, large social networks, cloud infrastructures, and single-sign-on architectures could be brought under ⿻ public governance while harnessing existing investment. Many tech leaders already call their platforms 'utilities,' 'infrastructure,' or 'public squares.'",
-    "see_also": [
-      "implicit-feudalism-platform-governance",
-      "governable-space",
-      "democratic-mediation",
-      "deweyian-pragmatism-in-taiwan"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Miraikan (Japan Science Museum)",
-    "definition": "Japan's National Museum of Emerging Science and Innovation, cited by Plurality as a cultural institution that actively invites citizens into long-term technology planning — part of the suite of ⿻ tools needed to build transnational public legitimacy for ⿻ infrastructure investment, alongside ⿻ competence education, ideathons, alignment assemblies, and augmented deliberations.",
-    "see_also": [
-      "alignment-assemblies",
-      "ideathon",
-      "digital-competence-education-taiwan",
-      "augmented-deliberation"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "DAO Legal Recognition (Wyoming and Beyond)",
-    "definition": "The challenge and emerging legal frameworks for Distributed Autonomous Organizations (DAOs) and other innovative transnational democratic non-profit organizational forms. Only a few jurisdictions (e.g., Wyoming) have begun to address the legal barriers DAOs constantly encounter. Plurality argues much more work is needed to establish legal frameworks that support and defend transnational democratic non-profit organizational forms, alongside data coalitions, open-source organizations, and other ⿻ structures.",
-    "see_also": [
-      "ethereum-smart-contracts-as-plurality-infrastructure",
-      "data-coalitions",
-      "open-source-funding-gap"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Open Collective Foundation (OCF)",
-    "definition": "An organization created almost exclusively to allow open-source non-profit projects to maintain simultaneously their non-profit orientation and an international presence. Cited by Plurality as an illustration of the competitive disadvantage of Third Sector technology providers — despite taking a substantial cut of project revenues, OCF was unable to sustain itself and was in the process of dissolving at time of writing. Illustrates the need for legal frameworks better suited to supporting transnational democratic non-profit technology development.",
-    "see_also": [
-      "open-source-funding-gap",
-      "dao-legal-recognition-wyoming-and-beyond",
-      "third-sector-taiwan"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "Interoperability Mandates (⿻ Regulatory Tool)",
-    "definition": "Government requirements that digital platforms and services adopt common standards enabling data portability and communication across systems. Plurality identifies mandating interoperability, in cooperation with standard-setting processes, as a critical lever to make ⿻ standards workable and avoid dominance by illegitimate private monopolies. Works alongside antitrust governance reform and financial regulatory reform to constitute the ⿻ regulatory toolkit.",
-    "see_also": [
-      "plurality-regulation-antitrust-as-governance-reform",
-      "network-protocols-as-governance-tcp-ip-smtp-http",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "OECD Minimum Corporate Tax (Digital Economy)",
-    "definition": "The G20/OECD agreement on a minimum corporate tax rate, described by Plurality as likely to help address the challenge of taxing the digital sector (where value is created in geographically ambiguous or intangible ways) but not tightly adaptive to the digital environment. Invoked as context for why more specifically designed ⿻ digital taxes are needed alongside this baseline reform.",
-    "see_also": [
-      "plurality-taxes-plurality-aligned-revenue",
-      "digital-public-infrastructure"
-    ],
-    "source_chapter": "Ch. 7-0"
-  },
-  {
-    "term": "⿻ (Plurality) — Conclusion Frame",
-    "definition": "The book's closing synthesis frames ⿻ not as a finished program but as an ongoing collaborative project: a set of interlocking ideas about diversity and democracy that must be tested, refined, and extended by the communities that adopt them. The conclusion reaffirms that ⿻ stands against both monist technocracy and atomist libertarianism, and that its realization depends on building the institutional, technical, and cultural infrastructure documented across the book's chapters.",
-    "see_also": [
-      "monist-technocracy",
-      "atomist-libertarianism",
-      "diversity-and-democracy",
-      "plural-theory-of-change"
-    ],
-    "source_chapter": "Ch. 7-1"
-  },
-  {
-    "term": "Plurality Institute (Academic Network)",
-    "definition": "A network institution founded to connect academics working on ⿻ research across disciplinary and institutional boundaries, shortening the loop from research ideation to practical experimentation. Referenced in the Conclusion as an example of how the ⿻ movement operates across multiple levels of engagement — from the deeply involved to the broadly sympathetic — with the Institute serving the narrower academic audience alongside broader public-facing efforts like documentary film.",
-    "see_also": [
-      "metascience-science-of-science",
-      "interdisciplinary-cross-sector-learning",
-      "coopetitive-research-network-arpa-model"
-    ],
-    "source_chapter": "Conclusion",
-    "source_quote": "we have founded another institution to network academics working on ⿻, obviously a much narrower audience."
-  },
-  {
-    "term": "Virtuous Circle (⿻ Theory of Change)",
-    "definition": "The mutually reinforcing cycle through which culture, politics and activism, business, technology, and research collectively advance ⿻. In the book's framing, cultural imagination drives political and social action, which validates and strengthens imagination further; technological and research breakthroughs enable new social enterprises; and educational institutions produce the next generation of ⿻ practitioners. No single sector is primary — ⿻ succeeds precisely because it proliferates across the full diversity of social roles and entry points.",
-    "see_also": [
-      "plurality-theory-of-change",
-      "from-plurality-to-reality-transition-frame",
-      "edge-of-chaos"
+      "edge of chaos",
+      "supermodular cooperation",
+      "diversity dividend",
+      "⿻ theory of change"
     ],
     "source_chapter": "Conclusion",
     "source_quote": "Thus together culture, politics and activism, business and technology and research can form a mutually reinforcing virtuous circle: imagination drives action, which confirms the worth of imagination strengthening it further."
   },
   {
-    "term": "Engagement Pyramid (⿻ Mobilization Model)",
-    "definition": "The book's concrete mobilization arithmetic for reaching its 2030 goals: for every 1,000 deeply involved contributors (e.g., book co-authors), 10,000 active community members, 100,000 deep readers, 1 million downloaders, 10 million media consumers, 100 million film/entertainment viewers, and 1 billion broadly sympathetic people are needed. The pyramid illustrates that ⿻ requires people at wide levels of engagement in mutually supportive relationships — not a single mass audience but a nested, federated structure of participation.",
+    "term": "three horizons",
+    "definition": "Weyl & Tang's framework for ⿻ mobilization across three nested time scales: the immediate horizon (actions available to anyone today — spreading ⿻ ideas, adopting open-source tools, supporting ⿻ policy), the intermediate horizon (reinventing institutions, forming political platforms, embedding ⿻ in business and regulation), and the transformative horizon (rewiring the technical, social, and political infrastructures that define personhood, rights, and collaboration at civilizational scale).",
     "see_also": [
-      "plurality-theory-of-change",
-      "virtuous-circle-plurality-theory-of-change",
-      "transnational-plurality-network-new-international-order"
+      "⿻ theory of change",
+      "from plurality to reality",
+      "virtuous cycle (⿻)"
+    ],
+    "source_chapter": "Conclusion"
+  },
+  {
+    "term": "whole-of-society mobilization",
+    "definition": "Weyl & Tang's call for businesses, governments, universities, and civil society organizations to collectively demand that technology deepen and broaden connections across diversity. The term underscores that no single actor or sector can redirect technology toward ⿻ alone; the pivot requires coordinated action across every sector of society within a brief window before AI and the metaverse become a fait accompli.",
+    "see_also": [
+      "three horizons",
+      "virtuous cycle (⿻)",
+      "⿻ theory of change",
+      "from plurality to reality"
     ],
     "source_chapter": "Conclusion",
-    "source_quote": "If 1000 people are deeply enough involved with this book to speak about it publicly, 10,000 are part of the community and actively contribute, 100,000 deeply digest the material, 1 million buy or download it, 10 million consume an hour of media content around it, 100 million see a film or other entertaining treatment of a related theme and 1 billion know about and are sympathetic to the aims, we will reach our 2030 goals."
+    "source_quote": "Such a pivot will take a whole-of-society mobilization. Businesses, governments, universities, and civil society organizations must demand that our technology deepen and broaden our connections across the many forms of diversity."
   },
   {
-    "term": "Third Way (⿻ Beyond Libertarianism and Technocracy)",
-    "definition": "The book's framing of ⿻ as a political and technological direction that is irreducible to either Libertarian atomism (liberating individuals from constraints) or Technocratic monism (allowing technologists to plan and distribute solutions). Just as life is the third way between rigid order and chaos — thriving on the 'edge of chaos' — ⿻ is the third way that widens the narrow corridor where growth, diversity, and collaboration remain possible. The Conclusion treats this as an urgent, time-bounded choice with a window of roughly three to five years before AI and the metaverse foreclose alternatives.",
+    "term": "Plurality Institute",
+    "definition": "A network institution founded by the book's authors to connect academics working on ⿻ research across disciplinary and institutional boundaries. Cited in the Conclusion as an example of operating at the 'narrow' end of the ⿻ engagement spectrum — deeply involving a small community of researchers — as part of the broader 1000-to-1-billion engagement pyramid the ⿻ movement requires.",
     "see_also": [
-      "atomist-libertarianism",
-      "monist-technocracy",
-      "edge-of-chaos",
-      "narrow-corridor-democracys",
-      "plurality-theory-of-change"
+      "three horizons",
+      "virtuous cycle (⿻)",
+      "metascience"
     ],
-    "source_chapter": "Conclusion",
-    "source_quote": "⿻ is thus the third way beyond Libertarianism and Technocracy, just as life is the third way between rigid order and chaos."
-  },
-  {
-    "term": "2030 Goals (⿻ Movement Horizon)",
-    "definition": "The book's concrete near-term aspirations for the ⿻ movement: by 2030, ⿻ is as recognizable globally as AI or blockchain as a technology direction, and as recognizable as a political movement as the Green movement. Taiwan is seen as a guiding light for ⿻ — as symbolically central as Israel for the Jewish people or Ukraine for European freedom. People come to expect democratic progress to match the pace of device innovation.",
-    "see_also": [
-      "taiwan-as-plurality-lab",
-      "plurality-theory-of-change",
-      "engagement-pyramid-plurality-mobilization-model",
-      "digital-democracy-taiwan-model"
-    ],
-    "source_chapter": "Conclusion",
-    "source_quote": "By 2030, ⿻ will be as recognizable to people around the globe as a direction for technology as AI or blockchain are and as recognizable as a political movement as the Green movement."
-  },
-  {
-    "term": "Polarization (as ⿻ Target)",
-    "definition": "One of the three primary threats digital technology poses to free and open societies, alongside inequality and loneliness. ⿻ frames polarization not as an inevitable byproduct of social diversity but as the destructive release of potential energy that diversity contains — energy which, properly channeled through ⿻ tools, can produce progress, growth, and beauty instead of conflict.",
-    "see_also": [
-      "plurality",
-      "diversity-innovation-nexus",
-      "engagement-maximization",
-      "affective-polarization"
-    ],
-    "source_chapter": "Description and Summaries",
-    "source_quote": "Digital technology threatens to tear free and open societies apart through polarization, inequality, and loneliness."
-  },
-  {
-    "term": "Open, Self-Governing Text (⿻ Book as Process)",
-    "definition": "The book itself is presented as a demonstration of ⿻ principles: written as an open, self-governing chorus of voices collaborating globally, carrying no copyright, freely distributable and remixable. Dozens of contributors democratically steered its development, making the process of writing the book an instantiation of ⿻ — showing as well as telling how inclusive, technology-enabled collaboration across difference works.",
-    "see_also": [
-      "living-document",
-      "peer-production",
-      "creative-collaborations",
-      "open-source-software"
-    ],
-    "source_chapter": "Description and Summaries",
-    "source_quote": "as illustrated by the way it has been written: as an open, self-governing chorus of voices collaborating around the globe."
-  },
-  {
-    "term": "Intimacy-to-Capitalism Spectrum (Collaboration Depth-Breadth)",
-    "definition": "The book's organizing frame for Part 5: collaboration always involves a tension between depth and breadth, ranging from the most intimate (post-symbolic brain-to-brain communication) through immersive shared reality, creative collaboration, augmented deliberation, adaptive administration, and plural voting, out to large-scale social markets. At every point along this spectrum, ⿻ aims to mitigate the depth-breadth trade-off.",
-    "see_also": [
-      "depth-breadth-spectrum",
-      "post-symbolic-communication",
-      "immersive-shared-reality",
-      "augmented-deliberation",
-      "social-markets",
-      "plural-voting"
-    ],
-    "source_chapter": "Description and Summaries"
-  },
-  {
-    "term": "Hack the Government (⿻ Civic Innovation Idiom)",
-    "definition": "A phrase the book uses to characterize Taiwan's culture of civic innovation, in which civil society and technologists treat government as an open platform to be improved through creative intervention rather than a closed bureaucracy. Associated with the g0v movement, the Presidential Hackathon, and the broader ⿻ disposition of co-creation between citizens and state.",
-    "see_also": [
-      "g0v",
-      "presidential-hackathon",
-      "co-creation",
-      "digital-democracy-taiwan-model",
-      "civic-tech-movement"
-    ],
-    "source_chapter": "Description and Summaries",
-    "source_quote": "capitalizing on a culture of innovation to 'hack the government.'"
-  },
-  {
-    "term": "Technology and Democracy as Allies (Taiwan Model vs. Western Gulf)",
-    "definition": "The book's central comparative thesis: in the West, technology and democracy are increasingly in conflict — technology undermines democracy while democracies constrain rather than support technology. Taiwan demonstrates an alternative model in which the two are close allies, mutually reinforcing rather than opposed. This contrast motivates the entire ⿻ project.",
-    "see_also": [
-      "widening-gulf",
-      "taiwan-as-plurality-lab",
-      "digital-democracy-taiwan-model",
-      "yushan-view",
-      "lost-dao"
-    ],
-    "source_chapter": "Description and Summaries"
-  },
-  {
-    "term": "Transnational ⿻ Civil Society Mobilization",
-    "definition": "The book's theory of how ⿻ must itself emerge: not top-down from states nor from market actors, but through the mobilization of a diversity of communities everywhere, traversing boundaries. Part 7 frames the forward path as requiring action at every level of commitment — cultural, business/technology, political/governmental, academic/research — and in every sector, so that every reader can be a change agent.",
-    "see_also": [
-      "transnational-plurality-network",
-      "engagement-pyramid",
-      "virtuous-circle",
-      "third-way",
-      "plurality-theory-of-change"
-    ],
-    "source_chapter": "Description and Summaries"
+    "source_chapter": "Conclusion"
   }
 ];

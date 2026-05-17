@@ -345,6 +345,7 @@ ONLY merge entries that genuinely describe the same concept. Common examples to 
 - Same concept under different framings ("X-as-relationalized-property" + "X" + "X-as-relationalized-finance")
 - Sub-aspect entries that overlap fully with a parent entry
 - "(Concept)" + "(Framework)" pairs
+- **Parenthetical-disambiguator variants** — entries with an identical root term differing only by a parenthetical context tag are decoration the model added, NOT semantic difference. STRIP the parenthetical to find the root, then merge. Examples: "X (as ⿻ Failure Mode)" + "X (⿻ Domain)" + "X (Collaboration)" + "X" all collapse to one entry (pick the cleanest as keep). "Augmented Deliberation (⿻ Communication)" + "Augmented Deliberation (Polis)" + "Augmented Deliberation" → one entry. Be aggressive on this pattern in glossary catalogs where the model uses parens as chapter anchors. Romanization in parens is NOT decoration (e.g., "Dao (道)" is the canonical form — preserve).
 
 DO NOT merge entries that describe distinct cases, even if they share a name pattern:
 - Different geographic instances of the same model (Bangla-Pesa vs BerkShares are both local currencies but distinct cases — keep both)
