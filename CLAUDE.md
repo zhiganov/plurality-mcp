@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **plurality-mcp** — Public MCP server embedding E. Glen Weyl, Audrey Tang & ⿻ Community's *Plurality: The Future of Collaborative Technology and Democracy* (2024, CC0). 13 tools across 4 groups (routing, diagnostic, design, reference). Dual-licensed: MIT code + CC0 embedded content.
 
+**Live:** https://plurality-mcp-production.up.railway.app/mcp (MCP streamable HTTP, no auth).
+
 ## Commands
 
 ```bash
@@ -16,7 +18,9 @@ npm run extract        # Re-run Sonnet extraction over books/plurality.md (requi
 npm run typecheck      # tsc --noEmit
 
 # Not in package.json scripts (run directly):
-npx tsx scripts/dry-run.ts   # Sanity-check chapter chunking from books/plurality.md. No API calls; no key needed.
+npx tsx scripts/dry-run.ts          # Sanity-check chapter chunking. No API calls; no key needed.
+node scripts/smoke-prod.mjs         # Smoke-test all 13 tools against production. Exit 1 on any failure.
+URL=http://localhost:3000/mcp node scripts/smoke-prod.mjs   # ... or against `npm run dev` (set PORT=3000 first).
 ```
 
 ## Architecture
@@ -26,19 +30,20 @@ src/
 ├── index.ts                 # MCP server — 13 tool registrations + handlers + dual transport
 ├── search.ts                # Substring search across all 6 catalogs
 ├── types.ts                 # Case, FailureMode, GovernanceForm, PolicyStrategy, GlossaryTerm, Quote
-└── data/
-    ├── index.ts             # Re-exports
-    ├── cases.ts             # Civic-tech / digital-democracy examples (Taiwan + global)
-    ├── failure_modes.ts     # Counter-⿻ patterns + named instances (kind discriminator)
-    ├── governance_forms.ts  # ⿻ primitives (quadratic voting, augmented deliberation, polis-clustering, etc.)
-    ├── policy_strategies.ts # Scaled policy moves (digital ministries, public-interest media funding, data unions, etc.)
-    ├── glossary.ts          # ⿻, augmented deliberation, lost dao, Yushan view, monist, atomist, etc.
-    └── quotes.ts            # Themed grounding passages with attribution
+└── data/                       # Catalog sizes as of v0.1.1 (2026-05-17 re-extract)
+    ├── index.ts                # Re-exports
+    ├── cases.ts                # 246 civic-tech / digital-democracy examples (Taiwan + global)
+    ├── failure_modes.ts        # 183 counter-⿻ patterns + named instances (kind discriminator)
+    ├── governance_forms.ts     # 100 ⿻ primitives (quadratic voting, augmented deliberation, polis-clustering, etc.)
+    ├── policy_strategies.ts    # 68 scaled policy moves (digital ministries, public-interest media funding, data unions, etc.)
+    ├── glossary.ts             # 339 terms — ⿻, post-symbolic communication, intersectional social identity, lost dao, etc. (was 538 pre-cull, see "Known debt")
+    └── quotes.ts               # 396 themed grounding passages with attribution
 
 scripts/
-├── extract-core.ts              # Book-agnostic extraction infra (chapter chunking, ids_so_far, dedup pass, cache). Synced from book-power templates.
+├── extract-core.ts                 # Book-agnostic extraction infra (chapter chunking, ids_so_far, dedup pass, cache). Synced from book-power templates.
 ├── extract-data.democracy-tech.ts  # Domain config (catalog set, schemas, system prompt). Reusable across democracy-tech books.
-└── dry-run.ts                   # Sanity check: confirms chapterChunks splits the source as expected (no API calls)
+├── dry-run.ts                      # Sanity check: confirms chapterChunks splits the source as expected (no API calls)
+└── smoke-prod.mjs                  # End-to-end MCP smoke against production (or any URL via env)
 
 books/
 └── plurality.md             # Plurality source as flat markdown with # FILE: chapter markers (concatenated from https://github.com/pluralitybook/plurality). Gitignored.
@@ -68,15 +73,17 @@ books/
 
 - **New tool** — add a `server.registerTool(...)` block in `src/index.ts`. If the tool returns a new shape, add the interface to `src/types.ts` first; the data files import from there. Group with the matching tools-tools section header.
 - **New catalog entry** — append to the relevant `src/data/<catalog>.ts` array. Each entry is typed against the corresponding interface in `src/types.ts`. Run `npm run typecheck` to surface shape errors.
-- **Re-extract from a revised source** — `npm run extract`. Requires `ANTHROPIC_API_KEY` in `.env` and `books/plurality.md` present. Cached per-chapter in `.extraction-cache/` so partial re-runs are cheap.
+- **Re-extract from a revised source (full)** — `npm run extract`. Requires `ANTHROPIC_API_KEY` in `.env` and `books/plurality.md` present. ~3h wall time, ~$8–12 on Sonnet (plurality.md is ~1MB).
+- **Re-extract one catalog only** — delete `.extraction-cache/<catalog>/` entirely (chapter JSONs **and** the `_dedup.json` file). The other catalogs' caches are reused; only the targeted catalog hits the API. Recipe used during the 2026-05-17 glossary cull: `find .extraction-cache/glossary/ -type f -delete && rmdir .extraction-cache/glossary` then `npm run extract` — ~35 min, ~$1.
 
 ## Testing
 
 No test suite. Validate changes via:
 
 - `npm run typecheck` — type-safety + Zod-schema sanity (catches most data-shape regressions).
-- `npm run dev` then connect with [MCP Inspector](https://github.com/modelcontextprotocol/inspector) or a real Claude client to call the changed tool.
-- For catalog-only edits, typecheck plus one targeted tool call is usually sufficient.
+- `node scripts/smoke-prod.mjs` — end-to-end MCP handshake + all 13 tool calls against production (or any URL via `URL=...`). Exit code 1 on any failure. Use after a deploy or before promoting a release.
+- `npm run dev` then connect with [MCP Inspector](https://github.com/modelcontextprotocol/inspector) or a real Claude client for interactive checks.
+- For catalog-only edits, typecheck + one targeted smoke-prod run is usually sufficient.
 
 ## Stack
 
@@ -84,7 +91,17 @@ TypeScript strict ESM, `@modelcontextprotocol/sdk` v1.27+, `zod` v4, `express`. 
 
 ## Deployment
 
-Railway (public, no auth), service `plurality-mcp` under the **Book Power** Railway project. GitHub auto-deploy from `main` is wired via Railway's GitHub app on `zhiganov/plurality-mcp`.
+Railway (public, no auth), service `plurality-mcp` under the **Book Power** Railway project. Live at https://plurality-mcp-production.up.railway.app/mcp (clean subdomain — no `-<random>` suffix workaround needed). GitHub auto-deploy from `main` is wired via Railway's GitHub app on `zhiganov/plurality-mcp`. **Never `railway up`** — push to GitHub for auto-deploy (hook-enforced).
+
+## Known debt
+
+- **Glossary still ~8x over its ~40-term target.** v0.1 shipped at 538 entries; v0.1.1 (current) cut it to 339 by tightening the SYSTEM_PROMPT against parenthetical-disambiguator decoration and adding cross-catalog routing rules. The remaining ~300 are mostly real terms the book defines but plurality's scope is genuinely sweeping. A manual cull pass against `src/data/glossary.ts` could land us closer to 80-120 — not blocking. Diagnosis + template fix: zhiganov/book-power#32.
+- **Cross-catalog leakage from cases → governance_forms.** Surfaced during smoke testing: `sunflower-movement-reverse-mentorship` (a case) ranked top in `suggest_governance_forms`. Same family of failure as the glossary issue — the SYSTEM_PROMPT's cross-catalog routing rule is glossary-specific. Extend it to all catalogs in a future template iteration.
+
+## Tracking issues
+
+- [zhiganov/plurality-mcp#1](https://github.com/zhiganov/plurality-mcp/issues/1) — submit to awesome-mcp directories for discovery (modelcontextprotocol/servers, punkpeye/awesome-mcp-servers, mcpservers.org, etc.).
+- [zhiganov/book-power#32](https://github.com/zhiganov/book-power/issues/32) — glossary over-extraction diagnosis + template fix (resolved-via-fix; carryover work is the manual cull and extending cross-catalog routing to other catalogs).
 
 ## Source
 
